@@ -8,7 +8,7 @@ Includes Reports for Waveforms, Delay analysis and STA.
 
 ---
 
-## ⚡ Tools Used  
+## Tools Used  
 - **Ngspice** – Circuit simulation  
 - **Xschem** – Schematic capture  
 - **GTKWave** – Waveform and data visualization
