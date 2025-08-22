@@ -1,0 +1,3687 @@
+* NGSPICE file created from rippleadder.ext - technology: sky130A
+.subckt rippleadder A7 B7 A6 B6 A5 A4 A3 A2 A1 S1 S2 S3 S4 S5 S6 S7 A0 DGNDD DVDDD
++ B1 B0 C0 S0 B2 B3 B4 B5 C7
+X0 a_1406_n143# B0.t0 a_1136_n143# DVDDD.t71 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X1 DVDDD.t104 A7.t0 a_414_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X2 a_414_n6526# B7.t0 DGNDD.t12 DGNDD.t11 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X3 S1.t9 C0.t7 a_1403_n1301# DGNDD.t104 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X4 a_1403_n1032# B1.t0 a_1133_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X5 a_n670_n412# A0.t0 DGNDD.t129 DGNDD.t128 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X6 a_n313_n2133# A2.t0 DGNDD.t180 DGNDD.t179 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X7 a_416_n412# C0.t8 S0.t3 DGNDD.t38 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X8 DGNDD.t159 B0.t1 a_n310_n412# DGNDD.t158 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X9 a_413_n1301# B1.t1 DGNDD.t307 DGNDD.t306 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X10 DVDDD.t46 A1.t0 a_413_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X11 a_n672_n6257# A7.t1 DVDDD.t136 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X12 S0.t6 a_n250_n452# a_1406_n412# DGNDD.t281 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X13 S6.t2 a_n581_n4808# a_1403_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X14 a_1134_n2716# A3.t0 DVDDD.t29 w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X15 S3.t2 a_n583_n2133# a_1404_n2985# DGNDD.t196 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X16 a_413_n5405# a_n581_n4808# DVDDD.t32 w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X17 a_414_n2716# A3.t1 DVDDD.t54 w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X18 DGNDD.t313 A4.t0 a_n312_n3956# DGNDD.t312 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X19 a_414_n2985# a_n583_n2133# DGNDD.t195 DGNDD.t194 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X20 a_1133_n2133# B2.t0 a_1403_n2133# DGNDD.t76 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X21 a_416_n143# A0.t1 DVDDD.t115 DVDDD.t114 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X22 DVDDD.t43 A3.t2 a_n672_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.12375 pd=1.125 as=0.084 ps=0.76 w=0.83 l=0.15
+X23 DGNDD.t295 A6.t0 a_1133_n5674# DGNDD.t294 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X24 DVDDD.t48 B6.t0 a_n313_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X25 a_413_n2133# a_n583_n2133# S2.t3 DGNDD.t193 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X26 DGNDD.t25 B3.t0 a_n312_n2985# DGNDD.t24 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X27 a_n312_n3687# a_n582_n2985# a_n582_n3956# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X28 a_n582_n3956# a_n582_n2985# a_n312_n3956# DGNDD.t271 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X29 S0.t9 a_n250_n452# a_1406_n143# DVDDD.t113 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X30 a_1134_n2716# A3.t3 DVDDD.t124 w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X31 DGNDD.t14 A0.t2 a_416_n412# DGNDD.t13 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X32 a_n313_n5405# a_n581_n4808# a_n583_n5674# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X33 a_n673_n5674# A6.t1 DGNDD.t112 DGNDD.t111 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X34 DGNDD.t249 A7.t2 a_n312_n6526# DGNDD.t248 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X35 DGNDD.t90 a_n581_n4808# a_413_n5674# DGNDD.t89 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X36 a_1404_n3956# a_n582_n2985# S4.t9 DGNDD.t270 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X37 S4.t6 a_n582_n2985# a_1404_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X38 S0.t1 C0.t9 a_416_n143# DVDDD.t88 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X39 a_n312_n6257# a_n583_n5674# C7.t5 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X40 C7.t7 a_n583_n5674# a_n312_n6526# DGNDD.t231 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X41 DGNDD.t216 B4.t0 a_414_n3956# DGNDD.t215 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X42 a_414_n3687# B4.t1 DVDDD.t3 w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X43 a_1133_n5405# A6.t2 DVDDD.t133 w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X44 a_1406_n143# a_n250_n452# S0.t8 DVDDD.t112 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X45 S6.t5 a_n581_n4808# a_1403_n5674# DGNDD.t88 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X46 a_1134_n2985# A3.t4 DGNDD.t327 DGNDD.t326 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X47 a_413_n5405# A6.t3 DVDDD.t2 w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X48 a_413_n5674# a_n581_n4808# DGNDD.t87 DGNDD.t86 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X49 a_416_n412# B0.t2 DGNDD.t157 DGNDD.t156 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X50 a_414_n2985# A3.t5 DGNDD.t69 DGNDD.t68 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X51 a_n673_n1032# B1.t2 a_n583_n1301# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X52 a_n583_n1301# B1.t3 a_n673_n1301# DGNDD.t113 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X53 S5.t9 a_n582_n3956# a_1405_n4808# DGNDD.t260 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X54 a_1405_n4539# B5.t0 a_1135_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X55 DGNDD.t293 A3.t6 a_n672_n2985# DGNDD.t292 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X56 DGNDD.t61 B6.t1 a_n313_n5674# DGNDD.t60 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X57 a_415_n4808# B5.t1 DGNDD.t118 DGNDD.t117 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X58 DVDDD.t128 A5.t0 a_415_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X59 a_1133_n1864# B2.t1 a_1403_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X60 a_1133_n5405# A6.t4 DVDDD.t23 w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X61 S7.t9 a_n583_n5674# a_1404_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X62 DGNDD.t335 A5.t1 a_n671_n4808# DGNDD.t334 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X63 a_1404_n6526# a_n583_n5674# S7.t6 DGNDD.t230 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X64 a_1134_n2985# A3.t7 DGNDD.t146 DGNDD.t145 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X65 a_413_n1864# a_n583_n2133# S2.t1 w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X66 a_414_n6257# B7.t1 DVDDD.t103 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X67 DGNDD.t10 B7.t2 a_414_n6526# DGNDD.t9 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X68 a_n670_n143# A0.t3 DVDDD.t7 DVDDD.t6 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X69 a_1403_n1301# C0.t10 S1.t8 DGNDD.t37 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X70 S1.t6 C0.t11 a_1403_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X71 a_416_n143# C0.t12 S0.t0 DVDDD.t34 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X72 DGNDD.t94 A2.t1 a_n673_n2133# DGNDD.t93 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X73 DVDDD.t70 B0.t3 a_n310_n143# DVDDD.t69 sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X74 a_413_n1032# B1.t4 DVDDD.t50 w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X75 DGNDD.t284 B1.t5 a_413_n1301# DGNDD.t283 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X76 a_n313_n5674# a_n581_n4808# a_n583_n5674# DGNDD.t85 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X77 S0.t7 a_n250_n452# a_1406_n143# DVDDD.t111 sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X78 a_1404_n2716# B3.t1 a_1134_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X79 a_n312_n2716# B3.t2 DVDDD.t87 w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X80 DGNDD.t155 B0.t4 a_416_n412# DGNDD.t154 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X81 DGNDD.t42 A0.t4 a_n310_n412# DGNDD.t41 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X82 DVDDD.t101 A4.t1 a_n312_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X83 S3.t7 a_n582_n2985# a_414_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X84 DGNDD.t103 A4.t2 a_1134_n3956# DGNDD.t102 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X85 a_1403_n2133# B2.t2 a_1133_n2133# DGNDD.t137 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X86 a_n672_n2716# B3.t3 a_n582_n2985# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X87 a_1133_n5674# A6.t5 DGNDD.t182 DGNDD.t181 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X88 DGNDD.t163 A2.t2 a_413_n2133# DGNDD.t162 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X89 DVDDD.t44 A6.t6 a_n313_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X90 a_n582_n3956# a_n582_n2985# a_n312_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X91 a_413_n5674# A6.t7 DGNDD.t71 DGNDD.t70 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X92 a_n312_n3956# A4.t3 DGNDD.t74 DGNDD.t73 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X93 DVDDD.t73 A0.t5 a_416_n143# DVDDD.t72 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X94 DGNDD.t269 a_n582_n2985# a_414_n3956# DGNDD.t268 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X95 a_n583_n5674# a_n581_n4808# a_n313_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X96 DVDDD.t74 A7.t3 a_n312_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X97 a_416_n412# a_n250_n452# DGNDD.t280 DGNDD.t279 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X98 a_1133_n5674# A6.t8 DGNDD.t59 DGNDD.t58 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X99 DGNDD.t247 A7.t4 a_1134_n6526# DGNDD.t246 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X100 DGNDD.t96 A1.t1 a_1133_n1301# DGNDD.t95 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X101 S4.t8 a_n582_n2985# a_1404_n3956# DGNDD.t267 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X102 a_1404_n3687# a_n582_n2985# S4.t5 w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X103 C7.t4 a_n583_n5674# a_n312_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X104 a_n312_n6526# A7.t5 DGNDD.t245 DGNDD.t244 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X105 DVDDD.t30 B4.t2 a_414_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X106 a_414_n3956# a_n582_n2985# DGNDD.t266 DGNDD.t265 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X107 a_n313_n5405# B6.t2 DVDDD.t81 w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X108 DVDDD.t121 A2.t3 a_n673_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.12375 pd=1.125 as=0.084 ps=0.76 w=0.83 l=0.15
+X109 a_1403_n5405# B6.t3 a_1133_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X110 DGNDD.t278 a_n250_n452# a_416_n412# DGNDD.t277 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X111 a_1404_n2985# B3.t4 a_1134_n2985# DGNDD.t138 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X112 a_n312_n2985# B3.t5 DGNDD.t21 DGNDD.t20 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X113 a_416_n143# B0.t5 DVDDD.t68 DVDDD.t67 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X114 S6.t7 a_n583_n5674# a_413_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X115 DGNDD.t229 a_n583_n5674# a_414_n6526# DGNDD.t228 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X116 S3.t9 a_n582_n2985# a_414_n2985# DGNDD.t264 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X117 a_n583_n1301# B1.t6 a_n673_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X118 DGNDD.t65 B4.t3 a_n312_n3956# DGNDD.t64 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X119 a_n673_n1301# A1.t2 DGNDD.t57 DGNDD.t56 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X120 DGNDD.t126 C0.t13 a_413_n1301# DGNDD.t125 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X121 S5.t6 a_n582_n3956# a_1405_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X122 a_1405_n4808# a_n582_n3956# S5.t8 DGNDD.t259 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X123 a_n672_n2985# B3.t6 a_n582_n2985# DGNDD.t36 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X124 a_415_n4539# B5.t2 DVDDD.t56 w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X125 DGNDD.t287 B5.t3 a_415_n4808# DGNDD.t286 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X126 a_1403_n1864# B2.t3 a_1133_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X127 DGNDD.t333 A6.t9 a_n313_n5674# DGNDD.t332 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X128 DVDDD.t75 A5.t2 a_n671_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.12375 pd=1.125 as=0.084 ps=0.76 w=0.83 l=0.15
+X129 a_1404_n6257# a_n583_n5674# S7.t8 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X130 a_n671_n4808# B5.t4 a_n581_n4808# DGNDD.t272 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X131 S7.t5 a_n583_n5674# a_1404_n6526# DGNDD.t227 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X132 DVDDD.t22 A2.t4 a_413_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X133 DVDDD.t135 B7.t3 a_414_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X134 a_414_n6526# a_n583_n5674# DGNDD.t226 DGNDD.t225 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X135 a_1403_n1032# C0.t14 S1.t5 w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X136 S1.t7 C0.t15 a_1403_n1301# DGNDD.t305 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X137 a_n673_n2133# B2.t4 a_n583_n2133# DGNDD.t217 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X138 DVDDD.t25 B1.t7 a_413_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X139 a_n583_n5674# a_n581_n4808# a_n313_n5674# DGNDD.t84 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X140 a_413_n1301# C0.t16 DGNDD.t124 DGNDD.t123 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X141 a_1136_n412# A0.t6 DGNDD.t161 DGNDD.t160 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X142 DGNDD.t8 B7.t4 a_n312_n6526# DGNDD.t7 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X143 DVDDD.t66 B0.t6 a_416_n143# DVDDD.t65 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X144 a_1134_n2716# B3.t7 a_1404_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X145 DVDDD.t1 A0.t7 a_n310_n143# DVDDD.t0 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X146 DGNDD.t49 B1.t8 a_n313_n1301# DGNDD.t48 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X147 a_414_n2716# a_n582_n2985# S3.t6 w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X148 a_1134_n3956# A4.t4 DGNDD.t33 DGNDD.t32 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X149 DVDDD.t21 A4.t5 a_1134_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X150 a_414_n3956# A4.t6 DGNDD.t98 DGNDD.t97 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X151 S2.t9 a_n583_n1301# a_1403_n2133# DGNDD.t207 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X152 a_n313_n5674# B6.t4 DGNDD.t63 DGNDD.t62 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X153 a_n582_n2985# B3.t8 a_n672_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X154 a_1403_n5674# B6.t5 a_1133_n5674# DGNDD.t185 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X155 a_413_n2133# B2.t5 DGNDD.t23 DGNDD.t22 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X156 S6.t9 a_n583_n5674# a_413_n5674# DGNDD.t224 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X157 DGNDD.t18 A4.t7 a_n672_n3956# DGNDD.t17 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X158 a_n313_n1301# C0.t17 a_n583_n1301# DGNDD.t288 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X159 DVDDD.t98 a_n582_n2985# a_414_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X160 DGNDD.t79 A5.t3 a_1135_n4808# DGNDD.t78 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X161 a_1134_n3956# A4.t8 DGNDD.t47 DGNDD.t46 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X162 a_416_n143# a_n250_n452# DVDDD.t110 DVDDD.t109 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X163 DVDDD.t33 A7.t6 a_1134_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X164 a_1134_n6526# A7.t7 DGNDD.t243 DGNDD.t242 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X165 a_414_n6526# A7.t8 DGNDD.t241 DGNDD.t240 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X166 DVDDD.t41 A1.t3 a_1133_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X167 a_1133_n1301# A1.t4 DGNDD.t53 DGNDD.t52 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X168 S4.t4 a_n582_n2985# a_1404_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X169 a_413_n1301# A1.t5 DGNDD.t309 DGNDD.t308 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X170 DGNDD.t239 A7.t9 a_n672_n6526# DGNDD.t238 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X171 DGNDD.t258 a_n582_n3956# a_415_n4808# DGNDD.t257 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X172 a_414_n3687# a_n582_n2985# DVDDD.t97 w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X173 DVDDD.t108 a_n250_n452# a_416_n143# DVDDD.t107 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X174 a_n673_n1864# B2.t6 a_n583_n2133# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X175 a_1133_n5405# B6.t6 a_1403_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X176 a_n310_n412# a_n250_n452# C0.t5 DGNDD.t276 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X177 a_1134_n2985# B3.t9 a_1404_n2985# DGNDD.t318 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X178 DVDDD.t94 a_n583_n5674# a_414_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X179 a_413_n5405# a_n583_n5674# S6.t6 w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X180 a_1134_n6526# A7.t10 DGNDD.t237 DGNDD.t236 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X181 DVDDD.t10 B4.t4 a_n312_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X182 a_414_n2985# a_n582_n2985# S3.t8 DGNDD.t263 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X183 a_n673_n1032# A1.t6 DVDDD.t130 w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X184 DVDDD.t16 C0.t18 a_413_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X185 a_1133_n1301# A1.t7 DGNDD.t67 DGNDD.t66 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X186 a_1405_n4539# a_n582_n3956# S5.t5 w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X187 S5.t7 a_n582_n3956# a_1405_n4808# DGNDD.t256 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X188 a_n582_n2985# B3.t10 a_n672_n2985# DGNDD.t45 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X189 DVDDD.t19 B5.t5 a_415_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X190 a_415_n4808# a_n582_n3956# DGNDD.t255 DGNDD.t254 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X191 S2.t6 a_n583_n1301# a_1403_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X192 a_n581_n4808# B5.t6 a_n671_n4808# DGNDD.t77 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X193 a_n671_n4539# B5.t7 a_n581_n4808# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X194 S7.t7 a_n583_n5674# a_1404_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X195 a_413_n1864# B2.t7 DVDDD.t80 w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X196 a_414_n6257# a_n583_n5674# DVDDD.t93 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X197 S1.t4 C0.t19 a_1403_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X198 DGNDD.t212 B5.t8 a_n311_n4808# DGNDD.t211 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X199 a_n583_n2133# B2.t8 a_n673_n2133# DGNDD.t134 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X200 a_1136_n143# A0.t8 DVDDD.t91 DVDDD.t90 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X201 a_413_n1032# C0.t20 DVDDD.t78 w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X202 a_n313_n5674# A6.t10 DGNDD.t110 DGNDD.t109 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X203 C0.t4 a_n250_n452# a_n310_n412# DGNDD.t275 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X204 DVDDD.t105 B7.t5 a_n312_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X205 a_1404_n2716# B3.t11 a_1134_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X206 DVDDD.t89 B1.t9 a_n313_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X207 a_n312_n3956# B4.t5 DGNDD.t320 DGNDD.t319 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X208 a_1134_n3687# A4.t9 DVDDD.t134 w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X209 DVDDD.t12 A3.t8 a_414_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X210 a_1404_n3956# B4.t6 a_1134_n3956# DGNDD.t19 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X211 DGNDD.t291 A1.t8 a_n313_n1301# DGNDD.t290 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X212 a_414_n3687# A4.t10 DVDDD.t14 w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X213 a_1403_n2133# a_n583_n1301# S2.t8 DGNDD.t206 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X214 S4.t3 a_n582_n3956# a_414_n3956# DGNDD.t253 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X215 a_n672_n2716# A3.t9 DVDDD.t125 w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X216 a_1133_n5674# B6.t7 a_1403_n5674# DGNDD.t100 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X217 DGNDD.t44 B2.t9 a_413_n2133# DGNDD.t43 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X218 a_n672_n3956# B4.t7 a_n582_n3956# DGNDD.t144 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X219 DVDDD.t99 A4.t11 a_n672_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.12375 pd=1.125 as=0.084 ps=0.76 w=0.83 l=0.15
+X220 a_413_n5674# a_n583_n5674# S6.t8 DGNDD.t223 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X221 a_n583_n1301# C0.t21 a_n313_n1301# DGNDD.t321 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X222 a_n313_n1032# C0.t22 a_n583_n1301# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X223 DVDDD.t24 A5.t4 a_1135_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X224 a_1134_n3687# A4.t12 DVDDD.t35 w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X225 a_1135_n4808# A5.t5 DGNDD.t303 DGNDD.t302 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X226 a_n310_n412# A0.t9 DGNDD.t178 DGNDD.t177 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X227 DVDDD.t47 A6.t11 a_n673_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.12375 pd=1.125 as=0.084 ps=0.76 w=0.83 l=0.15
+X228 a_415_n4808# A5.t6 DGNDD.t176 DGNDD.t175 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X229 a_1134_n6257# A7.t11 DVDDD.t119 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X230 a_n312_n6526# B7.t6 DGNDD.t6 DGNDD.t5 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X231 a_1404_n6526# B7.t7 a_1134_n6526# DGNDD.t4 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X232 a_414_n6257# A7.t12 DVDDD.t11 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X233 S7.t1 C7.t8 a_414_n6526# DGNDD.t289 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X234 a_n313_n1301# B1.t10 DGNDD.t174 DGNDD.t173 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X235 a_1133_n1032# A1.t9 DVDDD.t53 w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X236 a_1403_n1301# B1.t11 a_1133_n1301# DGNDD.t323 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X237 a_413_n1032# A1.t10 DVDDD.t79 w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X238 DVDDD.t4 A7.t13 a_n672_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.12375 pd=1.125 as=0.084 ps=0.76 w=0.83 l=0.15
+X239 S1.t3 a_n583_n1301# a_413_n1301# DGNDD.t205 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X240 a_n672_n6526# B7.t8 C7.t3 DGNDD.t3 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X241 DVDDD.t96 a_n582_n3956# a_415_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X242 a_1135_n4808# A5.t7 DGNDD.t120 DGNDD.t119 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X243 a_n583_n2133# B2.t10 a_n673_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X244 a_1403_n5405# B6.t8 a_1133_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X245 a_1404_n2985# B3.t12 a_1134_n2985# DGNDD.t210 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X246 a_1134_n6257# A7.t14 DVDDD.t5 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X247 DVDDD.t122 A6.t12 a_413_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X248 DGNDD.t299 A3.t10 a_414_n2985# DGNDD.t298 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X249 a_1133_n1032# A1.t11 DVDDD.t117 w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X250 DGNDD.t325 A2.t5 a_1133_n2133# DGNDD.t324 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X251 DGNDD.t209 A0.t10 a_n670_n412# DGNDD.t208 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X252 S5.t4 a_n582_n3956# a_1405_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X253 a_n312_n2716# a_n583_n2133# a_n582_n2985# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X254 a_n672_n2985# A3.t11 DGNDD.t311 DGNDD.t310 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X255 a_415_n4539# a_n582_n3956# DVDDD.t95 w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X256 a_1403_n1864# a_n583_n1301# S2.t5 w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X257 a_n671_n4808# A5.t8 DGNDD.t140 DGNDD.t139 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X258 a_n581_n4808# B5.t9 a_n671_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X259 DVDDD.t28 B2.t11 a_413_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X260 DVDDD.t132 B5.t10 a_n311_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X261 a_n673_n2133# A2.t6 DGNDD.t51 DGNDD.t50 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X262 a_n310_n412# B0.t7 DGNDD.t153 DGNDD.t152 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X263 DGNDD.t204 a_n583_n1301# a_413_n2133# DGNDD.t203 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X264 DGNDD.t315 A6.t13 a_n673_n5674# DGNDD.t314 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X265 C0.t6 a_n250_n452# a_n310_n143# DVDDD.t106 sky130_fd_pr__pfet_01v8 ad=0.123 pd=1.12 as=0.084 ps=0.76 w=1.66 l=0.15
+X266 DGNDD.t31 A0.t11 a_1136_n412# DGNDD.t30 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X267 S3.t5 a_n583_n2133# a_1404_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X268 a_1404_n3687# B4.t8 a_1134_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X269 a_n312_n3687# B4.t9 DVDDD.t15 w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X270 a_414_n2716# B3.t13 DVDDD.t9 w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X271 a_n670_n412# B0.t8 C0.t1 DGNDD.t151 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X272 a_1134_n3956# B4.t10 a_1404_n3956# DGNDD.t101 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X273 DVDDD.t52 A1.t12 a_n313_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X274 S4.t1 a_n582_n3956# a_414_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X275 S2.t7 a_n583_n1301# a_1403_n2133# DGNDD.t202 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X276 a_414_n3956# a_n582_n3956# S4.t2 DGNDD.t252 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X277 a_1403_n5674# B6.t9 a_1133_n5674# DGNDD.t72 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X278 a_413_n2133# a_n583_n1301# DGNDD.t201 DGNDD.t200 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X279 DGNDD.t331 A6.t14 a_413_n5674# DGNDD.t330 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X280 a_n582_n3956# B4.t11 a_n672_n3956# DGNDD.t141 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X281 a_n672_n3687# B4.t12 a_n582_n3956# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X282 a_n313_n1301# A1.t13 DGNDD.t219 DGNDD.t218 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X283 a_n583_n1301# C0.t23 a_n313_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X284 DGNDD.t55 B2.t12 a_n313_n2133# DGNDD.t54 sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X285 a_n311_n4808# B5.t11 DGNDD.t143 DGNDD.t142 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X286 a_1135_n4539# A5.t9 DVDDD.t92 w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X287 a_1405_n4808# B5.t12 a_1135_n4808# DGNDD.t301 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X288 a_n312_n2985# a_n583_n2133# a_n582_n2985# DGNDD.t192 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X289 a_1136_n412# A0.t12 DGNDD.t16 DGNDD.t15 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X290 a_n673_n5405# B6.t10 a_n583_n5674# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X291 a_415_n4539# A5.t10 DVDDD.t20 w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X292 S5.t1 a_n581_n4808# a_415_n4808# DGNDD.t83 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X293 DVDDD.t8 A2.t7 a_1133_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X294 a_n312_n6257# B7.t9 DVDDD.t102 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X295 a_n311_n4808# a_n582_n3956# a_n581_n4808# DGNDD.t251 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X296 a_1404_n6257# B7.t10 a_1134_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X297 a_1134_n6526# B7.t11 a_1404_n6526# DGNDD.t2 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X298 S7.t3 C7.t9 a_414_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X299 a_414_n6526# C7.t10 S7.t0 DGNDD.t75 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X300 a_n313_n1032# B1.t12 DVDDD.t120 w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X301 C0.t0 B0.t9 a_n670_n412# DGNDD.t150 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X302 a_1403_n1032# B1.t13 a_1133_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X303 a_1133_n1301# B1.t14 a_1403_n1301# DGNDD.t322 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X304 a_n313_n2133# a_n583_n1301# a_n583_n2133# DGNDD.t199 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X305 S1.t1 a_n583_n1301# a_413_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X306 a_n672_n6257# B7.t12 C7.t1 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X307 a_413_n1301# a_n583_n1301# S1.t2 DGNDD.t198 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X308 C7.t2 B7.t13 a_n672_n6526# DGNDD.t1 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X309 a_1135_n4539# A5.t11 DVDDD.t49 w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X310 a_n673_n1864# A2.t8 DVDDD.t17 w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X311 S6.t1 a_n581_n4808# a_1403_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X312 DVDDD.t42 A3.t12 a_n312_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X313 DVDDD.t86 a_n583_n1301# a_413_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X314 S3.t1 a_n583_n2133# a_1404_n2985# DGNDD.t191 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X315 a_413_n5405# B6.t11 DVDDD.t100 w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X316 a_414_n2985# B3.t14 DGNDD.t165 DGNDD.t164 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X317 DVDDD.t77 A0.t13 a_n670_n143# DVDDD.t76 sky130_fd_pr__pfet_01v8 ad=0.12375 pd=1.125 as=0.084 ps=0.76 w=0.83 l=0.15
+X318 a_1133_n2133# A2.t9 DGNDD.t170 DGNDD.t169 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X319 a_1406_n412# B0.t10 a_1136_n412# DGNDD.t149 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X320 a_n582_n2985# a_n583_n2133# a_n312_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X321 a_413_n2133# A2.t10 DGNDD.t115 DGNDD.t114 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X322 a_n671_n4539# A5.t12 DVDDD.t82 w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X323 S2.t4 a_n583_n1301# a_1403_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X324 a_413_n1864# a_n583_n1301# DVDDD.t85 w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X325 a_n310_n143# B0.t11 DVDDD.t64 DVDDD.t63 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X326 a_1133_n2133# A2.t11 DGNDD.t106 DGNDD.t105 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X327 a_n673_n5674# B6.t12 a_n583_n5674# DGNDD.t220 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X328 DVDDD.t131 B2.t13 a_n313_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X329 DVDDD.t37 A0.t14 a_1136_n143# DVDDD.t36 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X330 a_1404_n2716# a_n583_n2133# S3.t4 w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X331 a_n670_n143# B0.t12 C0.t3 DVDDD.t62 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X332 a_1134_n3687# B4.t13 a_1404_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X333 DVDDD.t45 B3.t15 a_414_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X334 a_1136_n412# B0.t13 a_1406_n412# DGNDD.t148 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X335 a_1404_n3956# B4.t14 a_1134_n3956# DGNDD.t166 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X336 a_414_n3687# a_n582_n3956# S4.t0 w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X337 DGNDD.t133 A4.t13 a_414_n3956# DGNDD.t132 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X338 a_n313_n1864# a_n583_n1301# a_n583_n2133# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X339 S6.t4 a_n581_n4808# a_1403_n5674# DGNDD.t82 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X340 DGNDD.t92 A3.t13 a_n312_n2985# DGNDD.t91 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X341 a_n582_n3956# B4.t15 a_n672_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X342 a_413_n5674# B6.t13 DGNDD.t136 DGNDD.t135 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X343 a_n672_n3956# A4.t14 DGNDD.t40 DGNDD.t39 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X344 DGNDD.t122 A5.t13 a_n311_n4808# DGNDD.t121 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X345 DGNDD.t131 A1.t14 a_n673_n1301# DGNDD.t130 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X346 a_n311_n4539# B5.t13 DVDDD.t127 w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X347 a_1405_n4539# B5.t14 a_1135_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X348 a_1136_n143# A0.t15 DVDDD.t39 DVDDD.t38 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X349 a_1135_n4808# B5.t15 a_1405_n4808# DGNDD.t116 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X350 a_n582_n2985# a_n583_n2133# a_n312_n2985# DGNDD.t190 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X351 DGNDD.t297 A2.t12 a_n313_n2133# DGNDD.t296 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X352 a_n583_n5674# B6.t14 a_n673_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X353 S5.t3 a_n581_n4808# a_415_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X354 a_415_n4808# a_n581_n4808# S5.t0 DGNDD.t81 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X355 a_n311_n4539# a_n582_n3956# a_n581_n4808# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X356 a_1133_n1864# A2.t13 DVDDD.t123 w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X357 a_n581_n4808# a_n582_n3956# a_n311_n4808# DGNDD.t250 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X358 a_1134_n6257# B7.t14 a_1404_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X359 a_1404_n6526# B7.t15 a_1134_n6526# DGNDD.t0 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X360 a_413_n1864# A2.t14 DVDDD.t129 w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X361 C0.t2 B0.t14 a_n670_n143# DVDDD.t61 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X362 a_414_n6257# C7.t11 S7.t2 w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X363 DGNDD.t235 A7.t15 a_414_n6526# DGNDD.t234 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X364 a_1406_n412# B0.t15 a_1136_n412# DGNDD.t147 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X365 a_1133_n1032# B1.t15 a_1403_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X366 a_1403_n1301# B1.t16 a_1133_n1301# DGNDD.t127 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X367 a_n583_n2133# a_n583_n1301# a_n313_n2133# DGNDD.t197 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X368 DGNDD.t29 A1.t15 a_413_n1301# DGNDD.t28 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X369 a_413_n1032# a_n583_n1301# S1.t0 w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X370 C7.t0 B7.t16 a_n672_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X371 a_n672_n6526# A7.t16 DGNDD.t233 DGNDD.t232 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X372 a_1403_n5405# a_n581_n4808# S6.t0 w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X373 DVDDD.t27 A3.t14 a_1134_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X374 a_1133_n1864# A2.t15 DVDDD.t51 w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X375 a_1404_n2985# a_n583_n2133# S3.t0 DGNDD.t189 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X376 DVDDD.t58 B6.t15 a_413_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X377 DGNDD.t184 B3.t16 a_414_n2985# DGNDD.t183 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X378 a_1406_n143# B0.t16 a_1136_n143# DVDDD.t60 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X379 a_n313_n2133# B2.t14 DGNDD.t27 DGNDD.t26 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X380 a_1403_n2133# B2.t15 a_1133_n2133# DGNDD.t300 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X381 a_416_n412# A0.t16 DGNDD.t35 DGNDD.t34 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X382 S2.t2 a_n583_n2133# a_413_n2133# DGNDD.t188 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X383 a_n312_n3956# a_n582_n2985# a_n582_n3956# DGNDD.t262 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X384 S0.t5 a_n250_n452# a_1406_n412# DGNDD.t274 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X385 DVDDD.t84 a_n583_n2133# a_414_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X386 a_n583_n5674# B6.t16 a_n673_n5674# DGNDD.t99 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X387 DVDDD.t116 A2.t16 a_n313_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X388 S3.t3 a_n583_n2133# a_1404_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X389 a_1136_n143# B0.t17 a_1406_n143# DVDDD.t59 sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X390 a_414_n2716# a_n583_n2133# DVDDD.t83 w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X391 a_1404_n3687# B4.t16 a_1134_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X392 S4.t7 a_n582_n2985# a_1404_n3956# DGNDD.t261 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X393 S0.t2 C0.t24 a_416_n412# DGNDD.t304 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X394 a_n312_n6526# a_n583_n5674# C7.t6 DGNDD.t222 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X395 DVDDD.t57 A4.t15 a_414_n3687# w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X396 a_414_n3956# B4.t17 DGNDD.t172 DGNDD.t171 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X397 a_n583_n2133# a_n583_n1301# a_n313_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X398 DVDDD.t55 A6.t15 a_1133_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X399 a_1403_n5674# a_n581_n4808# S6.t3 DGNDD.t80 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X400 DGNDD.t329 A3.t15 a_1134_n2985# DGNDD.t328 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X401 DVDDD.t18 B3.t17 a_n312_n2716# w_n825_n2794# sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X402 a_1406_n412# a_n250_n452# S0.t4 DGNDD.t273 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X403 a_n672_n3687# A4.t16 DVDDD.t40 w_n825_n3765# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X404 DGNDD.t317 B6.t17 a_413_n5674# DGNDD.t316 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X405 DVDDD.t118 A5.t14 a_n311_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X406 DVDDD.t26 A1.t16 a_n673_n1032# w_n826_n1110# sky130_fd_pr__pfet_01v8 ad=0.12375 pd=1.125 as=0.084 ps=0.76 w=0.83 l=0.15
+X407 a_n673_n1301# B1.t17 a_n583_n1301# DGNDD.t282 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X408 a_1135_n4539# B5.t16 a_1405_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X409 a_1405_n4808# B5.t17 a_1135_n4808# DGNDD.t285 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X410 a_n312_n2985# A3.t16 DGNDD.t108 DGNDD.t107 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X411 a_n673_n5405# A6.t16 DVDDD.t13 w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X412 DGNDD.t168 A5.t15 a_415_n4808# DGNDD.t167 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X413 a_415_n4539# a_n581_n4808# S5.t2 w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X414 a_n313_n1864# B2.t16 DVDDD.t126 w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X415 a_n581_n4808# a_n582_n3956# a_n311_n4539# w_n824_n4617# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X416 a_1403_n1864# B2.t17 a_1133_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X417 DVDDD.t31 a_n581_n4808# a_413_n5405# w_n826_n5483# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X418 a_1404_n6257# B7.t17 a_1134_n6257# w_n825_n6335# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X419 a_n311_n4808# A5.t16 DGNDD.t214 DGNDD.t213 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X420 S7.t4 a_n583_n5674# a_1404_n6526# DGNDD.t221 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X421 DGNDD.t187 a_n583_n2133# a_414_n2985# DGNDD.t186 sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X422 S2.t0 a_n583_n2133# a_413_n1864# w_n826_n1942# sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+R0 B0.t4 B0.t10 1266.05
+R1 B0.t5 B0.t2 499.673
+R2 B0.t0 B0.t15 499.673
+R3 B0.t17 B0.t13 499.673
+R4 B0.t10 B0.t16 499.673
+R5 B0.t6 B0.t5 420.947
+R6 B0.n2 B0.n1 377.252
+R7 B0.n1 B0.t6 313.738
+R8 B0.n0 B0.t0 284.38
+R9 B0.t16 B0.n0 284.38
+R10 B0.n2 B0.t3 215.293
+R11 B0.n3 B0.t11 215.293
+R12 B0.n5 B0.t12 215.293
+R13 B0.n6 B0.t14 215.293
+R14 B0.n2 B0.t1 197.62
+R15 B0.n3 B0.t7 197.62
+R16 B0.n5 B0.t8 197.62
+R17 B0.n6 B0.t9 197.62
+R18 B0.n9 B0.n4 167.452
+R19 B0.n8 B0.n7 164.992
+R20 B0.n0 B0.t17 139.78
+R21 B0.n1 B0.t4 138.613
+R22 B0.n4 B0.n3 41.0598
+R23 B0.n7 B0.n5 40.1672
+R24 B0.n7 B0.n6 40.1672
+R25 B0.n4 B0.n2 39.2746
+R26 B0.n9 B0.n8 10.4135
+R27 B0 B0.n9 0.0113696
+R28 DVDDD.n13 DVDDD.t6 945.402
+R29 DVDDD.t69 DVDDD.t114 809.26
+R30 DVDDD.n7 DVDDD.t115 405.378
+R31 DVDDD.n21 DVDDD.t79 405.378
+R32 DVDDD.n34 DVDDD.t129 405.378
+R33 DVDDD.n47 DVDDD.t54 405.378
+R34 DVDDD.n60 DVDDD.t14 405.378
+R35 DVDDD.n73 DVDDD.t20 405.378
+R36 DVDDD.n86 DVDDD.t2 405.378
+R37 DVDDD.n99 DVDDD.t11 405.378
+R38 DVDDD.n12 DVDDD.t7 405.002
+R39 DVDDD.n8 DVDDD.t70 405.002
+R40 DVDDD.n26 DVDDD.t130 405.002
+R41 DVDDD.n22 DVDDD.t89 405.002
+R42 DVDDD.n39 DVDDD.t17 405.002
+R43 DVDDD.n35 DVDDD.t131 405.002
+R44 DVDDD.n52 DVDDD.t125 405.002
+R45 DVDDD.n48 DVDDD.t18 405.002
+R46 DVDDD.n65 DVDDD.t40 405.002
+R47 DVDDD.n61 DVDDD.t10 405.002
+R48 DVDDD.n78 DVDDD.t82 405.002
+R49 DVDDD.n74 DVDDD.t132 405.002
+R50 DVDDD.n91 DVDDD.t13 405.002
+R51 DVDDD.n87 DVDDD.t48 405.002
+R52 DVDDD.n104 DVDDD.t136 405.002
+R53 DVDDD.n100 DVDDD.t105 405.002
+R54 DVDDD.n11 DVDDD.t77 363.786
+R55 DVDDD.n25 DVDDD.t26 363.786
+R56 DVDDD.n38 DVDDD.t121 363.786
+R57 DVDDD.n51 DVDDD.t43 363.786
+R58 DVDDD.n64 DVDDD.t99 363.786
+R59 DVDDD.n77 DVDDD.t75 363.786
+R60 DVDDD.n90 DVDDD.t47 363.786
+R61 DVDDD.n103 DVDDD.t4 363.786
+R62 DVDDD.n2 DVDDD.n0 346.955
+R63 DVDDD.n16 DVDDD.n14 346.955
+R64 DVDDD.n29 DVDDD.n27 346.955
+R65 DVDDD.n42 DVDDD.n40 346.955
+R66 DVDDD.n55 DVDDD.n53 346.955
+R67 DVDDD.n68 DVDDD.n66 346.955
+R68 DVDDD.n81 DVDDD.n79 346.955
+R69 DVDDD.n94 DVDDD.n92 346.955
+R70 DVDDD.n6 DVDDD.n5 346.253
+R71 DVDDD.n4 DVDDD.n3 346.253
+R72 DVDDD.n2 DVDDD.n1 346.253
+R73 DVDDD.n20 DVDDD.n19 346.253
+R74 DVDDD.n18 DVDDD.n17 346.253
+R75 DVDDD.n16 DVDDD.n15 346.253
+R76 DVDDD.n33 DVDDD.n32 346.253
+R77 DVDDD.n31 DVDDD.n30 346.253
+R78 DVDDD.n29 DVDDD.n28 346.253
+R79 DVDDD.n46 DVDDD.n45 346.253
+R80 DVDDD.n44 DVDDD.n43 346.253
+R81 DVDDD.n42 DVDDD.n41 346.253
+R82 DVDDD.n59 DVDDD.n58 346.253
+R83 DVDDD.n57 DVDDD.n56 346.253
+R84 DVDDD.n55 DVDDD.n54 346.253
+R85 DVDDD.n72 DVDDD.n71 346.253
+R86 DVDDD.n70 DVDDD.n69 346.253
+R87 DVDDD.n68 DVDDD.n67 346.253
+R88 DVDDD.n85 DVDDD.n84 346.253
+R89 DVDDD.n83 DVDDD.n82 346.253
+R90 DVDDD.n81 DVDDD.n80 346.253
+R91 DVDDD.n98 DVDDD.n97 346.253
+R92 DVDDD.n96 DVDDD.n95 346.253
+R93 DVDDD.n94 DVDDD.n93 346.253
+R94 DVDDD.n10 DVDDD.n9 345.877
+R95 DVDDD.n24 DVDDD.n23 345.877
+R96 DVDDD.n37 DVDDD.n36 345.877
+R97 DVDDD.n50 DVDDD.n49 345.877
+R98 DVDDD.n63 DVDDD.n62 345.877
+R99 DVDDD.n76 DVDDD.n75 345.877
+R100 DVDDD.n89 DVDDD.n88 345.877
+R101 DVDDD.n102 DVDDD.n101 345.877
+R102 DVDDD.t112 DVDDD.t111 263.889
+R103 DVDDD.t113 DVDDD.t112 263.889
+R104 DVDDD.t71 DVDDD.t113 263.889
+R105 DVDDD.t59 DVDDD.t71 263.889
+R106 DVDDD.t60 DVDDD.t59 263.889
+R107 DVDDD.t38 DVDDD.t60 263.889
+R108 DVDDD.t36 DVDDD.t38 263.889
+R109 DVDDD.t90 DVDDD.t36 263.889
+R110 DVDDD.t107 DVDDD.t90 263.889
+R111 DVDDD.t109 DVDDD.t107 263.889
+R112 DVDDD.t65 DVDDD.t109 263.889
+R113 DVDDD.t67 DVDDD.t65 263.889
+R114 DVDDD.t72 DVDDD.t67 263.889
+R115 DVDDD.t34 DVDDD.t72 263.889
+R116 DVDDD.t88 DVDDD.t34 263.889
+R117 DVDDD.t114 DVDDD.t88 263.889
+R118 DVDDD.t63 DVDDD.t69 263.889
+R119 DVDDD.t0 DVDDD.t63 263.889
+R120 DVDDD.t106 DVDDD.t0 263.889
+R121 DVDDD.t76 DVDDD.t106 263.889
+R122 DVDDD.t62 DVDDD.t76 263.889
+R123 DVDDD.t61 DVDDD.t62 263.889
+R124 DVDDD.t6 DVDDD.t61 263.889
+R125 DVDDD.n9 DVDDD.t64 35.1791
+R126 DVDDD.n9 DVDDD.t1 35.1791
+R127 DVDDD.n5 DVDDD.t68 35.1791
+R128 DVDDD.n5 DVDDD.t73 35.1791
+R129 DVDDD.n3 DVDDD.t110 35.1791
+R130 DVDDD.n3 DVDDD.t66 35.1791
+R131 DVDDD.n1 DVDDD.t91 35.1791
+R132 DVDDD.n1 DVDDD.t108 35.1791
+R133 DVDDD.n0 DVDDD.t39 35.1791
+R134 DVDDD.n0 DVDDD.t37 35.1791
+R135 DVDDD.n23 DVDDD.t120 35.1791
+R136 DVDDD.n23 DVDDD.t52 35.1791
+R137 DVDDD.n19 DVDDD.t50 35.1791
+R138 DVDDD.n19 DVDDD.t46 35.1791
+R139 DVDDD.n17 DVDDD.t78 35.1791
+R140 DVDDD.n17 DVDDD.t25 35.1791
+R141 DVDDD.n15 DVDDD.t117 35.1791
+R142 DVDDD.n15 DVDDD.t16 35.1791
+R143 DVDDD.n14 DVDDD.t53 35.1791
+R144 DVDDD.n14 DVDDD.t41 35.1791
+R145 DVDDD.n36 DVDDD.t126 35.1791
+R146 DVDDD.n36 DVDDD.t116 35.1791
+R147 DVDDD.n32 DVDDD.t80 35.1791
+R148 DVDDD.n32 DVDDD.t22 35.1791
+R149 DVDDD.n30 DVDDD.t85 35.1791
+R150 DVDDD.n30 DVDDD.t28 35.1791
+R151 DVDDD.n28 DVDDD.t51 35.1791
+R152 DVDDD.n28 DVDDD.t86 35.1791
+R153 DVDDD.n27 DVDDD.t123 35.1791
+R154 DVDDD.n27 DVDDD.t8 35.1791
+R155 DVDDD.n49 DVDDD.t87 35.1791
+R156 DVDDD.n49 DVDDD.t42 35.1791
+R157 DVDDD.n45 DVDDD.t9 35.1791
+R158 DVDDD.n45 DVDDD.t12 35.1791
+R159 DVDDD.n43 DVDDD.t83 35.1791
+R160 DVDDD.n43 DVDDD.t45 35.1791
+R161 DVDDD.n41 DVDDD.t124 35.1791
+R162 DVDDD.n41 DVDDD.t84 35.1791
+R163 DVDDD.n40 DVDDD.t29 35.1791
+R164 DVDDD.n40 DVDDD.t27 35.1791
+R165 DVDDD.n62 DVDDD.t15 35.1791
+R166 DVDDD.n62 DVDDD.t101 35.1791
+R167 DVDDD.n58 DVDDD.t3 35.1791
+R168 DVDDD.n58 DVDDD.t57 35.1791
+R169 DVDDD.n56 DVDDD.t97 35.1791
+R170 DVDDD.n56 DVDDD.t30 35.1791
+R171 DVDDD.n54 DVDDD.t35 35.1791
+R172 DVDDD.n54 DVDDD.t98 35.1791
+R173 DVDDD.n53 DVDDD.t134 35.1791
+R174 DVDDD.n53 DVDDD.t21 35.1791
+R175 DVDDD.n75 DVDDD.t127 35.1791
+R176 DVDDD.n75 DVDDD.t118 35.1791
+R177 DVDDD.n71 DVDDD.t56 35.1791
+R178 DVDDD.n71 DVDDD.t128 35.1791
+R179 DVDDD.n69 DVDDD.t95 35.1791
+R180 DVDDD.n69 DVDDD.t19 35.1791
+R181 DVDDD.n67 DVDDD.t49 35.1791
+R182 DVDDD.n67 DVDDD.t96 35.1791
+R183 DVDDD.n66 DVDDD.t92 35.1791
+R184 DVDDD.n66 DVDDD.t24 35.1791
+R185 DVDDD.n88 DVDDD.t81 35.1791
+R186 DVDDD.n88 DVDDD.t44 35.1791
+R187 DVDDD.n84 DVDDD.t100 35.1791
+R188 DVDDD.n84 DVDDD.t122 35.1791
+R189 DVDDD.n82 DVDDD.t32 35.1791
+R190 DVDDD.n82 DVDDD.t58 35.1791
+R191 DVDDD.n80 DVDDD.t23 35.1791
+R192 DVDDD.n80 DVDDD.t31 35.1791
+R193 DVDDD.n79 DVDDD.t133 35.1791
+R194 DVDDD.n79 DVDDD.t55 35.1791
+R195 DVDDD.n101 DVDDD.t102 35.1791
+R196 DVDDD.n101 DVDDD.t74 35.1791
+R197 DVDDD.n97 DVDDD.t103 35.1791
+R198 DVDDD.n97 DVDDD.t104 35.1791
+R199 DVDDD.n95 DVDDD.t93 35.1791
+R200 DVDDD.n95 DVDDD.t135 35.1791
+R201 DVDDD.n93 DVDDD.t5 35.1791
+R202 DVDDD.n93 DVDDD.t94 35.1791
+R203 DVDDD.n92 DVDDD.t119 35.1791
+R204 DVDDD.n92 DVDDD.t33 35.1791
+R205 DVDDD DVDDD.n110 4.10339
+R206 DVDDD.n105 DVDDD.n104 3.92427
+R207 DVDDD.n108 DVDDD.n107 3.57035
+R208 DVDDD.n106 DVDDD.n105 3.18432
+R209 DVDDD.n109 DVDDD.n108 3.13285
+R210 DVDDD.n107 DVDDD.n106 3.13285
+R211 DVDDD.n110 DVDDD.n109 3.05932
+R212 DVDDD.n7 DVDDD.n6 1.50632
+R213 DVDDD.n21 DVDDD.n20 1.50632
+R214 DVDDD.n34 DVDDD.n33 1.50632
+R215 DVDDD.n47 DVDDD.n46 1.50632
+R216 DVDDD.n60 DVDDD.n59 1.50632
+R217 DVDDD.n73 DVDDD.n72 1.50632
+R218 DVDDD.n86 DVDDD.n85 1.50632
+R219 DVDDD.n99 DVDDD.n98 1.50632
+R220 DVDDD.n11 DVDDD.n10 1.50297
+R221 DVDDD.n12 DVDDD.n11 1.50297
+R222 DVDDD.n25 DVDDD.n24 1.50297
+R223 DVDDD.n26 DVDDD.n25 1.50297
+R224 DVDDD.n38 DVDDD.n37 1.50297
+R225 DVDDD.n39 DVDDD.n38 1.50297
+R226 DVDDD.n51 DVDDD.n50 1.50297
+R227 DVDDD.n52 DVDDD.n51 1.50297
+R228 DVDDD.n64 DVDDD.n63 1.50297
+R229 DVDDD.n65 DVDDD.n64 1.50297
+R230 DVDDD.n77 DVDDD.n76 1.50297
+R231 DVDDD.n78 DVDDD.n77 1.50297
+R232 DVDDD.n90 DVDDD.n89 1.50297
+R233 DVDDD.n91 DVDDD.n90 1.50297
+R234 DVDDD.n103 DVDDD.n102 1.50297
+R235 DVDDD.n104 DVDDD.n103 1.50297
+R236 DVDDD.n106 DVDDD.n78 0.796378
+R237 DVDDD.n108 DVDDD.n52 0.791913
+R238 DVDDD.n107 DVDDD.n65 0.791913
+R239 DVDDD.n110 DVDDD.n26 0.787449
+R240 DVDDD.n109 DVDDD.n39 0.787449
+R241 DVDDD.n105 DVDDD.n91 0.787449
+R242 DVDDD.n8 DVDDD.n7 0.727861
+R243 DVDDD.n22 DVDDD.n21 0.727861
+R244 DVDDD.n35 DVDDD.n34 0.727861
+R245 DVDDD.n48 DVDDD.n47 0.727861
+R246 DVDDD.n61 DVDDD.n60 0.727861
+R247 DVDDD.n74 DVDDD.n73 0.727861
+R248 DVDDD.n87 DVDDD.n86 0.727861
+R249 DVDDD.n100 DVDDD.n99 0.727861
+R250 DVDDD.n4 DVDDD.n2 0.702752
+R251 DVDDD.n6 DVDDD.n4 0.702752
+R252 DVDDD.n18 DVDDD.n16 0.702752
+R253 DVDDD.n20 DVDDD.n18 0.702752
+R254 DVDDD.n31 DVDDD.n29 0.702752
+R255 DVDDD.n33 DVDDD.n31 0.702752
+R256 DVDDD.n44 DVDDD.n42 0.702752
+R257 DVDDD.n46 DVDDD.n44 0.702752
+R258 DVDDD.n57 DVDDD.n55 0.702752
+R259 DVDDD.n59 DVDDD.n57 0.702752
+R260 DVDDD.n70 DVDDD.n68 0.702752
+R261 DVDDD.n72 DVDDD.n70 0.702752
+R262 DVDDD.n83 DVDDD.n81 0.702752
+R263 DVDDD.n85 DVDDD.n83 0.702752
+R264 DVDDD.n96 DVDDD.n94 0.702752
+R265 DVDDD.n98 DVDDD.n96 0.702752
+R266 DVDDD.n10 DVDDD.n8 0.699398
+R267 DVDDD.n24 DVDDD.n22 0.699398
+R268 DVDDD.n37 DVDDD.n35 0.699398
+R269 DVDDD.n50 DVDDD.n48 0.699398
+R270 DVDDD.n63 DVDDD.n61 0.699398
+R271 DVDDD.n76 DVDDD.n74 0.699398
+R272 DVDDD.n89 DVDDD.n87 0.699398
+R273 DVDDD.n102 DVDDD.n100 0.699398
+R274 DVDDD.n13 DVDDD.n12 0.496154
+R275 DVDDD DVDDD.n13 0.0213333
+R276 A7.t13 A7.t5 892.736
+R277 A7.t16 A7.t9 832.254
+R278 A7.n5 A7.n4 732.64
+R279 A7.n4 A7.t15 633.028
+R280 A7.t5 A7.n5 633.028
+R281 A7.t14 A7.t10 499.673
+R282 A7.t11 A7.t7 499.673
+R283 A7.t8 A7.t12 499.673
+R284 A7.t2 A7.t3 499.673
+R285 A7.t9 A7.t13 499.673
+R286 A7.n3 A7.n2 497.31
+R287 A7.n1 A7.t11 281.568
+R288 A7.n1 A7.t14 279.962
+R289 A7.n6 A7.t1 273.837
+R290 A7.t15 A7.n3 247.865
+R291 A7.n2 A7.t4 238.226
+R292 A7.n2 A7.t6 214.125
+R293 A7.n3 A7.t0 204.486
+R294 A7.n4 A7.t8 199.227
+R295 A7.n5 A7.t2 199.227
+R296 A7.n6 A7.t16 166.19
+R297 A7.n7 A7.n6 152
+R298 A7.t6 A7.n1 134.96
+R299 A7 A7.n7 9.30976
+R300 A7.n7 A7.n0 0.948648
+R301 B7.t2 B7.t7 1266.05
+R302 B7.t1 B7.t0 499.673
+R303 B7.t17 B7.t15 499.673
+R304 B7.t14 B7.t11 499.673
+R305 B7.t7 B7.t10 499.673
+R306 B7.t3 B7.t1 420.947
+R307 B7.n2 B7.n1 377.252
+R308 B7.n1 B7.t3 313.738
+R309 B7.n0 B7.t17 284.38
+R310 B7.t10 B7.n0 284.38
+R311 B7.n2 B7.t5 215.293
+R312 B7.n3 B7.t9 215.293
+R313 B7.n5 B7.t12 215.293
+R314 B7.n6 B7.t16 215.293
+R315 B7.n2 B7.t4 197.62
+R316 B7.n3 B7.t6 197.62
+R317 B7.n5 B7.t8 197.62
+R318 B7.n6 B7.t13 197.62
+R319 B7.n9 B7.n4 167.452
+R320 B7.n8 B7.n7 164.992
+R321 B7.n0 B7.t14 139.78
+R322 B7.n1 B7.t2 138.613
+R323 B7.n4 B7.n3 41.0598
+R324 B7.n7 B7.n5 40.1672
+R325 B7.n7 B7.n6 40.1672
+R326 B7.n4 B7.n2 39.2746
+R327 B7.n9 B7.n8 10.4135
+R328 B7 B7.n9 0.0113696
+R329 DGNDD.n132 DGNDD.n131 1.87018e+06
+R330 DGNDD.n123 DGNDD.t227 11864.5
+R331 DGNDD.n125 DGNDD.n124 8816.45
+R332 DGNDD.n129 DGNDD.n120 8746.01
+R333 DGNDD.n125 DGNDD.n120 8746.01
+R334 DGNDD.n130 DGNDD.n129 8692.68
+R335 DGNDD.n124 DGNDD.n123 8692.68
+R336 DGNDD.n131 DGNDD.n130 8692.68
+R337 DGNDD.n122 DGNDD.t232 7918.72
+R338 DGNDD.n122 DGNDD.n121 4054.98
+R339 DGNDD.n128 DGNDD.n119 4046.86
+R340 DGNDD.n132 DGNDD.n119 4038.53
+R341 DGNDD.n127 DGNDD.n126 4027.12
+R342 DGNDD.n128 DGNDD.n127 4027.12
+R343 DGNDD.n126 DGNDD.n121 4015.77
+R344 DGNDD.t7 DGNDD.t240 3930.1
+R345 DGNDD.t56 DGNDD.n119 2728.35
+R346 DGNDD.n126 DGNDD.t39 2625
+R347 DGNDD.t111 DGNDD.n122 2616.67
+R348 DGNDD.t50 DGNDD.n128 2616.67
+R349 DGNDD.t139 DGNDD.n121 2565.31
+R350 DGNDD.t308 DGNDD.t48 2390.55
+R351 DGNDD.t70 DGNDD.t60 2300
+R352 DGNDD.t64 DGNDD.t97 2300
+R353 DGNDD.t114 DGNDD.t54 2300
+R354 DGNDD.t175 DGNDD.t211 2240.59
+R355 DGNDD.t34 DGNDD.t158 2149.38
+R356 DGNDD.n127 DGNDD.t310 2142.19
+R357 DGNDD.n130 DGNDD.t305 1905.51
+R358 DGNDD.t24 DGNDD.t68 1876.97
+R359 DGNDD.n133 DGNDD.t128 1869.03
+R360 DGNDD.n123 DGNDD.t88 1833.33
+R361 DGNDD.n129 DGNDD.t202 1833.33
+R362 DGNDD.t267 DGNDD.n125 1825
+R363 DGNDD.n124 DGNDD.t256 1769.74
+R364 DGNDD.n131 DGNDD.t281 1689.91
+R365 DGNDD.t196 DGNDD.n120 1489.34
+R366 DGNDD.t230 DGNDD.t227 1281.55
+R367 DGNDD.t221 DGNDD.t230 1281.55
+R368 DGNDD.t0 DGNDD.t221 1281.55
+R369 DGNDD.t2 DGNDD.t0 1281.55
+R370 DGNDD.t4 DGNDD.t2 1281.55
+R371 DGNDD.t242 DGNDD.t4 1281.55
+R372 DGNDD.t246 DGNDD.t242 1281.55
+R373 DGNDD.t236 DGNDD.t246 1281.55
+R374 DGNDD.t228 DGNDD.t236 1281.55
+R375 DGNDD.t225 DGNDD.t228 1281.55
+R376 DGNDD.t9 DGNDD.t225 1281.55
+R377 DGNDD.t11 DGNDD.t9 1281.55
+R378 DGNDD.t234 DGNDD.t11 1281.55
+R379 DGNDD.t75 DGNDD.t234 1281.55
+R380 DGNDD.t289 DGNDD.t75 1281.55
+R381 DGNDD.t240 DGNDD.t289 1281.55
+R382 DGNDD.t5 DGNDD.t7 1281.55
+R383 DGNDD.t248 DGNDD.t5 1281.55
+R384 DGNDD.t222 DGNDD.t248 1281.55
+R385 DGNDD.t231 DGNDD.t222 1281.55
+R386 DGNDD.t244 DGNDD.t231 1281.55
+R387 DGNDD.t238 DGNDD.t244 1281.55
+R388 DGNDD.t3 DGNDD.t238 1281.55
+R389 DGNDD.t1 DGNDD.t3 1281.55
+R390 DGNDD.t232 DGNDD.t1 1281.55
+R391 DGNDD.n134 DGNDD.n133 1216.38
+R392 DGNDD.t305 DGNDD.t37 779.529
+R393 DGNDD.t37 DGNDD.t104 779.529
+R394 DGNDD.t104 DGNDD.t127 779.529
+R395 DGNDD.t127 DGNDD.t322 779.529
+R396 DGNDD.t322 DGNDD.t323 779.529
+R397 DGNDD.t323 DGNDD.t52 779.529
+R398 DGNDD.t52 DGNDD.t95 779.529
+R399 DGNDD.t95 DGNDD.t66 779.529
+R400 DGNDD.t66 DGNDD.t125 779.529
+R401 DGNDD.t125 DGNDD.t123 779.529
+R402 DGNDD.t123 DGNDD.t283 779.529
+R403 DGNDD.t283 DGNDD.t306 779.529
+R404 DGNDD.t306 DGNDD.t28 779.529
+R405 DGNDD.t28 DGNDD.t198 779.529
+R406 DGNDD.t198 DGNDD.t205 779.529
+R407 DGNDD.t205 DGNDD.t308 779.529
+R408 DGNDD.t48 DGNDD.t173 779.529
+R409 DGNDD.t173 DGNDD.t290 779.529
+R410 DGNDD.t290 DGNDD.t288 779.529
+R411 DGNDD.t288 DGNDD.t321 779.529
+R412 DGNDD.t321 DGNDD.t218 779.529
+R413 DGNDD.t218 DGNDD.t130 779.529
+R414 DGNDD.t130 DGNDD.t282 779.529
+R415 DGNDD.t282 DGNDD.t113 779.529
+R416 DGNDD.t113 DGNDD.t56 779.529
+R417 DGNDD.t88 DGNDD.t80 750
+R418 DGNDD.t80 DGNDD.t82 750
+R419 DGNDD.t82 DGNDD.t72 750
+R420 DGNDD.t72 DGNDD.t100 750
+R421 DGNDD.t100 DGNDD.t185 750
+R422 DGNDD.t185 DGNDD.t181 750
+R423 DGNDD.t181 DGNDD.t294 750
+R424 DGNDD.t294 DGNDD.t58 750
+R425 DGNDD.t58 DGNDD.t89 750
+R426 DGNDD.t89 DGNDD.t86 750
+R427 DGNDD.t86 DGNDD.t316 750
+R428 DGNDD.t316 DGNDD.t135 750
+R429 DGNDD.t135 DGNDD.t330 750
+R430 DGNDD.t330 DGNDD.t223 750
+R431 DGNDD.t223 DGNDD.t224 750
+R432 DGNDD.t224 DGNDD.t70 750
+R433 DGNDD.t60 DGNDD.t62 750
+R434 DGNDD.t62 DGNDD.t332 750
+R435 DGNDD.t332 DGNDD.t85 750
+R436 DGNDD.t85 DGNDD.t84 750
+R437 DGNDD.t84 DGNDD.t109 750
+R438 DGNDD.t109 DGNDD.t314 750
+R439 DGNDD.t314 DGNDD.t220 750
+R440 DGNDD.t220 DGNDD.t99 750
+R441 DGNDD.t99 DGNDD.t111 750
+R442 DGNDD.t270 DGNDD.t267 750
+R443 DGNDD.t261 DGNDD.t270 750
+R444 DGNDD.t166 DGNDD.t261 750
+R445 DGNDD.t101 DGNDD.t166 750
+R446 DGNDD.t19 DGNDD.t101 750
+R447 DGNDD.t32 DGNDD.t19 750
+R448 DGNDD.t102 DGNDD.t32 750
+R449 DGNDD.t46 DGNDD.t102 750
+R450 DGNDD.t268 DGNDD.t46 750
+R451 DGNDD.t265 DGNDD.t268 750
+R452 DGNDD.t215 DGNDD.t265 750
+R453 DGNDD.t171 DGNDD.t215 750
+R454 DGNDD.t132 DGNDD.t171 750
+R455 DGNDD.t252 DGNDD.t132 750
+R456 DGNDD.t253 DGNDD.t252 750
+R457 DGNDD.t97 DGNDD.t253 750
+R458 DGNDD.t319 DGNDD.t64 750
+R459 DGNDD.t312 DGNDD.t319 750
+R460 DGNDD.t262 DGNDD.t312 750
+R461 DGNDD.t271 DGNDD.t262 750
+R462 DGNDD.t73 DGNDD.t271 750
+R463 DGNDD.t17 DGNDD.t73 750
+R464 DGNDD.t144 DGNDD.t17 750
+R465 DGNDD.t141 DGNDD.t144 750
+R466 DGNDD.t39 DGNDD.t141 750
+R467 DGNDD.t202 DGNDD.t206 750
+R468 DGNDD.t206 DGNDD.t207 750
+R469 DGNDD.t207 DGNDD.t137 750
+R470 DGNDD.t137 DGNDD.t76 750
+R471 DGNDD.t76 DGNDD.t300 750
+R472 DGNDD.t300 DGNDD.t169 750
+R473 DGNDD.t169 DGNDD.t324 750
+R474 DGNDD.t324 DGNDD.t105 750
+R475 DGNDD.t105 DGNDD.t203 750
+R476 DGNDD.t203 DGNDD.t200 750
+R477 DGNDD.t200 DGNDD.t43 750
+R478 DGNDD.t43 DGNDD.t22 750
+R479 DGNDD.t22 DGNDD.t162 750
+R480 DGNDD.t162 DGNDD.t193 750
+R481 DGNDD.t193 DGNDD.t188 750
+R482 DGNDD.t188 DGNDD.t114 750
+R483 DGNDD.t54 DGNDD.t26 750
+R484 DGNDD.t26 DGNDD.t296 750
+R485 DGNDD.t296 DGNDD.t199 750
+R486 DGNDD.t199 DGNDD.t197 750
+R487 DGNDD.t197 DGNDD.t179 750
+R488 DGNDD.t179 DGNDD.t93 750
+R489 DGNDD.t93 DGNDD.t217 750
+R490 DGNDD.t217 DGNDD.t134 750
+R491 DGNDD.t134 DGNDD.t50 750
+R492 DGNDD.t256 DGNDD.t259 730.628
+R493 DGNDD.t259 DGNDD.t260 730.628
+R494 DGNDD.t260 DGNDD.t285 730.628
+R495 DGNDD.t285 DGNDD.t116 730.628
+R496 DGNDD.t116 DGNDD.t301 730.628
+R497 DGNDD.t301 DGNDD.t302 730.628
+R498 DGNDD.t302 DGNDD.t78 730.628
+R499 DGNDD.t78 DGNDD.t119 730.628
+R500 DGNDD.t119 DGNDD.t257 730.628
+R501 DGNDD.t257 DGNDD.t254 730.628
+R502 DGNDD.t254 DGNDD.t286 730.628
+R503 DGNDD.t286 DGNDD.t117 730.628
+R504 DGNDD.t117 DGNDD.t167 730.628
+R505 DGNDD.t167 DGNDD.t81 730.628
+R506 DGNDD.t81 DGNDD.t83 730.628
+R507 DGNDD.t83 DGNDD.t175 730.628
+R508 DGNDD.t211 DGNDD.t142 730.628
+R509 DGNDD.t142 DGNDD.t121 730.628
+R510 DGNDD.t121 DGNDD.t251 730.628
+R511 DGNDD.t251 DGNDD.t250 730.628
+R512 DGNDD.t250 DGNDD.t213 730.628
+R513 DGNDD.t213 DGNDD.t334 730.628
+R514 DGNDD.t334 DGNDD.t272 730.628
+R515 DGNDD.t272 DGNDD.t77 730.628
+R516 DGNDD.t77 DGNDD.t139 730.628
+R517 DGNDD.t281 DGNDD.t273 700.885
+R518 DGNDD.t273 DGNDD.t274 700.885
+R519 DGNDD.t274 DGNDD.t147 700.885
+R520 DGNDD.t147 DGNDD.t148 700.885
+R521 DGNDD.t148 DGNDD.t149 700.885
+R522 DGNDD.t149 DGNDD.t15 700.885
+R523 DGNDD.t15 DGNDD.t30 700.885
+R524 DGNDD.t30 DGNDD.t160 700.885
+R525 DGNDD.t160 DGNDD.t277 700.885
+R526 DGNDD.t277 DGNDD.t279 700.885
+R527 DGNDD.t279 DGNDD.t154 700.885
+R528 DGNDD.t154 DGNDD.t156 700.885
+R529 DGNDD.t156 DGNDD.t13 700.885
+R530 DGNDD.t13 DGNDD.t38 700.885
+R531 DGNDD.t38 DGNDD.t304 700.885
+R532 DGNDD.t304 DGNDD.t34 700.885
+R533 DGNDD.t158 DGNDD.t152 700.885
+R534 DGNDD.t152 DGNDD.t41 700.885
+R535 DGNDD.t41 DGNDD.t276 700.885
+R536 DGNDD.t276 DGNDD.t275 700.885
+R537 DGNDD.t275 DGNDD.t177 700.885
+R538 DGNDD.t177 DGNDD.t208 700.885
+R539 DGNDD.t208 DGNDD.t151 700.885
+R540 DGNDD.t151 DGNDD.t150 700.885
+R541 DGNDD.t150 DGNDD.t128 700.885
+R542 DGNDD.t189 DGNDD.t196 612.057
+R543 DGNDD.t191 DGNDD.t189 612.057
+R544 DGNDD.t210 DGNDD.t191 612.057
+R545 DGNDD.t318 DGNDD.t210 612.057
+R546 DGNDD.t138 DGNDD.t318 612.057
+R547 DGNDD.t326 DGNDD.t138 612.057
+R548 DGNDD.t328 DGNDD.t326 612.057
+R549 DGNDD.t145 DGNDD.t328 612.057
+R550 DGNDD.t186 DGNDD.t145 612.057
+R551 DGNDD.t194 DGNDD.t186 612.057
+R552 DGNDD.t183 DGNDD.t194 612.057
+R553 DGNDD.t164 DGNDD.t183 612.057
+R554 DGNDD.t298 DGNDD.t164 612.057
+R555 DGNDD.t263 DGNDD.t298 612.057
+R556 DGNDD.t264 DGNDD.t263 612.057
+R557 DGNDD.t68 DGNDD.t264 612.057
+R558 DGNDD.t20 DGNDD.t24 612.057
+R559 DGNDD.t91 DGNDD.t20 612.057
+R560 DGNDD.t192 DGNDD.t91 612.057
+R561 DGNDD.t190 DGNDD.t192 612.057
+R562 DGNDD.t107 DGNDD.t190 612.057
+R563 DGNDD.t292 DGNDD.t107 612.057
+R564 DGNDD.t36 DGNDD.t292 612.057
+R565 DGNDD.t45 DGNDD.t36 612.057
+R566 DGNDD.t310 DGNDD.t45 612.057
+R567 DGNDD.n133 DGNDD.n132 607.434
+R568 DGNDD.n85 DGNDD.t233 286.611
+R569 DGNDD.n71 DGNDD.t112 286.611
+R570 DGNDD.n57 DGNDD.t140 286.611
+R571 DGNDD.n43 DGNDD.t40 286.611
+R572 DGNDD.n29 DGNDD.t311 286.611
+R573 DGNDD.n15 DGNDD.t51 286.611
+R574 DGNDD.n1 DGNDD.t57 286.611
+R575 DGNDD.n118 DGNDD.t129 285.151
+R576 DGNDD.n113 DGNDD.t159 285.151
+R577 DGNDD.n112 DGNDD.t35 285.151
+R578 DGNDD.n89 DGNDD.t241 285.151
+R579 DGNDD.n88 DGNDD.t8 285.151
+R580 DGNDD.n75 DGNDD.t71 285.151
+R581 DGNDD.n74 DGNDD.t61 285.151
+R582 DGNDD.n61 DGNDD.t176 285.151
+R583 DGNDD.n60 DGNDD.t212 285.151
+R584 DGNDD.n47 DGNDD.t98 285.151
+R585 DGNDD.n46 DGNDD.t65 285.151
+R586 DGNDD.n33 DGNDD.t69 285.151
+R587 DGNDD.n32 DGNDD.t25 285.151
+R588 DGNDD.n19 DGNDD.t115 285.151
+R589 DGNDD.n18 DGNDD.t55 285.151
+R590 DGNDD.n5 DGNDD.t309 285.151
+R591 DGNDD.n4 DGNDD.t49 285.151
+R592 DGNDD.n117 DGNDD.n116 242.294
+R593 DGNDD.n115 DGNDD.n114 242.294
+R594 DGNDD.n111 DGNDD.n110 242.294
+R595 DGNDD.n109 DGNDD.n108 242.294
+R596 DGNDD.n107 DGNDD.n106 242.294
+R597 DGNDD.n105 DGNDD.n104 242.294
+R598 DGNDD.n97 DGNDD.n96 242.294
+R599 DGNDD.n95 DGNDD.n94 242.294
+R600 DGNDD.n93 DGNDD.n92 242.294
+R601 DGNDD.n91 DGNDD.n90 242.294
+R602 DGNDD.n87 DGNDD.n86 242.294
+R603 DGNDD.n85 DGNDD.n84 242.294
+R604 DGNDD.n83 DGNDD.n82 242.294
+R605 DGNDD.n81 DGNDD.n80 242.294
+R606 DGNDD.n79 DGNDD.n78 242.294
+R607 DGNDD.n77 DGNDD.n76 242.294
+R608 DGNDD.n73 DGNDD.n72 242.294
+R609 DGNDD.n71 DGNDD.n70 242.294
+R610 DGNDD.n69 DGNDD.n68 242.294
+R611 DGNDD.n67 DGNDD.n66 242.294
+R612 DGNDD.n65 DGNDD.n64 242.294
+R613 DGNDD.n63 DGNDD.n62 242.294
+R614 DGNDD.n59 DGNDD.n58 242.294
+R615 DGNDD.n57 DGNDD.n56 242.294
+R616 DGNDD.n55 DGNDD.n54 242.294
+R617 DGNDD.n53 DGNDD.n52 242.294
+R618 DGNDD.n51 DGNDD.n50 242.294
+R619 DGNDD.n49 DGNDD.n48 242.294
+R620 DGNDD.n45 DGNDD.n44 242.294
+R621 DGNDD.n43 DGNDD.n42 242.294
+R622 DGNDD.n41 DGNDD.n40 242.294
+R623 DGNDD.n39 DGNDD.n38 242.294
+R624 DGNDD.n37 DGNDD.n36 242.294
+R625 DGNDD.n35 DGNDD.n34 242.294
+R626 DGNDD.n31 DGNDD.n30 242.294
+R627 DGNDD.n29 DGNDD.n28 242.294
+R628 DGNDD.n27 DGNDD.n26 242.294
+R629 DGNDD.n25 DGNDD.n24 242.294
+R630 DGNDD.n23 DGNDD.n22 242.294
+R631 DGNDD.n21 DGNDD.n20 242.294
+R632 DGNDD.n17 DGNDD.n16 242.294
+R633 DGNDD.n15 DGNDD.n14 242.294
+R634 DGNDD.n13 DGNDD.n12 242.294
+R635 DGNDD.n11 DGNDD.n10 242.294
+R636 DGNDD.n9 DGNDD.n8 242.294
+R637 DGNDD.n7 DGNDD.n6 242.294
+R638 DGNDD.n3 DGNDD.n2 242.294
+R639 DGNDD.n1 DGNDD.n0 242.294
+R640 DGNDD.n116 DGNDD.t178 42.8576
+R641 DGNDD.n116 DGNDD.t209 42.8576
+R642 DGNDD.n114 DGNDD.t153 42.8576
+R643 DGNDD.n114 DGNDD.t42 42.8576
+R644 DGNDD.n110 DGNDD.t157 42.8576
+R645 DGNDD.n110 DGNDD.t14 42.8576
+R646 DGNDD.n108 DGNDD.t280 42.8576
+R647 DGNDD.n108 DGNDD.t155 42.8576
+R648 DGNDD.n106 DGNDD.t161 42.8576
+R649 DGNDD.n106 DGNDD.t278 42.8576
+R650 DGNDD.n104 DGNDD.t16 42.8576
+R651 DGNDD.n104 DGNDD.t31 42.8576
+R652 DGNDD.n96 DGNDD.t243 42.8576
+R653 DGNDD.n96 DGNDD.t247 42.8576
+R654 DGNDD.n94 DGNDD.t237 42.8576
+R655 DGNDD.n94 DGNDD.t229 42.8576
+R656 DGNDD.n92 DGNDD.t226 42.8576
+R657 DGNDD.n92 DGNDD.t10 42.8576
+R658 DGNDD.n90 DGNDD.t12 42.8576
+R659 DGNDD.n90 DGNDD.t235 42.8576
+R660 DGNDD.n86 DGNDD.t6 42.8576
+R661 DGNDD.n86 DGNDD.t249 42.8576
+R662 DGNDD.n84 DGNDD.t245 42.8576
+R663 DGNDD.n84 DGNDD.t239 42.8576
+R664 DGNDD.n82 DGNDD.t182 42.8576
+R665 DGNDD.n82 DGNDD.t295 42.8576
+R666 DGNDD.n80 DGNDD.t59 42.8576
+R667 DGNDD.n80 DGNDD.t90 42.8576
+R668 DGNDD.n78 DGNDD.t87 42.8576
+R669 DGNDD.n78 DGNDD.t317 42.8576
+R670 DGNDD.n76 DGNDD.t136 42.8576
+R671 DGNDD.n76 DGNDD.t331 42.8576
+R672 DGNDD.n72 DGNDD.t63 42.8576
+R673 DGNDD.n72 DGNDD.t333 42.8576
+R674 DGNDD.n70 DGNDD.t110 42.8576
+R675 DGNDD.n70 DGNDD.t315 42.8576
+R676 DGNDD.n68 DGNDD.t303 42.8576
+R677 DGNDD.n68 DGNDD.t79 42.8576
+R678 DGNDD.n66 DGNDD.t120 42.8576
+R679 DGNDD.n66 DGNDD.t258 42.8576
+R680 DGNDD.n64 DGNDD.t255 42.8576
+R681 DGNDD.n64 DGNDD.t287 42.8576
+R682 DGNDD.n62 DGNDD.t118 42.8576
+R683 DGNDD.n62 DGNDD.t168 42.8576
+R684 DGNDD.n58 DGNDD.t143 42.8576
+R685 DGNDD.n58 DGNDD.t122 42.8576
+R686 DGNDD.n56 DGNDD.t214 42.8576
+R687 DGNDD.n56 DGNDD.t335 42.8576
+R688 DGNDD.n54 DGNDD.t33 42.8576
+R689 DGNDD.n54 DGNDD.t103 42.8576
+R690 DGNDD.n52 DGNDD.t47 42.8576
+R691 DGNDD.n52 DGNDD.t269 42.8576
+R692 DGNDD.n50 DGNDD.t266 42.8576
+R693 DGNDD.n50 DGNDD.t216 42.8576
+R694 DGNDD.n48 DGNDD.t172 42.8576
+R695 DGNDD.n48 DGNDD.t133 42.8576
+R696 DGNDD.n44 DGNDD.t320 42.8576
+R697 DGNDD.n44 DGNDD.t313 42.8576
+R698 DGNDD.n42 DGNDD.t74 42.8576
+R699 DGNDD.n42 DGNDD.t18 42.8576
+R700 DGNDD.n40 DGNDD.t327 42.8576
+R701 DGNDD.n40 DGNDD.t329 42.8576
+R702 DGNDD.n38 DGNDD.t146 42.8576
+R703 DGNDD.n38 DGNDD.t187 42.8576
+R704 DGNDD.n36 DGNDD.t195 42.8576
+R705 DGNDD.n36 DGNDD.t184 42.8576
+R706 DGNDD.n34 DGNDD.t165 42.8576
+R707 DGNDD.n34 DGNDD.t299 42.8576
+R708 DGNDD.n30 DGNDD.t21 42.8576
+R709 DGNDD.n30 DGNDD.t92 42.8576
+R710 DGNDD.n28 DGNDD.t108 42.8576
+R711 DGNDD.n28 DGNDD.t293 42.8576
+R712 DGNDD.n26 DGNDD.t170 42.8576
+R713 DGNDD.n26 DGNDD.t325 42.8576
+R714 DGNDD.n24 DGNDD.t106 42.8576
+R715 DGNDD.n24 DGNDD.t204 42.8576
+R716 DGNDD.n22 DGNDD.t201 42.8576
+R717 DGNDD.n22 DGNDD.t44 42.8576
+R718 DGNDD.n20 DGNDD.t23 42.8576
+R719 DGNDD.n20 DGNDD.t163 42.8576
+R720 DGNDD.n16 DGNDD.t27 42.8576
+R721 DGNDD.n16 DGNDD.t297 42.8576
+R722 DGNDD.n14 DGNDD.t180 42.8576
+R723 DGNDD.n14 DGNDD.t94 42.8576
+R724 DGNDD.n12 DGNDD.t53 42.8576
+R725 DGNDD.n12 DGNDD.t96 42.8576
+R726 DGNDD.n10 DGNDD.t67 42.8576
+R727 DGNDD.n10 DGNDD.t126 42.8576
+R728 DGNDD.n8 DGNDD.t124 42.8576
+R729 DGNDD.n8 DGNDD.t284 42.8576
+R730 DGNDD.n6 DGNDD.t307 42.8576
+R731 DGNDD.n6 DGNDD.t29 42.8576
+R732 DGNDD.n2 DGNDD.t174 42.8576
+R733 DGNDD.n2 DGNDD.t291 42.8576
+R734 DGNDD.n0 DGNDD.t219 42.8576
+R735 DGNDD.n0 DGNDD.t131 42.8576
+R736 DGNDD.n105 DGNDD.n103 6.88648
+R737 DGNDD.n98 DGNDD.n97 6.75907
+R738 DGNDD.n98 DGNDD.n83 3.63103
+R739 DGNDD.n102 DGNDD.n27 3.63103
+R740 DGNDD.n103 DGNDD.n13 3.63103
+R741 DGNDD.n100 DGNDD.n55 3.62672
+R742 DGNDD.n101 DGNDD.n41 3.62672
+R743 DGNDD.n99 DGNDD.n69 3.62241
+R744 DGNDD.n101 DGNDD.n100 3.57035
+R745 DGNDD.n99 DGNDD.n98 3.18432
+R746 DGNDD.n102 DGNDD.n101 3.13285
+R747 DGNDD.n100 DGNDD.n99 3.13285
+R748 DGNDD.n103 DGNDD.n102 3.05932
+R749 DGNDD.n87 DGNDD.n85 1.45983
+R750 DGNDD.n91 DGNDD.n89 1.45983
+R751 DGNDD.n73 DGNDD.n71 1.45983
+R752 DGNDD.n77 DGNDD.n75 1.45983
+R753 DGNDD.n59 DGNDD.n57 1.45983
+R754 DGNDD.n63 DGNDD.n61 1.45983
+R755 DGNDD.n45 DGNDD.n43 1.45983
+R756 DGNDD.n49 DGNDD.n47 1.45983
+R757 DGNDD.n31 DGNDD.n29 1.45983
+R758 DGNDD.n35 DGNDD.n33 1.45983
+R759 DGNDD.n17 DGNDD.n15 1.45983
+R760 DGNDD.n21 DGNDD.n19 1.45983
+R761 DGNDD.n3 DGNDD.n1 1.45983
+R762 DGNDD.n7 DGNDD.n5 1.45983
+R763 DGNDD.n112 DGNDD.n111 1.45983
+R764 DGNDD.n117 DGNDD.n115 1.45983
+R765 DGNDD.n118 DGNDD.n117 1.45983
+R766 DGNDD.n89 DGNDD.n88 0.709833
+R767 DGNDD.n75 DGNDD.n74 0.709833
+R768 DGNDD.n61 DGNDD.n60 0.709833
+R769 DGNDD.n47 DGNDD.n46 0.709833
+R770 DGNDD.n33 DGNDD.n32 0.709833
+R771 DGNDD.n19 DGNDD.n18 0.709833
+R772 DGNDD.n5 DGNDD.n4 0.709833
+R773 DGNDD.n113 DGNDD.n112 0.709833
+R774 DGNDD.n88 DGNDD.n87 0.683971
+R775 DGNDD.n93 DGNDD.n91 0.683971
+R776 DGNDD.n95 DGNDD.n93 0.683971
+R777 DGNDD.n97 DGNDD.n95 0.683971
+R778 DGNDD.n74 DGNDD.n73 0.683971
+R779 DGNDD.n79 DGNDD.n77 0.683971
+R780 DGNDD.n81 DGNDD.n79 0.683971
+R781 DGNDD.n83 DGNDD.n81 0.683971
+R782 DGNDD.n60 DGNDD.n59 0.683971
+R783 DGNDD.n65 DGNDD.n63 0.683971
+R784 DGNDD.n67 DGNDD.n65 0.683971
+R785 DGNDD.n69 DGNDD.n67 0.683971
+R786 DGNDD.n46 DGNDD.n45 0.683971
+R787 DGNDD.n51 DGNDD.n49 0.683971
+R788 DGNDD.n53 DGNDD.n51 0.683971
+R789 DGNDD.n55 DGNDD.n53 0.683971
+R790 DGNDD.n32 DGNDD.n31 0.683971
+R791 DGNDD.n37 DGNDD.n35 0.683971
+R792 DGNDD.n39 DGNDD.n37 0.683971
+R793 DGNDD.n41 DGNDD.n39 0.683971
+R794 DGNDD.n18 DGNDD.n17 0.683971
+R795 DGNDD.n23 DGNDD.n21 0.683971
+R796 DGNDD.n25 DGNDD.n23 0.683971
+R797 DGNDD.n27 DGNDD.n25 0.683971
+R798 DGNDD.n4 DGNDD.n3 0.683971
+R799 DGNDD.n9 DGNDD.n7 0.683971
+R800 DGNDD.n11 DGNDD.n9 0.683971
+R801 DGNDD.n13 DGNDD.n11 0.683971
+R802 DGNDD.n107 DGNDD.n105 0.683971
+R803 DGNDD.n109 DGNDD.n107 0.683971
+R804 DGNDD.n111 DGNDD.n109 0.683971
+R805 DGNDD.n115 DGNDD.n113 0.683971
+R806 DGNDD.n134 DGNDD.n118 0.487979
+R807 DGNDD DGNDD.n134 0.016125
+R808 C0.t20 C0.t16 499.673
+R809 C0.t19 C0.t15 499.673
+R810 C0.t14 C0.t10 499.673
+R811 C0.t18 C0.t20 420.947
+R812 C0.n13 C0.n11 368.598
+R813 C0.n15 C0.t6 331.894
+R814 C0.n17 C0.n16 314.253
+R815 C0.n7 C0.t18 313.738
+R816 C0.n6 C0.t11 313.738
+R817 C0.t22 C0.n10 294.021
+R818 C0.n4 C0.t23 294.021
+R819 C0.n5 C0.t19 282.774
+R820 C0.t11 C0.n5 282.774
+R821 C0.n1 C0.t8 208.868
+R822 C0.n2 C0.t24 208.868
+R823 C0.n11 C0.t23 204.048
+R824 C0.n13 C0.n12 202.889
+R825 C0.n18 C0.n0 198.79
+R826 C0.n11 C0.t22 186.374
+R827 C0.n1 C0.t12 184.768
+R828 C0.n2 C0.t9 184.768
+R829 C0.n9 C0.n8 173.625
+R830 C0.n14 C0.n3 163.74
+R831 C0.n8 C0.n6 163.535
+R832 C0.n8 C0.n7 161.3
+R833 C0.n7 C0.t13 138.613
+R834 C0.n6 C0.t7 138.613
+R835 C0.n5 C0.t14 138.173
+R836 C0.n4 C0.t21 118.894
+R837 C0.n10 C0.t17 118.894
+R838 C0.n3 C0.n1 55.5035
+R839 C0.n12 C0.t5 42.8576
+R840 C0.n12 C0.t4 42.8576
+R841 C0.n0 C0.t1 42.8576
+R842 C0.n0 C0.t0 42.8576
+R843 C0.n10 C0.n9 40.1672
+R844 C0.n9 C0.n4 40.1672
+R845 C0.n16 C0.t3 35.1791
+R846 C0.n16 C0.t2 35.1791
+R847 C0.n3 C0.n2 10.2247
+R848 C0.n14 C0.n13 8.08637
+R849 C0.n17 C0.n15 1.46445
+R850 C0 C0.n18 0.0385435
+R851 C0.n18 C0.n17 0.0331087
+R852 C0.n15 C0.n14 0.00239394
+R853 S1.n9 S1.t4 356.022
+R854 S1.n3 S1.n1 307.435
+R855 S1.n7 S1.n0 307.12
+R856 S1.n5 S1.t7 239.834
+R857 S1.n3 S1.n2 210.998
+R858 S1.n5 S1.n4 196.974
+R859 S1.n4 S1.t8 42.8576
+R860 S1.n4 S1.t9 42.8576
+R861 S1.n2 S1.t2 42.8576
+R862 S1.n2 S1.t3 42.8576
+R863 S1.n0 S1.t5 35.1791
+R864 S1.n0 S1.t6 35.1791
+R865 S1.n1 S1.t0 35.1791
+R866 S1.n1 S1.t1 35.1791
+R867 S1 S1.n9 9.9577
+R868 S1.n6 S1.n3 5.44558
+R869 S1.n6 S1.n5 0.908588
+R870 S1.n9 S1.n8 0.667213
+R871 S1.n7 S1.n6 0.261529
+R872 S1 S1.n7 0.245971
+R873 B1.t5 B1.t11 1266.05
+R874 B1.t4 B1.t1 499.673
+R875 B1.t0 B1.t16 499.673
+R876 B1.t15 B1.t14 499.673
+R877 B1.t11 B1.t13 499.673
+R878 B1.t7 B1.t4 420.947
+R879 B1.n2 B1.n1 377.252
+R880 B1.n1 B1.t7 313.738
+R881 B1.n0 B1.t0 284.38
+R882 B1.t13 B1.n0 284.38
+R883 B1.n2 B1.t9 215.293
+R884 B1.n3 B1.t12 215.293
+R885 B1.n5 B1.t2 215.293
+R886 B1.n6 B1.t6 215.293
+R887 B1.n2 B1.t8 197.62
+R888 B1.n3 B1.t10 197.62
+R889 B1.n5 B1.t17 197.62
+R890 B1.n6 B1.t3 197.62
+R891 B1.n9 B1.n4 167.452
+R892 B1.n8 B1.n7 164.992
+R893 B1.n0 B1.t15 139.78
+R894 B1.n1 B1.t5 138.613
+R895 B1.n4 B1.n3 41.0598
+R896 B1.n7 B1.n5 40.1672
+R897 B1.n7 B1.n6 40.1672
+R898 B1.n4 B1.n2 39.2746
+R899 B1.n9 B1.n8 10.4135
+R900 B1 B1.n9 0.0113696
+R901 A0.t13 A0.t9 892.736
+R902 A0.t0 A0.t10 832.254
+R903 A0.n5 A0.n4 732.64
+R904 A0.n4 A0.t2 633.028
+R905 A0.t9 A0.n5 633.028
+R906 A0.t8 A0.t6 499.673
+R907 A0.t15 A0.t12 499.673
+R908 A0.t16 A0.t1 499.673
+R909 A0.t4 A0.t7 499.673
+R910 A0.t10 A0.t13 499.673
+R911 A0.n3 A0.n2 497.31
+R912 A0.n1 A0.t15 281.568
+R913 A0.n1 A0.t8 279.962
+R914 A0.n6 A0.t3 273.837
+R915 A0.t2 A0.n3 247.865
+R916 A0.n2 A0.t11 238.226
+R917 A0.n2 A0.t14 214.125
+R918 A0.n3 A0.t5 204.486
+R919 A0.n4 A0.t16 199.227
+R920 A0.n5 A0.t4 199.227
+R921 A0.n6 A0.t0 166.19
+R922 A0.n7 A0.n6 152
+R923 A0.t14 A0.n1 134.96
+R924 A0 A0.n7 9.31902
+R925 A0.n7 A0.n0 1.8968
+R926 A2.t3 A2.t0 892.736
+R927 A2.t6 A2.t1 832.254
+R928 A2.n5 A2.n4 732.64
+R929 A2.n4 A2.t2 633.028
+R930 A2.t0 A2.n5 633.028
+R931 A2.t15 A2.t11 499.673
+R932 A2.t13 A2.t9 499.673
+R933 A2.t10 A2.t14 499.673
+R934 A2.t12 A2.t16 499.673
+R935 A2.t1 A2.t3 499.673
+R936 A2.n3 A2.n2 497.31
+R937 A2.n1 A2.t13 281.568
+R938 A2.n1 A2.t15 279.962
+R939 A2.n6 A2.t8 273.837
+R940 A2.t2 A2.n3 247.865
+R941 A2.n2 A2.t5 238.226
+R942 A2.n2 A2.t7 214.125
+R943 A2.n3 A2.t4 204.486
+R944 A2.n4 A2.t10 199.227
+R945 A2.n5 A2.t12 199.227
+R946 A2.n6 A2.t6 166.19
+R947 A2.n7 A2.n6 152
+R948 A2.t7 A2.n1 134.96
+R949 A2 A2.n7 9.31186
+R950 A2.n7 A2.n0 1.16414
+R951 S0.n1 S0.t7 356.351
+R952 S0.n5 S0.n3 307.435
+R953 S0.n9 S0.n2 307.12
+R954 S0.n7 S0.t6 239.834
+R955 S0.n5 S0.n4 210.998
+R956 S0.n7 S0.n6 196.974
+R957 S0.n6 S0.t4 42.8576
+R958 S0.n6 S0.t5 42.8576
+R959 S0.n4 S0.t3 42.8576
+R960 S0.n4 S0.t2 42.8576
+R961 S0.n2 S0.t8 35.1791
+R962 S0.n2 S0.t9 35.1791
+R963 S0.n3 S0.t0 35.1791
+R964 S0.n3 S0.t1 35.1791
+R965 S0 S0.n1 9.67283
+R966 S0.n8 S0.n5 5.44558
+R967 S0.n8 S0.n7 0.908588
+R968 S0.n1 S0.n0 0.334414
+R969 S0.n9 S0.n8 0.261529
+R970 S0 S0.n9 0.202493
+R971 A1.t16 A1.t13 892.736
+R972 A1.t2 A1.t14 832.254
+R973 A1.n5 A1.n4 732.64
+R974 A1.n4 A1.t15 633.028
+R975 A1.t13 A1.n5 633.028
+R976 A1.t11 A1.t7 499.673
+R977 A1.t9 A1.t4 499.673
+R978 A1.t5 A1.t10 499.673
+R979 A1.t8 A1.t12 499.673
+R980 A1.t14 A1.t16 499.673
+R981 A1.n3 A1.n2 497.31
+R982 A1.n1 A1.t9 281.568
+R983 A1.n1 A1.t11 279.962
+R984 A1.n6 A1.t6 273.837
+R985 A1.t15 A1.n3 247.865
+R986 A1.n2 A1.t1 238.226
+R987 A1.n2 A1.t3 214.125
+R988 A1.n3 A1.t0 204.486
+R989 A1.n4 A1.t5 199.227
+R990 A1.n5 A1.t8 199.227
+R991 A1.n6 A1.t2 166.19
+R992 A1.n7 A1.n6 152
+R993 A1.t3 A1.n1 134.96
+R994 A1 A1.n7 9.30997
+R995 A1.n7 A1.n0 0.970197
+R996 S6.n0 S6.t2 356.678
+R997 S6.n4 S6.n2 307.435
+R998 S6.n8 S6.n1 307.12
+R999 S6.n6 S6.t5 239.834
+R1000 S6.n4 S6.n3 210.998
+R1001 S6.n6 S6.n5 196.974
+R1002 S6.n5 S6.t3 42.8576
+R1003 S6.n5 S6.t4 42.8576
+R1004 S6.n3 S6.t8 42.8576
+R1005 S6.n3 S6.t9 42.8576
+R1006 S6.n1 S6.t0 35.1791
+R1007 S6.n1 S6.t1 35.1791
+R1008 S6.n2 S6.t6 35.1791
+R1009 S6.n2 S6.t7 35.1791
+R1010 S6 S6.n0 9.31409
+R1011 S6.n7 S6.n4 5.44558
+R1012 S6.n7 S6.n6 0.908588
+R1013 S6.n8 S6.n7 0.261529
+R1014 S6 S6.n8 0.232384
+R1015 A3.t2 A3.t16 892.736
+R1016 A3.t11 A3.t6 832.254
+R1017 A3.n5 A3.n4 732.64
+R1018 A3.n4 A3.t10 633.028
+R1019 A3.t16 A3.n5 633.028
+R1020 A3.t3 A3.t7 499.673
+R1021 A3.t0 A3.t4 499.673
+R1022 A3.t5 A3.t1 499.673
+R1023 A3.t13 A3.t12 499.673
+R1024 A3.t6 A3.t2 499.673
+R1025 A3.n3 A3.n2 497.31
+R1026 A3.n1 A3.t0 281.568
+R1027 A3.n1 A3.t3 279.962
+R1028 A3.n6 A3.t9 273.837
+R1029 A3.t10 A3.n3 247.865
+R1030 A3.n2 A3.t15 238.226
+R1031 A3.n2 A3.t14 214.125
+R1032 A3.n3 A3.t8 204.486
+R1033 A3.n4 A3.t5 199.227
+R1034 A3.n5 A3.t13 199.227
+R1035 A3.n6 A3.t11 166.19
+R1036 A3.n7 A3.n6 152
+R1037 A3.t14 A3.n1 134.96
+R1038 A3 A3.n7 9.31376
+R1039 A3.n7 A3.n0 1.35808
+R1040 S3.n1 S3.t3 356.241
+R1041 S3.n5 S3.n3 307.435
+R1042 S3.n9 S3.n2 307.12
+R1043 S3.n7 S3.t2 239.834
+R1044 S3.n5 S3.n4 210.998
+R1045 S3.n7 S3.n6 196.974
+R1046 S3.n6 S3.t0 42.8576
+R1047 S3.n6 S3.t1 42.8576
+R1048 S3.n4 S3.t8 42.8576
+R1049 S3.n4 S3.t9 42.8576
+R1050 S3.n2 S3.t4 35.1791
+R1051 S3.n2 S3.t5 35.1791
+R1052 S3.n3 S3.t6 35.1791
+R1053 S3.n3 S3.t7 35.1791
+R1054 S3 S3.n1 9.76869
+R1055 S3.n8 S3.n5 5.44558
+R1056 S3.n8 S3.n7 0.908588
+R1057 S3.n1 S3.n0 0.445415
+R1058 S3.n9 S3.n8 0.261529
+R1059 S3 S3.n9 0.21608
+R1060 A4.t11 A4.t3 892.736
+R1061 A4.t14 A4.t7 832.254
+R1062 A4.n5 A4.n4 732.64
+R1063 A4.n4 A4.t13 633.028
+R1064 A4.t3 A4.n5 633.028
+R1065 A4.t12 A4.t8 499.673
+R1066 A4.t9 A4.t4 499.673
+R1067 A4.t6 A4.t10 499.673
+R1068 A4.t0 A4.t1 499.673
+R1069 A4.t7 A4.t11 499.673
+R1070 A4.n3 A4.n2 497.31
+R1071 A4.n1 A4.t9 281.568
+R1072 A4.n1 A4.t12 279.962
+R1073 A4.n6 A4.t16 273.837
+R1074 A4.t13 A4.n3 247.865
+R1075 A4.n2 A4.t2 238.226
+R1076 A4.n2 A4.t5 214.125
+R1077 A4.n3 A4.t15 204.486
+R1078 A4.n4 A4.t6 199.227
+R1079 A4.n5 A4.t0 199.227
+R1080 A4.n6 A4.t14 166.19
+R1081 A4.n7 A4.n6 152
+R1082 A4.t5 A4.n1 134.96
+R1083 A4 A4.n7 9.31207
+R1084 A4.n7 A4.n0 1.18569
+R1085 B2.t9 B2.t15 1266.05
+R1086 B2.t7 B2.t5 499.673
+R1087 B2.t3 B2.t2 499.673
+R1088 B2.t1 B2.t0 499.673
+R1089 B2.t15 B2.t17 499.673
+R1090 B2.t11 B2.t7 420.947
+R1091 B2.n2 B2.n1 377.252
+R1092 B2.n1 B2.t11 313.738
+R1093 B2.n0 B2.t3 284.38
+R1094 B2.t17 B2.n0 284.38
+R1095 B2.n2 B2.t13 215.293
+R1096 B2.n3 B2.t16 215.293
+R1097 B2.n5 B2.t6 215.293
+R1098 B2.n6 B2.t10 215.293
+R1099 B2.n2 B2.t12 197.62
+R1100 B2.n3 B2.t14 197.62
+R1101 B2.n5 B2.t4 197.62
+R1102 B2.n6 B2.t8 197.62
+R1103 B2.n9 B2.n4 167.452
+R1104 B2.n8 B2.n7 164.992
+R1105 B2.n0 B2.t1 139.78
+R1106 B2.n1 B2.t9 138.613
+R1107 B2.n4 B2.n3 41.0598
+R1108 B2.n7 B2.n5 40.1672
+R1109 B2.n7 B2.n6 40.1672
+R1110 B2.n4 B2.n2 39.2746
+R1111 B2.n9 B2.n8 10.4135
+R1112 B2 B2.n9 0.0113696
+R1113 A6.t11 A6.t10 892.736
+R1114 A6.t1 A6.t13 832.254
+R1115 A6.n5 A6.n4 732.64
+R1116 A6.n4 A6.t14 633.028
+R1117 A6.t10 A6.n5 633.028
+R1118 A6.t4 A6.t8 499.673
+R1119 A6.t2 A6.t5 499.673
+R1120 A6.t7 A6.t3 499.673
+R1121 A6.t9 A6.t6 499.673
+R1122 A6.t13 A6.t11 499.673
+R1123 A6.n3 A6.n2 497.31
+R1124 A6.n1 A6.t2 281.568
+R1125 A6.n1 A6.t4 279.962
+R1126 A6.n6 A6.t16 273.837
+R1127 A6.t14 A6.n3 247.865
+R1128 A6.n2 A6.t0 238.226
+R1129 A6.n2 A6.t15 214.125
+R1130 A6.n3 A6.t12 204.486
+R1131 A6.n4 A6.t7 199.227
+R1132 A6.n5 A6.t9 199.227
+R1133 A6.n6 A6.t1 166.19
+R1134 A6.n7 A6.n6 152
+R1135 A6.t15 A6.n1 134.96
+R1136 A6 A6.n7 9.31439
+R1137 A6.n7 A6.n0 1.42272
+R1138 B6.t17 B6.t5 1266.05
+R1139 B6.t11 B6.t13 499.673
+R1140 B6.t8 B6.t9 499.673
+R1141 B6.t6 B6.t7 499.673
+R1142 B6.t5 B6.t3 499.673
+R1143 B6.t15 B6.t11 420.947
+R1144 B6.n2 B6.n1 377.252
+R1145 B6.n1 B6.t15 313.738
+R1146 B6.n0 B6.t8 284.38
+R1147 B6.t3 B6.n0 284.38
+R1148 B6.n2 B6.t0 215.293
+R1149 B6.n3 B6.t2 215.293
+R1150 B6.n5 B6.t10 215.293
+R1151 B6.n6 B6.t14 215.293
+R1152 B6.n2 B6.t1 197.62
+R1153 B6.n3 B6.t4 197.62
+R1154 B6.n5 B6.t12 197.62
+R1155 B6.n6 B6.t16 197.62
+R1156 B6.n9 B6.n4 167.452
+R1157 B6.n8 B6.n7 164.714
+R1158 B6.n0 B6.t6 139.78
+R1159 B6.n1 B6.t17 138.613
+R1160 B6.n4 B6.n3 41.0598
+R1161 B6.n7 B6.n5 40.1672
+R1162 B6.n7 B6.n6 40.1672
+R1163 B6.n4 B6.n2 39.2746
+R1164 B6.n9 B6.n8 10.6918
+R1165 B6 B6.n9 0.014087
+R1166 S2.n1 S2.t4 356.132
+R1167 S2.n5 S2.n3 307.435
+R1168 S2.n9 S2.n2 307.12
+R1169 S2.n7 S2.t7 239.834
+R1170 S2.n5 S2.n4 210.998
+R1171 S2.n7 S2.n6 196.974
+R1172 S2.n6 S2.t8 42.8576
+R1173 S2.n6 S2.t9 42.8576
+R1174 S2.n4 S2.t3 42.8576
+R1175 S2.n4 S2.t2 42.8576
+R1176 S2.n2 S2.t5 35.1791
+R1177 S2.n2 S2.t6 35.1791
+R1178 S2.n3 S2.t1 35.1791
+R1179 S2.n3 S2.t0 35.1791
+R1180 S2 S2.n1 9.87814
+R1181 S2.n8 S2.n5 5.44558
+R1182 S2.n8 S2.n7 0.908588
+R1183 S2.n1 S2.n0 0.556348
+R1184 S2.n9 S2.n8 0.261529
+R1185 S2 S2.n9 0.21608
+R1186 B3.t16 B3.t4 1266.05
+R1187 B3.t13 B3.t14 499.673
+R1188 B3.t11 B3.t12 499.673
+R1189 B3.t7 B3.t9 499.673
+R1190 B3.t4 B3.t1 499.673
+R1191 B3.t15 B3.t13 420.947
+R1192 B3.n2 B3.n1 377.252
+R1193 B3.n1 B3.t15 313.738
+R1194 B3.n0 B3.t11 284.38
+R1195 B3.t1 B3.n0 284.38
+R1196 B3.n2 B3.t17 215.293
+R1197 B3.n3 B3.t2 215.293
+R1198 B3.n5 B3.t3 215.293
+R1199 B3.n6 B3.t8 215.293
+R1200 B3.n2 B3.t0 197.62
+R1201 B3.n3 B3.t5 197.62
+R1202 B3.n5 B3.t6 197.62
+R1203 B3.n6 B3.t10 197.62
+R1204 B3.n9 B3.n4 167.452
+R1205 B3.n8 B3.n7 164.992
+R1206 B3.n0 B3.t7 139.78
+R1207 B3.n1 B3.t16 138.613
+R1208 B3.n4 B3.n3 41.0598
+R1209 B3.n7 B3.n5 40.1672
+R1210 B3.n7 B3.n6 40.1672
+R1211 B3.n4 B3.n2 39.2746
+R1212 B3.n9 B3.n8 10.4135
+R1213 B3 B3.n9 0.0113696
+R1214 S4.n1 S4.t4 356.351
+R1215 S4.n5 S4.n3 307.435
+R1216 S4.n9 S4.n2 307.12
+R1217 S4.n7 S4.t8 239.834
+R1218 S4.n5 S4.n4 210.998
+R1219 S4.n7 S4.n6 196.974
+R1220 S4.n6 S4.t9 42.8576
+R1221 S4.n6 S4.t7 42.8576
+R1222 S4.n4 S4.t2 42.8576
+R1223 S4.n4 S4.t3 42.8576
+R1224 S4.n2 S4.t5 35.1791
+R1225 S4.n2 S4.t6 35.1791
+R1226 S4.n3 S4.t0 35.1791
+R1227 S4.n3 S4.t1 35.1791
+R1228 S4 S4.n1 9.64022
+R1229 S4.n8 S4.n5 5.44558
+R1230 S4.n8 S4.n7 0.908588
+R1231 S4.n1 S4.n0 0.334414
+R1232 S4.n9 S4.n8 0.261529
+R1233 S4 S4.n9 0.235101
+R1234 C7.n5 C7.n4 314.253
+R1235 C7.n7 C7.n6 313.875
+R1236 C7.n0 C7.t10 208.868
+R1237 C7.n1 C7.t8 208.868
+R1238 C7 C7.n9 202.951
+R1239 C7.n5 C7.n3 198.821
+R1240 C7.n0 C7.t11 184.768
+R1241 C7.n1 C7.t9 184.768
+R1242 C7.n8 C7.n2 163.74
+R1243 C7.n2 C7.n0 55.5035
+R1244 C7.n3 C7.t3 42.8576
+R1245 C7.n3 C7.t2 42.8576
+R1246 C7.n9 C7.t6 42.8576
+R1247 C7.n9 C7.t7 42.8576
+R1248 C7.n6 C7.t5 35.1791
+R1249 C7.n6 C7.t4 35.1791
+R1250 C7.n4 C7.t1 35.1791
+R1251 C7.n4 C7.t0 35.1791
+R1252 C7.n2 C7.n1 10.2247
+R1253 C7 C7.n8 8.02546
+R1254 C7.n7 C7.n5 1.46445
+R1255 C7.n8 C7.n7 0.00239394
+R1256 B4.t0 B4.t6 1266.05
+R1257 B4.t1 B4.t17 499.673
+R1258 B4.t16 B4.t14 499.673
+R1259 B4.t13 B4.t10 499.673
+R1260 B4.t6 B4.t8 499.673
+R1261 B4.t2 B4.t1 420.947
+R1262 B4.n2 B4.n1 377.252
+R1263 B4.n1 B4.t2 313.738
+R1264 B4.n0 B4.t16 284.38
+R1265 B4.t8 B4.n0 284.38
+R1266 B4.n2 B4.t4 215.293
+R1267 B4.n3 B4.t9 215.293
+R1268 B4.n5 B4.t12 215.293
+R1269 B4.n6 B4.t15 215.293
+R1270 B4.n2 B4.t3 197.62
+R1271 B4.n3 B4.t5 197.62
+R1272 B4.n5 B4.t7 197.62
+R1273 B4.n6 B4.t11 197.62
+R1274 B4.n9 B4.n4 167.452
+R1275 B4.n8 B4.n7 164.992
+R1276 B4.n0 B4.t13 139.78
+R1277 B4.n1 B4.t0 138.613
+R1278 B4.n4 B4.n3 41.0598
+R1279 B4.n7 B4.n5 40.1672
+R1280 B4.n7 B4.n6 40.1672
+R1281 B4.n4 B4.n2 39.2746
+R1282 B4.n9 B4.n8 10.4135
+R1283 B4 B4.n9 0.0113696
+R1284 S5.n1 S5.t4 356.351
+R1285 S5.n5 S5.n3 307.435
+R1286 S5.n9 S5.n2 307.12
+R1287 S5.n7 S5.t7 239.834
+R1288 S5.n5 S5.n4 210.998
+R1289 S5.n7 S5.n6 196.974
+R1290 S5.n6 S5.t8 42.8576
+R1291 S5.n6 S5.t9 42.8576
+R1292 S5.n4 S5.t0 42.8576
+R1293 S5.n4 S5.t1 42.8576
+R1294 S5.n2 S5.t5 35.1791
+R1295 S5.n2 S5.t6 35.1791
+R1296 S5.n3 S5.t2 35.1791
+R1297 S5.n3 S5.t3 35.1791
+R1298 S5 S5.n1 9.6375
+R1299 S5.n8 S5.n5 5.44558
+R1300 S5.n8 S5.n7 0.908588
+R1301 S5.n1 S5.n0 0.334414
+R1302 S5.n9 S5.n8 0.261529
+R1303 S5 S5.n9 0.237819
+R1304 B5.t3 B5.t12 1266.05
+R1305 B5.t2 B5.t1 499.673
+R1306 B5.t0 B5.t17 499.673
+R1307 B5.t16 B5.t15 499.673
+R1308 B5.t12 B5.t14 499.673
+R1309 B5.t5 B5.t2 420.947
+R1310 B5.n2 B5.n1 377.252
+R1311 B5.n1 B5.t5 313.738
+R1312 B5.n0 B5.t0 284.38
+R1313 B5.t14 B5.n0 284.38
+R1314 B5.n2 B5.t10 215.293
+R1315 B5.n3 B5.t13 215.293
+R1316 B5.n5 B5.t7 215.293
+R1317 B5.n6 B5.t9 215.293
+R1318 B5.n2 B5.t8 197.62
+R1319 B5.n3 B5.t11 197.62
+R1320 B5.n5 B5.t4 197.62
+R1321 B5.n6 B5.t6 197.62
+R1322 B5.n9 B5.n4 167.452
+R1323 B5.n8 B5.n7 164.992
+R1324 B5.n0 B5.t16 139.78
+R1325 B5.n1 B5.t3 138.613
+R1326 B5.n4 B5.n3 41.0598
+R1327 B5.n7 B5.n5 40.1672
+R1328 B5.n7 B5.n6 40.1672
+R1329 B5.n4 B5.n2 39.2746
+R1330 B5.n9 B5.n8 10.4135
+R1331 B5 B5.n9 0.0113696
+R1332 A5.t2 A5.t16 892.736
+R1333 A5.t8 A5.t1 832.254
+R1334 A5.n5 A5.n4 732.64
+R1335 A5.n4 A5.t15 633.028
+R1336 A5.t16 A5.n5 633.028
+R1337 A5.t11 A5.t7 499.673
+R1338 A5.t9 A5.t5 499.673
+R1339 A5.t6 A5.t10 499.673
+R1340 A5.t13 A5.t14 499.673
+R1341 A5.t1 A5.t2 499.673
+R1342 A5.n3 A5.n2 497.31
+R1343 A5.n1 A5.t9 281.568
+R1344 A5.n1 A5.t11 279.962
+R1345 A5.n6 A5.t12 273.837
+R1346 A5.t15 A5.n3 247.865
+R1347 A5.n2 A5.t3 238.226
+R1348 A5.n2 A5.t4 214.125
+R1349 A5.n3 A5.t0 204.486
+R1350 A5.n4 A5.t6 199.227
+R1351 A5.n5 A5.t13 199.227
+R1352 A5.n6 A5.t8 166.19
+R1353 A5.n7 A5.n6 152
+R1354 A5.t4 A5.n1 134.96
+R1355 A5 A5.n7 9.31439
+R1356 A5.n7 A5.n0 1.42272
+R1357 S7.n1 S7.t7 356.461
+R1358 S7.n5 S7.n3 307.435
+R1359 S7.n9 S7.n2 307.12
+R1360 S7.n7 S7.t5 239.834
+R1361 S7.n5 S7.n4 210.998
+R1362 S7.n7 S7.n6 196.974
+R1363 S7.n6 S7.t6 42.8576
+R1364 S7.n6 S7.t4 42.8576
+R1365 S7.n4 S7.t0 42.8576
+R1366 S7.n4 S7.t1 42.8576
+R1367 S7.n2 S7.t8 35.1791
+R1368 S7.n2 S7.t9 35.1791
+R1369 S7.n3 S7.t2 35.1791
+R1370 S7.n3 S7.t3 35.1791
+R1371 S7 S7.n1 9.53892
+R1372 S7.n8 S7.n5 5.44558
+R1373 S7.n8 S7.n7 0.908588
+R1374 S7.n9 S7.n8 0.261529
+R1375 S7 S7.n9 0.226949
+R1376 S7.n1 S7.n0 0.223344
+C0 a_1134_n2716# S1 1.37e-22
+C1 a_1133_n5405# DVDDD 0.244886f
+C2 a_414_n6257# a_414_n6526# 0.010395f
+C3 A6 a_n673_n5405# 0.010976f
+C4 a_n671_n4808# DVDDD 0.008319f
+C5 A0 a_n673_n1301# 1.47e-19
+C6 a_1133_n1032# a_1406_n412# 9.19e-20
+C7 B6 a_n312_n6257# 5.51e-20
+C8 B0 a_1403_n1301# 1.5e-21
+C9 a_1136_n143# A0 0.046872f
+C10 a_n673_n5674# C7 1.14e-19
+C11 a_414_n3687# a_1404_n3687# 8.84e-19
+C12 a_1403_n5405# a_n581_n4808# 0.044764f
+C13 a_n313_n2133# w_n825_n2794# 0.00262f
+C14 S6 a_415_n4808# 6.49e-19
+C15 a_n310_n412# B2 8.92e-22
+C16 A1 a_413_n1032# 0.057537f
+C17 B0 a_n310_n143# 0.035446f
+C18 B2 a_n313_n1864# 0.035446f
+C19 B3 a_n582_n2985# 0.66671f
+C20 a_n671_n4808# a_n311_n4808# 0.011769f
+C21 w_n825_n3765# a_1404_n3956# 0.004048f
+C22 a_415_n4808# a_1135_n4808# 0.002301f
+C23 w_n825_n3765# a_1405_n4539# 1.57e-20
+C24 a_1133_n1864# a_1133_n1301# 0.010392f
+C25 a_n313_n1864# a_n583_n2133# 0.361721f
+C26 a_n310_n412# a_n583_n2133# 9.2e-22
+C27 a_413_n5405# a_414_n3956# 4.17e-20
+C28 B7 a_1134_n6257# 0.026227f
+C29 a_1404_n2985# w_n825_n3765# 0.001089f
+C30 a_1404_n2716# a_n582_n2985# 2.7e-19
+C31 A2 a_n582_n2985# 0.007233f
+C32 a_1133_n2133# w_n825_n2794# 0.001599f
+C33 w_n825_n3765# a_n312_n3687# 0.017118f
+C34 a_414_n6257# a_n672_n6257# 1.04e-19
+C35 A5 a_414_n3956# 2.54e-19
+C36 a_1134_n3956# a_1404_n3687# 7.58e-20
+C37 a_416_n412# S1 6.03e-19
+C38 B4 a_1134_n3687# 0.026227f
+C39 w_n826_n1942# B2 0.485026f
+C40 w_n826_n5483# B5 0.011576f
+C41 A3 w_n825_n2794# 0.454429f
+C42 A6 a_1133_n5674# 0.029345f
+C43 w_n824_n4617# a_415_n4808# 0.003723f
+C44 w_n826_n1942# a_n583_n2133# 0.154689f
+C45 a_1133_n5674# a_1134_n6526# 6.69e-21
+C46 a_1406_n143# DVDDD 0.270678f
+C47 a_n313_n1301# a_1133_n1301# 1.53e-20
+C48 a_1406_n143# C0 2.94e-19
+C49 a_416_n412# a_1406_n412# 0.004587f
+C50 a_n582_n3956# A6 0.004321f
+C51 A0 a_1136_n412# 0.029345f
+C52 B6 a_413_n5674# 0.148384f
+C53 S6 a_n313_n5674# 0.00267f
+C54 a_n582_n2985# a_n672_n2716# 0.198337f
+C55 a_1134_n3687# a_1135_n4539# 1.29e-20
+C56 a_1133_n5674# S7 2.35e-21
+C57 A3 a_414_n3956# 1.05e-19
+C58 B2 a_n312_n2716# 5.51e-20
+C59 a_n671_n4808# a_n673_n5405# 0.006951f
+C60 DVDDD a_n312_n6257# 0.339281f
+C61 a_n312_n3687# a_414_n3687# 0.002945f
+C62 a_1405_n4808# a_n581_n4808# 6.53e-19
+C63 a_n312_n2716# a_n583_n2133# 0.027138f
+C64 DVDDD a_1134_n3687# 0.244885f
+C65 a_1403_n5405# B5 7.11e-20
+C66 A7 a_n312_n6257# 0.01459f
+C67 a_n582_n3956# S7 1.12e-21
+C68 a_n670_n143# B0 0.030342f
+C69 a_1134_n2985# a_1403_n2133# 5.65e-22
+C70 B0 B2 4.43e-21
+C71 w_n825_n3765# a_n673_n2133# 2.65e-21
+C72 a_1134_n3956# a_1404_n3956# 0.156396f
+C73 a_n311_n4808# a_n312_n6257# 4.56e-20
+C74 S5 S6 0.025703f
+C75 A0 a_413_n1301# 1.37e-19
+C76 A6 a_n312_n6526# 1.81e-19
+C77 A4 a_414_n2985# 1.07e-19
+C78 a_1134_n3956# a_1405_n4539# 1.02e-19
+C79 a_1136_n143# a_1406_n412# 5.21e-20
+C80 S3 a_1134_n2985# 0.018056f
+C81 a_1403_n1032# a_n583_n1301# 2.98e-19
+C82 B0 a_n583_n2133# 5.51e-22
+C83 a_n312_n6526# a_1134_n6526# 1.53e-20
+C84 S5 a_1135_n4808# 0.018056f
+C85 DVDDD a_1403_n1032# 0.250064f
+C86 C0 a_1403_n1032# 0.044764f
+C87 a_413_n2133# w_n825_n2794# 0.002868f
+C88 A1 a_1133_n1032# 0.046872f
+C89 B2 a_413_n1864# 0.02661f
+C90 a_415_n4539# S6 2.25e-21
+C91 S2 a_n313_n2133# 0.00267f
+C92 S6 a_1404_n6257# 1.06e-19
+C93 B6 a_n672_n6526# 3.64e-22
+C94 a_413_n1864# a_n583_n2133# 0.048815f
+C95 a_1133_n5405# a_1133_n5674# 0.013269f
+C96 a_1133_n1864# a_1403_n1301# 1.14e-19
+C97 a_n310_n412# a_n313_n1864# 6.1e-21
+C98 a_415_n4808# a_414_n3956# 3.79e-20
+C99 w_n825_n3765# a_n313_n5405# 2.19e-21
+C100 a_1404_n6257# a_1135_n4808# 3.75e-22
+C101 a_n312_n6526# S7 0.00267f
+C102 B5 a_n583_n2133# 1.75e-22
+C103 A4 B6 1.22e-21
+C104 a_n672_n3687# a_n312_n3687# 0.011804f
+C105 a_414_n6257# S5 8.57e-22
+C106 B7 A6 0.014285f
+C107 a_1134_n2716# a_1403_n2133# 1.05e-19
+C108 w_n824_n4617# S5 0.067066f
+C109 a_n311_n4539# a_n583_n2133# 3.17e-22
+C110 a_1133_n5405# a_n582_n3956# 5.1e-21
+C111 B3 a_1134_n2985# 0.024012f
+C112 w_n826_n1110# a_n583_n1301# 0.154729f
+C113 S1 a_1136_n412# 6.24e-21
+C114 B7 a_1134_n6526# 0.024012f
+C115 DVDDD w_n826_n1110# 0.240884f
+C116 DVDDD a_413_n5674# 8.8e-19
+C117 a_1133_n2133# S2 0.018056f
+C118 a_1134_n2716# S3 0.257103f
+C119 C0 w_n826_n1110# 0.398389f
+C120 a_1403_n5405# a_1404_n3687# 1.63e-21
+C121 w_n826_n1942# a_n313_n1864# 0.017118f
+C122 a_n310_n412# w_n826_n1942# 9.76e-21
+C123 A4 a_n671_n4539# 0.001177f
+C124 a_n673_n5674# B6 0.048442f
+C125 a_416_n143# A0 0.057537f
+C126 A7 a_413_n5674# 2.54e-19
+C127 A3 S2 4.62e-22
+C128 a_415_n4539# w_n824_n4617# 0.020077f
+C129 a_1404_n2716# a_1134_n2985# 7.58e-20
+C130 a_414_n6257# a_1404_n6257# 8.84e-19
+C131 B6 C7 1e-19
+C132 w_n824_n4617# a_n312_n3956# 0.00262f
+C133 w_n826_n5483# a_1404_n3956# 3.33e-21
+C134 A4 B4 0.617882f
+C135 w_n826_n5483# a_1405_n4539# 1.91e-21
+C136 B7 S7 0.175239f
+C137 B5 a_1405_n4808# 0.026779f
+C138 a_1136_n412# a_1406_n412# 0.156396f
+C139 a_n582_n2985# a_414_n2716# 0.048815f
+C140 S1 S2 0.027578f
+C141 S1 a_413_n1301# 0.128505f
+C142 a_n250_n452# a_n313_n1032# 0.001412f
+C143 a_416_n412# A1 5.15e-19
+C144 a_n670_n412# a_n583_n1301# 9.94e-20
+C145 DVDDD a_n670_n412# 0.006234f
+C146 a_1134_n2716# B3 0.026227f
+C147 C0 a_n670_n412# 0.093464f
+C148 a_1404_n2716# a_1133_n1032# 8.79e-23
+C149 a_413_n5405# w_n825_n3765# 1.14e-21
+C150 a_n312_n2716# a_n313_n1864# 1.35e-20
+C151 A4 a_1135_n4539# 7.26e-20
+C152 a_1404_n3687# a_n583_n2133# 5.93e-20
+C153 a_n672_n3687# a_n673_n2133# 2.08e-21
+C154 B1 a_n583_n1301# 0.670102f
+C155 B1 DVDDD 0.083802f
+C156 a_n250_n452# S0 0.428555f
+C157 S2 a_1406_n412# 8.04e-22
+C158 B1 C0 0.513102f
+C159 w_n825_n3765# a_n313_n2133# 5.3e-21
+C160 DVDDD a_n672_n6526# 1.18e-20
+C161 w_n825_n3765# A5 5.11e-19
+C162 a_1134_n2716# a_1404_n2716# 0.237529f
+C163 w_n824_n4617# a_n672_n3956# 0.001745f
+C164 a_n310_n412# B0 0.098084f
+C165 a_n673_n1864# a_n583_n1301# 3.74e-20
+C166 a_1134_n6257# S6 9.16e-22
+C167 a_1134_n2716# A2 7.26e-20
+C168 a_n312_n2985# B2 3.36e-22
+C169 a_1403_n5405# a_1404_n3956# 6.48e-20
+C170 DVDDD a_n673_n1864# 0.181347f
+C171 a_1403_n5405# a_1405_n4539# 2.3e-20
+C172 a_1403_n5674# w_n825_n6335# 0.001678f
+C173 A4 DVDDD 0.216112f
+C174 A7 a_n672_n6526# 0.024614f
+C175 a_1134_n6257# a_1135_n4808# 4.34e-20
+C176 S5 a_414_n3956# 6.79e-19
+C177 a_1403_n2133# w_n825_n2794# 0.001678f
+C178 a_n312_n2985# a_n583_n2133# 0.038714f
+C179 A1 a_n673_n1301# 0.024614f
+C180 B2 a_1133_n1864# 0.026227f
+C181 a_1133_n5405# B7 1.06e-19
+C182 w_n826_n1942# a_n312_n2716# 1.57e-20
+C183 w_n825_n3765# a_1133_n2133# 2.57e-21
+C184 S2 a_413_n2133# 0.128505f
+C185 S3 w_n825_n2794# 0.067066f
+C186 a_1133_n1864# a_n583_n2133# 3.34e-19
+C187 a_413_n2133# a_413_n1301# 3.49e-20
+C188 a_413_n1864# a_n313_n1864# 0.002945f
+C189 B7 a_n671_n4808# 1.49e-22
+C190 a_n311_n4808# A4 1.81e-19
+C191 a_416_n143# S1 3.88e-21
+C192 a_n673_n5674# DVDDD 0.008401f
+C193 w_n825_n3765# A3 0.021733f
+C194 A5 w_n825_n6335# 3.86e-21
+C195 a_415_n4539# a_414_n3956# 0.014604f
+C196 a_413_n5405# a_414_n3687# 3.52e-22
+C197 w_n826_n1942# B0 2.18e-20
+C198 a_n312_n3956# a_414_n3956# 0.00567f
+C199 DVDDD C7 0.162184f
+C200 a_1133_n5405# a_n582_n2985# 2.99e-22
+C201 a_1403_n1864# a_n583_n1301# 0.044764f
+C202 a_n583_n5674# w_n825_n6335# 0.398181f
+C203 DVDDD a_1403_n1864# 0.250031f
+C204 a_n582_n3956# a_1134_n3687# 3.34e-19
+C205 a_414_n6257# a_1134_n6257# 0.006775f
+C206 A7 a_n673_n5674# 6.33e-22
+C207 w_n826_n1110# a_n673_n1032# 0.013309f
+C208 C0 a_1403_n1864# 9.34e-20
+C209 A7 C7 0.273669f
+C210 w_n826_n1942# a_413_n1864# 0.020077f
+C211 a_1405_n4539# a_n583_n2133# 2.48e-21
+C212 B2 a_n313_n1301# 1.31e-20
+C213 a_n311_n4808# C7 3.08e-22
+C214 S4 a_1134_n3687# 0.257103f
+C215 a_n312_n3687# B2 1.13e-23
+C216 a_1404_n2985# a_n583_n2133# 0.069982f
+C217 B5 a_n581_n4808# 0.668984f
+C218 B3 w_n825_n2794# 0.485026f
+C219 a_n313_n1301# a_n583_n2133# 2.56e-20
+C220 a_414_n6526# w_n825_n6335# 0.003723f
+C221 a_n312_n3687# a_n583_n2133# 0.001125f
+C222 w_n826_n5483# a_n313_n5405# 0.017118f
+C223 a_n312_n6526# a_n312_n6257# 0.012747f
+C224 a_n311_n4539# a_n581_n4808# 0.361713f
+C225 a_n250_n452# a_413_n1032# 0.00295f
+C226 S1 a_1133_n1301# 0.018056f
+C227 a_1404_n2716# w_n825_n2794# 0.020652f
+C228 A5 a_1134_n3956# 2.33e-19
+C229 A2 w_n825_n2794# 0.038827f
+C230 a_413_n5674# a_1133_n5674# 0.002301f
+C231 a_1406_n143# S0 0.306894f
+C232 A3 a_414_n3687# 7.94e-19
+C233 a_n670_n412# a_n673_n1032# 0.006475f
+C234 a_1405_n4808# a_1404_n3956# 4.57e-20
+C235 A1 a_1136_n412# 2.98e-19
+C236 B3 a_414_n3956# 6.09e-21
+C237 a_1405_n4808# a_1405_n4539# 0.016922f
+C238 B1 a_n673_n1032# 0.030342f
+C239 A4 a_n673_n5405# 6.9e-22
+C240 w_n825_n3765# a_413_n2133# 3.42e-21
+C241 a_n582_n3956# a_413_n5674# 4.3e-22
+C242 a_1133_n1301# a_1406_n412# 1.54e-21
+C243 B7 a_n312_n6257# 0.035446f
+C244 B4 a_414_n2985# 3.02e-19
+C245 a_1403_n1032# a_n313_n1032# 3.55e-20
+C246 a_n672_n6257# w_n825_n6335# 0.013309f
+C247 a_n673_n5674# a_n673_n5405# 0.021268f
+C248 a_1403_n5405# a_n313_n5405# 3.55e-20
+C249 A1 S2 9.97e-19
+C250 A0 a_n310_n143# 0.01459f
+C251 A6 S6 0.083698f
+C252 a_n672_n2716# w_n825_n2794# 0.013309f
+C253 A1 a_413_n1301# 0.047776f
+C254 w_n826_n5483# a_1403_n5674# 0.004048f
+C255 B2 a_n673_n2133# 0.048442f
+C256 A6 a_1135_n4808# 2.7e-19
+C257 S2 a_1403_n2133# 0.164479f
+C258 S0 a_1403_n1032# 9.34e-20
+C259 B6 a_n671_n4539# 7.85e-22
+C260 a_n673_n2133# a_n583_n2133# 0.093464f
+C261 a_1133_n1864# a_n313_n1864# 9.4e-19
+C262 a_n672_n2716# a_n673_n1301# 2.61e-21
+C263 A3 a_n672_n3687# 6.94e-19
+C264 a_413_n5405# w_n826_n5483# 0.020077f
+C265 S3 S2 0.026243f
+C266 B6 B4 2.13e-20
+C267 S3 a_413_n1301# 1.12e-21
+C268 a_1134_n3687# a_n582_n2985# 0.00445f
+C269 a_1134_n2716# a_414_n2716# 0.006775f
+C270 w_n826_n5483# A5 0.035855f
+C271 S6 S7 0.026243f
+C272 a_414_n3687# a_413_n2133# 2.25e-21
+C273 w_n826_n1110# a_n313_n1032# 0.017118f
+C274 a_n672_n2985# a_n671_n4539# 2.14e-21
+C275 w_n826_n5483# a_n583_n5674# 0.154689f
+C276 a_1135_n4808# S7 2.57e-22
+C277 a_414_n6257# A6 0.001358f
+C278 a_n311_n4539# B5 0.035446f
+C279 DVDDD a_414_n2985# 5.73e-19
+C280 B4 a_n672_n2985# 3.11e-20
+C281 w_n826_n1942# a_1133_n1864# 0.011573f
+C282 w_n824_n4617# A6 5.16e-19
+C283 B4 a_n671_n4539# 3.25e-20
+C284 B6 a_1135_n4539# 1.02e-19
+C285 a_n582_n3956# A4 0.305438f
+C286 a_n313_n1301# a_n313_n1864# 0.011653f
+C287 S0 w_n826_n1110# 0.002634f
+C288 a_n310_n412# a_n313_n1301# 9.22e-21
+C289 a_1403_n5405# a_1403_n5674# 0.016922f
+C290 a_n673_n5674# a_1133_n5674# 1.66e-21
+C291 B3 S2 4.4e-20
+C292 B7 a_413_n5674# 5.11e-19
+C293 a_413_n5405# a_1403_n5405# 8.84e-19
+C294 a_n313_n5674# w_n825_n6335# 0.00262f
+C295 S5 w_n825_n3765# 1.93e-20
+C296 A4 S4 0.083698f
+C297 a_414_n6257# S7 0.366487f
+C298 S1 a_1403_n1301# 0.164479f
+C299 a_n250_n452# a_1133_n1032# 7.12e-21
+C300 a_1404_n3956# a_n581_n4808# 7.11e-22
+C301 a_n312_n2985# a_n312_n2716# 0.012747f
+C302 B6 DVDDD 0.082176f
+C303 a_1404_n2716# S2 1.06e-19
+C304 a_1405_n4539# a_n581_n4808# 3e-19
+C305 a_n672_n6526# a_n312_n6526# 0.011769f
+C306 A2 S2 0.083698f
+C307 a_1133_n5405# S6 0.257103f
+C308 a_n670_n143# A0 0.010976f
+C309 B4 a_1135_n4539# 7.92e-19
+C310 A7 B6 0.014716f
+C311 A2 a_413_n1301# 1.63e-19
+C312 a_1403_n5405# a_n583_n5674# 2.93e-19
+C313 B1 a_n313_n1032# 0.035446f
+C314 w_n826_n1942# a_n313_n1301# 0.0028f
+C315 w_n825_n3765# a_n312_n3956# 0.003321f
+C316 DVDDD a_1404_n6526# 1.03e-21
+C317 a_n312_n3687# a_n581_n4808# 2.69e-21
+C318 w_n825_n3765# a_1403_n2133# 6.8e-21
+C319 DVDDD a_n672_n2985# 0.008222f
+C320 a_n311_n4808# B6 1.13e-19
+C321 a_1133_n5405# a_1135_n4808# 0.00938f
+C322 a_1403_n1301# a_1406_n412# 4.84e-21
+C323 B5 a_1404_n3687# 9.43e-20
+C324 DVDDD a_n671_n4539# 0.181284f
+C325 S5 w_n825_n6335# 1.5e-20
+C326 S3 w_n825_n3765# 0.002102f
+C327 a_1403_n1032# a_413_n1032# 8.84e-19
+C328 a_n671_n4808# a_1135_n4808# 1.66e-21
+C329 A7 a_1404_n6526# 0.002612f
+C330 B1 S0 4.19e-20
+C331 a_414_n2716# w_n825_n2794# 0.020077f
+C332 B4 DVDDD 0.082162f
+C333 B2 a_n313_n2133# 0.098084f
+C334 w_n826_n5483# a_n672_n6257# 1.57e-20
+C335 A1 a_1133_n1301# 0.029345f
+C336 S5 a_414_n3687# 2.23e-21
+C337 B7 a_n672_n6526# 0.048442f
+C338 a_n312_n6526# C7 0.117109f
+C339 a_1404_n6257# w_n825_n6335# 0.020652f
+C340 w_n826_n5483# a_415_n4808# 0.002716f
+C341 a_n313_n2133# a_n583_n2133# 0.131893f
+C342 a_1133_n1864# a_413_n1864# 0.006775f
+C343 a_n313_n1301# a_n312_n2716# 2.82e-21
+C344 a_1133_n5405# w_n824_n4617# 1.76e-20
+C345 a_n311_n4808# B4 3.36e-22
+C346 a_n311_n4539# a_n312_n2985# 2.31e-21
+C347 DVDDD a_1135_n4539# 0.244885f
+C348 w_n824_n4617# a_n671_n4808# 0.003401f
+C349 a_1405_n4808# a_1403_n5674# 4.67e-21
+C350 w_n825_n3765# a_n672_n3956# 0.003401f
+C351 a_416_n412# a_n250_n452# 0.050347f
+C352 a_1133_n2133# B2 0.024012f
+C353 w_n826_n1110# a_413_n1032# 0.020077f
+C354 w_n825_n3765# B3 0.006875f
+C355 S3 a_414_n3687# 4.25e-19
+C356 A3 B2 0.014716f
+C357 S5 a_1134_n3956# 2.35e-21
+C358 a_1133_n2133# a_n583_n2133# 2.16e-19
+C359 w_n826_n1942# a_n673_n2133# 0.003401f
+C360 S0 a_1403_n1864# 5.63e-22
+C361 DVDDD a_n583_n1301# 0.306659f
+C362 B7 a_n673_n5674# 8.56e-20
+C363 A4 a_n582_n2985# 0.388304f
+C364 B5 a_1404_n3956# 4.67e-19
+C365 C0 a_n583_n1301# 0.410734f
+C366 a_1404_n2716# w_n825_n3765# 1.83e-21
+C367 a_1406_n143# a_1133_n1032# 1.06e-21
+C368 a_1134_n3687# a_1134_n2985# 0.007866f
+C369 C0 DVDDD 0.460288f
+C370 B7 C7 0.658213f
+C371 B5 a_1405_n4539# 0.039369f
+C372 A3 a_n583_n2133# 0.38831f
+C373 B6 a_n673_n5405# 0.030342f
+C374 A2 w_n825_n3765# 3.38e-21
+C375 A5 a_1405_n4808# 0.002612f
+C376 a_1405_n4808# a_n583_n5674# 1.7e-22
+C377 S1 B2 4.5e-20
+C378 A7 DVDDD 0.190113f
+C379 a_1404_n2985# B5 2.19e-22
+C380 a_n312_n3956# a_1134_n3956# 1.53e-20
+C381 a_n311_n4539# a_1405_n4539# 3.55e-20
+C382 a_n311_n4808# DVDDD 6.8e-19
+C383 S1 a_n583_n2133# 6.58e-19
+C384 a_1136_n143# a_n250_n452# 0.00445f
+C385 w_n826_n5483# a_n313_n5674# 0.003321f
+C386 a_n313_n5405# a_n581_n4808# 0.027367f
+C387 a_n673_n5405# a_n671_n4539# 6.02e-21
+C388 a_n311_n4539# a_n312_n3687# 1.35e-20
+C389 a_1404_n2716# a_1133_n1301# 1.94e-22
+C390 A2 a_1133_n1301# 2.17e-19
+C391 B3 a_414_n3687# 2.11e-19
+C392 B4 a_n673_n5405# 1.73e-22
+C393 B2 a_1406_n412# 7.61e-21
+C394 B1 a_413_n1032# 0.02661f
+C395 a_n310_n412# A0 0.035321f
+C396 a_n582_n3956# a_414_n2985# 2.5e-20
+C397 a_1403_n1032# a_1133_n1032# 0.237529f
+C398 a_1134_n6257# w_n825_n6335# 0.011573f
+C399 B6 a_1133_n5674# 0.024012f
+C400 w_n826_n5483# S5 0.002786f
+C401 a_414_n6257# a_n312_n6257# 0.002945f
+C402 a_1134_n3956# a_n672_n3956# 1.66e-21
+C403 S2 a_414_n2716# 6.2e-19
+C404 a_1404_n3956# a_1404_n3687# 0.016922f
+C405 B2 a_413_n2133# 0.148384f
+C406 S4 a_414_n2985# 4.59e-19
+C407 A1 a_1403_n1301# 0.002612f
+C408 a_1405_n4539# a_1404_n3687# 4.54e-20
+C409 B3 a_1134_n3956# 4.6e-20
+C410 a_n313_n2133# a_n313_n1864# 0.012747f
+C411 a_n310_n412# a_n313_n2133# 1.38e-22
+C412 a_413_n2133# a_n583_n2133# 0.027864f
+C413 a_1403_n2133# a_1403_n1301# 3.49e-20
+C414 a_1404_n2985# a_1404_n3687# 0.009041f
+C415 a_1133_n5674# a_1404_n6526# 3.79e-22
+C416 a_n582_n3956# B6 0.003297f
+C417 w_n826_n1942# A0 5.37e-21
+C418 w_n826_n5483# a_1404_n6257# 1.57e-20
+C419 S3 a_1403_n1301# 1.99e-22
+C420 a_n312_n3687# a_1404_n3687# 3.55e-20
+C421 w_n826_n5483# a_n312_n3956# 3.63e-21
+C422 a_n672_n3687# a_n672_n3956# 0.021268f
+C423 a_1403_n5674# a_n581_n4808# 0.069982f
+C424 B3 a_n672_n3687# 2.93e-20
+C425 DVDDD a_n673_n5405# 0.181347f
+C426 a_n250_n452# a_1136_n412# 0.219643f
+C427 a_413_n5405# a_n581_n4808# 0.034342f
+C428 S6 a_413_n5674# 0.128505f
+C429 w_n826_n1110# a_1133_n1032# 0.011573f
+C430 B6 S4 1.36e-22
+C431 a_415_n4808# a_1405_n4808# 0.004587f
+C432 a_n582_n3956# a_n672_n2985# 7.09e-20
+C433 w_n826_n1942# a_n313_n2133# 0.003321f
+C434 a_n582_n3956# a_n671_n4539# 3.52e-20
+C435 a_n312_n3687# a_n312_n2985# 0.00856f
+C436 DVDDD a_n673_n1032# 0.181357f
+C437 a_n673_n1032# a_n583_n1301# 0.198337f
+C438 A5 a_n581_n4808# 0.298113f
+C439 C0 a_n673_n1032# 3.06e-20
+C440 a_1134_n2716# w_n826_n1110# 2.29e-21
+C441 a_1403_n5405# S5 9.93e-20
+C442 a_n582_n3956# B4 0.66941f
+C443 a_n583_n5674# a_n581_n4808# 0.408283f
+C444 B5 a_n313_n5405# 1.07e-19
+C445 a_1406_n143# a_1136_n143# 0.237529f
+C446 B6 a_n312_n6526# 3.36e-22
+C447 B3 a_1403_n1301# 2.72e-22
+C448 a_n250_n452# S2 1.24e-21
+C449 a_n311_n4539# a_n313_n5405# 1.3e-20
+C450 B4 S4 0.175239f
+C451 a_n250_n452# a_413_n1301# 4.13e-22
+C452 a_1404_n3956# a_1405_n4539# 0.011831f
+C453 A4 a_1134_n2985# 1.26e-19
+C454 w_n826_n1942# a_1133_n2133# 0.003529f
+C455 a_414_n6257# a_413_n5674# 0.014604f
+C456 w_n826_n5483# a_n672_n3956# 1.81e-21
+C457 a_1403_n5405# a_1404_n6257# 4.54e-20
+C458 A0 B0 0.617882f
+C459 w_n824_n4617# a_413_n5674# 6.92e-22
+C460 a_1404_n2985# a_1404_n3956# 2.93e-20
+C461 a_1404_n2716# a_1403_n1301# 1.55e-21
+C462 w_n826_n1942# A3 5.11e-19
+C463 a_1404_n2985# a_1405_n4539# 1.26e-21
+C464 a_n312_n2716# a_n313_n2133# 0.010974f
+C465 a_n582_n3956# a_1135_n4539# 0.00445f
+C466 DVDDD a_1133_n5674# 3.79e-19
+C467 B1 a_1133_n1032# 0.026227f
+C468 a_414_n2985# a_n582_n2985# 0.027258f
+C469 A7 a_1133_n5674# 2.33e-19
+C470 S5 a_n583_n2133# 6.04e-23
+C471 S4 a_1135_n4539# 9.16e-22
+C472 B7 B6 0.017769f
+C473 S1 w_n826_n1942# 0.003017f
+C474 a_1134_n2716# B1 3.65e-22
+C475 A4 S6 4.36e-22
+C476 A1 B2 0.015192f
+C477 a_416_n412# w_n826_n1110# 0.002486f
+C478 a_n582_n3956# DVDDD 0.302028f
+C479 a_1136_n143# a_1403_n1032# 1.48e-21
+C480 B2 a_1403_n2133# 0.026779f
+C481 B5 a_1403_n5674# 1.04e-21
+C482 a_1134_n6257# w_n826_n5483# 1.46e-20
+C483 A1 a_n583_n2133# 0.007743f
+C484 A6 w_n825_n6335# 0.038827f
+C485 a_n312_n3956# a_n583_n2133# 8.4e-22
+C486 B7 a_1404_n6526# 0.026779f
+C487 a_1134_n6526# w_n825_n6335# 0.003529f
+C488 S4 DVDDD 0.117067f
+C489 a_413_n5405# B5 3.39e-19
+C490 A3 a_n312_n2716# 0.01459f
+C491 S3 B2 1.33e-19
+C492 a_1403_n2133# a_n583_n2133# 5.5e-19
+C493 a_1406_n143# a_1136_n412# 7.58e-20
+C494 B6 a_n582_n2985# 1.78e-22
+C495 w_n826_n1942# a_1406_n412# 6.02e-21
+C496 a_n311_n4808# a_n582_n3956# 0.038714f
+C497 a_416_n143# a_n250_n452# 0.034292f
+C498 S3 a_n583_n2133# 0.428892f
+C499 S5 a_1405_n4808# 0.164479f
+C500 S6 C7 7.36e-19
+C501 A5 B5 0.617882f
+C502 B5 a_n583_n5674# 1.5e-19
+C503 a_415_n4808# a_n581_n4808# 0.027794f
+C504 DVDDD a_n312_n6526# 3.43e-20
+C505 a_n672_n2985# a_n582_n2985# 0.093434f
+C506 S7 w_n825_n6335# 0.067066f
+C507 w_n826_n1110# a_n673_n1301# 0.003401f
+C508 w_n824_n4617# A4 0.038827f
+C509 a_n311_n4539# A5 0.01459f
+C510 a_n311_n4539# a_n583_n5674# 6.6e-21
+C511 a_n313_n1032# a_n583_n1301# 0.361724f
+C512 w_n826_n1942# a_413_n2133# 0.003723f
+C513 DVDDD a_n313_n1032# 0.339865f
+C514 a_1404_n6257# a_1405_n4808# 4.39e-20
+C515 B4 a_n582_n2985# 0.512966f
+C516 a_1134_n2716# a_1403_n1864# 3.82e-22
+C517 a_416_n412# B1 4.62e-19
+C518 A7 a_n312_n6526# 0.035321f
+C519 C0 a_n313_n1032# 0.027363f
+C520 S1 B0 1.16e-19
+C521 a_1133_n5405# w_n825_n3765# 2.19e-21
+C522 B3 B2 0.017769f
+C523 a_n311_n4808# a_n312_n6526# 1.98e-22
+C524 a_1134_n6257# a_1403_n5405# 3.82e-22
+C525 B5 A3 4.66e-22
+C526 a_414_n6257# C7 0.048815f
+C527 S0 a_n583_n1301# 6.26e-19
+C528 B3 a_n583_n2133# 0.513007f
+C529 a_1136_n412# a_1403_n1032# 8.91e-20
+C530 S0 DVDDD 0.183789f
+C531 S1 a_413_n1864# 6.65e-19
+C532 C0 S0 0.154903f
+C533 a_n311_n4539# A3 5.86e-22
+C534 a_1404_n2716# B2 7.32e-22
+C535 A2 B2 0.617882f
+C536 B0 a_1406_n412# 0.026779f
+C537 B7 DVDDD 0.075142f
+C538 a_n670_n412# a_n673_n1301# 7.9e-21
+C539 a_1135_n4539# a_n582_n2985# 2.67e-21
+C540 a_1404_n2716# a_n583_n2133# 0.044764f
+C541 A2 a_n583_n2133# 0.305438f
+C542 B1 a_n673_n1301# 0.048442f
+C543 A7 B7 0.617882f
+C544 a_1136_n143# B1 9.66e-20
+C545 a_n313_n5674# a_n581_n4808# 0.038712f
+C546 A4 w_n825_n2794# 3.69e-19
+C547 a_n312_n3687# a_n313_n5405# 7.88e-23
+C548 B7 a_n311_n4808# 2.99e-22
+C549 a_n582_n2985# a_n583_n1301# 0.002213f
+C550 DVDDD a_n582_n2985# 0.307204f
+C551 a_n671_n4808# w_n825_n6335# 9.78e-21
+C552 a_n673_n1864# a_n673_n1301# 0.007769f
+C553 a_1136_n412# w_n826_n1110# 0.001395f
+C554 a_n312_n2985# a_n313_n2133# 7.45e-21
+C555 B2 a_n672_n2716# 3.25e-20
+C556 a_416_n143# a_1406_n143# 8.84e-19
+C557 A1 a_n313_n1864# 0.001917f
+C558 a_n310_n412# A1 5.86e-20
+C559 a_1133_n2133# a_1404_n3687# 1.61e-22
+C560 a_414_n2985# a_1134_n2985# 0.002301f
+C561 B5 a_415_n4808# 0.148384f
+C562 a_n311_n4808# a_n582_n2985# 1.54e-21
+C563 A4 a_414_n3956# 0.047776f
+C564 a_n672_n2716# a_n583_n2133# 3.52e-20
+C565 a_413_n2133# a_413_n1864# 0.010395f
+C566 w_n826_n5483# A6 0.454429f
+C567 a_1403_n1864# w_n825_n2794# 2.37e-21
+C568 S5 a_n581_n4808# 0.154872f
+C569 a_1403_n5674# a_1405_n4539# 1.84e-22
+C570 a_1134_n6257# a_1405_n4808# 3.77e-22
+C571 a_1133_n5405# a_1134_n3956# 4.15e-20
+C572 w_n826_n1110# S2 6.99e-21
+C573 A0 a_n313_n1301# 1.65e-19
+C574 w_n826_n1942# A1 0.04366f
+C575 w_n826_n1110# a_413_n1301# 0.003723f
+C576 a_1133_n2133# a_1133_n1864# 0.013269f
+C577 a_1136_n412# a_n670_n412# 1.66e-21
+C578 A3 a_n312_n2985# 0.035321f
+C579 a_415_n4539# a_n581_n4808# 0.048815f
+C580 a_1404_n6257# a_n581_n4808# 1.69e-19
+C581 a_n312_n3956# a_n581_n4808# 2.86e-20
+C582 w_n826_n5483# S7 1.93e-20
+C583 a_413_n1032# a_n583_n1301# 0.048815f
+C584 a_n313_n1032# a_n673_n1032# 0.011804f
+C585 w_n826_n1942# a_1403_n2133# 0.004048f
+C586 DVDDD a_413_n1032# 0.548673f
+C587 A5 a_1405_n4539# 0.003732f
+C588 C0 a_413_n1032# 0.034361f
+C589 B1 a_1136_n412# 3.94e-19
+C590 w_n826_n1942# S3 1.93e-20
+C591 w_n825_n3765# a_1134_n3687# 0.011573f
+C592 a_n312_n3687# a_n313_n2133# 4.34e-21
+C593 a_n672_n2985# a_1134_n2985# 1.66e-21
+C594 a_1403_n5405# A6 0.003732f
+C595 a_n582_n3956# S4 0.155129f
+C596 a_n250_n452# a_1403_n1301# 7.76e-21
+C597 B6 S6 0.175239f
+C598 A1 a_n312_n2716# 7.3e-22
+C599 B4 a_1134_n2985# 2.3e-19
+C600 a_n250_n452# a_n310_n143# 0.02466f
+C601 a_n312_n6257# w_n825_n6335# 0.017118f
+C602 B6 a_1135_n4808# 3.88e-19
+C603 a_1404_n2985# a_1133_n2133# 3.79e-22
+C604 B1 S2 1.4e-19
+C605 A2 a_n313_n1864# 0.01459f
+C606 a_n310_n412# A2 7.26e-21
+C607 B1 a_413_n1301# 0.148384f
+C608 a_1404_n2985# A3 0.002612f
+C609 S3 a_n312_n2716# 0.003052f
+C610 a_1403_n5405# S7 3.82e-22
+C611 A1 B0 0.012899f
+C612 a_n581_n4808# a_n672_n3956# 1.14e-19
+C613 w_n826_n1942# B3 0.001413f
+C614 a_n673_n1864# S2 3.65e-19
+C615 A3 a_n312_n3687# 0.001018f
+C616 a_1133_n1864# a_1406_n412# 5.63e-22
+C617 a_1133_n5405# w_n826_n5483# 0.011573f
+C618 a_1403_n1032# a_1133_n1301# 7.58e-20
+C619 a_1134_n2985# a_1135_n4539# 2.09e-21
+C620 a_1136_n412# a_1403_n1864# 5.59e-22
+C621 a_414_n3687# a_1134_n3687# 0.006775f
+C622 S5 B5 0.175239f
+C623 a_n671_n4808# w_n826_n5483# 0.001649f
+C624 a_414_n6257# B6 4.04e-19
+C625 B2 a_414_n2716# 4.04e-19
+C626 a_1404_n2716# w_n826_n1942# 1.57e-20
+C627 S1 a_n313_n1301# 0.00267f
+C628 B4 a_1135_n4808# 6.27e-20
+C629 B7 a_1133_n5674# 3.67e-19
+C630 w_n824_n4617# B6 0.00136f
+C631 A2 w_n826_n1942# 0.454429f
+C632 A1 a_413_n1864# 0.001479f
+C633 a_n311_n4539# S5 0.003052f
+C634 a_n583_n2133# a_414_n2716# 0.034409f
+C635 a_n313_n2133# a_n673_n2133# 0.011769f
+C636 a_1134_n2716# B4 7.93e-20
+C637 a_415_n4539# B5 0.02661f
+C638 DVDDD a_1134_n2985# 2.35e-19
+C639 B5 a_n312_n3956# 5.09e-20
+C640 B5 a_1404_n6257# 2.51e-22
+C641 S3 a_413_n1864# 2.23e-21
+C642 a_1403_n1864# S2 0.306894f
+C643 a_1134_n6257# a_n581_n4808# 2.67e-21
+C644 B3 a_n312_n2716# 0.035446f
+C645 a_n311_n4539# a_415_n4539# 0.002945f
+C646 a_1134_n3687# a_1134_n3956# 0.013269f
+C647 w_n824_n4617# a_n671_n4539# 0.013309f
+C648 a_n311_n4539# a_n312_n3956# 0.010974f
+C649 a_414_n2985# w_n825_n2794# 0.003723f
+C650 a_1135_n4808# a_1135_n4539# 0.013269f
+C651 a_413_n5405# a_n313_n5405# 0.002945f
+C652 w_n826_n1110# a_1133_n1301# 0.003529f
+C653 a_416_n143# B1 6.53e-20
+C654 w_n824_n4617# B4 0.012477f
+C655 a_413_n5674# w_n825_n6335# 0.002868f
+C656 a_1133_n5405# a_1403_n5405# 0.237529f
+C657 a_1133_n2133# a_n673_n2133# 1.66e-21
+C658 a_1404_n2716# a_n312_n2716# 3.55e-20
+C659 a_1405_n4808# a_1134_n6526# 1.51e-23
+C660 a_413_n1032# a_n673_n1032# 1.04e-19
+C661 A2 a_n312_n2716# 0.001728f
+C662 a_1133_n1032# a_n583_n1301# 3.34e-19
+C663 a_n582_n3956# a_n582_n2985# 0.40782f
+C664 w_n826_n1942# a_n672_n2716# 1.57e-20
+C665 DVDDD a_1133_n1032# 0.244905f
+C666 S6 DVDDD 0.117069f
+C667 A3 a_n673_n2133# 6.33e-22
+C668 C0 a_1133_n1032# 0.00445f
+C669 A5 a_n313_n5405# 0.001637f
+C670 a_1406_n143# a_1403_n1301# 1.78e-22
+C671 a_414_n3956# a_414_n2985# 2.93e-20
+C672 DVDDD a_1135_n4808# 3.58e-19
+C673 a_n583_n5674# a_n313_n5405# 0.361721f
+C674 A7 S6 4.62e-22
+C675 B7 a_n312_n6526# 0.098084f
+C676 S5 a_1404_n3687# 3.82e-22
+C677 a_1134_n2716# a_n583_n1301# 2.67e-21
+C678 a_1406_n143# a_n310_n143# 3.55e-20
+C679 S4 a_n582_n2985# 0.428775f
+C680 B3 a_413_n1864# 7.02e-20
+C681 a_1134_n2716# DVDDD 0.244885f
+C682 w_n824_n4617# a_1135_n4539# 0.011573f
+C683 a_1134_n2716# C0 3.13e-22
+C684 a_1405_n4808# S7 3.32e-22
+C685 B5 a_n672_n3956# 8.56e-20
+C686 B5 B3 3.66e-22
+C687 a_n311_n4808# a_1135_n4808# 1.53e-20
+C688 A4 w_n825_n3765# 0.454429f
+C689 a_n672_n2985# w_n825_n2794# 0.003401f
+C690 A2 a_413_n1864# 0.057537f
+C691 a_n312_n2716# a_n672_n2716# 0.011804f
+C692 a_1404_n3687# a_1403_n2133# 6.6e-21
+C693 a_414_n6257# DVDDD 0.547621f
+C694 B1 a_1133_n1301# 0.024012f
+C695 B6 a_414_n3956# 2.89e-22
+C696 w_n826_n5483# a_n312_n6257# 1.57e-20
+C697 w_n824_n4617# DVDDD 0.240903f
+C698 S3 a_1404_n3687# 6.35e-20
+C699 B4 w_n825_n2794# 0.001011f
+C700 A7 a_414_n6257# 0.057537f
+C701 a_n672_n6526# w_n825_n6335# 0.003401f
+C702 a_1403_n1032# a_1403_n1301# 0.016922f
+C703 w_n824_n4617# a_n311_n4808# 0.003321f
+C704 a_1134_n6257# B5 3.46e-22
+C705 a_n583_n5674# a_1403_n5674# 5.5e-19
+C706 a_416_n412# a_n583_n1301# 1.31e-19
+C707 A1 a_1133_n1864# 4.29e-20
+C708 a_416_n412# DVDDD 0.004464f
+C709 a_413_n5405# A5 0.00142f
+C710 B4 a_414_n3956# 0.148384f
+C711 S3 a_n312_n2985# 0.00267f
+C712 a_416_n412# C0 0.027669f
+C713 a_413_n5405# a_n583_n5674# 0.048815f
+C714 a_1403_n2133# a_1133_n1864# 5.21e-20
+C715 a_1133_n5405# a_1405_n4808# 1e-19
+C716 S5 a_1404_n3956# 1.12e-19
+C717 A4 a_414_n3687# 0.057537f
+C718 S5 a_1405_n4539# 0.306894f
+C719 a_n673_n5674# w_n825_n6335# 0.001745f
+C720 a_1404_n2985# S5 1.61e-22
+C721 S6 a_n673_n5405# 3.65e-19
+C722 A5 a_n583_n5674# 0.006913f
+C723 a_1403_n1864# a_1133_n1301# 1.1e-19
+C724 C7 w_n825_n6335# 0.153781f
+C725 A6 a_n581_n4808# 0.388309f
+C726 a_414_n2985# S2 1.86e-21
+C727 a_n583_n1301# w_n825_n2794# 0.010126f
+C728 w_n826_n1110# a_1403_n1301# 0.004048f
+C729 DVDDD w_n825_n2794# 0.240863f
+C730 a_415_n4539# a_1405_n4539# 8.84e-19
+C731 a_1133_n2133# a_n313_n2133# 1.53e-20
+C732 a_n673_n1301# a_n583_n1301# 0.093454f
+C733 a_1404_n2716# a_1404_n3687# 3.19e-20
+C734 S1 A0 8e-19
+C735 A1 a_n313_n1301# 0.035321f
+C736 a_413_n1032# a_n313_n1032# 0.002945f
+C737 w_n826_n5483# a_413_n5674# 0.003723f
+C738 DVDDD a_n673_n1301# 0.008445f
+C739 A4 a_1134_n3956# 0.029345f
+C740 A3 a_n313_n2133# 1.27e-21
+C741 a_1404_n2985# a_1403_n2133# 4.57e-20
+C742 S3 a_1405_n4539# 1.59e-22
+C743 a_1136_n143# DVDDD 0.256458f
+C744 a_n312_n3956# a_n312_n3687# 0.012747f
+C745 a_1136_n143# C0 3.34e-19
+C746 A5 A3 5.74e-22
+C747 B3 a_n312_n2985# 0.098084f
+C748 a_1404_n2985# S3 0.164479f
+C749 a_n583_n5674# a_414_n6526# 0.050347f
+C750 DVDDD a_414_n3956# 8.81e-19
+C751 a_n581_n4808# S7 7.64e-19
+C752 S0 a_413_n1032# 5.49e-19
+C753 B3 a_1133_n1864# 1.06e-19
+C754 A4 a_n672_n3687# 0.010976f
+C755 A0 a_1406_n412# 0.002612f
+C756 w_n824_n4617# a_n673_n5405# 8.91e-21
+C757 a_n310_n412# a_n250_n452# 0.038696f
+C758 A2 a_n312_n2985# 1.81e-19
+C759 A3 a_1133_n2133# 2.33e-19
+C760 a_n312_n2716# a_414_n2716# 0.002945f
+C761 a_1404_n2716# a_1133_n1864# 5.43e-22
+C762 S6 a_1133_n5674# 0.018056f
+C763 A2 a_1133_n1864# 0.046872f
+C764 B1 a_1403_n1301# 0.026779f
+C765 a_1135_n4808# a_1133_n5674# 6.48e-21
+C766 B2 a_1403_n1032# 9.89e-20
+C767 a_n313_n5674# a_n313_n5405# 0.012747f
+C768 B1 a_n310_n143# 1.04e-21
+C769 a_n250_n452# w_n826_n1942# 1.1e-20
+C770 a_413_n5405# a_415_n4808# 0.013979f
+C771 a_n582_n3956# S6 6.43e-19
+C772 a_1404_n2985# B3 0.026779f
+C773 A5 a_n672_n6257# 6.9e-22
+C774 a_n583_n5674# a_n672_n6257# 3.52e-20
+C775 B3 a_n312_n3687# 1.53e-20
+C776 a_n582_n3956# a_1135_n4808# 0.219643f
+C777 A1 a_n673_n2133# 1.72e-19
+C778 A5 a_415_n4808# 0.047776f
+C779 w_n826_n5483# A4 6.11e-21
+C780 a_1133_n5405# a_n581_n4808# 0.00445f
+C781 w_n825_n3765# a_414_n2985# 0.001894f
+C782 a_1404_n2716# a_1404_n2985# 0.016922f
+C783 A6 B5 0.013959f
+C784 S6 S4 2.68e-21
+C785 DVDDD a_1136_n412# 0.003854f
+C786 C0 a_1136_n412# 2.18e-19
+C787 a_415_n4808# a_n583_n5674# 7.83e-20
+C788 a_413_n2133# a_n313_n2133# 0.00567f
+C789 a_1133_n2133# a_1406_n412# 1.13e-23
+C790 a_n671_n4808# a_n581_n4808# 0.093454f
+C791 w_n826_n1110# B2 0.001475f
+C792 a_1403_n1864# a_1403_n1301# 0.012637f
+C793 a_n673_n5674# w_n826_n5483# 0.003401f
+C794 w_n824_n4617# a_n582_n3956# 0.398181f
+C795 w_n826_n1110# a_n583_n2133# 4.85e-21
+C796 w_n826_n5483# C7 1.07e-21
+C797 B5 S7 3.48e-22
+C798 a_1133_n2133# a_413_n2133# 0.002301f
+C799 S2 a_n583_n1301# 0.428837f
+C800 DVDDD S2 0.117068f
+C801 B6 w_n825_n3765# 1.21e-21
+C802 S1 a_1406_n412# 9.7e-20
+C803 a_n312_n3956# a_n313_n5405# 4.28e-20
+C804 a_n673_n1301# a_n673_n1032# 0.021268f
+C805 a_1133_n1032# a_n313_n1032# 9.4e-19
+C806 C0 S2 7.26e-19
+C807 a_413_n1301# a_n583_n1301# 0.028003f
+C808 DVDDD a_413_n1301# 9.62e-19
+C809 a_n250_n452# B0 0.512674f
+C810 C0 a_413_n1301# 0.050347f
+C811 A3 a_413_n2133# 2.54e-19
+C812 w_n824_n4617# S4 0.002861f
+C813 a_414_n3687# a_414_n2985# 0.011386f
+C814 a_n670_n143# a_n670_n412# 0.021268f
+C815 w_n825_n3765# a_n672_n2985# 0.00115f
+C816 B3 a_n673_n2133# 8.56e-20
+C817 a_1134_n2985# a_n582_n2985# 2.16e-19
+C818 w_n825_n3765# a_n671_n4539# 1.57e-20
+C819 A5 a_n313_n5674# 1.75e-19
+C820 S0 a_1133_n1032# 2.5e-21
+C821 a_n670_n412# B2 7.71e-21
+C822 a_n313_n5674# a_n583_n5674# 0.131893f
+C823 B7 S6 4.4e-20
+C824 a_n670_n143# B1 1.13e-21
+C825 S5 a_1403_n5674# 1.52e-21
+C826 B4 w_n825_n3765# 0.485026f
+C827 B6 w_n825_n6335# 0.012477f
+C828 a_n670_n412# a_n583_n2133# 4.22e-22
+C829 B1 B2 0.018835f
+C830 B7 a_1135_n4808# 6.21e-22
+C831 A2 a_n673_n2133# 0.024614f
+C832 a_413_n5405# S5 5.92e-19
+C833 A1 A0 0.027952f
+C834 B1 a_n583_n2133# 7.01e-20
+C835 a_n582_n3956# w_n825_n2794# 4.23e-22
+C836 a_n673_n1864# B2 0.030342f
+C837 A4 B2 1.18e-22
+C838 a_1404_n6526# w_n825_n6335# 0.004048f
+C839 a_1133_n5405# B5 7.59e-19
+C840 a_1404_n6257# a_1403_n5674# 0.011831f
+C841 a_n673_n1864# a_n583_n2133# 0.198337f
+C842 S5 A5 0.083698f
+C843 a_n581_n4808# a_n312_n6257# 0.001512f
+C844 w_n825_n3765# a_1135_n4539# 1.46e-20
+C845 a_n671_n4808# B5 0.048442f
+C846 A4 a_n583_n2133# 0.003578f
+C847 a_416_n143# DVDDD 0.568724f
+C848 a_413_n5405# a_415_n4539# 7.35e-21
+C849 S5 a_n583_n5674# 5.71e-19
+C850 S4 w_n825_n2794# 5.04e-21
+C851 a_416_n143# C0 0.048815f
+C852 B7 a_414_n6257# 0.02661f
+C853 A1 a_n313_n2133# 1.92e-19
+C854 a_1134_n2716# a_n582_n2985# 3.34e-19
+C855 a_n582_n3956# a_414_n3956# 0.027864f
+C856 a_415_n4539# A5 0.057537f
+C857 A5 a_n312_n3956# 1.27e-21
+C858 a_n672_n2716# a_n673_n2133# 0.007315f
+C859 B6 a_1134_n3956# 3.11e-22
+C860 B4 a_414_n3687# 0.02661f
+C861 w_n825_n3765# a_n583_n1301# 1.28e-21
+C862 w_n825_n3765# DVDDD 0.240908f
+C863 a_1404_n6257# a_n583_n5674# 0.044764f
+C864 a_1403_n1864# B2 0.039369f
+C865 w_n826_n1942# a_1403_n1032# 2.48e-21
+C866 S5 A3 5.36e-22
+C867 a_416_n412# S0 0.128505f
+C868 S4 a_414_n3956# 0.128505f
+C869 a_1403_n1864# a_n583_n2133# 2.93e-19
+C870 w_n824_n4617# a_n582_n2985# 0.010126f
+C871 a_1406_n143# B0 0.039369f
+C872 a_n310_n412# w_n826_n1110# 0.002258f
+C873 a_1133_n2133# a_1403_n2133# 0.156396f
+C874 A1 A3 1.73e-21
+C875 a_1133_n1032# a_413_n1032# 0.006775f
+C876 a_1133_n1301# a_n583_n1301# 2.15e-19
+C877 DVDDD a_1133_n1301# 4.15e-19
+C878 A3 a_n312_n3956# 1.35e-19
+C879 S3 a_1133_n2133# 2.35e-21
+C880 C0 a_1133_n1301# 0.219643f
+C881 B4 a_1134_n3956# 0.024012f
+C882 DVDDD w_n825_n6335# 0.230139f
+C883 a_n672_n3687# a_n672_n2985# 0.005707f
+C884 a_n672_n3687# a_n671_n4539# 1.3e-20
+C885 S3 A3 0.083698f
+C886 A2 A0 1.73e-21
+C887 S1 A1 0.083698f
+C888 A5 a_n672_n3956# 6.33e-22
+C889 B3 a_n313_n2133# 5.09e-20
+C890 A7 w_n825_n6335# 0.454429f
+C891 a_413_n5674# a_n581_n4808# 0.050347f
+C892 DVDDD a_414_n3687# 0.548656f
+C893 B4 a_n672_n3687# 0.030342f
+C894 a_1136_n143# S0 0.257103f
+C895 a_n311_n4808# w_n825_n6335# 9.78e-21
+C896 a_n310_n412# a_n670_n412# 0.011769f
+C897 S1 S3 2.14e-21
+C898 a_1134_n3956# a_1135_n4539# 0.009834f
+C899 a_1134_n6257# a_1403_n5674# 1.05e-19
+C900 B0 a_1403_n1032# 1.27e-19
+C901 S5 a_415_n4808# 0.128505f
+C902 a_n582_n2985# w_n825_n2794# 0.154432f
+C903 A2 a_n313_n2133# 0.035321f
+C904 w_n826_n5483# B6 0.485026f
+C905 B1 a_n313_n1864# 2.22e-20
+C906 a_n310_n412# B1 1.67e-19
+C907 B3 a_1133_n2133# 3.67e-19
+C908 B5 a_1134_n3687# 1.06e-19
+C909 a_1403_n2133# a_1406_n412# 6.91e-23
+C910 A3 a_n672_n3956# 1.21e-19
+C911 a_n582_n3956# S2 1.16e-20
+C912 A3 B3 0.617882f
+C913 DVDDD a_1134_n3956# 3.79e-19
+C914 a_n673_n1864# a_n313_n1864# 0.011804f
+C915 w_n826_n1110# a_n312_n2716# 2.28e-21
+C916 a_415_n4539# a_415_n4808# 0.010395f
+C917 w_n825_n3765# a_n673_n5405# 1.09e-21
+C918 w_n826_n1942# a_n670_n412# 9.76e-21
+C919 a_1404_n2716# a_1133_n2133# 1.02e-19
+C920 a_1134_n6257# a_n583_n5674# 0.00445f
+C921 A2 a_1133_n2133# 0.029345f
+C922 a_1133_n5405# a_1404_n3956# 3.77e-22
+C923 a_414_n3956# a_n582_n2985# 0.050347f
+C924 A1 a_413_n2133# 1.49e-19
+C925 a_416_n412# a_413_n1032# 0.01302f
+C926 w_n826_n1942# B1 0.014105f
+C927 w_n826_n5483# B4 1.78e-21
+C928 a_1133_n5405# a_1405_n4539# 7.42e-22
+C929 a_1404_n2716# A3 0.003732f
+C930 DVDDD a_n672_n3687# 0.181315f
+C931 S1 B3 1.42e-22
+C932 A2 A3 0.030772f
+C933 a_1403_n2133# a_413_n2133# 0.004587f
+C934 B0 w_n826_n1110# 0.010232f
+C935 S3 a_413_n2133# 6.79e-19
+C936 w_n826_n1942# a_n673_n1864# 0.013309f
+C937 A4 a_n581_n4808# 0.007231f
+C938 a_1403_n5405# B6 0.039369f
+C939 S0 a_1136_n412# 0.018056f
+C940 a_1404_n2716# S1 4e-22
+C941 a_1134_n2716# a_1134_n2985# 0.013269f
+C942 a_1403_n1864# a_n313_n1864# 3.55e-20
+C943 a_414_n2985# B2 8.48e-21
+C944 A6 a_n313_n5405# 0.01459f
+C945 a_414_n2985# a_n583_n2133# 0.050347f
+C946 B5 a_413_n5674# 7.97e-21
+C947 a_1403_n1301# a_n583_n1301# 6e-19
+C948 DVDDD a_1403_n1301# 5.5e-19
+C949 B1 a_n312_n2716# 2.8e-22
+C950 a_1134_n3687# a_1404_n3687# 0.237529f
+C951 A3 a_n672_n2716# 0.010976f
+C952 C0 a_1403_n1301# 0.069982f
+C953 S6 a_1135_n4808# 4.48e-21
+C954 B0 a_n670_n412# 0.048442f
+C955 a_n581_n4808# C7 0.002148f
+C956 a_n583_n1301# a_n310_n143# 7.13e-21
+C957 DVDDD a_n310_n143# 0.357079f
+C958 C0 a_n310_n143# 0.361604f
+C959 w_n826_n5483# DVDDD 0.240923f
+C960 S0 S2 4.34e-21
+C961 w_n826_n1942# a_1403_n1864# 0.020652f
+C962 a_1134_n2716# a_1133_n1032# 7.85e-22
+C963 S0 a_413_n1301# 4.84e-21
+C964 B3 a_413_n2133# 5.11e-19
+C965 B1 B0 0.015932f
+C966 A7 w_n826_n5483# 5.11e-19
+C967 a_n582_n3956# w_n825_n3765# 0.154689f
+C968 a_n311_n4808# w_n826_n5483# 0.002471f
+C969 a_414_n6257# S6 6.2e-19
+C970 a_n672_n2985# B2 3.64e-22
+C971 A2 a_413_n2133# 0.047776f
+C972 a_1403_n5405# a_1135_n4539# 1.05e-21
+C973 a_1133_n5674# w_n825_n6335# 0.001599f
+C974 B1 a_413_n1864# 3.94e-19
+C975 w_n824_n4617# S6 1.53e-20
+C976 A6 a_1403_n5674# 0.002612f
+C977 S4 w_n825_n3765# 0.067066f
+C978 a_415_n4539# S5 0.366487f
+C979 a_n582_n2985# S2 7.36e-19
+C980 a_1403_n5674# a_1134_n6526# 5.65e-22
+C981 S5 a_1404_n6257# 3.77e-22
+C982 w_n824_n4617# a_1135_n4808# 0.003529f
+C983 B4 B2 1.28e-21
+C984 a_n672_n3687# a_n673_n5405# 3.94e-23
+C985 a_413_n5405# A6 0.057537f
+C986 a_n673_n1864# a_413_n1864# 1.04e-19
+C987 B4 a_n583_n2133# 0.002616f
+C988 S5 S3 1.39e-21
+C989 a_n582_n3956# w_n825_n6335# 4.84e-21
+C990 a_1403_n5405# DVDDD 0.250033f
+C991 B6 a_1405_n4808# 4.64e-19
+C992 a_1134_n3687# a_1404_n3956# 5.21e-20
+C993 A4 B5 0.014285f
+C994 a_1134_n2985# w_n825_n2794# 0.003529f
+C995 A6 A5 0.029585f
+C996 a_1134_n3687# a_1405_n4539# 5.43e-22
+C997 B0 a_1403_n1864# 7.56e-22
+C998 a_1403_n5674# S7 1.12e-19
+C999 a_1133_n5405# a_n313_n5405# 9.4e-19
+C1000 A6 a_n583_n5674# 0.305438f
+C1001 a_n582_n3956# a_414_n3687# 0.048815f
+C1002 a_1404_n2985# a_1134_n3687# 6.34e-20
+C1003 a_416_n143# S0 0.366487f
+C1004 S3 A1 6.49e-22
+C1005 a_n311_n4539# A4 0.001728f
+C1006 a_n583_n5674# a_1134_n6526# 0.219643f
+C1007 a_1405_n4808# a_1404_n6526# 9.89e-23
+C1008 a_n312_n3687# a_1134_n3687# 9.4e-19
+C1009 S3 a_1403_n2133# 1.12e-19
+C1010 a_413_n5405# S7 2.23e-21
+C1011 a_1135_n4539# a_n583_n2133# 2.6e-22
+C1012 a_1403_n1864# a_413_n1864# 8.84e-19
+C1013 S4 a_414_n3687# 0.366487f
+C1014 A5 S7 6.19e-22
+C1015 B5 C7 4.14e-22
+C1016 B2 a_n583_n1301# 0.512971f
+C1017 a_n670_n143# DVDDD 0.193067f
+C1018 a_n670_n143# C0 0.198337f
+C1019 a_n312_n6526# w_n825_n6335# 0.003321f
+C1020 DVDDD B2 0.082175f
+C1021 w_n826_n5483# a_n673_n5405# 0.013309f
+C1022 C0 B2 0.003567f
+C1023 S5 B3 1.74e-22
+C1024 A6 a_414_n6526# 1.41e-19
+C1025 a_n583_n5674# S7 0.428892f
+C1026 a_n250_n452# A0 0.388278f
+C1027 a_413_n1301# a_413_n1032# 0.010395f
+C1028 a_414_n6526# a_1134_n6526# 0.002301f
+C1029 a_n583_n2133# a_n583_n1301# 0.409081f
+C1030 A3 a_414_n2716# 0.057537f
+C1031 DVDDD a_n583_n2133# 0.300109f
+C1032 a_n582_n3956# a_1134_n3956# 2.16e-19
+C1033 a_1136_n143# a_1133_n1032# 1.39e-20
+C1034 C0 a_n583_n2133# 0.002019f
+C1035 a_1134_n2716# w_n825_n2794# 0.011573f
+C1036 a_n312_n3956# a_n672_n3956# 0.011769f
+C1037 A1 B3 5.65e-22
+C1038 S6 a_414_n3956# 5.4e-22
+C1039 S4 a_1134_n3956# 0.018056f
+C1040 a_1405_n4808# a_1135_n4539# 5.21e-20
+C1041 B3 a_1403_n2133# 4.67e-19
+C1042 a_n582_n3956# a_n672_n3687# 0.198337f
+C1043 a_1133_n5405# a_1403_n5674# 5.21e-20
+C1044 A4 a_1404_n3687# 0.003732f
+C1045 a_414_n6526# S7 0.128505f
+C1046 w_n825_n3765# a_n582_n2985# 0.398237f
+C1047 S3 B3 0.175239f
+C1048 A2 A1 0.032493f
+C1049 w_n826_n1110# a_n313_n1301# 0.003321f
+C1050 a_413_n5405# a_1133_n5405# 0.006775f
+C1051 B7 w_n825_n6335# 0.485026f
+C1052 a_1404_n2716# a_1403_n2133# 0.011831f
+C1053 S4 a_n672_n3687# 3.65e-19
+C1054 DVDDD a_1405_n4808# 4.46e-19
+C1055 A2 a_1403_n2133# 0.002612f
+C1056 B1 a_1133_n1864# 8.8e-19
+C1057 A6 a_n672_n6257# 0.001177f
+C1058 a_1133_n5405# A5 1.41e-19
+C1059 a_1404_n2716# S3 0.306894f
+C1060 A2 S3 9.19e-19
+C1061 w_n826_n5483# a_1133_n5674# 0.003529f
+C1062 a_1133_n5405# a_n583_n5674# 3.34e-19
+C1063 a_n671_n4808# A5 0.024614f
+C1064 a_1134_n6257# a_1404_n6257# 0.237529f
+C1065 A6 a_415_n4808# 3.99e-19
+C1066 w_n824_n4617# a_414_n3956# 0.002868f
+C1067 B6 a_n581_n4808# 0.513053f
+C1068 a_416_n143# a_413_n1032# 7.37e-21
+C1069 a_n671_n4808# a_n583_n5674# 1.08e-19
+C1070 a_n313_n5405# a_n312_n6257# 1.35e-20
+C1071 a_n582_n3956# w_n826_n5483# 0.009834f
+C1072 A1 a_n672_n2716# 7.3e-22
+C1073 a_1136_n412# a_1133_n1032# 0.008785f
+C1074 a_414_n3687# a_n582_n2985# 0.034351f
+C1075 S7 a_n672_n6257# 3.65e-19
+C1076 a_413_n2133# a_414_n2716# 0.014604f
+C1077 a_n581_n4808# a_1404_n6526# 1.11e-21
+C1078 S1 a_n250_n452# 7.5e-19
+C1079 B1 a_n313_n1301# 0.098084f
+C1080 a_415_n4808# S7 1.07e-21
+C1081 a_n581_n4808# a_n671_n4539# 0.198337f
+C1082 A4 a_1404_n3956# 0.002612f
+C1083 S3 a_n672_n2716# 3.65e-19
+C1084 w_n826_n5483# S4 1.51e-21
+C1085 a_1404_n2716# B3 0.039369f
+C1086 a_1406_n143# A0 0.003732f
+C1087 A2 B3 0.014285f
+C1088 B4 a_n581_n4808# 1.01e-19
+C1089 a_1403_n1864# a_1133_n1864# 0.237529f
+C1090 a_n670_n143# a_n673_n1032# 5.71e-21
+C1091 a_1403_n5405# a_1133_n5674# 7.58e-20
+C1092 a_1134_n3956# a_n582_n2985# 0.219643f
+C1093 A4 a_n312_n3687# 0.01459f
+C1094 a_n250_n452# a_1406_n412# 0.069982f
+C1095 a_n313_n1864# a_n583_n1301# 0.027383f
+C1096 a_n310_n412# a_n583_n1301# 3.52e-20
+C1097 a_n310_n412# DVDDD 0.003872f
+C1098 DVDDD a_n313_n1864# 0.339845f
+C1099 A6 a_n313_n5674# 0.035321f
+C1100 C0 a_n313_n1864# 0.001579f
+C1101 a_n310_n412# C0 0.130769f
+C1102 a_n313_n1032# a_n310_n143# 1.29e-20
+C1103 a_1134_n2716# S2 9.16e-22
+C1104 a_1135_n4539# a_n581_n4808# 3.34e-19
+C1105 a_1403_n5405# a_n582_n3956# 6.94e-20
+C1106 a_n672_n3687# a_n582_n2985# 2.31e-20
+C1107 S0 a_1403_n1301# 1.8e-21
+C1108 B3 a_n672_n2716# 0.030342f
+C1109 a_n671_n4808# a_n672_n6257# 4.54e-20
+C1110 a_1403_n5405# S4 2.23e-22
+C1111 S0 a_n310_n143# 0.003052f
+C1112 A5 a_n312_n6257# 6.9e-22
+C1113 a_n670_n412# a_n673_n2133# 1.38e-22
+C1114 w_n826_n1942# DVDDD 0.240923f
+C1115 a_416_n412# a_1136_n412# 0.002301f
+C1116 w_n826_n1942# a_n583_n1301# 0.39856f
+C1117 DVDDD a_n581_n4808# 0.306633f
+C1118 w_n826_n1942# C0 0.010527f
+C1119 B6 B5 0.016971f
+C1120 a_n583_n5674# a_n312_n6257# 0.027138f
+C1121 S5 A6 1.49e-21
+C1122 B7 w_n826_n5483# 0.001413f
+C1123 A2 a_n672_n2716# 0.001177f
+C1124 A7 a_n581_n4808# 0.004499f
+C1125 w_n825_n3765# a_1134_n2985# 0.001074f
+C1126 a_n311_n4539# B6 7.27e-22
+C1127 a_n311_n4808# a_n581_n4808# 0.131157f
+C1128 a_n673_n1864# a_n673_n2133# 0.021268f
+C1129 a_n582_n3956# a_n583_n2133# 0.001461f
+C1130 B5 a_n671_n4539# 0.030342f
+C1131 S1 a_1406_n143# 5.66e-22
+C1132 w_n826_n5483# a_n582_n2985# 2.2e-21
+C1133 S4 B2 1.48e-22
+C1134 a_1134_n3687# a_1133_n2133# 4.03e-21
+C1135 S5 S7 4.36e-20
+C1136 a_1404_n6257# a_1134_n6526# 7.58e-20
+C1137 B4 B5 0.017769f
+C1138 a_n312_n2716# a_n583_n1301# 0.001513f
+C1139 a_n311_n4539# a_n671_n4539# 0.011804f
+C1140 DVDDD a_n312_n2716# 0.339844f
+C1141 A0 w_n826_n1110# 0.031725f
+C1142 a_1405_n4808# a_1133_n5674# 1.09e-21
+C1143 C0 a_n312_n2716# 3.95e-22
+C1144 S4 a_n583_n2133# 5.17e-19
+C1145 a_413_n5674# a_1403_n5674# 0.004587f
+C1146 A3 a_1134_n3687# 2.95e-20
+C1147 a_1136_n143# a_1136_n412# 0.013269f
+C1148 S6 w_n825_n3765# 2.19e-21
+C1149 a_n311_n4539# B4 5.51e-20
+C1150 S3 a_414_n2716# 0.366487f
+C1151 a_413_n5405# a_413_n5674# 0.010395f
+C1152 B0 a_n583_n1301# 1.92e-19
+C1153 a_1406_n143# a_1406_n412# 0.016922f
+C1154 a_1404_n6257# S7 0.306894f
+C1155 B7 a_1403_n5405# 9.43e-20
+C1156 S2 w_n825_n2794# 0.002861f
+C1157 A4 a_n313_n5405# 1.38e-21
+C1158 B0 DVDDD 0.567447f
+C1159 a_n312_n2985# a_414_n2985# 0.00567f
+C1160 B0 C0 0.668358f
+C1161 a_n582_n3956# a_1405_n4808# 0.069982f
+C1162 B5 a_1135_n4539# 0.026227f
+C1163 A5 a_413_n5674# 1.45e-19
+C1164 a_413_n1864# a_n583_n1301# 0.034372f
+C1165 a_413_n5674# a_n583_n5674# 0.027864f
+C1166 a_n583_n2133# a_n313_n1032# 2.05e-21
+C1167 a_1133_n1301# a_1133_n1032# 0.013269f
+C1168 a_n311_n4539# a_1135_n4539# 9.4e-19
+C1169 DVDDD a_413_n1864# 0.548657f
+C1170 S1 a_1403_n1032# 0.306894f
+C1171 C0 a_413_n1864# 0.00338f
+C1172 a_n670_n143# S0 3.65e-19
+C1173 S6 w_n825_n6335# 0.002861f
+C1174 a_n672_n6257# a_n312_n6257# 0.011804f
+C1175 a_1403_n5405# a_n582_n2985# 1.06e-21
+C1176 A0 a_n670_n412# 0.024614f
+C1177 S0 B2 7.54e-24
+C1178 B5 DVDDD 0.08204f
+C1179 a_1135_n4808# w_n825_n6335# 7.52e-21
+C1180 a_n313_n5405# C7 2.15e-21
+C1181 a_n250_n452# A1 0.004071f
+C1182 B3 a_414_n2716# 0.02661f
+C1183 B1 A0 0.01287f
+C1184 a_1133_n5405# S5 1.77e-21
+C1185 a_n673_n5405# a_n581_n4808# 3.31e-20
+C1186 a_1134_n2716# a_1133_n1301# 2.54e-21
+C1187 S0 a_n583_n2133# 2.39e-20
+C1188 a_416_n412# a_416_n143# 0.010395f
+C1189 A7 B5 1.82e-23
+C1190 a_n311_n4539# DVDDD 0.339844f
+C1191 B4 a_1404_n3687# 0.039369f
+C1192 a_413_n5674# a_414_n6526# 3.79e-20
+C1193 a_1403_n1032# a_1406_n412# 0.010482f
+C1194 a_1404_n2716# a_414_n2716# 8.84e-19
+C1195 a_n311_n4808# B5 0.098084f
+C1196 A2 a_414_n2716# 0.001358f
+C1197 a_n672_n2985# a_n312_n2985# 0.011769f
+C1198 a_1404_n2985# a_414_n2985# 0.004587f
+C1199 a_1133_n5405# a_1404_n6257# 5.43e-22
+C1200 a_n582_n2985# B2 1.03e-19
+C1201 a_n311_n4539# a_n311_n4808# 0.012747f
+C1202 a_1134_n6257# A6 7.26e-20
+C1203 a_414_n6257# w_n825_n6335# 0.020077f
+C1204 a_413_n5405# A4 1.09e-21
+C1205 S1 w_n826_n1110# 0.067066f
+C1206 B4 a_n312_n2985# 8.89e-21
+C1207 a_1135_n4539# a_1404_n3687# 3.82e-22
+C1208 a_1134_n6257# a_1134_n6526# 0.013269f
+C1209 a_n582_n2985# a_n583_n2133# 0.395771f
+C1210 B6 a_1404_n3956# 4.78e-23
+C1211 B6 a_1405_n4539# 9.04e-20
+C1212 a_1135_n4808# a_1134_n3956# 6.69e-21
+C1213 a_416_n143# a_1136_n143# 0.006775f
+C1214 A4 A5 0.030772f
+C1215 B7 a_1405_n4808# 4.31e-22
+C1216 a_1136_n412# S2 7.69e-22
+C1217 B1 a_1133_n2133# 6.64e-20
+C1218 a_1133_n5674# a_n581_n4808# 0.219643f
+C1219 a_1134_n6257# S7 0.257103f
+C1220 w_n826_n1110# a_1406_n412# 0.001447f
+C1221 a_1404_n3687# a_n583_n1301# 4.56e-22
+C1222 a_n672_n2716# a_414_n2716# 1.04e-19
+C1223 DVDDD a_1404_n3687# 0.250031f
+C1224 a_n313_n5674# a_n312_n6257# 0.010974f
+C1225 B1 A3 1.31e-22
+C1226 a_n673_n5674# A5 1.56e-19
+C1227 B4 a_1404_n3956# 0.026779f
+C1228 a_n582_n3956# a_n581_n4808# 0.405051f
+C1229 a_1405_n4808# a_n582_n2985# 1.11e-21
+C1230 B0 a_n673_n1032# 1.73e-19
+C1231 B4 a_1405_n4539# 7.32e-22
+C1232 a_n673_n5674# a_n583_n5674# 0.093464f
+C1233 w_n825_n3765# a_414_n3956# 0.003723f
+C1234 w_n824_n4617# a_1134_n3956# 0.001599f
+C1235 S1 B1 0.175239f
+C1236 a_n671_n4808# a_n672_n3956# 3.46e-21
+C1237 a_n312_n2985# a_n583_n1301# 1.54e-21
+C1238 A4 A3 0.024777f
+C1239 B5 a_n673_n5405# 1.29e-19
+C1240 a_n583_n5674# C7 0.32577f
+C1241 a_1404_n2985# B4 2.82e-19
+C1242 B2 a_413_n1032# 7.4e-20
+C1243 DVDDD a_n312_n2985# 4.86e-19
+C1244 S2 a_413_n1301# 7.26e-19
+C1245 B4 a_n312_n3687# 0.035446f
+C1246 S4 a_n581_n4808# 7.36e-19
+C1247 a_1133_n1301# a_n673_n1301# 1.66e-21
+C1248 a_1133_n1864# a_n583_n1301# 0.00445f
+C1249 a_n310_n412# a_n313_n1032# 0.009716f
+C1250 a_1403_n1301# a_1133_n1032# 5.21e-20
+C1251 DVDDD a_1133_n1864# 0.244885f
+C1252 a_1404_n3956# a_1135_n4539# 1.05e-19
+C1253 a_1133_n2133# a_1403_n1864# 7.58e-20
+C1254 a_1135_n4539# a_1405_n4539# 0.237529f
+C1255 w_n826_n5483# S6 0.067066f
+C1256 B1 a_1406_n412# 4.46e-19
+C1257 a_n310_n412# S0 0.00267f
+C1258 a_1134_n2716# a_1403_n1301# 1.99e-22
+C1259 a_414_n6526# C7 0.023581f
+C1260 a_n312_n6526# a_n581_n4808# 1.54e-21
+C1261 w_n826_n5483# a_1135_n4808# 0.001516f
+C1262 a_1133_n5405# a_1134_n6257# 1.29e-20
+C1263 a_n582_n3956# a_n312_n2716# 1.7e-21
+C1264 a_1404_n2985# a_1135_n4539# 1.61e-22
+C1265 a_n672_n6526# a_n672_n6257# 0.021268f
+C1266 a_1404_n6257# a_n312_n6257# 3.55e-20
+C1267 DVDDD a_1404_n3956# 4.85e-19
+C1268 DVDDD a_1405_n4539# 0.250032f
+C1269 a_414_n3956# a_414_n3687# 0.010395f
+C1270 a_n313_n5674# a_413_n5674# 0.00567f
+C1271 a_1134_n3687# a_1403_n2133# 1.61e-22
+C1272 a_1404_n2985# a_n583_n1301# 1.11e-21
+C1273 S1 a_1403_n1864# 1.13e-19
+C1274 DVDDD a_n313_n1301# 7.78e-19
+C1275 a_1404_n2985# DVDDD 2.58e-19
+C1276 B1 a_413_n2133# 8.36e-21
+C1277 a_n313_n1301# a_n583_n1301# 0.131956f
+C1278 C0 a_n313_n1301# 0.038713f
+C1279 A4 a_415_n4808# 1.41e-19
+C1280 A1 a_1403_n1032# 0.003732f
+C1281 B5 a_1133_n5674# 6.03e-20
+C1282 a_n672_n2985# a_n673_n2133# 3.46e-21
+C1283 DVDDD a_n312_n3687# 0.339844f
+C1284 w_n826_n1942# S0 2.5e-20
+C1285 a_n582_n2985# a_n313_n1864# 4.49e-21
+C1286 A4 a_413_n2133# 2.49e-21
+C1287 B7 a_n581_n4808# 0.003409f
+C1288 a_n673_n5674# a_n672_n6257# 0.007315f
+C1289 B6 a_n313_n5405# 0.035446f
+C1290 a_1403_n5405# S6 0.306894f
+C1291 a_n582_n3956# B5 0.513007f
+C1292 C7 a_n672_n6257# 0.198337f
+C1293 a_1403_n1864# a_1406_n412# 3.04e-21
+C1294 a_414_n3956# a_1134_n3956# 0.002301f
+C1295 a_1134_n2985# B2 6.27e-20
+C1296 a_n312_n2716# a_n313_n1032# 7.65e-22
+C1297 a_1403_n5405# a_1135_n4808# 9.69e-20
+C1298 a_1136_n412# a_1133_n1301# 6.58e-21
+C1299 S5 a_413_n5674# 2.86e-21
+C1300 w_n825_n3765# S2 7.17e-22
+C1301 a_1134_n2985# a_n583_n2133# 0.219643f
+C1302 a_n311_n4539# a_n582_n3956# 0.027138f
+C1303 a_n582_n2985# a_n581_n4808# 0.002167f
+C1304 S4 B5 4.4e-20
+C1305 A6 S7 9.19e-19
+C1306 w_n826_n1942# a_n582_n2985# 1.07e-21
+C1307 S7 a_1134_n6526# 0.018056f
+C1308 A1 w_n826_n1110# 0.454429f
+C1309 B3 a_1134_n3687# 4.62e-19
+C1310 B0 a_n313_n1032# 1.45e-19
+C1311 B4 a_n313_n5405# 4.28e-22
+C1312 B2 a_1133_n1032# 1.12e-19
+C1313 w_n824_n4617# a_1403_n5405# 2.77e-20
+C1314 S3 w_n826_n1110# 1.14e-21
+C1315 B0 S0 0.175239f
+C1316 a_1133_n1301# a_413_n1301# 0.002301f
+C1317 DVDDD a_n673_n2133# 0.008401f
+C1318 B6 a_1403_n5674# 0.026779f
+C1319 a_1134_n6257# a_n312_n6257# 9.4e-19
+C1320 a_1134_n2716# B2 7.92e-19
+C1321 a_n582_n2985# a_n312_n2716# 0.361717f
+C1322 a_1136_n143# a_n310_n143# 9.4e-19
+C1323 a_1404_n2716# a_1403_n1032# 1.19e-21
+C1324 a_414_n3687# S2 7.73e-22
+C1325 a_413_n5405# B6 0.02661f
+C1326 a_1134_n2716# a_n583_n2133# 0.00445f
+C1327 S0 a_413_n1864# 1.8e-21
+C1328 a_n673_n5674# a_n313_n5674# 0.011769f
+C1329 a_n582_n3956# a_1404_n3687# 2.93e-19
+C1330 A1 a_n670_n412# 5.86e-20
+C1331 a_1403_n5674# a_1404_n6526# 4.57e-20
+C1332 w_n826_n5483# a_414_n3956# 3.63e-21
+C1333 a_n313_n5674# C7 2.76e-20
+C1334 a_1133_n5405# A6 0.046872f
+C1335 B6 A5 0.013712f
+C1336 S5 A4 9.19e-19
+C1337 A1 B1 0.617882f
+C1338 A3 a_414_n2985# 0.047776f
+C1339 DVDDD a_n313_n5405# 0.339846f
+C1340 S4 a_1404_n3687# 0.306894f
+C1341 B7 B5 1.75e-20
+C1342 S6 a_1405_n4808# 1.03e-19
+C1343 a_n671_n4808# A6 3.24e-20
+C1344 B6 a_n583_n5674# 0.66941f
+C1345 B3 w_n826_n1110# 1.49e-21
+C1346 a_1135_n4808# a_1405_n4808# 0.156396f
+C1347 a_n582_n3956# a_n312_n2985# 1.75e-20
+C1348 A1 a_n673_n1864# 0.001304f
+C1349 S3 B1 3.09e-22
+C1350 a_413_n5405# B4 1.33e-22
+C1351 a_415_n4539# A4 0.001358f
+C1352 A5 a_n671_n4539# 0.010976f
+C1353 A4 a_n312_n3956# 0.035321f
+C1354 a_n311_n4808# a_n313_n5405# 0.010429f
+C1355 a_n583_n5674# a_1404_n6526# 0.069982f
+C1356 a_1404_n2716# w_n826_n1110# 1.26e-21
+C1357 B4 a_n313_n2133# 2.6e-22
+C1358 B5 a_n582_n2985# 0.003409f
+C1359 A2 w_n826_n1110# 5.37e-19
+C1360 S5 C7 4.85e-21
+C1361 B6 a_414_n6526# 8.48e-21
+C1362 B4 A5 0.014716f
+C1363 B4 a_n583_n5674# 1.03e-22
+C1364 a_n311_n4539# a_n582_n2985# 0.001512f
+C1365 a_1136_n412# a_1403_n1301# 1.05e-21
+C1366 w_n824_n4617# a_1405_n4808# 0.004048f
+C1367 a_414_n6526# a_1404_n6526# 0.004587f
+C1368 a_n582_n3956# a_1404_n3956# 5.5e-19
+C1369 A0 DVDDD 0.669095f
+C1370 a_1404_n6257# C7 2.02e-19
+C1371 A3 a_n672_n2985# 0.024614f
+C1372 A0 a_n583_n1301# 0.006441f
+C1373 B4 a_1133_n2133# 2.66e-22
+C1374 A0 C0 0.295195f
+C1375 A3 a_n671_n4539# 5.86e-22
+C1376 B2 w_n825_n2794# 0.012477f
+C1377 a_n582_n3956# a_1405_n4539# 0.044764f
+C1378 B0 a_413_n1032# 3.2e-19
+C1379 DVDDD a_1403_n5674# 4.84e-19
+C1380 a_1403_n1864# a_1403_n2133# 0.016922f
+C1381 A5 a_1135_n4539# 0.046872f
+C1382 B1 B3 1.55e-21
+C1383 a_n583_n2133# w_n825_n2794# 0.398181f
+C1384 B4 A3 0.01061f
+C1385 S4 a_1404_n3956# 0.164479f
+C1386 B2 a_n673_n1301# 4.73e-20
+C1387 w_n825_n3765# a_414_n3687# 0.020077f
+C1388 w_n826_n1110# a_n672_n2716# 2.28e-21
+C1389 a_n582_n3956# a_n312_n3687# 0.361721f
+C1390 a_413_n5405# DVDDD 0.548658f
+C1391 S3 a_1403_n1864# 3.82e-22
+C1392 A2 a_n670_n412# 7.26e-21
+C1393 a_414_n2985# a_413_n2133# 3.79e-20
+C1394 S4 a_1405_n4539# 1.06e-19
+C1395 A4 a_n672_n3956# 0.024614f
+C1396 S2 a_1403_n1301# 1.17e-19
+C1397 a_n583_n2133# a_n673_n1301# 1.24e-19
+C1398 A4 B3 0.010389f
+C1399 a_n313_n2133# a_n583_n1301# 0.038712f
+C1400 a_1403_n1301# a_413_n1301# 0.004587f
+C1401 DVDDD a_n313_n2133# 7.16e-19
+C1402 a_1404_n2985# S4 6.56e-20
+C1403 A2 B1 0.015879f
+C1404 B6 a_n672_n6257# 3.25e-20
+C1405 A5 DVDDD 0.215913f
+C1406 S4 a_n312_n3687# 0.003052f
+C1407 DVDDD a_n583_n5674# 0.294266f
+C1408 a_n582_n2985# a_1404_n3687# 0.044764f
+C1409 a_n673_n5405# a_n313_n5405# 0.011804f
+C1410 B6 a_415_n4808# 4.96e-19
+C1411 A2 a_n673_n1864# 0.010976f
+C1412 A7 A5 1.76e-21
+C1413 A6 a_n312_n6257# 0.001728f
+C1414 A7 a_n583_n5674# 0.38831f
+C1415 w_n825_n3765# a_1134_n3956# 0.003529f
+C1416 a_n311_n4808# A5 0.035321f
+C1417 a_1133_n2133# a_n583_n1301# 0.219643f
+C1418 DVDDD a_1133_n2133# 3.79e-19
+C1419 S6 a_n581_n4808# 0.428857f
+C1420 a_n311_n4808# a_n583_n5674# 2.98e-20
+C1421 B3 a_1403_n1864# 9.43e-20
+C1422 A3 a_n583_n1301# 0.004499f
+C1423 a_1135_n4808# a_n581_n4808# 2.18e-19
+C1424 DVDDD a_414_n6526# 1.99e-19
+C1425 A3 DVDDD 0.213382f
+C1426 a_n312_n2985# a_n582_n2985# 0.129845f
+C1427 a_n313_n1301# a_n313_n1032# 0.012747f
+C1428 w_n825_n3765# a_n672_n3687# 0.013309f
+C1429 B1 a_n672_n2716# 1.4e-22
+C1430 A3 C0 5.35e-23
+C1431 S7 a_n312_n6257# 0.003052f
+C1432 a_1134_n2716# w_n826_n1942# 1.46e-20
+C1433 B4 a_415_n4808# 8.48e-21
+C1434 a_1404_n2716# a_1403_n1864# 4.54e-20
+C1435 A7 a_414_n6526# 0.047776f
+C1436 A2 a_1403_n1864# 0.003732f
+C1437 a_n673_n1864# a_n672_n2716# 1.3e-20
+C1438 S1 a_n583_n1301# 0.155082f
+C1439 S1 DVDDD 0.117187f
+C1440 S1 C0 0.428952f
+C1441 a_1406_n143# a_n250_n452# 0.044769f
+C1442 a_1136_n412# B2 1.13e-20
+C1443 a_1134_n6257# C7 3.34e-19
+C1444 a_416_n412# a_n310_n412# 0.00567f
+C1445 a_416_n143# a_n310_n143# 0.002945f
+C1446 a_414_n6257# a_n581_n4808# 0.003254f
+C1447 w_n824_n4617# a_n581_n4808# 0.154647f
+C1448 B6 a_n313_n5674# 0.098084f
+C1449 a_1404_n3956# a_n582_n2985# 0.069982f
+C1450 S5 a_414_n2985# 9.21e-22
+C1451 a_413_n5405# a_n673_n5405# 1.04e-19
+C1452 a_1405_n4539# a_n582_n2985# 1.69e-19
+C1453 a_n583_n1301# a_1406_n412# 7.66e-21
+C1454 DVDDD a_1406_n412# 0.004439f
+C1455 A0 a_n673_n1032# 0.001031f
+C1456 C0 a_1406_n412# 6.88e-19
+C1457 a_1134_n2716# a_n312_n2716# 9.4e-19
+C1458 A6 a_413_n5674# 0.047776f
+C1459 a_1404_n2985# a_n582_n2985# 3.67e-19
+C1460 a_n582_n3956# a_n313_n5405# 0.001478f
+C1461 DVDDD a_n672_n6257# 0.172419f
+C1462 B0 a_1133_n1032# 7e-19
+C1463 a_n672_n3687# a_414_n3687# 1.04e-19
+C1464 B2 S2 0.175239f
+C1465 A5 a_n673_n5405# 0.001123f
+C1466 a_n312_n3687# a_n582_n2985# 0.027374f
+C1467 B2 a_413_n1301# 5.64e-19
+C1468 DVDDD a_415_n4808# 8.33e-19
+C1469 A7 a_n672_n6257# 0.010976f
+C1470 a_n583_n5674# a_n673_n5405# 0.198337f
+C1471 S2 a_n583_n2133# 0.155129f
+C1472 a_1133_n5405# a_1134_n3687# 9.86e-23
+C1473 S5 B6 4.27e-20
+C1474 a_413_n2133# a_n583_n1301# 0.050347f
+C1475 a_n583_n2133# a_413_n1301# 3.82e-20
+C1476 a_1403_n1301# a_1133_n1301# 0.156396f
+C1477 a_n250_n452# a_1403_n1032# 8.75e-20
+C1478 DVDDD a_413_n2133# 8.81e-19
+C1479 S3 a_414_n2985# 0.128505f
+C1480 a_413_n5674# S7 6.79e-19
+C1481 S6 B5 1.24e-19
+C1482 a_n311_n4808# a_415_n4808# 0.00567f
+C1483 B5 a_1135_n4808# 0.024012f
+C1484 a_1133_n5674# a_1403_n5674# 0.156396f
+C1485 a_415_n4539# B6 6.88e-20
+C1486 B6 a_n312_n3956# 3.45e-22
+C1487 B6 a_1404_n6257# 7.32e-22
+C1488 S5 a_n671_n4539# 3.65e-19
+C1489 w_n826_n1942# a_n673_n1301# 0.001866f
+C1490 a_1403_n5405# w_n825_n3765# 2.41e-21
+C1491 S5 B4 1.33e-19
+C1492 A6 a_n672_n6526# 1.62e-19
+C1493 a_n582_n3956# a_1403_n5674# 8.11e-21
+C1494 a_1134_n2985# a_1404_n3687# 6.18e-20
+C1495 a_1404_n6257# a_1404_n6526# 0.016922f
+C1496 a_n672_n6526# a_1134_n6526# 1.66e-21
+C1497 a_n250_n452# w_n826_n1110# 0.009393f
+C1498 a_415_n4539# a_n671_n4539# 1.04e-19
+C1499 a_416_n143# a_n670_n143# 1.04e-19
+C1500 a_414_n3956# a_n581_n4808# 3.22e-20
+C1501 a_413_n5405# a_n582_n3956# 0.003106f
+C1502 B3 a_414_n2985# 0.148384f
+C1503 a_n583_n5674# a_1133_n5674# 2.16e-19
+C1504 a_416_n412# B0 0.148384f
+C1505 DVDDD a_n313_n5674# 7.16e-19
+C1506 w_n824_n4617# B5 0.485026f
+C1507 a_n582_n2985# a_n673_n2133# 1.14e-19
+C1508 a_415_n4539# B4 4.04e-19
+C1509 B4 a_n312_n3956# 0.098084f
+C1510 S1 a_n673_n1032# 3.65e-19
+C1511 a_n582_n3956# a_n313_n2133# 2.66e-22
+C1512 A7 a_n313_n5674# 1.27e-21
+C1513 a_n312_n2716# w_n825_n2794# 0.017118f
+C1514 B4 a_1403_n2133# 2.98e-22
+C1515 a_413_n5405# S4 9.47e-22
+C1516 a_n582_n3956# A5 0.38831f
+C1517 a_n311_n4539# w_n824_n4617# 0.017118f
+C1518 S5 a_1135_n4539# 0.257103f
+C1519 A2 a_414_n2985# 1.41e-19
+C1520 w_n826_n5483# a_1134_n3956# 2.62e-21
+C1521 a_n312_n2985# a_1134_n2985# 1.53e-20
+C1522 a_1403_n5405# w_n825_n6335# 2.37e-21
+C1523 a_n582_n3956# a_n583_n5674# 0.002204f
+C1524 S3 B4 3.19e-20
+C1525 a_n673_n5405# a_n672_n6257# 1.3e-20
+C1526 a_n673_n5674# A6 0.024614f
+C1527 w_n825_n3765# B2 3.81e-21
+C1528 a_n311_n4808# a_n313_n5674# 8.72e-21
+C1529 a_n310_n412# a_1136_n412# 1.53e-20
+C1530 B6 a_n672_n3956# 3.71e-22
+C1531 A6 C7 0.00723f
+C1532 S4 A5 4.62e-22
+C1533 w_n825_n3765# a_n583_n2133# 0.008023f
+C1534 C7 a_1134_n6526# 1.2e-19
+C1535 a_415_n4539# a_1135_n4539# 0.006775f
+C1536 a_n582_n2985# a_n313_n5405# 3.78e-22
+C1537 S4 a_n583_n5674# 1.47e-20
+C1538 S5 DVDDD 0.117007f
+C1539 A0 a_n313_n1032# 0.001492f
+C1540 a_1136_n143# B0 0.026227f
+C1541 a_1406_n143# a_1403_n1032# 2.25e-20
+C1542 a_n582_n3956# A3 0.005185f
+C1543 a_n250_n452# B1 0.003127f
+C1544 a_n671_n4539# a_n672_n3956# 0.007315f
+C1545 B2 a_1133_n1301# 4e-19
+C1546 A1 a_n583_n1301# 0.305775f
+C1547 B3 a_n672_n2985# 0.048442f
+C1548 A0 S0 0.083698f
+C1549 S4 a_1133_n2133# 2.24e-22
+C1550 A1 DVDDD 0.21721f
+C1551 w_n826_n1942# a_1136_n412# 8.09e-21
+C1552 a_415_n4539# DVDDD 0.548655f
+C1553 A1 C0 0.388308f
+C1554 S2 a_n313_n1864# 0.003052f
+C1555 C7 S7 0.154057f
+C1556 B4 a_n672_n3956# 0.048442f
+C1557 a_n583_n5674# a_n312_n6526# 0.038714f
+C1558 B5 w_n825_n2794# 4.23e-22
+C1559 a_1134_n2985# a_1405_n4539# 1.58e-22
+C1560 a_n311_n4808# S5 0.00267f
+C1561 DVDDD a_n312_n3956# 7.16e-19
+C1562 DVDDD a_1404_n6257# 0.250032f
+C1563 a_1403_n2133# a_n583_n1301# 0.069982f
+C1564 DVDDD a_1403_n2133# 4.85e-19
+C1565 B4 B3 0.014194f
+C1566 S4 A3 6.17e-19
+C1567 w_n824_n4617# a_1404_n3687# 2.37e-21
+C1568 a_1134_n6257# B6 7.92e-19
+C1569 B7 a_1403_n5674# 4.67e-19
+C1570 a_1403_n5405# a_1134_n3956# 3.72e-22
+C1571 S3 a_n583_n1301# 7.68e-19
+C1572 a_1404_n2985# a_1134_n2985# 0.156396f
+C1573 A2 a_n672_n2985# 1.62e-19
+C1574 a_414_n3687# B2 2.01e-22
+C1575 S3 DVDDD 0.116669f
+C1576 A7 a_1404_n6257# 0.003732f
+C1577 S3 C0 7.47e-22
+C1578 a_1134_n2716# a_1133_n1864# 1.29e-20
+C1579 a_n311_n4808# a_n312_n3956# 7.45e-21
+C1580 a_413_n5405# B7 7.02e-20
+C1581 a_1404_n2716# B4 7.02e-20
+C1582 a_n671_n4808# a_n672_n6526# 1.98e-22
+C1583 a_414_n3687# a_n583_n2133# 0.0024f
+C1584 B5 a_414_n3956# 5.11e-19
+C1585 a_1134_n6257# a_1404_n6526# 5.21e-20
+C1586 w_n826_n1942# S2 0.067066f
+C1587 a_n312_n6526# a_414_n6526# 0.00567f
+C1588 a_1406_n143# w_n826_n1110# 1.81e-21
+C1589 S6 a_1405_n4539# 5.92e-22
+C1590 a_n671_n4808# A4 1.62e-19
+C1591 w_n826_n1942# a_413_n1301# 0.003079f
+C1592 B3 a_1135_n4539# 2.94e-22
+C1593 B7 A5 5.38e-22
+C1594 a_1135_n4808# a_1404_n3956# 5.65e-22
+C1595 a_1135_n4808# a_1405_n4539# 7.58e-20
+C1596 B7 a_n583_n5674# 0.513007f
+C1597 a_413_n5405# a_n582_n2985# 2.2e-22
+C1598 a_1405_n4808# w_n825_n6335# 4.57e-21
+C1599 a_n582_n3956# a_415_n4808# 0.050347f
+C1600 DVDDD a_n672_n3956# 0.008373f
+C1601 a_n672_n2985# a_n672_n2716# 0.021268f
+C1602 B3 a_n583_n1301# 0.003409f
+C1603 B0 a_1136_n412# 0.024012f
+C1604 B3 DVDDD 0.080573f
+C1605 a_n582_n2985# a_n313_n2133# 3.17e-20
+C1606 a_n673_n5674# a_n671_n4808# 7.79e-21
+C1607 A5 a_n582_n2985# 0.004499f
+C1608 a_1134_n2716# a_1404_n2985# 5.21e-20
+C1609 B3 C0 4.04e-22
+C1610 S1 a_n313_n1032# 0.003052f
+C1611 a_n582_n3956# a_413_n2133# 1.58e-22
+C1612 a_n671_n4808# C7 1.41e-22
+C1613 S4 a_415_n4808# 1.86e-21
+C1614 a_1404_n3687# w_n825_n2794# 4.46e-21
+C1615 a_n672_n3687# B2 1.13e-23
+C1616 B7 a_414_n6526# 0.148384f
+C1617 a_1404_n2716# a_n583_n1301# 1.69e-19
+C1618 w_n824_n4617# a_1404_n3956# 0.001678f
+C1619 a_1404_n2716# DVDDD 0.250032f
+C1620 A2 a_n583_n1301# 0.388311f
+C1621 a_1404_n2716# C0 4.07e-21
+C1622 A2 DVDDD 0.216229f
+C1623 w_n824_n4617# a_1405_n4539# 0.020652f
+C1624 a_1403_n5405# w_n826_n5483# 0.020652f
+C1625 A2 C0 0.004736f
+C1626 S1 S0 0.024314f
+C1627 S4 a_413_n2133# 1.24e-22
+C1628 w_n826_n1110# a_1403_n1032# 0.020652f
+C1629 a_1406_n143# B1 8.53e-20
+C1630 A0 a_413_n1032# 0.001386f
+C1631 B0 S2 5.12e-22
+C1632 a_n313_n5674# a_1133_n5674# 1.53e-20
+C1633 B0 a_413_n1301# 7.56e-21
+C1634 a_n312_n2985# w_n825_n2794# 0.003321f
+C1635 a_1405_n4808# a_1134_n3956# 3.79e-22
+C1636 A3 a_n582_n2985# 0.289863f
+C1637 a_1134_n6257# DVDDD 0.244885f
+C1638 B2 a_1403_n1301# 5.07e-19
+C1639 A1 a_n673_n1032# 0.010976f
+C1640 a_414_n2985# a_414_n2716# 0.010395f
+C1641 S0 a_1406_n412# 0.164479f
+C1642 A7 a_1134_n6257# 0.046872f
+C1643 S2 a_413_n1864# 0.366487f
+C1644 a_n582_n3956# a_n313_n5674# 4.87e-22
+C1645 a_n670_n143# a_n310_n143# 0.011804f
+C1646 a_n672_n2716# a_n583_n1301# 1.07e-22
+C1647 a_413_n1864# a_413_n1301# 0.015529f
+C1648 w_n825_n3765# a_n581_n4808# 2.67e-21
+C1649 DVDDD a_n672_n2716# 0.181315f
+C1650 B7 a_n672_n6257# 0.030342f
+C1651 A6 B6 0.617882f
+C1652 a_1405_n4539# w_n825_n2794# 7.14e-22
+C1653 B6 a_1134_n6526# 6.27e-20
+C1654 A4 a_1134_n3687# 0.046872f
+C1655 B1 a_1403_n1032# 0.039369f
+C1656 a_1404_n2985# w_n825_n2794# 0.004048f
+C1657 a_n673_n5405# a_n672_n3956# 2.13e-20
+C1658 w_n826_n1942# a_1133_n1301# 0.001701f
+C1659 S6 a_n313_n5405# 0.003052f
+C1660 a_n582_n3956# S5 0.428892f
+C1661 a_n313_n5674# a_n312_n6526# 7.45e-21
+C1662 a_1404_n6257# a_1133_n5674# 1.02e-19
+C1663 a_n581_n4808# w_n825_n6335# 0.010126f
+C1664 a_416_n143# B0 0.02661f
+C1665 a_n313_n1301# a_n673_n1301# 0.011769f
+C1666 C7 a_n312_n6257# 0.361704f
+C1667 a_1134_n6526# a_1404_n6526# 0.156396f
+C1668 a_414_n3956# a_1404_n3956# 0.004587f
+C1669 B6 S7 1.33e-19
+C1670 S5 S4 0.026243f
+C1671 w_n826_n5483# a_1405_n4808# 0.001576f
+C1672 a_n582_n2985# a_413_n2133# 3.22e-20
+C1673 a_n582_n3956# a_n312_n3956# 0.131893f
+C1674 a_n670_n412# w_n826_n1110# 0.001507f
+C1675 a_415_n4539# a_n582_n3956# 0.034409f
+C1676 B4 a_414_n2716# 5.23e-20
+C1677 S1 a_413_n1032# 0.366487f
+C1678 S7 a_1404_n6526# 0.164479f
+C1679 B1 w_n826_n1110# 0.485026f
+C1680 a_n582_n3956# S3 5.13e-19
+C1681 a_415_n4539# S4 6.2e-19
+C1682 S4 a_n312_n3956# 0.00267f
+C1683 a_1403_n1864# a_1403_n1032# 3.86e-20
+C1684 a_1136_n412# a_1133_n1864# 4.8e-21
+C1685 B7 a_n313_n5674# 5.09e-20
+C1686 w_n824_n4617# a_n313_n5405# 1.78e-20
+C1687 S4 a_1403_n2133# 5.34e-22
+C1688 S3 S4 0.021659f
+C1689 A0 a_1133_n1032# 2.04e-19
+C1690 w_n825_n3765# B5 0.001413f
+C1691 B0 a_1133_n1301# 5.67e-20
+C1692 S6 a_1403_n5674# 0.164479f
+C1693 a_1135_n4808# a_1403_n5674# 7.36e-22
+C1694 a_1133_n5405# B6 0.026227f
+C1695 a_n673_n2133# w_n825_n2794# 0.001745f
+C1696 a_413_n5405# S6 0.366487f
+C1697 a_n311_n4539# w_n825_n3765# 1.57e-20
+C1698 a_1403_n5405# a_1405_n4808# 0.011303f
+C1699 A1 a_n313_n1032# 0.01459f
+C1700 B2 a_n583_n2133# 0.66941f
+C1701 A6 DVDDD 0.216223f
+C1702 a_1134_n2985# a_1133_n2133# 6.69e-21
+C1703 a_n583_n1301# a_414_n2716# 0.003254f
+C1704 DVDDD a_1134_n6526# 3.8e-20
+C1705 S2 a_1133_n1864# 0.257103f
+C1706 a_n582_n3956# a_n672_n3956# 0.093464f
+C1707 B1 a_n670_n412# 9.09e-20
+C1708 a_n671_n4808# B6 6.87e-20
+C1709 DVDDD a_414_n2716# 0.548656f
+C1710 a_413_n5674# C7 3.22e-20
+C1711 a_n582_n3956# B3 4.93e-20
+C1712 a_n672_n2716# a_n673_n1032# 7.65e-22
+C1713 A7 A6 0.030772f
+C1714 S6 A5 8.71e-19
+C1715 A3 a_1134_n2985# 0.029345f
+C1716 w_n826_n1110# a_1403_n1864# 6.4e-21
+C1717 A7 a_1134_n6526# 0.029345f
+C1718 a_n670_n412# a_n673_n1864# 5.51e-21
+C1719 a_n310_n412# a_n310_n143# 0.012747f
+C1720 A5 a_1135_n4808# 0.029345f
+C1721 A1 S0 2.39e-21
+C1722 S6 a_n583_n5674# 0.155129f
+C1723 a_n311_n4808# A6 3.24e-20
+C1724 B5 w_n825_n6335# 1.21e-20
+C1725 S4 B3 8.86e-20
+C1726 a_1134_n6257# a_1133_n5674# 0.009834f
+C1727 DVDDD S7 0.115337f
+C1728 w_n824_n4617# a_1403_n5674# 6.92e-22
+C1729 B1 a_n673_n1864# 4.28e-20
+C1730 a_1133_n5405# B4 6.91e-22
+C1731 a_n671_n4808# a_n671_n4539# 0.021268f
+C1732 B7 a_1404_n6257# 0.039369f
+C1733 S5 a_n582_n2985# 7.62e-19
+C1734 B5 a_414_n3687# 7.02e-20
+C1735 a_n671_n4808# B4 3.64e-22
+C1736 A7 S7 0.083698f
+C1737 a_413_n5405# w_n824_n4617# 1.28e-20
+C1738 w_n826_n1942# a_1403_n1301# 0.001777f
+C1739 S6 a_414_n6526# 1.86e-21
+C1740 a_n313_n1301# a_413_n1301# 0.00567f
+C1741 a_416_n412# A0 0.047776f
+C1742 w_n825_n3765# a_1404_n3687# 0.020652f
+C1743 w_n824_n4617# A5 0.454429f
+C1744 a_1134_n2716# a_1133_n2133# 0.009834f
+C1745 w_n826_n5483# a_n581_n4808# 0.398451f
+C1746 a_415_n4539# a_n582_n2985# 0.003254f
+C1747 a_414_n6257# a_n583_n5674# 0.034409f
+C1748 a_n312_n3956# a_n582_n2985# 0.038712f
+C1749 a_n582_n2985# a_1403_n2133# 2.98e-22
+C1750 a_n673_n5674# a_n672_n6526# 3.46e-21
+C1751 a_1133_n5405# a_1135_n4539# 1.38e-20
+C1752 w_n824_n4617# a_n583_n5674# 6.53e-21
+C1753 S1 a_1133_n1032# 0.257103f
+C1754 a_1134_n2716# A3 0.046872f
+C1755 a_n250_n452# a_n583_n1301# 0.001894f
+C1756 a_n672_n6526# C7 0.090219f
+C1757 a_n250_n452# DVDDD 0.429025f
+C1758 S3 a_n582_n2985# 0.154775f
+C1759 a_n250_n452# C0 0.35586f
+C1760 B5 a_1134_n3956# 3.67e-19
+C1761 w_n825_n3765# a_n312_n2985# 0.001725f
+C1762 S7 DGNDD 0.330676f
+C1763 C7 DGNDD 0.393481f
+C1764 B7 DGNDD 1.51169f
+C1765 A7 DGNDD 2.04231f
+C1766 S6 DGNDD 0.295293f
+C1767 B6 DGNDD 1.45982f
+C1768 A6 DGNDD 1.9284f
+C1769 S5 DGNDD 0.295867f
+C1770 B5 DGNDD 1.46114f
+C1771 A5 DGNDD 1.93394f
+C1772 S4 DGNDD 0.298698f
+C1773 B4 DGNDD 1.46545f
+C1774 A4 DGNDD 1.937f
+C1775 S3 DGNDD 0.300089f
+C1776 B3 DGNDD 1.47398f
+C1777 A3 DGNDD 1.96262f
+C1778 S2 DGNDD 0.293756f
+C1779 B2 DGNDD 1.45689f
+C1780 A2 DGNDD 1.9238f
+C1781 S1 DGNDD 0.295049f
+C1782 B1 DGNDD 1.45748f
+C1783 A1 DGNDD 1.9234f
+C1784 S0 DGNDD 0.317888f
+C1785 C0 DGNDD 1.70746f
+C1786 B0 DGNDD 1.49476f
+C1787 A0 DGNDD 1.99143f
+C1788 DVDDD DGNDD 12.184f
+C1789 a_1404_n6526# DGNDD 0.300732f
+C1790 a_1134_n6526# DGNDD 0.210318f
+C1791 a_414_n6526# DGNDD 0.661367f
+C1792 a_n312_n6526# DGNDD 0.454039f
+C1793 a_n672_n6526# DGNDD 0.25064f
+C1794 a_1404_n6257# DGNDD 0.0467f
+C1795 a_1134_n6257# DGNDD 0.024636f
+C1796 a_414_n6257# DGNDD 0.029001f
+C1797 a_n312_n6257# DGNDD 0.022702f
+C1798 a_n672_n6257# DGNDD 0.023835f
+C1799 a_1403_n5674# DGNDD 0.284103f
+C1800 a_1133_n5674# DGNDD 0.195768f
+C1801 a_413_n5674# DGNDD 0.639085f
+C1802 a_n313_n5674# DGNDD 0.437337f
+C1803 a_n673_n5674# DGNDD 0.233548f
+C1804 a_1403_n5405# DGNDD 0.047099f
+C1805 a_1133_n5405# DGNDD 0.024997f
+C1806 a_413_n5405# DGNDD 0.028404f
+C1807 a_n313_n5405# DGNDD 0.023136f
+C1808 a_n673_n5405# DGNDD 0.018162f
+C1809 a_n583_n5674# DGNDD 1.79426f
+C1810 a_1405_n4808# DGNDD 0.284532f
+C1811 a_1135_n4808# DGNDD 0.196186f
+C1812 a_415_n4808# DGNDD 0.639666f
+C1813 a_n311_n4808# DGNDD 0.437861f
+C1814 a_n671_n4808# DGNDD 0.233967f
+C1815 a_1405_n4539# DGNDD 0.046745f
+C1816 a_1135_n4539# DGNDD 0.024686f
+C1817 a_415_n4539# DGNDD 0.027871f
+C1818 a_n311_n4539# DGNDD 0.022753f
+C1819 a_n671_n4539# DGNDD 0.017967f
+C1820 a_n581_n4808# DGNDD 1.6565f
+C1821 a_1404_n3956# DGNDD 0.284004f
+C1822 a_1134_n3956# DGNDD 0.195711f
+C1823 a_414_n3956# DGNDD 0.639007f
+C1824 a_n312_n3956# DGNDD 0.437277f
+C1825 a_n672_n3956# DGNDD 0.233529f
+C1826 a_1404_n3687# DGNDD 0.049453f
+C1827 a_1134_n3687# DGNDD 0.026878f
+C1828 a_414_n3687# DGNDD 0.031482f
+C1829 a_n312_n3687# DGNDD 0.025371f
+C1830 a_n672_n3687# DGNDD 0.01968f
+C1831 a_n582_n3956# DGNDD 1.66224f
+C1832 a_1404_n2985# DGNDD 0.287647f
+C1833 a_1134_n2985# DGNDD 0.198656f
+C1834 a_414_n2985# DGNDD 0.643918f
+C1835 a_n312_n2985# DGNDD 0.440949f
+C1836 a_n672_n2985# DGNDD 0.235982f
+C1837 a_1404_n2716# DGNDD 0.046706f
+C1838 a_1134_n2716# DGNDD 0.024681f
+C1839 a_414_n2716# DGNDD 0.02787f
+C1840 a_n312_n2716# DGNDD 0.022749f
+C1841 a_n672_n2716# DGNDD 0.017952f
+C1842 a_n582_n2985# DGNDD 1.71885f
+C1843 a_1403_n2133# DGNDD 0.28406f
+C1844 a_1133_n2133# DGNDD 0.195759f
+C1845 a_413_n2133# DGNDD 0.639049f
+C1846 a_n313_n2133# DGNDD 0.437325f
+C1847 a_n673_n2133# DGNDD 0.233542f
+C1848 a_1403_n1864# DGNDD 0.04601f
+C1849 a_1133_n1864# DGNDD 0.024122f
+C1850 a_413_n1864# DGNDD 0.027053f
+C1851 a_n313_n1864# DGNDD 0.022075f
+C1852 a_n673_n1864# DGNDD 0.017471f
+C1853 a_n583_n2133# DGNDD 1.6752f
+C1854 a_1403_n1301# DGNDD 0.28316f
+C1855 a_1133_n1301# DGNDD 0.195048f
+C1856 a_413_n1301# DGNDD 0.63794f
+C1857 a_n313_n1301# DGNDD 0.436446f
+C1858 a_n673_n1301# DGNDD 0.232969f
+C1859 a_1403_n1032# DGNDD 0.047889f
+C1860 a_1133_n1032# DGNDD 0.025592f
+C1861 a_413_n1032# DGNDD 0.029312f
+C1862 a_n313_n1032# DGNDD 0.02384f
+C1863 a_n673_n1032# DGNDD 0.018608f
+C1864 a_n583_n1301# DGNDD 1.63949f
+C1865 a_1406_n412# DGNDD 0.284219f
+C1866 a_1136_n412# DGNDD 0.19666f
+C1867 a_416_n412# DGNDD 0.6407f
+C1868 a_n310_n412# DGNDD 0.438761f
+C1869 a_n670_n412# DGNDD 0.23976f
+C1870 a_1406_n143# DGNDD 0.059695f
+C1871 a_1136_n143# DGNDD 0.036963f
+C1872 a_416_n143# DGNDD 0.046737f
+C1873 a_n310_n143# DGNDD 0.036632f
+C1874 a_n670_n143# DGNDD 0.026873f
+C1875 a_n250_n452# DGNDD 1.12169f
+C1876 w_n825_n6335# DGNDD 2.74497f
+C1877 w_n826_n5483# DGNDD 2.74506f
+C1878 w_n824_n4617# DGNDD 2.74497f
+C1879 w_n825_n3765# DGNDD 2.74475f
+C1880 w_n825_n2794# DGNDD 2.74495f
+C1881 w_n826_n1942# DGNDD 2.74474f
+C1882 w_n826_n1110# DGNDD 2.74515f
+.ends

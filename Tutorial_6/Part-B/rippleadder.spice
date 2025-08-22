@@ -1,0 +1,77 @@
+** sch_path: /home/ee22b074/ee5311/tutorial_6/partb/rippleadder.sch
+.subckt rippleadder DVDDD A2 A1 A3 A0 B1 B0 B3 B2 S0 S2 S1 C0 S3 DGNDD S5 S6 S4 S7 B6 B5 C7 B7 B4 A6 A5 A7 A4
+*.PININFO DVDDD:B DGNDD:I S0:O S1:O S2:O S3:O S4:O S5:O S6:O S7:O A0:I A1:I A2:I A3:I A4:I A5:I A6:I A7:I B1:I B2:I B0:I B3:I B4:I
+*+ B5:I B6:I B7:I C0:I C7:O
+x1 DVDDD A0 B0 C0 net1 S0 DGNDD fulladder
+x2 DVDDD A1 B1 net1 net2 S1 DGNDD fulladder
+x3 DVDDD A2 B2 net2 net3 S2 DGNDD fulladder
+x4 DVDDD A3 B3 net3 net4 S3 DGNDD fulladder
+x5 DVDDD A4 B4 net4 net5 S4 DGNDD fulladder
+x6 DVDDD A5 B5 net5 net6 S5 DGNDD fulladder
+x7 DVDDD A6 B6 net6 net7 S6 DGNDD fulladder
+x8 DVDDD A7 B7 net7 C7 S7 DGNDD fulladder
+.ends
+
+* expanding   symbol:  fulladder.sym # of pins=7
+** sym_path: /home/ee22b074/ee5311/tutorial_6/partb/fulladder.sym
+** sch_path: /home/ee22b074/ee5311/tutorial_6/partb/fulladder.sch
+.subckt fulladder DVDD A B Cin Cout Sum DGND
+*.PININFO Cout:O Sum:O A:I B:I Cin:I DVDD:B DGND:B
+XM25 net3 A DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM26 net3 A DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM27 net2 A DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM28 net2 A DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM29 net2 B DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM30 net2 B DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM31 Cout B net3 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM32 Cout B net3 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM33 Cout Cin net2 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM34 Cout Cin net2 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM35 net6 A DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM36 net6 A DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM37 net6 B DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM38 net6 B DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM39 net6 Cin DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM40 net6 Cin DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM41 Sum Cout net6 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM42 Sum Cout net6 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM43 net7 A DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM44 net7 A DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM45 net7 A DVDD DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM46 net8 B net7 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM47 net8 B net7 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM48 net8 B net7 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM49 Sum Cin net8 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM50 Sum Cin net8 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM51 Sum Cin net8 DVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.84 nf=1 m=1
+XM52 Cout A net1 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM53 Cout A net1 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM54 net1 B DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM55 net1 B DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM56 Cout Cin net4 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM57 Cout Cin net4 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM58 net4 A DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM59 net4 A DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM60 net4 B DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM61 net4 B DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM62 Sum Cout net5 GND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM63 Sum Cout net5 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM64 net5 A DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM65 net5 A DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM66 net5 B DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM67 net5 B DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM68 net5 Cin DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM69 net5 Cin DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM70 Sum Cin net9 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM71 Sum Cin net9 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM72 net9 A net10 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM73 net9 A net10 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM74 net10 B DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM75 net10 B DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM76 Sum Cin net9 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM77 net9 A net10 DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM78 net10 B DGND DGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+.ends
+
+.GLOBAL GND
+.end

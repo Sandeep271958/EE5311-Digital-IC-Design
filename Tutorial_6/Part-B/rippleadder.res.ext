@@ -1,0 +1,3187 @@
+scale 1000 1 500000
+rnode "S7.n0" 0 0 1877 -6159 0
+rnode "S7.t7" 0 0 1854 -6173 0
+rnode "S7.n1" 0 0 1854 -6173 0
+rnode "S7.t8" 0 0 1734 -6173 0
+rnode "S7.t9" 0 0 1674 -6173 0
+rnode "S7.n2" 0 0 1704 -6209 0
+rnode "S7.t2" 0 0 564 -6173 0
+rnode "S7.t3" 0 0 504 -6173 0
+rnode "S7.n3" 0 0 534 -6137 0
+rnode "S7.t0" 0 0 564 -6484 0
+rnode "S7.t1" 0 0 504 -6484 0
+rnode "S7.n4" 0 0 534 -6484 0
+rnode "S7.n5" 0 0 536 -6206 0
+rnode "S7.t6" 0 0 1734 -6484 0
+rnode "S7.t4" 0 0 1674 -6484 0
+rnode "S7.n6" 0 0 1704 -6484 0
+rnode "S7.t5" 0 0 1854 -6484 0
+rnode "S7.n7" 0 0 1777 -6469 0
+rnode "S7.n8" 0 0 1777 -6222 0
+rnode "S7.n9" 0 0 1811 -6151 0
+rnode "S7" 0 0 1877 -6159 0
+resist "S7.n1" "S7.n0" 0.222844
+resist "S7" "S7.n9" 0.226449
+resist "S7.n9" "S7.n8" 0.261029
+resist "S7.n8" "S7.n7" 0.908088
+resist "S7.n8" "S7.n5" 5.44508
+resist "S7" "S7.n1" 9.53842
+resist "S7.n3" "S7.t3" 35.1786
+resist "S7.n3" "S7.t2" 35.1786
+resist "S7.n2" "S7.t9" 35.1786
+resist "S7.n2" "S7.t8" 35.1786
+resist "S7.n4" "S7.t1" 42.8571
+resist "S7.n4" "S7.t0" 42.8571
+resist "S7.n6" "S7.t4" 42.8571
+resist "S7.n6" "S7.t6" 42.8571
+resist "S7.n7" "S7.n6" 196.973
+resist "S7.n5" "S7.n4" 210.997
+resist "S7.n7" "S7.t5" 239.834
+resist "S7.n9" "S7.n2" 307.12
+resist "S7.n5" "S7.n3" 307.434
+resist "S7.n1" "S7.t7" 356.46
+rnode "A5.n0" 0 0 -740 -4648 0
+rnode "A5.t12" 0 0 -686 -4455 0
+rnode "A5.t14" 0 0 -56 -4455 0
+rnode "A5.t13" 0 0 -56 -4766 0
+rnode "A5.t10" 0 0 400 -4455 0
+rnode "A5.t6" 0 0 400 -4766 0
+rnode "A5.t0" 0 0 670 -4455 0
+rnode "A5.t5" 0 0 1300 -4766 0
+rnode "A5.t9" 0 0 1300 -4455 0
+rnode "A5.t7" 0 0 1120 -4766 0
+rnode "A5.t11" 0 0 1120 -4455 0
+rnode "A5.n1" 0 0 1210 -4371 0
+rnode "A5.t4" 0 0 1210 -4455 0
+rnode "A5.t3" 0 0 1210 -4766 0
+rnode "A5.n2" 0 0 1210 -4603 0
+rnode "A5.n3" 0 0 670 -4597 0
+rnode "A5.t15" 0 0 670 -4766 0
+rnode "A5.n4" 0 0 400 -4890 0
+rnode "A5.n5" 0 0 -56 -4890 0
+rnode "A5.t16" 0 0 -326 -4766 0
+rnode "A5.t2" 0 0 -416 -4455 0
+rnode "A5.t1" 0 0 -416 -4766 0
+rnode "A5.t8" 0 0 -686 -4766 0
+rnode "A5.n6" 0 0 -734 -4644 0
+rnode "A5.n7" 0 0 -734 -4644 0
+rnode "A5" 0 0 -740 -4648 0
+resist "A5.n7" "A5.n0" 1.42222
+resist "A5" "A5.n7" 9.31389
+resist "A5.t4" "A5.n1" 134.96
+resist "A5.n7" "A5.n6" 152
+resist "A5.n6" "A5.t8" 166.19
+resist "A5.n5" "A5.t13" 199.227
+resist "A5.n4" "A5.t6" 199.227
+resist "A5.n3" "A5.t0" 204.485
+resist "A5.n2" "A5.t4" 214.125
+resist "A5.n2" "A5.t3" 238.225
+resist "A5.t15" "A5.n3" 247.865
+resist "A5.n6" "A5.t12" 273.836
+resist "A5.n1" "A5.t11" 279.962
+resist "A5.n1" "A5.t9" 281.568
+resist "A5.n3" "A5.n2" 497.309
+resist "A5.t1" "A5.t2" 499.673
+resist "A5.t13" "A5.t14" 499.673
+resist "A5.t6" "A5.t10" 499.673
+resist "A5.t9" "A5.t5" 499.673
+resist "A5.t11" "A5.t7" 499.673
+resist "A5.t16" "A5.n5" 633.027
+resist "A5.n4" "A5.t15" 633.027
+resist "A5.n5" "A5.n4" 732.64
+resist "A5.t8" "A5.t1" 832.253
+resist "A5.t2" "A5.t16" 892.735
+rnode "B5.t10" 0 0 124 -4455 0
+rnode "B5.t8" 0 0 124 -4766 0
+rnode "B5.t1" 0 0 760 -4766 0
+rnode "B5.t2" 0 0 760 -4455 0
+rnode "B5.t5" 0 0 850 -4455 0
+rnode "B5.t15" 0 0 1480 -4766 0
+rnode "B5.t16" 0 0 1480 -4455 0
+rnode "B5.t17" 0 0 1570 -4766 0
+rnode "B5.t0" 0 0 1570 -4455 0
+rnode "B5.n0" 0 0 1480 -4338 0
+rnode "B5.t14" 0 0 1390 -4455 0
+rnode "B5.t12" 0 0 1390 -4766 0
+rnode "B5.t3" 0 0 850 -4766 0
+rnode "B5.n1" 0 0 850 -4665 0
+rnode "B5.n2" 0 0 124 -4589 0
+rnode "B5.t13" 0 0 34 -4455 0
+rnode "B5.t11" 0 0 34 -4766 0
+rnode "B5.n3" 0 0 34 -4589 0
+rnode "B5.n4" 0 0 80 -4616 0
+rnode "B5.t7" 0 0 -506 -4455 0
+rnode "B5.t4" 0 0 -506 -4766 0
+rnode "B5.n5" 0 0 -506 -4589 0
+rnode "B5.t9" 0 0 -596 -4455 0
+rnode "B5.t6" 0 0 -596 -4766 0
+rnode "B5.n6" 0 0 -596 -4589 0
+rnode "B5.n7" 0 0 -551 -4616 0
+rnode "B5.n8" 0 0 -493 -4606 0
+rnode "B5.n9" 0 0 -489 -4596 0
+rnode "B5" 0 0 -493 -4606 0
+resist "B5" "B5.n9" 0.0108696
+resist "B5.n9" "B5.n8" 10.413
+resist "B5.n4" "B5.n2" 39.2741
+resist "B5.n7" "B5.n6" 40.1667
+resist "B5.n7" "B5.n5" 40.1667
+resist "B5.n4" "B5.n3" 41.0593
+resist "B5.n1" "B5.t3" 138.612
+resist "B5.n0" "B5.t16" 139.78
+resist "B5.n8" "B5.n7" 164.991
+resist "B5.n9" "B5.n4" 167.451
+resist "B5.n6" "B5.t6" 197.62
+resist "B5.n5" "B5.t4" 197.62
+resist "B5.n3" "B5.t11" 197.62
+resist "B5.n2" "B5.t8" 197.62
+resist "B5.n6" "B5.t9" 215.293
+resist "B5.n5" "B5.t7" 215.293
+resist "B5.n3" "B5.t13" 215.293
+resist "B5.n2" "B5.t10" 215.293
+resist "B5.t14" "B5.n0" 284.38
+resist "B5.n0" "B5.t0" 284.38
+resist "B5.n1" "B5.t5" 313.738
+resist "B5.n2" "B5.n1" 377.252
+resist "B5.t5" "B5.t2" 420.947
+resist "B5.t12" "B5.t14" 499.673
+resist "B5.t16" "B5.t15" 499.673
+resist "B5.t0" "B5.t17" 499.673
+resist "B5.t2" "B5.t1" 499.673
+resist "B5.t3" "B5.t12" 1266.05
+rnode "S5.n0" 0 0 1882 -4442 0
+rnode "S5.t4" 0 0 1855 -4455 0
+rnode "S5.n1" 0 0 1855 -4455 0
+rnode "S5.t5" 0 0 1735 -4455 0
+rnode "S5.t6" 0 0 1675 -4455 0
+rnode "S5.n2" 0 0 1705 -4491 0
+rnode "S5.t2" 0 0 565 -4455 0
+rnode "S5.t3" 0 0 505 -4455 0
+rnode "S5.n3" 0 0 535 -4419 0
+rnode "S5.t0" 0 0 565 -4766 0
+rnode "S5.t1" 0 0 505 -4766 0
+rnode "S5.n4" 0 0 535 -4766 0
+rnode "S5.n5" 0 0 537 -4488 0
+rnode "S5.t8" 0 0 1735 -4766 0
+rnode "S5.t9" 0 0 1675 -4766 0
+rnode "S5.n6" 0 0 1705 -4766 0
+rnode "S5.t7" 0 0 1855 -4766 0
+rnode "S5.n7" 0 0 1778 -4751 0
+rnode "S5.n8" 0 0 1778 -4504 0
+rnode "S5.n9" 0 0 1812 -4433 0
+rnode "S5" 0 0 1882 -4442 0
+resist "S5" "S5.n9" 0.237319
+resist "S5.n9" "S5.n8" 0.261029
+resist "S5.n1" "S5.n0" 0.333914
+resist "S5.n8" "S5.n7" 0.908088
+resist "S5.n8" "S5.n5" 5.44508
+resist "S5" "S5.n1" 9.637
+resist "S5.n3" "S5.t3" 35.1786
+resist "S5.n3" "S5.t2" 35.1786
+resist "S5.n2" "S5.t6" 35.1786
+resist "S5.n2" "S5.t5" 35.1786
+resist "S5.n4" "S5.t1" 42.8571
+resist "S5.n4" "S5.t0" 42.8571
+resist "S5.n6" "S5.t9" 42.8571
+resist "S5.n6" "S5.t8" 42.8571
+resist "S5.n7" "S5.n6" 196.973
+resist "S5.n5" "S5.n4" 210.997
+resist "S5.n7" "S5.t7" 239.834
+resist "S5.n9" "S5.n2" 307.12
+resist "S5.n5" "S5.n3" 307.434
+resist "S5.n1" "S5.t4" 356.35
+rnode "B4.t4" 0 0 123 -3603 0
+rnode "B4.t3" 0 0 123 -3914 0
+rnode "B4.t17" 0 0 759 -3914 0
+rnode "B4.t1" 0 0 759 -3603 0
+rnode "B4.t2" 0 0 849 -3603 0
+rnode "B4.t10" 0 0 1479 -3914 0
+rnode "B4.t13" 0 0 1479 -3603 0
+rnode "B4.t14" 0 0 1569 -3914 0
+rnode "B4.t16" 0 0 1569 -3603 0
+rnode "B4.n0" 0 0 1479 -3486 0
+rnode "B4.t8" 0 0 1389 -3603 0
+rnode "B4.t6" 0 0 1389 -3914 0
+rnode "B4.t0" 0 0 849 -3914 0
+rnode "B4.n1" 0 0 849 -3813 0
+rnode "B4.n2" 0 0 123 -3737 0
+rnode "B4.t9" 0 0 33 -3603 0
+rnode "B4.t5" 0 0 33 -3914 0
+rnode "B4.n3" 0 0 33 -3737 0
+rnode "B4.n4" 0 0 79 -3764 0
+rnode "B4.t12" 0 0 -507 -3603 0
+rnode "B4.t7" 0 0 -507 -3914 0
+rnode "B4.n5" 0 0 -507 -3737 0
+rnode "B4.t15" 0 0 -597 -3603 0
+rnode "B4.t11" 0 0 -597 -3914 0
+rnode "B4.n6" 0 0 -597 -3737 0
+rnode "B4.n7" 0 0 -552 -3764 0
+rnode "B4.n8" 0 0 -494 -3754 0
+rnode "B4.n9" 0 0 -490 -3744 0
+rnode "B4" 0 0 -494 -3754 0
+resist "B4" "B4.n9" 0.0108696
+resist "B4.n9" "B4.n8" 10.413
+resist "B4.n4" "B4.n2" 39.2741
+resist "B4.n7" "B4.n6" 40.1667
+resist "B4.n7" "B4.n5" 40.1667
+resist "B4.n4" "B4.n3" 41.0593
+resist "B4.n1" "B4.t0" 138.612
+resist "B4.n0" "B4.t13" 139.78
+resist "B4.n8" "B4.n7" 164.991
+resist "B4.n9" "B4.n4" 167.451
+resist "B4.n6" "B4.t11" 197.62
+resist "B4.n5" "B4.t7" 197.62
+resist "B4.n3" "B4.t5" 197.62
+resist "B4.n2" "B4.t3" 197.62
+resist "B4.n6" "B4.t15" 215.293
+resist "B4.n5" "B4.t12" 215.293
+resist "B4.n3" "B4.t9" 215.293
+resist "B4.n2" "B4.t4" 215.293
+resist "B4.t8" "B4.n0" 284.38
+resist "B4.n0" "B4.t16" 284.38
+resist "B4.n1" "B4.t2" 313.738
+resist "B4.n2" "B4.n1" 377.252
+resist "B4.t2" "B4.t1" 420.947
+resist "B4.t6" "B4.t8" 499.673
+resist "B4.t13" "B4.t10" 499.673
+resist "B4.t16" "B4.t14" 499.673
+resist "B4.t1" "B4.t17" 499.673
+resist "B4.t0" "B4.t6" 1266.05
+rnode "C7.t11" 0 0 579 -6173 0
+rnode "C7.t10" 0 0 579 -6484 0
+rnode "C7.n0" 0 0 579 -6288 0
+rnode "C7.t9" 0 0 489 -6173 0
+rnode "C7.t8" 0 0 489 -6484 0
+rnode "C7.n1" 0 0 489 -6288 0
+rnode "C7.n2" 0 0 503 -6321 0
+rnode "C7.t3" 0 0 -522 -6484 0
+rnode "C7.t2" 0 0 -582 -6484 0
+rnode "C7.n3" 0 0 -552 -6484 0
+rnode "C7.t1" 0 0 -522 -6173 0
+rnode "C7.t0" 0 0 -582 -6173 0
+rnode "C7.n4" 0 0 -552 -6209 0
+rnode "C7.n5" 0 0 -552 -6234 0
+rnode "C7.t5" 0 0 -162 -6173 0
+rnode "C7.t4" 0 0 -222 -6173 0
+rnode "C7.n6" 0 0 -192 -6137 0
+rnode "C7.n7" 0 0 -192 -6233 0
+rnode "C7.n8" 0 0 -191 -6234 0
+rnode "C7.t6" 0 0 -162 -6484 0
+rnode "C7.t7" 0 0 -222 -6484 0
+rnode "C7.n9" 0 0 -192 -6484 0
+rnode "C7" 0 0 -197 -6387 0
+resist "C7.n8" "C7.n7" 0.00189394
+resist "C7.n7" "C7.n5" 1.46395
+resist "C7" "C7.n8" 8.02496
+resist "C7.n2" "C7.n1" 10.2242
+resist "C7.n4" "C7.t0" 35.1786
+resist "C7.n4" "C7.t1" 35.1786
+resist "C7.n6" "C7.t4" 35.1786
+resist "C7.n6" "C7.t5" 35.1786
+resist "C7.n9" "C7.t7" 42.8571
+resist "C7.n9" "C7.t6" 42.8571
+resist "C7.n3" "C7.t2" 42.8571
+resist "C7.n3" "C7.t3" 42.8571
+resist "C7.n2" "C7.n0" 55.503
+resist "C7.n8" "C7.n2" 163.74
+resist "C7.n1" "C7.t9" 184.767
+resist "C7.n0" "C7.t11" 184.767
+resist "C7.n5" "C7.n3" 198.821
+resist "C7" "C7.n9" 202.95
+resist "C7.n1" "C7.t8" 208.867
+resist "C7.n0" "C7.t10" 208.867
+resist "C7.n7" "C7.n6" 313.875
+resist "C7.n5" "C7.n4" 314.253
+rnode "S4.n0" 0 0 1880 -3590 0
+rnode "S4.t4" 0 0 1854 -3603 0
+rnode "S4.n1" 0 0 1854 -3603 0
+rnode "S4.t5" 0 0 1734 -3603 0
+rnode "S4.t6" 0 0 1674 -3603 0
+rnode "S4.n2" 0 0 1704 -3639 0
+rnode "S4.t0" 0 0 564 -3603 0
+rnode "S4.t1" 0 0 504 -3603 0
+rnode "S4.n3" 0 0 534 -3567 0
+rnode "S4.t2" 0 0 564 -3914 0
+rnode "S4.t3" 0 0 504 -3914 0
+rnode "S4.n4" 0 0 534 -3914 0
+rnode "S4.n5" 0 0 536 -3636 0
+rnode "S4.t9" 0 0 1734 -3914 0
+rnode "S4.t7" 0 0 1674 -3914 0
+rnode "S4.n6" 0 0 1704 -3914 0
+rnode "S4.t8" 0 0 1854 -3914 0
+rnode "S4.n7" 0 0 1777 -3899 0
+rnode "S4.n8" 0 0 1777 -3652 0
+rnode "S4.n9" 0 0 1811 -3581 0
+rnode "S4" 0 0 1880 -3590 0
+resist "S4" "S4.n9" 0.234601
+resist "S4.n9" "S4.n8" 0.261029
+resist "S4.n1" "S4.n0" 0.333914
+resist "S4.n8" "S4.n7" 0.908088
+resist "S4.n8" "S4.n5" 5.44508
+resist "S4" "S4.n1" 9.63972
+resist "S4.n3" "S4.t1" 35.1786
+resist "S4.n3" "S4.t0" 35.1786
+resist "S4.n2" "S4.t6" 35.1786
+resist "S4.n2" "S4.t5" 35.1786
+resist "S4.n4" "S4.t3" 42.8571
+resist "S4.n4" "S4.t2" 42.8571
+resist "S4.n6" "S4.t7" 42.8571
+resist "S4.n6" "S4.t9" 42.8571
+resist "S4.n7" "S4.n6" 196.973
+resist "S4.n5" "S4.n4" 210.997
+resist "S4.n7" "S4.t8" 239.834
+resist "S4.n9" "S4.n2" 307.12
+resist "S4.n5" "S4.n3" 307.434
+resist "S4.n1" "S4.t4" 356.35
+rnode "B3.t17" 0 0 123 -2632 0
+rnode "B3.t0" 0 0 123 -2943 0
+rnode "B3.t14" 0 0 759 -2943 0
+rnode "B3.t13" 0 0 759 -2632 0
+rnode "B3.t15" 0 0 849 -2632 0
+rnode "B3.t9" 0 0 1479 -2943 0
+rnode "B3.t7" 0 0 1479 -2632 0
+rnode "B3.t12" 0 0 1569 -2943 0
+rnode "B3.t11" 0 0 1569 -2632 0
+rnode "B3.n0" 0 0 1479 -2515 0
+rnode "B3.t1" 0 0 1389 -2632 0
+rnode "B3.t4" 0 0 1389 -2943 0
+rnode "B3.t16" 0 0 849 -2943 0
+rnode "B3.n1" 0 0 849 -2842 0
+rnode "B3.n2" 0 0 123 -2766 0
+rnode "B3.t2" 0 0 33 -2632 0
+rnode "B3.t5" 0 0 33 -2943 0
+rnode "B3.n3" 0 0 33 -2766 0
+rnode "B3.n4" 0 0 79 -2793 0
+rnode "B3.t3" 0 0 -507 -2632 0
+rnode "B3.t6" 0 0 -507 -2943 0
+rnode "B3.n5" 0 0 -507 -2766 0
+rnode "B3.t8" 0 0 -597 -2632 0
+rnode "B3.t10" 0 0 -597 -2943 0
+rnode "B3.n6" 0 0 -597 -2766 0
+rnode "B3.n7" 0 0 -552 -2793 0
+rnode "B3.n8" 0 0 -494 -2783 0
+rnode "B3.n9" 0 0 -490 -2773 0
+rnode "B3" 0 0 -494 -2783 0
+resist "B3" "B3.n9" 0.0108696
+resist "B3.n9" "B3.n8" 10.413
+resist "B3.n4" "B3.n2" 39.2741
+resist "B3.n7" "B3.n6" 40.1667
+resist "B3.n7" "B3.n5" 40.1667
+resist "B3.n4" "B3.n3" 41.0593
+resist "B3.n1" "B3.t16" 138.612
+resist "B3.n0" "B3.t7" 139.78
+resist "B3.n8" "B3.n7" 164.991
+resist "B3.n9" "B3.n4" 167.451
+resist "B3.n6" "B3.t10" 197.62
+resist "B3.n5" "B3.t6" 197.62
+resist "B3.n3" "B3.t5" 197.62
+resist "B3.n2" "B3.t0" 197.62
+resist "B3.n6" "B3.t8" 215.293
+resist "B3.n5" "B3.t3" 215.293
+resist "B3.n3" "B3.t2" 215.293
+resist "B3.n2" "B3.t17" 215.293
+resist "B3.t1" "B3.n0" 284.38
+resist "B3.n0" "B3.t11" 284.38
+resist "B3.n1" "B3.t15" 313.738
+resist "B3.n2" "B3.n1" 377.252
+resist "B3.t15" "B3.t13" 420.947
+resist "B3.t4" "B3.t1" 499.673
+resist "B3.t7" "B3.t9" 499.673
+resist "B3.t11" "B3.t12" 499.673
+resist "B3.t13" "B3.t14" 499.673
+resist "B3.t16" "B3.t4" 1266.05
+rnode "S2.n0" 0 0 1872 -1769 0
+rnode "S2.t4" 0 0 1853 -1780 0
+rnode "S2.n1" 0 0 1853 -1780 0
+rnode "S2.t5" 0 0 1733 -1780 0
+rnode "S2.t6" 0 0 1673 -1780 0
+rnode "S2.n2" 0 0 1703 -1816 0
+rnode "S2.t1" 0 0 563 -1780 0
+rnode "S2.t0" 0 0 503 -1780 0
+rnode "S2.n3" 0 0 533 -1744 0
+rnode "S2.t3" 0 0 563 -2091 0
+rnode "S2.t2" 0 0 503 -2091 0
+rnode "S2.n4" 0 0 533 -2091 0
+rnode "S2.n5" 0 0 535 -1813 0
+rnode "S2.t8" 0 0 1733 -2091 0
+rnode "S2.t9" 0 0 1673 -2091 0
+rnode "S2.n6" 0 0 1703 -2091 0
+rnode "S2.t7" 0 0 1853 -2091 0
+rnode "S2.n7" 0 0 1776 -2076 0
+rnode "S2.n8" 0 0 1776 -1829 0
+rnode "S2.n9" 0 0 1810 -1758 0
+rnode "S2" 0 0 1872 -1769 0
+resist "S2" "S2.n9" 0.21558
+resist "S2.n9" "S2.n8" 0.261029
+resist "S2.n1" "S2.n0" 0.555848
+resist "S2.n8" "S2.n7" 0.908088
+resist "S2.n8" "S2.n5" 5.44508
+resist "S2" "S2.n1" 9.87764
+resist "S2.n3" "S2.t0" 35.1786
+resist "S2.n3" "S2.t1" 35.1786
+resist "S2.n2" "S2.t6" 35.1786
+resist "S2.n2" "S2.t5" 35.1786
+resist "S2.n4" "S2.t2" 42.8571
+resist "S2.n4" "S2.t3" 42.8571
+resist "S2.n6" "S2.t9" 42.8571
+resist "S2.n6" "S2.t8" 42.8571
+resist "S2.n7" "S2.n6" 196.973
+resist "S2.n5" "S2.n4" 210.997
+resist "S2.n7" "S2.t7" 239.834
+resist "S2.n9" "S2.n2" 307.12
+resist "S2.n5" "S2.n3" 307.434
+resist "S2.n1" "S2.t4" 356.132
+rnode "B6.t0" 0 0 122 -5321 0
+rnode "B6.t1" 0 0 122 -5632 0
+rnode "B6.t13" 0 0 758 -5632 0
+rnode "B6.t11" 0 0 758 -5321 0
+rnode "B6.t15" 0 0 848 -5321 0
+rnode "B6.t7" 0 0 1478 -5632 0
+rnode "B6.t6" 0 0 1478 -5321 0
+rnode "B6.t9" 0 0 1568 -5632 0
+rnode "B6.t8" 0 0 1568 -5321 0
+rnode "B6.n0" 0 0 1478 -5204 0
+rnode "B6.t3" 0 0 1388 -5321 0
+rnode "B6.t5" 0 0 1388 -5632 0
+rnode "B6.t17" 0 0 848 -5632 0
+rnode "B6.n1" 0 0 848 -5531 0
+rnode "B6.n2" 0 0 122 -5455 0
+rnode "B6.t2" 0 0 32 -5321 0
+rnode "B6.t4" 0 0 32 -5632 0
+rnode "B6.n3" 0 0 32 -5455 0
+rnode "B6.n4" 0 0 78 -5482 0
+rnode "B6.t10" 0 0 -508 -5321 0
+rnode "B6.t12" 0 0 -508 -5632 0
+rnode "B6.n5" 0 0 -508 -5455 0
+rnode "B6.t14" 0 0 -598 -5321 0
+rnode "B6.t16" 0 0 -598 -5632 0
+rnode "B6.n6" 0 0 -598 -5455 0
+rnode "B6.n7" 0 0 -553 -5482 0
+rnode "B6.n8" 0 0 -496 -5464 0
+rnode "B6.n9" 0 0 -491 -5462 0
+rnode "B6" 0 0 -496 -5464 0
+resist "B6" "B6.n9" 0.013587
+resist "B6.n9" "B6.n8" 10.6913
+resist "B6.n4" "B6.n2" 39.2741
+resist "B6.n7" "B6.n6" 40.1667
+resist "B6.n7" "B6.n5" 40.1667
+resist "B6.n4" "B6.n3" 41.0593
+resist "B6.n1" "B6.t17" 138.612
+resist "B6.n0" "B6.t6" 139.78
+resist "B6.n8" "B6.n7" 164.713
+resist "B6.n9" "B6.n4" 167.451
+resist "B6.n6" "B6.t16" 197.62
+resist "B6.n5" "B6.t12" 197.62
+resist "B6.n3" "B6.t4" 197.62
+resist "B6.n2" "B6.t1" 197.62
+resist "B6.n6" "B6.t14" 215.293
+resist "B6.n5" "B6.t10" 215.293
+resist "B6.n3" "B6.t2" 215.293
+resist "B6.n2" "B6.t0" 215.293
+resist "B6.t3" "B6.n0" 284.38
+resist "B6.n0" "B6.t8" 284.38
+resist "B6.n1" "B6.t15" 313.738
+resist "B6.n2" "B6.n1" 377.252
+resist "B6.t15" "B6.t11" 420.947
+resist "B6.t5" "B6.t3" 499.673
+resist "B6.t6" "B6.t7" 499.673
+resist "B6.t8" "B6.t9" 499.673
+resist "B6.t11" "B6.t13" 499.673
+resist "B6.t17" "B6.t5" 1266.05
+rnode "A6.n0" 0 0 -742 -5512 0
+rnode "A6.t16" 0 0 -688 -5321 0
+rnode "A6.t6" 0 0 -58 -5321 0
+rnode "A6.t9" 0 0 -58 -5632 0
+rnode "A6.t3" 0 0 398 -5321 0
+rnode "A6.t7" 0 0 398 -5632 0
+rnode "A6.t12" 0 0 668 -5321 0
+rnode "A6.t5" 0 0 1298 -5632 0
+rnode "A6.t2" 0 0 1298 -5321 0
+rnode "A6.t8" 0 0 1118 -5632 0
+rnode "A6.t4" 0 0 1118 -5321 0
+rnode "A6.n1" 0 0 1208 -5237 0
+rnode "A6.t15" 0 0 1208 -5321 0
+rnode "A6.t0" 0 0 1208 -5632 0
+rnode "A6.n2" 0 0 1208 -5469 0
+rnode "A6.n3" 0 0 668 -5463 0
+rnode "A6.t14" 0 0 668 -5632 0
+rnode "A6.n4" 0 0 398 -5756 0
+rnode "A6.n5" 0 0 -58 -5756 0
+rnode "A6.t10" 0 0 -328 -5632 0
+rnode "A6.t11" 0 0 -418 -5321 0
+rnode "A6.t13" 0 0 -418 -5632 0
+rnode "A6.t1" 0 0 -688 -5632 0
+rnode "A6.n6" 0 0 -736 -5510 0
+rnode "A6.n7" 0 0 -736 -5510 0
+rnode "A6" 0 0 -742 -5512 0
+resist "A6.n7" "A6.n0" 1.42222
+resist "A6" "A6.n7" 9.31389
+resist "A6.t15" "A6.n1" 134.96
+resist "A6.n7" "A6.n6" 152
+resist "A6.n6" "A6.t1" 166.19
+resist "A6.n5" "A6.t9" 199.227
+resist "A6.n4" "A6.t7" 199.227
+resist "A6.n3" "A6.t12" 204.485
+resist "A6.n2" "A6.t15" 214.125
+resist "A6.n2" "A6.t0" 238.225
+resist "A6.t14" "A6.n3" 247.865
+resist "A6.n6" "A6.t16" 273.836
+resist "A6.n1" "A6.t4" 279.962
+resist "A6.n1" "A6.t2" 281.568
+resist "A6.n3" "A6.n2" 497.309
+resist "A6.t13" "A6.t11" 499.673
+resist "A6.t9" "A6.t6" 499.673
+resist "A6.t7" "A6.t3" 499.673
+resist "A6.t2" "A6.t5" 499.673
+resist "A6.t4" "A6.t8" 499.673
+resist "A6.t10" "A6.n5" 633.027
+resist "A6.n4" "A6.t14" 633.027
+resist "A6.n5" "A6.n4" 732.64
+resist "A6.t1" "A6.t13" 832.253
+resist "A6.t11" "A6.t10" 892.735
+rnode "B2.t13" 0 0 122 -1780 0
+rnode "B2.t12" 0 0 122 -2091 0
+rnode "B2.t5" 0 0 758 -2091 0
+rnode "B2.t7" 0 0 758 -1780 0
+rnode "B2.t11" 0 0 848 -1780 0
+rnode "B2.t0" 0 0 1478 -2091 0
+rnode "B2.t1" 0 0 1478 -1780 0
+rnode "B2.t2" 0 0 1568 -2091 0
+rnode "B2.t3" 0 0 1568 -1780 0
+rnode "B2.n0" 0 0 1478 -1663 0
+rnode "B2.t17" 0 0 1388 -1780 0
+rnode "B2.t15" 0 0 1388 -2091 0
+rnode "B2.t9" 0 0 848 -2091 0
+rnode "B2.n1" 0 0 848 -1990 0
+rnode "B2.n2" 0 0 122 -1914 0
+rnode "B2.t16" 0 0 32 -1780 0
+rnode "B2.t14" 0 0 32 -2091 0
+rnode "B2.n3" 0 0 32 -1914 0
+rnode "B2.n4" 0 0 78 -1941 0
+rnode "B2.t6" 0 0 -508 -1780 0
+rnode "B2.t4" 0 0 -508 -2091 0
+rnode "B2.n5" 0 0 -508 -1914 0
+rnode "B2.t10" 0 0 -598 -1780 0
+rnode "B2.t8" 0 0 -598 -2091 0
+rnode "B2.n6" 0 0 -598 -1914 0
+rnode "B2.n7" 0 0 -553 -1941 0
+rnode "B2.n8" 0 0 -495 -1931 0
+rnode "B2.n9" 0 0 -491 -1921 0
+rnode "B2" 0 0 -495 -1931 0
+resist "B2" "B2.n9" 0.0108696
+resist "B2.n9" "B2.n8" 10.413
+resist "B2.n4" "B2.n2" 39.2741
+resist "B2.n7" "B2.n6" 40.1667
+resist "B2.n7" "B2.n5" 40.1667
+resist "B2.n4" "B2.n3" 41.0593
+resist "B2.n1" "B2.t9" 138.612
+resist "B2.n0" "B2.t1" 139.78
+resist "B2.n8" "B2.n7" 164.991
+resist "B2.n9" "B2.n4" 167.451
+resist "B2.n6" "B2.t8" 197.62
+resist "B2.n5" "B2.t4" 197.62
+resist "B2.n3" "B2.t14" 197.62
+resist "B2.n2" "B2.t12" 197.62
+resist "B2.n6" "B2.t10" 215.293
+resist "B2.n5" "B2.t6" 215.293
+resist "B2.n3" "B2.t16" 215.293
+resist "B2.n2" "B2.t13" 215.293
+resist "B2.t17" "B2.n0" 284.38
+resist "B2.n0" "B2.t3" 284.38
+resist "B2.n1" "B2.t11" 313.738
+resist "B2.n2" "B2.n1" 377.252
+resist "B2.t11" "B2.t7" 420.947
+resist "B2.t15" "B2.t17" 499.673
+resist "B2.t1" "B2.t0" 499.673
+resist "B2.t3" "B2.t2" 499.673
+resist "B2.t7" "B2.t5" 499.673
+resist "B2.t9" "B2.t15" 1266.05
+rnode "A4.n0" 0 0 -740 -3797 0
+rnode "A4.t16" 0 0 -687 -3603 0
+rnode "A4.t1" 0 0 -57 -3603 0
+rnode "A4.t0" 0 0 -57 -3914 0
+rnode "A4.t10" 0 0 399 -3603 0
+rnode "A4.t6" 0 0 399 -3914 0
+rnode "A4.t15" 0 0 669 -3603 0
+rnode "A4.t4" 0 0 1299 -3914 0
+rnode "A4.t9" 0 0 1299 -3603 0
+rnode "A4.t8" 0 0 1119 -3914 0
+rnode "A4.t12" 0 0 1119 -3603 0
+rnode "A4.n1" 0 0 1209 -3519 0
+rnode "A4.t5" 0 0 1209 -3603 0
+rnode "A4.t2" 0 0 1209 -3914 0
+rnode "A4.n2" 0 0 1209 -3751 0
+rnode "A4.n3" 0 0 669 -3745 0
+rnode "A4.t13" 0 0 669 -3914 0
+rnode "A4.n4" 0 0 399 -4038 0
+rnode "A4.n5" 0 0 -57 -4038 0
+rnode "A4.t3" 0 0 -327 -3914 0
+rnode "A4.t11" 0 0 -417 -3603 0
+rnode "A4.t7" 0 0 -417 -3914 0
+rnode "A4.t14" 0 0 -687 -3914 0
+rnode "A4.n6" 0 0 -735 -3792 0
+rnode "A4.n7" 0 0 -735 -3792 0
+rnode "A4" 0 0 -740 -3797 0
+resist "A4.n7" "A4.n0" 1.18519
+resist "A4" "A4.n7" 9.31157
+resist "A4.t5" "A4.n1" 134.96
+resist "A4.n7" "A4.n6" 152
+resist "A4.n6" "A4.t14" 166.19
+resist "A4.n5" "A4.t0" 199.227
+resist "A4.n4" "A4.t6" 199.227
+resist "A4.n3" "A4.t15" 204.485
+resist "A4.n2" "A4.t5" 214.125
+resist "A4.n2" "A4.t2" 238.225
+resist "A4.t13" "A4.n3" 247.865
+resist "A4.n6" "A4.t16" 273.836
+resist "A4.n1" "A4.t12" 279.962
+resist "A4.n1" "A4.t9" 281.568
+resist "A4.n3" "A4.n2" 497.309
+resist "A4.t7" "A4.t11" 499.673
+resist "A4.t0" "A4.t1" 499.673
+resist "A4.t6" "A4.t10" 499.673
+resist "A4.t9" "A4.t4" 499.673
+resist "A4.t12" "A4.t8" 499.673
+resist "A4.t3" "A4.n5" 633.027
+resist "A4.n4" "A4.t13" 633.027
+resist "A4.n5" "A4.n4" 732.64
+resist "A4.t14" "A4.t7" 832.253
+resist "A4.t11" "A4.t3" 892.735
+rnode "S3.n0" 0 0 1873 -2620 0
+rnode "S3.t3" 0 0 1854 -2632 0
+rnode "S3.n1" 0 0 1854 -2632 0
+rnode "S3.t4" 0 0 1734 -2632 0
+rnode "S3.t5" 0 0 1674 -2632 0
+rnode "S3.n2" 0 0 1704 -2668 0
+rnode "S3.t6" 0 0 564 -2632 0
+rnode "S3.t7" 0 0 504 -2632 0
+rnode "S3.n3" 0 0 534 -2596 0
+rnode "S3.t8" 0 0 564 -2943 0
+rnode "S3.t9" 0 0 504 -2943 0
+rnode "S3.n4" 0 0 534 -2943 0
+rnode "S3.n5" 0 0 536 -2665 0
+rnode "S3.t0" 0 0 1734 -2943 0
+rnode "S3.t1" 0 0 1674 -2943 0
+rnode "S3.n6" 0 0 1704 -2943 0
+rnode "S3.t2" 0 0 1854 -2943 0
+rnode "S3.n7" 0 0 1777 -2928 0
+rnode "S3.n8" 0 0 1777 -2681 0
+rnode "S3.n9" 0 0 1811 -2610 0
+rnode "S3" 0 0 1873 -2620 0
+resist "S3" "S3.n9" 0.21558
+resist "S3.n9" "S3.n8" 0.261029
+resist "S3.n1" "S3.n0" 0.444915
+resist "S3.n8" "S3.n7" 0.908088
+resist "S3.n8" "S3.n5" 5.44508
+resist "S3" "S3.n1" 9.76819
+resist "S3.n3" "S3.t7" 35.1786
+resist "S3.n3" "S3.t6" 35.1786
+resist "S3.n2" "S3.t5" 35.1786
+resist "S3.n2" "S3.t4" 35.1786
+resist "S3.n4" "S3.t9" 42.8571
+resist "S3.n4" "S3.t8" 42.8571
+resist "S3.n6" "S3.t1" 42.8571
+resist "S3.n6" "S3.t0" 42.8571
+resist "S3.n7" "S3.n6" 196.973
+resist "S3.n5" "S3.n4" 210.997
+resist "S3.n7" "S3.t2" 239.834
+resist "S3.n9" "S3.n2" 307.12
+resist "S3.n5" "S3.n3" 307.434
+resist "S3.n1" "S3.t3" 356.241
+rnode "A3.n0" 0 0 -738 -2828 0
+rnode "A3.t9" 0 0 -687 -2632 0
+rnode "A3.t12" 0 0 -57 -2632 0
+rnode "A3.t13" 0 0 -57 -2943 0
+rnode "A3.t1" 0 0 399 -2632 0
+rnode "A3.t5" 0 0 399 -2943 0
+rnode "A3.t8" 0 0 669 -2632 0
+rnode "A3.t4" 0 0 1299 -2943 0
+rnode "A3.t0" 0 0 1299 -2632 0
+rnode "A3.t7" 0 0 1119 -2943 0
+rnode "A3.t3" 0 0 1119 -2632 0
+rnode "A3.n1" 0 0 1209 -2548 0
+rnode "A3.t14" 0 0 1209 -2632 0
+rnode "A3.t15" 0 0 1209 -2943 0
+rnode "A3.n2" 0 0 1209 -2780 0
+rnode "A3.n3" 0 0 669 -2774 0
+rnode "A3.t10" 0 0 669 -2943 0
+rnode "A3.n4" 0 0 399 -3067 0
+rnode "A3.n5" 0 0 -57 -3067 0
+rnode "A3.t16" 0 0 -327 -2943 0
+rnode "A3.t2" 0 0 -417 -2632 0
+rnode "A3.t6" 0 0 -417 -2943 0
+rnode "A3.t11" 0 0 -687 -2943 0
+rnode "A3.n6" 0 0 -735 -2821 0
+rnode "A3.n7" 0 0 -735 -2821 0
+rnode "A3" 0 0 -738 -2828 0
+resist "A3.n7" "A3.n0" 1.35758
+resist "A3" "A3.n7" 9.31326
+resist "A3.t14" "A3.n1" 134.96
+resist "A3.n7" "A3.n6" 152
+resist "A3.n6" "A3.t11" 166.19
+resist "A3.n5" "A3.t13" 199.227
+resist "A3.n4" "A3.t5" 199.227
+resist "A3.n3" "A3.t8" 204.485
+resist "A3.n2" "A3.t14" 214.125
+resist "A3.n2" "A3.t15" 238.225
+resist "A3.t10" "A3.n3" 247.865
+resist "A3.n6" "A3.t9" 273.836
+resist "A3.n1" "A3.t3" 279.962
+resist "A3.n1" "A3.t0" 281.568
+resist "A3.n3" "A3.n2" 497.309
+resist "A3.t6" "A3.t2" 499.673
+resist "A3.t13" "A3.t12" 499.673
+resist "A3.t5" "A3.t1" 499.673
+resist "A3.t0" "A3.t4" 499.673
+resist "A3.t3" "A3.t7" 499.673
+resist "A3.t16" "A3.n5" 633.027
+resist "A3.n4" "A3.t10" 633.027
+resist "A3.n5" "A3.n4" 732.64
+resist "A3.t11" "A3.t6" 832.253
+resist "A3.t2" "A3.t16" 892.735
+rnode "S6.t2" 0 0 1853 -5321 0
+rnode "S6.n0" 0 0 1878 -5305 0
+rnode "S6.t0" 0 0 1733 -5321 0
+rnode "S6.t1" 0 0 1673 -5321 0
+rnode "S6.n1" 0 0 1703 -5357 0
+rnode "S6.t6" 0 0 563 -5321 0
+rnode "S6.t7" 0 0 503 -5321 0
+rnode "S6.n2" 0 0 533 -5285 0
+rnode "S6.t8" 0 0 563 -5632 0
+rnode "S6.t9" 0 0 503 -5632 0
+rnode "S6.n3" 0 0 533 -5632 0
+rnode "S6.n4" 0 0 535 -5354 0
+rnode "S6.t3" 0 0 1733 -5632 0
+rnode "S6.t4" 0 0 1673 -5632 0
+rnode "S6.n5" 0 0 1703 -5632 0
+rnode "S6.t5" 0 0 1853 -5632 0
+rnode "S6.n6" 0 0 1776 -5617 0
+rnode "S6.n7" 0 0 1776 -5370 0
+rnode "S6.n8" 0 0 1810 -5299 0
+rnode "S6" 0 0 1878 -5305 0
+resist "S6" "S6.n8" 0.231884
+resist "S6.n8" "S6.n7" 0.261029
+resist "S6.n7" "S6.n6" 0.908088
+resist "S6.n7" "S6.n4" 5.44508
+resist "S6" "S6.n0" 9.31359
+resist "S6.n2" "S6.t7" 35.1786
+resist "S6.n2" "S6.t6" 35.1786
+resist "S6.n1" "S6.t1" 35.1786
+resist "S6.n1" "S6.t0" 35.1786
+resist "S6.n3" "S6.t9" 42.8571
+resist "S6.n3" "S6.t8" 42.8571
+resist "S6.n5" "S6.t4" 42.8571
+resist "S6.n5" "S6.t3" 42.8571
+resist "S6.n6" "S6.n5" 196.973
+resist "S6.n4" "S6.n3" 210.997
+resist "S6.n6" "S6.t5" 239.834
+resist "S6.n8" "S6.n1" 307.12
+resist "S6.n4" "S6.n2" 307.434
+resist "S6.n0" "S6.t2" 356.678
+rnode "A1.n0" 0 0 -736 -1142 0
+rnode "A1.t6" 0 0 -688 -948 0
+rnode "A1.t12" 0 0 -58 -948 0
+rnode "A1.t8" 0 0 -58 -1259 0
+rnode "A1.t10" 0 0 398 -948 0
+rnode "A1.t5" 0 0 398 -1259 0
+rnode "A1.t0" 0 0 668 -948 0
+rnode "A1.t4" 0 0 1298 -1259 0
+rnode "A1.t9" 0 0 1298 -948 0
+rnode "A1.t7" 0 0 1118 -1259 0
+rnode "A1.t11" 0 0 1118 -948 0
+rnode "A1.n1" 0 0 1208 -864 0
+rnode "A1.t3" 0 0 1208 -948 0
+rnode "A1.t1" 0 0 1208 -1259 0
+rnode "A1.n2" 0 0 1208 -1096 0
+rnode "A1.n3" 0 0 668 -1090 0
+rnode "A1.t15" 0 0 668 -1259 0
+rnode "A1.n4" 0 0 398 -1383 0
+rnode "A1.n5" 0 0 -58 -1383 0
+rnode "A1.t13" 0 0 -328 -1259 0
+rnode "A1.t16" 0 0 -418 -948 0
+rnode "A1.t14" 0 0 -418 -1259 0
+rnode "A1.t2" 0 0 -688 -1259 0
+rnode "A1.n6" 0 0 -736 -1137 0
+rnode "A1.n7" 0 0 -736 -1137 0
+rnode "A1" 0 0 -736 -1142 0
+resist "A1.n7" "A1.n0" 0.969697
+resist "A1" "A1.n7" 9.30947
+resist "A1.t3" "A1.n1" 134.96
+resist "A1.n7" "A1.n6" 152
+resist "A1.n6" "A1.t2" 166.19
+resist "A1.n5" "A1.t8" 199.227
+resist "A1.n4" "A1.t5" 199.227
+resist "A1.n3" "A1.t0" 204.485
+resist "A1.n2" "A1.t3" 214.125
+resist "A1.n2" "A1.t1" 238.225
+resist "A1.t15" "A1.n3" 247.865
+resist "A1.n6" "A1.t6" 273.836
+resist "A1.n1" "A1.t11" 279.962
+resist "A1.n1" "A1.t9" 281.568
+resist "A1.n3" "A1.n2" 497.309
+resist "A1.t14" "A1.t16" 499.673
+resist "A1.t8" "A1.t12" 499.673
+resist "A1.t5" "A1.t10" 499.673
+resist "A1.t9" "A1.t4" 499.673
+resist "A1.t11" "A1.t7" 499.673
+resist "A1.t13" "A1.n5" 633.027
+resist "A1.n4" "A1.t15" 633.027
+resist "A1.n5" "A1.n4" 732.64
+resist "A1.t2" "A1.t14" 832.253
+resist "A1.t16" "A1.t13" 892.735
+rnode "S0.n0" 0 0 1870 -46 0
+rnode "S0.t7" 0 0 1856 -59 0
+rnode "S0.n1" 0 0 1856 -59 0
+rnode "S0.t8" 0 0 1736 -59 0
+rnode "S0.t9" 0 0 1676 -59 0
+rnode "S0.n2" 0 0 1706 -95 0
+rnode "S0.t0" 0 0 566 -59 0
+rnode "S0.t1" 0 0 506 -59 0
+rnode "S0.n3" 0 0 536 -23 0
+rnode "S0.t3" 0 0 566 -370 0
+rnode "S0.t2" 0 0 506 -370 0
+rnode "S0.n4" 0 0 536 -370 0
+rnode "S0.n5" 0 0 538 -92 0
+rnode "S0.t4" 0 0 1736 -370 0
+rnode "S0.t5" 0 0 1676 -370 0
+rnode "S0.n6" 0 0 1706 -370 0
+rnode "S0.t6" 0 0 1856 -370 0
+rnode "S0.n7" 0 0 1779 -355 0
+rnode "S0.n8" 0 0 1779 -108 0
+rnode "S0.n9" 0 0 1813 -37 0
+rnode "S0" 0 0 1870 -46 0
+resist "S0" "S0.n9" 0.201993
+resist "S0.n9" "S0.n8" 0.261029
+resist "S0.n1" "S0.n0" 0.333914
+resist "S0.n8" "S0.n7" 0.908088
+resist "S0.n8" "S0.n5" 5.44508
+resist "S0" "S0.n1" 9.67233
+resist "S0.n3" "S0.t1" 35.1786
+resist "S0.n3" "S0.t0" 35.1786
+resist "S0.n2" "S0.t9" 35.1786
+resist "S0.n2" "S0.t8" 35.1786
+resist "S0.n4" "S0.t2" 42.8571
+resist "S0.n4" "S0.t3" 42.8571
+resist "S0.n6" "S0.t5" 42.8571
+resist "S0.n6" "S0.t4" 42.8571
+resist "S0.n7" "S0.n6" 196.973
+resist "S0.n5" "S0.n4" 210.997
+resist "S0.n7" "S0.t6" 239.834
+resist "S0.n9" "S0.n2" 307.12
+resist "S0.n5" "S0.n3" 307.434
+resist "S0.n1" "S0.t7" 356.35
+rnode "A2.n0" 0 0 -740 -1975 0
+rnode "A2.t8" 0 0 -688 -1780 0
+rnode "A2.t16" 0 0 -58 -1780 0
+rnode "A2.t12" 0 0 -58 -2091 0
+rnode "A2.t14" 0 0 398 -1780 0
+rnode "A2.t10" 0 0 398 -2091 0
+rnode "A2.t4" 0 0 668 -1780 0
+rnode "A2.t9" 0 0 1298 -2091 0
+rnode "A2.t13" 0 0 1298 -1780 0
+rnode "A2.t11" 0 0 1118 -2091 0
+rnode "A2.t15" 0 0 1118 -1780 0
+rnode "A2.n1" 0 0 1208 -1696 0
+rnode "A2.t7" 0 0 1208 -1780 0
+rnode "A2.t5" 0 0 1208 -2091 0
+rnode "A2.n2" 0 0 1208 -1928 0
+rnode "A2.n3" 0 0 668 -1922 0
+rnode "A2.t2" 0 0 668 -2091 0
+rnode "A2.n4" 0 0 398 -2215 0
+rnode "A2.n5" 0 0 -58 -2215 0
+rnode "A2.t0" 0 0 -328 -2091 0
+rnode "A2.t3" 0 0 -418 -1780 0
+rnode "A2.t1" 0 0 -418 -2091 0
+rnode "A2.t6" 0 0 -688 -2091 0
+rnode "A2.n6" 0 0 -736 -1969 0
+rnode "A2.n7" 0 0 -736 -1969 0
+rnode "A2" 0 0 -740 -1975 0
+resist "A2.n7" "A2.n0" 1.16364
+resist "A2" "A2.n7" 9.31136
+resist "A2.t7" "A2.n1" 134.96
+resist "A2.n7" "A2.n6" 152
+resist "A2.n6" "A2.t6" 166.19
+resist "A2.n5" "A2.t12" 199.227
+resist "A2.n4" "A2.t10" 199.227
+resist "A2.n3" "A2.t4" 204.485
+resist "A2.n2" "A2.t7" 214.125
+resist "A2.n2" "A2.t5" 238.225
+resist "A2.t2" "A2.n3" 247.865
+resist "A2.n6" "A2.t8" 273.836
+resist "A2.n1" "A2.t15" 279.962
+resist "A2.n1" "A2.t13" 281.568
+resist "A2.n3" "A2.n2" 497.309
+resist "A2.t1" "A2.t3" 499.673
+resist "A2.t12" "A2.t16" 499.673
+resist "A2.t10" "A2.t14" 499.673
+resist "A2.t13" "A2.t9" 499.673
+resist "A2.t15" "A2.t11" 499.673
+resist "A2.t0" "A2.n5" 633.027
+resist "A2.n4" "A2.t2" 633.027
+resist "A2.n5" "A2.n4" 732.64
+resist "A2.t6" "A2.t1" 832.253
+resist "A2.t3" "A2.t0" 892.735
+rnode "A0.n0" 0 0 -741 -249 0
+rnode "A0.t3" 0 0 -685 -59 0
+rnode "A0.t7" 0 0 -55 -59 0
+rnode "A0.t4" 0 0 -55 -370 0
+rnode "A0.t1" 0 0 401 -59 0
+rnode "A0.t16" 0 0 401 -370 0
+rnode "A0.t5" 0 0 671 -59 0
+rnode "A0.t12" 0 0 1301 -370 0
+rnode "A0.t15" 0 0 1301 -59 0
+rnode "A0.t6" 0 0 1121 -370 0
+rnode "A0.t8" 0 0 1121 -59 0
+rnode "A0.n1" 0 0 1211 25 0
+rnode "A0.t14" 0 0 1211 -59 0
+rnode "A0.t11" 0 0 1211 -370 0
+rnode "A0.n2" 0 0 1211 -207 0
+rnode "A0.n3" 0 0 671 -201 0
+rnode "A0.t2" 0 0 671 -370 0
+rnode "A0.n4" 0 0 401 -494 0
+rnode "A0.n5" 0 0 -55 -494 0
+rnode "A0.t9" 0 0 -325 -370 0
+rnode "A0.t13" 0 0 -415 -59 0
+rnode "A0.t10" 0 0 -415 -370 0
+rnode "A0.t0" 0 0 -685 -370 0
+rnode "A0.n6" 0 0 -733 -248 0
+rnode "A0.n7" 0 0 -733 -248 0
+rnode "A0" 0 0 -741 -249 0
+resist "A0.n7" "A0.n0" 1.8963
+resist "A0" "A0.n7" 9.31852
+resist "A0.t14" "A0.n1" 134.96
+resist "A0.n7" "A0.n6" 152
+resist "A0.n6" "A0.t0" 166.19
+resist "A0.n5" "A0.t4" 199.227
+resist "A0.n4" "A0.t16" 199.227
+resist "A0.n3" "A0.t5" 204.485
+resist "A0.n2" "A0.t14" 214.125
+resist "A0.n2" "A0.t11" 238.225
+resist "A0.t2" "A0.n3" 247.865
+resist "A0.n6" "A0.t3" 273.836
+resist "A0.n1" "A0.t8" 279.962
+resist "A0.n1" "A0.t15" 281.568
+resist "A0.n3" "A0.n2" 497.309
+resist "A0.t10" "A0.t13" 499.673
+resist "A0.t4" "A0.t7" 499.673
+resist "A0.t16" "A0.t1" 499.673
+resist "A0.t15" "A0.t12" 499.673
+resist "A0.t8" "A0.t6" 499.673
+resist "A0.t9" "A0.n5" 633.027
+resist "A0.n4" "A0.t2" 633.027
+resist "A0.n5" "A0.n4" 732.64
+resist "A0.t0" "A0.t10" 832.253
+resist "A0.t13" "A0.t9" 892.735
+rnode "B1.t9" 0 0 122 -948 0
+rnode "B1.t8" 0 0 122 -1259 0
+rnode "B1.t1" 0 0 758 -1259 0
+rnode "B1.t4" 0 0 758 -948 0
+rnode "B1.t7" 0 0 848 -948 0
+rnode "B1.t14" 0 0 1478 -1259 0
+rnode "B1.t15" 0 0 1478 -948 0
+rnode "B1.t16" 0 0 1568 -1259 0
+rnode "B1.t0" 0 0 1568 -948 0
+rnode "B1.n0" 0 0 1478 -831 0
+rnode "B1.t13" 0 0 1388 -948 0
+rnode "B1.t11" 0 0 1388 -1259 0
+rnode "B1.t5" 0 0 848 -1259 0
+rnode "B1.n1" 0 0 848 -1158 0
+rnode "B1.n2" 0 0 122 -1082 0
+rnode "B1.t12" 0 0 32 -948 0
+rnode "B1.t10" 0 0 32 -1259 0
+rnode "B1.n3" 0 0 32 -1082 0
+rnode "B1.n4" 0 0 78 -1109 0
+rnode "B1.t2" 0 0 -508 -948 0
+rnode "B1.t17" 0 0 -508 -1259 0
+rnode "B1.n5" 0 0 -508 -1082 0
+rnode "B1.t6" 0 0 -598 -948 0
+rnode "B1.t3" 0 0 -598 -1259 0
+rnode "B1.n6" 0 0 -598 -1082 0
+rnode "B1.n7" 0 0 -553 -1109 0
+rnode "B1.n8" 0 0 -495 -1099 0
+rnode "B1.n9" 0 0 -491 -1089 0
+rnode "B1" 0 0 -495 -1099 0
+resist "B1" "B1.n9" 0.0108696
+resist "B1.n9" "B1.n8" 10.413
+resist "B1.n4" "B1.n2" 39.2741
+resist "B1.n7" "B1.n6" 40.1667
+resist "B1.n7" "B1.n5" 40.1667
+resist "B1.n4" "B1.n3" 41.0593
+resist "B1.n1" "B1.t5" 138.612
+resist "B1.n0" "B1.t15" 139.78
+resist "B1.n8" "B1.n7" 164.991
+resist "B1.n9" "B1.n4" 167.451
+resist "B1.n6" "B1.t3" 197.62
+resist "B1.n5" "B1.t17" 197.62
+resist "B1.n3" "B1.t10" 197.62
+resist "B1.n2" "B1.t8" 197.62
+resist "B1.n6" "B1.t6" 215.293
+resist "B1.n5" "B1.t2" 215.293
+resist "B1.n3" "B1.t12" 215.293
+resist "B1.n2" "B1.t9" 215.293
+resist "B1.t13" "B1.n0" 284.38
+resist "B1.n0" "B1.t0" 284.38
+resist "B1.n1" "B1.t7" 313.738
+resist "B1.n2" "B1.n1" 377.252
+resist "B1.t7" "B1.t4" 420.947
+resist "B1.t11" "B1.t13" 499.673
+resist "B1.t15" "B1.t14" 499.673
+resist "B1.t0" "B1.t16" 499.673
+resist "B1.t4" "B1.t1" 499.673
+resist "B1.t5" "B1.t11" 1266.05
+rnode "S1.t5" 0 0 1733 -948 0
+rnode "S1.t6" 0 0 1673 -948 0
+rnode "S1.n0" 0 0 1703 -984 0
+rnode "S1.t0" 0 0 563 -948 0
+rnode "S1.t1" 0 0 503 -948 0
+rnode "S1.n1" 0 0 533 -912 0
+rnode "S1.t2" 0 0 563 -1259 0
+rnode "S1.t3" 0 0 503 -1259 0
+rnode "S1.n2" 0 0 533 -1259 0
+rnode "S1.n3" 0 0 535 -981 0
+rnode "S1.t8" 0 0 1733 -1259 0
+rnode "S1.t9" 0 0 1673 -1259 0
+rnode "S1.n4" 0 0 1703 -1259 0
+rnode "S1.t7" 0 0 1853 -1259 0
+rnode "S1.n5" 0 0 1776 -1244 0
+rnode "S1.n6" 0 0 1776 -997 0
+rnode "S1.n7" 0 0 1810 -926 0
+rnode "S1.n8" 0 0 1883 -938 0
+rnode "S1.t4" 0 0 1853 -948 0
+rnode "S1.n9" 0 0 1853 -948 0
+rnode "S1" 0 0 1883 -932 0
+resist "S1" "S1.n7" 0.245471
+resist "S1.n7" "S1.n6" 0.261029
+resist "S1.n9" "S1.n8" 0.666713
+resist "S1.n6" "S1.n5" 0.908088
+resist "S1.n6" "S1.n3" 5.44508
+resist "S1" "S1.n9" 9.9572
+resist "S1.n1" "S1.t1" 35.1786
+resist "S1.n1" "S1.t0" 35.1786
+resist "S1.n0" "S1.t6" 35.1786
+resist "S1.n0" "S1.t5" 35.1786
+resist "S1.n2" "S1.t3" 42.8571
+resist "S1.n2" "S1.t2" 42.8571
+resist "S1.n4" "S1.t9" 42.8571
+resist "S1.n4" "S1.t8" 42.8571
+resist "S1.n5" "S1.n4" 196.973
+resist "S1.n3" "S1.n2" 210.997
+resist "S1.n5" "S1.t7" 239.834
+resist "S1.n7" "S1.n0" 307.12
+resist "S1.n3" "S1.n1" 307.434
+resist "S1.n9" "S1.t4" 356.022
+rnode "C0.t1" 0 0 -520 -370 0
+rnode "C0.t0" 0 0 -580 -370 0
+rnode "C0.n0" 0 0 -550 -370 0
+rnode "C0.t12" 0 0 581 -59 0
+rnode "C0.t8" 0 0 581 -370 0
+rnode "C0.n1" 0 0 581 -174 0
+rnode "C0.t9" 0 0 491 -59 0
+rnode "C0.t24" 0 0 491 -370 0
+rnode "C0.n2" 0 0 491 -174 0
+rnode "C0.n3" 0 0 505 -207 0
+rnode "C0.t23" 0 0 -238 -948 0
+rnode "C0.t17" 0 0 -148 -1259 0
+rnode "C0.t21" 0 0 -238 -1259 0
+rnode "C0.n4" 0 0 -238 -1131 0
+rnode "C0.t10" 0 0 1748 -1259 0
+rnode "C0.t14" 0 0 1748 -948 0
+rnode "C0.t15" 0 0 1838 -1259 0
+rnode "C0.t19" 0 0 1838 -948 0
+rnode "C0.n5" 0 0 1748 -832 0
+rnode "C0.t11" 0 0 1658 -948 0
+rnode "C0.t7" 0 0 1658 -1259 0
+rnode "C0.n6" 0 0 1658 -1158 0
+rnode "C0.t16" 0 0 938 -1259 0
+rnode "C0.t20" 0 0 938 -948 0
+rnode "C0.t18" 0 0 1028 -948 0
+rnode "C0.t13" 0 0 1028 -1259 0
+rnode "C0.n7" 0 0 1028 -1158 0
+rnode "C0.n8" 0 0 1028 -1158 0
+rnode "C0.n9" 0 0 -193 -1158 0
+rnode "C0.n10" 0 0 -148 -1131 0
+rnode "C0.t22" 0 0 -148 -948 0
+rnode "C0.n11" 0 0 -205 -839 0
+rnode "C0.t5" 0 0 -160 -370 0
+rnode "C0.t4" 0 0 -220 -370 0
+rnode "C0.n12" 0 0 -190 -370 0
+rnode "C0.n13" 0 0 -190 -357 0
+rnode "C0.n14" 0 0 -189 -120 0
+rnode "C0.t6" 0 0 -220 -59 0
+rnode "C0.n15" 0 0 -190 -119 0
+rnode "C0.t3" 0 0 -520 -59 0
+rnode "C0.t2" 0 0 -580 -59 0
+rnode "C0.n16" 0 0 -550 -95 0
+rnode "C0.n17" 0 0 -550 -120 0
+rnode "C0.n18" 0 0 -562 -143 0
+rnode "C0" 0 0 -576 -141 0
+resist "C0.n15" "C0.n14" 0.00189394
+resist "C0.n18" "C0.n17" 0.0326087
+resist "C0" "C0.n18" 0.0380435
+resist "C0.n17" "C0.n15" 1.46395
+resist "C0.n14" "C0.n13" 8.08587
+resist "C0.n3" "C0.n2" 10.2242
+resist "C0.n16" "C0.t2" 35.1786
+resist "C0.n16" "C0.t3" 35.1786
+resist "C0.n9" "C0.n4" 40.1667
+resist "C0.n10" "C0.n9" 40.1667
+resist "C0.n0" "C0.t0" 42.8571
+resist "C0.n0" "C0.t1" 42.8571
+resist "C0.n12" "C0.t4" 42.8571
+resist "C0.n12" "C0.t5" 42.8571
+resist "C0.n3" "C0.n1" 55.503
+resist "C0.n10" "C0.t17" 118.893
+resist "C0.n4" "C0.t21" 118.893
+resist "C0.n5" "C0.t14" 138.173
+resist "C0.n6" "C0.t7" 138.612
+resist "C0.n7" "C0.t13" 138.612
+resist "C0.n8" "C0.n7" 161.3
+resist "C0.n8" "C0.n6" 163.534
+resist "C0.n14" "C0.n3" 163.74
+resist "C0.n9" "C0.n8" 173.624
+resist "C0.n2" "C0.t9" 184.767
+resist "C0.n1" "C0.t12" 184.767
+resist "C0.n11" "C0.t22" 186.373
+resist "C0.n18" "C0.n0" 198.789
+resist "C0.n13" "C0.n12" 202.889
+resist "C0.n11" "C0.t23" 204.047
+resist "C0.n2" "C0.t24" 208.867
+resist "C0.n1" "C0.t8" 208.867
+resist "C0.t11" "C0.n5" 282.773
+resist "C0.n5" "C0.t19" 282.773
+resist "C0.n4" "C0.t23" 294.02
+resist "C0.t22" "C0.n10" 294.02
+resist "C0.n6" "C0.t11" 313.738
+resist "C0.n7" "C0.t18" 313.738
+resist "C0.n17" "C0.n16" 314.253
+resist "C0.n15" "C0.t6" 331.894
+resist "C0.n13" "C0.n11" 368.597
+resist "C0.t18" "C0.t20" 420.947
+resist "C0.t14" "C0.t10" 499.673
+resist "C0.t19" "C0.t15" 499.673
+resist "C0.t20" "C0.t16" 499.673
+rnode "DGNDD.t57" 0 0 -703 -1259 0
+rnode "DGNDD.t219" 0 0 -343 -1259 0
+rnode "DGNDD.t131" 0 0 -403 -1259 0
+rnode "DGNDD.n0" 0 0 -373 -1259 0
+rnode "DGNDD.n1" 0 0 -373 -1396 0
+rnode "DGNDD.t174" 0 0 17 -1259 0
+rnode "DGNDD.t291" 0 0 -43 -1259 0
+rnode "DGNDD.n2" 0 0 -13 -1259 0
+rnode "DGNDD.n3" 0 0 -13 -1396 0
+rnode "DGNDD.t49" 0 0 137 -1259 0
+rnode "DGNDD.n4" 0 0 167 -1396 0
+rnode "DGNDD.t309" 0 0 383 -1259 0
+rnode "DGNDD.n5" 0 0 353 -1396 0
+rnode "DGNDD.t307" 0 0 743 -1259 0
+rnode "DGNDD.t29" 0 0 683 -1259 0
+rnode "DGNDD.n6" 0 0 713 -1259 0
+rnode "DGNDD.n7" 0 0 713 -1396 0
+rnode "DGNDD.t124" 0 0 923 -1259 0
+rnode "DGNDD.t284" 0 0 863 -1259 0
+rnode "DGNDD.n8" 0 0 893 -1259 0
+rnode "DGNDD.n9" 0 0 893 -1396 0
+rnode "DGNDD.t67" 0 0 1103 -1259 0
+rnode "DGNDD.t126" 0 0 1043 -1259 0
+rnode "DGNDD.n10" 0 0 1073 -1259 0
+rnode "DGNDD.n11" 0 0 1073 -1396 0
+rnode "DGNDD.t53" 0 0 1283 -1259 0
+rnode "DGNDD.t96" 0 0 1223 -1259 0
+rnode "DGNDD.n12" 0 0 1253 -1259 0
+rnode "DGNDD.n13" 0 0 1253 -1396 0
+rnode "DGNDD.t51" 0 0 -703 -2091 0
+rnode "DGNDD.t180" 0 0 -343 -2091 0
+rnode "DGNDD.t94" 0 0 -403 -2091 0
+rnode "DGNDD.n14" 0 0 -373 -2091 0
+rnode "DGNDD.n15" 0 0 -373 -2228 0
+rnode "DGNDD.t27" 0 0 17 -2091 0
+rnode "DGNDD.t297" 0 0 -43 -2091 0
+rnode "DGNDD.n16" 0 0 -13 -2091 0
+rnode "DGNDD.n17" 0 0 -13 -2228 0
+rnode "DGNDD.t55" 0 0 137 -2091 0
+rnode "DGNDD.n18" 0 0 167 -2228 0
+rnode "DGNDD.t115" 0 0 383 -2091 0
+rnode "DGNDD.n19" 0 0 353 -2228 0
+rnode "DGNDD.t23" 0 0 743 -2091 0
+rnode "DGNDD.t163" 0 0 683 -2091 0
+rnode "DGNDD.n20" 0 0 713 -2091 0
+rnode "DGNDD.n21" 0 0 713 -2228 0
+rnode "DGNDD.t201" 0 0 923 -2091 0
+rnode "DGNDD.t44" 0 0 863 -2091 0
+rnode "DGNDD.n22" 0 0 893 -2091 0
+rnode "DGNDD.n23" 0 0 893 -2228 0
+rnode "DGNDD.t106" 0 0 1103 -2091 0
+rnode "DGNDD.t204" 0 0 1043 -2091 0
+rnode "DGNDD.n24" 0 0 1073 -2091 0
+rnode "DGNDD.n25" 0 0 1073 -2228 0
+rnode "DGNDD.t170" 0 0 1283 -2091 0
+rnode "DGNDD.t325" 0 0 1223 -2091 0
+rnode "DGNDD.n26" 0 0 1253 -2091 0
+rnode "DGNDD.n27" 0 0 1253 -2228 0
+rnode "DGNDD.t311" 0 0 -702 -2943 0
+rnode "DGNDD.t108" 0 0 -342 -2943 0
+rnode "DGNDD.t293" 0 0 -402 -2943 0
+rnode "DGNDD.n28" 0 0 -372 -2943 0
+rnode "DGNDD.n29" 0 0 -372 -3080 0
+rnode "DGNDD.t21" 0 0 18 -2943 0
+rnode "DGNDD.t92" 0 0 -42 -2943 0
+rnode "DGNDD.n30" 0 0 -12 -2943 0
+rnode "DGNDD.n31" 0 0 -12 -3080 0
+rnode "DGNDD.t25" 0 0 138 -2943 0
+rnode "DGNDD.n32" 0 0 168 -3080 0
+rnode "DGNDD.t69" 0 0 384 -2943 0
+rnode "DGNDD.n33" 0 0 354 -3080 0
+rnode "DGNDD.t165" 0 0 744 -2943 0
+rnode "DGNDD.t299" 0 0 684 -2943 0
+rnode "DGNDD.n34" 0 0 714 -2943 0
+rnode "DGNDD.n35" 0 0 714 -3080 0
+rnode "DGNDD.t195" 0 0 924 -2943 0
+rnode "DGNDD.t184" 0 0 864 -2943 0
+rnode "DGNDD.n36" 0 0 894 -2943 0
+rnode "DGNDD.n37" 0 0 894 -3080 0
+rnode "DGNDD.t146" 0 0 1104 -2943 0
+rnode "DGNDD.t187" 0 0 1044 -2943 0
+rnode "DGNDD.n38" 0 0 1074 -2943 0
+rnode "DGNDD.n39" 0 0 1074 -3080 0
+rnode "DGNDD.t327" 0 0 1284 -2943 0
+rnode "DGNDD.t329" 0 0 1224 -2943 0
+rnode "DGNDD.n40" 0 0 1254 -2943 0
+rnode "DGNDD.n41" 0 0 1254 -3080 0
+rnode "DGNDD.t40" 0 0 -702 -3914 0
+rnode "DGNDD.t74" 0 0 -342 -3914 0
+rnode "DGNDD.t18" 0 0 -402 -3914 0
+rnode "DGNDD.n42" 0 0 -372 -3914 0
+rnode "DGNDD.n43" 0 0 -372 -4051 0
+rnode "DGNDD.t320" 0 0 18 -3914 0
+rnode "DGNDD.t313" 0 0 -42 -3914 0
+rnode "DGNDD.n44" 0 0 -12 -3914 0
+rnode "DGNDD.n45" 0 0 -12 -4051 0
+rnode "DGNDD.t65" 0 0 138 -3914 0
+rnode "DGNDD.n46" 0 0 168 -4051 0
+rnode "DGNDD.t98" 0 0 384 -3914 0
+rnode "DGNDD.n47" 0 0 354 -4051 0
+rnode "DGNDD.t172" 0 0 744 -3914 0
+rnode "DGNDD.t133" 0 0 684 -3914 0
+rnode "DGNDD.n48" 0 0 714 -3914 0
+rnode "DGNDD.n49" 0 0 714 -4051 0
+rnode "DGNDD.t266" 0 0 924 -3914 0
+rnode "DGNDD.t216" 0 0 864 -3914 0
+rnode "DGNDD.n50" 0 0 894 -3914 0
+rnode "DGNDD.n51" 0 0 894 -4051 0
+rnode "DGNDD.t47" 0 0 1104 -3914 0
+rnode "DGNDD.t269" 0 0 1044 -3914 0
+rnode "DGNDD.n52" 0 0 1074 -3914 0
+rnode "DGNDD.n53" 0 0 1074 -4051 0
+rnode "DGNDD.t33" 0 0 1284 -3914 0
+rnode "DGNDD.t103" 0 0 1224 -3914 0
+rnode "DGNDD.n54" 0 0 1254 -3914 0
+rnode "DGNDD.n55" 0 0 1254 -4051 0
+rnode "DGNDD.t140" 0 0 -701 -4766 0
+rnode "DGNDD.t214" 0 0 -341 -4766 0
+rnode "DGNDD.t335" 0 0 -401 -4766 0
+rnode "DGNDD.n56" 0 0 -371 -4766 0
+rnode "DGNDD.n57" 0 0 -371 -4903 0
+rnode "DGNDD.t143" 0 0 19 -4766 0
+rnode "DGNDD.t122" 0 0 -41 -4766 0
+rnode "DGNDD.n58" 0 0 -11 -4766 0
+rnode "DGNDD.n59" 0 0 -11 -4903 0
+rnode "DGNDD.t212" 0 0 139 -4766 0
+rnode "DGNDD.n60" 0 0 169 -4903 0
+rnode "DGNDD.t176" 0 0 385 -4766 0
+rnode "DGNDD.n61" 0 0 355 -4903 0
+rnode "DGNDD.t118" 0 0 745 -4766 0
+rnode "DGNDD.t168" 0 0 685 -4766 0
+rnode "DGNDD.n62" 0 0 715 -4766 0
+rnode "DGNDD.n63" 0 0 715 -4903 0
+rnode "DGNDD.t255" 0 0 925 -4766 0
+rnode "DGNDD.t287" 0 0 865 -4766 0
+rnode "DGNDD.n64" 0 0 895 -4766 0
+rnode "DGNDD.n65" 0 0 895 -4903 0
+rnode "DGNDD.t120" 0 0 1105 -4766 0
+rnode "DGNDD.t258" 0 0 1045 -4766 0
+rnode "DGNDD.n66" 0 0 1075 -4766 0
+rnode "DGNDD.n67" 0 0 1075 -4903 0
+rnode "DGNDD.t303" 0 0 1285 -4766 0
+rnode "DGNDD.t79" 0 0 1225 -4766 0
+rnode "DGNDD.n68" 0 0 1255 -4766 0
+rnode "DGNDD.n69" 0 0 1255 -4903 0
+rnode "DGNDD.t112" 0 0 -703 -5632 0
+rnode "DGNDD.t110" 0 0 -343 -5632 0
+rnode "DGNDD.t315" 0 0 -403 -5632 0
+rnode "DGNDD.n70" 0 0 -373 -5632 0
+rnode "DGNDD.n71" 0 0 -373 -5769 0
+rnode "DGNDD.t63" 0 0 17 -5632 0
+rnode "DGNDD.t333" 0 0 -43 -5632 0
+rnode "DGNDD.n72" 0 0 -13 -5632 0
+rnode "DGNDD.n73" 0 0 -13 -5769 0
+rnode "DGNDD.t61" 0 0 137 -5632 0
+rnode "DGNDD.n74" 0 0 167 -5769 0
+rnode "DGNDD.t71" 0 0 383 -5632 0
+rnode "DGNDD.n75" 0 0 353 -5769 0
+rnode "DGNDD.t136" 0 0 743 -5632 0
+rnode "DGNDD.t331" 0 0 683 -5632 0
+rnode "DGNDD.n76" 0 0 713 -5632 0
+rnode "DGNDD.n77" 0 0 713 -5769 0
+rnode "DGNDD.t87" 0 0 923 -5632 0
+rnode "DGNDD.t317" 0 0 863 -5632 0
+rnode "DGNDD.n78" 0 0 893 -5632 0
+rnode "DGNDD.n79" 0 0 893 -5769 0
+rnode "DGNDD.t59" 0 0 1103 -5632 0
+rnode "DGNDD.t90" 0 0 1043 -5632 0
+rnode "DGNDD.n80" 0 0 1073 -5632 0
+rnode "DGNDD.n81" 0 0 1073 -5769 0
+rnode "DGNDD.t182" 0 0 1283 -5632 0
+rnode "DGNDD.t295" 0 0 1223 -5632 0
+rnode "DGNDD.n82" 0 0 1253 -5632 0
+rnode "DGNDD.n83" 0 0 1253 -5769 0
+rnode "DGNDD.t233" 0 0 -702 -6484 0
+rnode "DGNDD.t245" 0 0 -342 -6484 0
+rnode "DGNDD.t239" 0 0 -402 -6484 0
+rnode "DGNDD.n84" 0 0 -372 -6484 0
+rnode "DGNDD.n85" 0 0 -372 -6621 0
+rnode "DGNDD.t6" 0 0 18 -6484 0
+rnode "DGNDD.t249" 0 0 -42 -6484 0
+rnode "DGNDD.n86" 0 0 -12 -6484 0
+rnode "DGNDD.n87" 0 0 -12 -6621 0
+rnode "DGNDD.t8" 0 0 138 -6484 0
+rnode "DGNDD.n88" 0 0 168 -6621 0
+rnode "DGNDD.t241" 0 0 384 -6484 0
+rnode "DGNDD.n89" 0 0 354 -6621 0
+rnode "DGNDD.t12" 0 0 744 -6484 0
+rnode "DGNDD.t235" 0 0 684 -6484 0
+rnode "DGNDD.n90" 0 0 714 -6484 0
+rnode "DGNDD.n91" 0 0 714 -6621 0
+rnode "DGNDD.t226" 0 0 924 -6484 0
+rnode "DGNDD.t10" 0 0 864 -6484 0
+rnode "DGNDD.n92" 0 0 894 -6484 0
+rnode "DGNDD.n93" 0 0 894 -6621 0
+rnode "DGNDD.t237" 0 0 1104 -6484 0
+rnode "DGNDD.t229" 0 0 1044 -6484 0
+rnode "DGNDD.n94" 0 0 1074 -6484 0
+rnode "DGNDD.n95" 0 0 1074 -6621 0
+rnode "DGNDD.t243" 0 0 1284 -6484 0
+rnode "DGNDD.t247" 0 0 1224 -6484 0
+rnode "DGNDD.n96" 0 0 1254 -6484 0
+rnode "DGNDD.n97" 0 0 1254 -6621 0
+rnode "DGNDD.n98" 0 0 2106 -5778 0
+rnode "DGNDD.n99" 0 0 2106 -4912 0
+rnode "DGNDD.n100" 0 0 2106 -4060 0
+rnode "DGNDD.n101" 0 0 2106 -3089 0
+rnode "DGNDD.n102" 0 0 2106 -2237 0
+rnode "DGNDD.n103" 0 0 2106 -1405 0
+rnode "DGNDD.t16" 0 0 1286 -370 0
+rnode "DGNDD.t31" 0 0 1226 -370 0
+rnode "DGNDD.n104" 0 0 1256 -370 0
+rnode "DGNDD.n105" 0 0 1256 -507 0
+rnode "DGNDD.t161" 0 0 1106 -370 0
+rnode "DGNDD.t278" 0 0 1046 -370 0
+rnode "DGNDD.n106" 0 0 1076 -370 0
+rnode "DGNDD.n107" 0 0 1076 -507 0
+rnode "DGNDD.t280" 0 0 926 -370 0
+rnode "DGNDD.t155" 0 0 866 -370 0
+rnode "DGNDD.n108" 0 0 896 -370 0
+rnode "DGNDD.n109" 0 0 896 -507 0
+rnode "DGNDD.t157" 0 0 746 -370 0
+rnode "DGNDD.t14" 0 0 686 -370 0
+rnode "DGNDD.n110" 0 0 716 -370 0
+rnode "DGNDD.n111" 0 0 716 -507 0
+rnode "DGNDD.t35" 0 0 386 -370 0
+rnode "DGNDD.n112" 0 0 356 -507 0
+rnode "DGNDD.t159" 0 0 140 -370 0
+rnode "DGNDD.n113" 0 0 170 -507 0
+rnode "DGNDD.t153" 0 0 20 -370 0
+rnode "DGNDD.t42" 0 0 -40 -370 0
+rnode "DGNDD.n114" 0 0 -10 -370 0
+rnode "DGNDD.n115" 0 0 -10 -507 0
+rnode "DGNDD.t178" 0 0 -340 -370 0
+rnode "DGNDD.t209" 0 0 -400 -370 0
+rnode "DGNDD.n116" 0 0 -370 -370 0
+rnode "DGNDD.n117" 0 0 -370 -507 0
+rnode "DGNDD.t129" 0 0 -700 -370 0
+rnode "DGNDD.n118" 0 0 -730 -507 0
+rnode "DGNDD.t128" 0 0 -685 -370 0
+rnode "DGNDD.n119" 0 0 -1003 -1110 0
+rnode "DGNDD.n120" 0 0 2058 -2794 0
+rnode "DGNDD.n121" 0 0 -1002 -4617 0
+rnode "DGNDD.t227" 0 0 1839 -6484 0
+rnode "DGNDD.t230" 0 0 1749 -6484 0
+rnode "DGNDD.t221" 0 0 1659 -6484 0
+rnode "DGNDD.t0" 0 0 1569 -6484 0
+rnode "DGNDD.t2" 0 0 1479 -6484 0
+rnode "DGNDD.t4" 0 0 1389 -6484 0
+rnode "DGNDD.t242" 0 0 1299 -6484 0
+rnode "DGNDD.t246" 0 0 1209 -6484 0
+rnode "DGNDD.t236" 0 0 1119 -6484 0
+rnode "DGNDD.t228" 0 0 1029 -6484 0
+rnode "DGNDD.t225" 0 0 939 -6484 0
+rnode "DGNDD.t9" 0 0 849 -6484 0
+rnode "DGNDD.t11" 0 0 759 -6484 0
+rnode "DGNDD.t234" 0 0 669 -6484 0
+rnode "DGNDD.t75" 0 0 579 -6484 0
+rnode "DGNDD.t289" 0 0 489 -6484 0
+rnode "DGNDD.t240" 0 0 399 -6484 0
+rnode "DGNDD.t7" 0 0 123 -6484 0
+rnode "DGNDD.t5" 0 0 33 -6484 0
+rnode "DGNDD.t248" 0 0 -57 -6484 0
+rnode "DGNDD.t222" 0 0 -147 -6484 0
+rnode "DGNDD.t231" 0 0 -237 -6484 0
+rnode "DGNDD.t244" 0 0 -327 -6484 0
+rnode "DGNDD.t238" 0 0 -417 -6484 0
+rnode "DGNDD.t3" 0 0 -507 -6484 0
+rnode "DGNDD.t1" 0 0 -597 -6484 0
+rnode "DGNDD.t232" 0 0 -687 -6484 0
+rnode "DGNDD.n122" 0 0 -1002 -6011 0
+rnode "DGNDD.t111" 0 0 -688 -5632 0
+rnode "DGNDD.t99" 0 0 -598 -5632 0
+rnode "DGNDD.t220" 0 0 -508 -5632 0
+rnode "DGNDD.t314" 0 0 -418 -5632 0
+rnode "DGNDD.t109" 0 0 -328 -5632 0
+rnode "DGNDD.t84" 0 0 -238 -5632 0
+rnode "DGNDD.t85" 0 0 -148 -5632 0
+rnode "DGNDD.t332" 0 0 -58 -5632 0
+rnode "DGNDD.t62" 0 0 32 -5632 0
+rnode "DGNDD.t60" 0 0 122 -5632 0
+rnode "DGNDD.t70" 0 0 398 -5632 0
+rnode "DGNDD.t224" 0 0 488 -5632 0
+rnode "DGNDD.t223" 0 0 578 -5632 0
+rnode "DGNDD.t330" 0 0 668 -5632 0
+rnode "DGNDD.t135" 0 0 758 -5632 0
+rnode "DGNDD.t316" 0 0 848 -5632 0
+rnode "DGNDD.t86" 0 0 938 -5632 0
+rnode "DGNDD.t89" 0 0 1028 -5632 0
+rnode "DGNDD.t58" 0 0 1118 -5632 0
+rnode "DGNDD.t294" 0 0 1208 -5632 0
+rnode "DGNDD.t181" 0 0 1298 -5632 0
+rnode "DGNDD.t185" 0 0 1388 -5632 0
+rnode "DGNDD.t100" 0 0 1478 -5632 0
+rnode "DGNDD.t72" 0 0 1568 -5632 0
+rnode "DGNDD.t82" 0 0 1658 -5632 0
+rnode "DGNDD.t80" 0 0 1748 -5632 0
+rnode "DGNDD.t88" 0 0 1838 -5632 0
+rnode "DGNDD.n123" 0 0 2058 -5483 0
+rnode "DGNDD.t139" 0 0 -686 -4766 0
+rnode "DGNDD.t77" 0 0 -596 -4766 0
+rnode "DGNDD.t272" 0 0 -506 -4766 0
+rnode "DGNDD.t334" 0 0 -416 -4766 0
+rnode "DGNDD.t213" 0 0 -326 -4766 0
+rnode "DGNDD.t250" 0 0 -236 -4766 0
+rnode "DGNDD.t251" 0 0 -146 -4766 0
+rnode "DGNDD.t121" 0 0 -56 -4766 0
+rnode "DGNDD.t142" 0 0 34 -4766 0
+rnode "DGNDD.t211" 0 0 124 -4766 0
+rnode "DGNDD.t175" 0 0 400 -4766 0
+rnode "DGNDD.t83" 0 0 490 -4766 0
+rnode "DGNDD.t81" 0 0 580 -4766 0
+rnode "DGNDD.t167" 0 0 670 -4766 0
+rnode "DGNDD.t117" 0 0 760 -4766 0
+rnode "DGNDD.t286" 0 0 850 -4766 0
+rnode "DGNDD.t254" 0 0 940 -4766 0
+rnode "DGNDD.t257" 0 0 1030 -4766 0
+rnode "DGNDD.t119" 0 0 1120 -4766 0
+rnode "DGNDD.t78" 0 0 1210 -4766 0
+rnode "DGNDD.t302" 0 0 1300 -4766 0
+rnode "DGNDD.t301" 0 0 1390 -4766 0
+rnode "DGNDD.t116" 0 0 1480 -4766 0
+rnode "DGNDD.t285" 0 0 1570 -4766 0
+rnode "DGNDD.t260" 0 0 1660 -4766 0
+rnode "DGNDD.t259" 0 0 1750 -4766 0
+rnode "DGNDD.t256" 0 0 1840 -4766 0
+rnode "DGNDD.n124" 0 0 2058 -5159 0
+rnode "DGNDD.n125" 0 0 2058 -3765 0
+rnode "DGNDD.t267" 0 0 1839 -3914 0
+rnode "DGNDD.t270" 0 0 1749 -3914 0
+rnode "DGNDD.t261" 0 0 1659 -3914 0
+rnode "DGNDD.t166" 0 0 1569 -3914 0
+rnode "DGNDD.t101" 0 0 1479 -3914 0
+rnode "DGNDD.t19" 0 0 1389 -3914 0
+rnode "DGNDD.t32" 0 0 1299 -3914 0
+rnode "DGNDD.t102" 0 0 1209 -3914 0
+rnode "DGNDD.t46" 0 0 1119 -3914 0
+rnode "DGNDD.t268" 0 0 1029 -3914 0
+rnode "DGNDD.t265" 0 0 939 -3914 0
+rnode "DGNDD.t215" 0 0 849 -3914 0
+rnode "DGNDD.t171" 0 0 759 -3914 0
+rnode "DGNDD.t132" 0 0 669 -3914 0
+rnode "DGNDD.t252" 0 0 579 -3914 0
+rnode "DGNDD.t253" 0 0 489 -3914 0
+rnode "DGNDD.t97" 0 0 399 -3914 0
+rnode "DGNDD.t64" 0 0 123 -3914 0
+rnode "DGNDD.t319" 0 0 33 -3914 0
+rnode "DGNDD.t312" 0 0 -57 -3914 0
+rnode "DGNDD.t262" 0 0 -147 -3914 0
+rnode "DGNDD.t271" 0 0 -237 -3914 0
+rnode "DGNDD.t73" 0 0 -327 -3914 0
+rnode "DGNDD.t17" 0 0 -417 -3914 0
+rnode "DGNDD.t144" 0 0 -507 -3914 0
+rnode "DGNDD.t141" 0 0 -597 -3914 0
+rnode "DGNDD.t39" 0 0 -687 -3914 0
+rnode "DGNDD.n126" 0 0 -1002 -3765 0
+rnode "DGNDD.t196" 0 0 1839 -2943 0
+rnode "DGNDD.t189" 0 0 1749 -2943 0
+rnode "DGNDD.t191" 0 0 1659 -2943 0
+rnode "DGNDD.t210" 0 0 1569 -2943 0
+rnode "DGNDD.t318" 0 0 1479 -2943 0
+rnode "DGNDD.t138" 0 0 1389 -2943 0
+rnode "DGNDD.t326" 0 0 1299 -2943 0
+rnode "DGNDD.t328" 0 0 1209 -2943 0
+rnode "DGNDD.t145" 0 0 1119 -2943 0
+rnode "DGNDD.t186" 0 0 1029 -2943 0
+rnode "DGNDD.t194" 0 0 939 -2943 0
+rnode "DGNDD.t183" 0 0 849 -2943 0
+rnode "DGNDD.t164" 0 0 759 -2943 0
+rnode "DGNDD.t298" 0 0 669 -2943 0
+rnode "DGNDD.t263" 0 0 579 -2943 0
+rnode "DGNDD.t264" 0 0 489 -2943 0
+rnode "DGNDD.t68" 0 0 399 -2943 0
+rnode "DGNDD.t24" 0 0 123 -2943 0
+rnode "DGNDD.t20" 0 0 33 -2943 0
+rnode "DGNDD.t91" 0 0 -57 -2943 0
+rnode "DGNDD.t192" 0 0 -147 -2943 0
+rnode "DGNDD.t190" 0 0 -237 -2943 0
+rnode "DGNDD.t107" 0 0 -327 -2943 0
+rnode "DGNDD.t292" 0 0 -417 -2943 0
+rnode "DGNDD.t36" 0 0 -507 -2943 0
+rnode "DGNDD.t45" 0 0 -597 -2943 0
+rnode "DGNDD.t310" 0 0 -687 -2943 0
+rnode "DGNDD.n127" 0 0 -1002 -2794 0
+rnode "DGNDD.n128" 0 0 -1002 -2470 0
+rnode "DGNDD.t50" 0 0 -688 -2091 0
+rnode "DGNDD.t134" 0 0 -598 -2091 0
+rnode "DGNDD.t217" 0 0 -508 -2091 0
+rnode "DGNDD.t93" 0 0 -418 -2091 0
+rnode "DGNDD.t179" 0 0 -328 -2091 0
+rnode "DGNDD.t197" 0 0 -238 -2091 0
+rnode "DGNDD.t199" 0 0 -148 -2091 0
+rnode "DGNDD.t296" 0 0 -58 -2091 0
+rnode "DGNDD.t26" 0 0 32 -2091 0
+rnode "DGNDD.t54" 0 0 122 -2091 0
+rnode "DGNDD.t114" 0 0 398 -2091 0
+rnode "DGNDD.t188" 0 0 488 -2091 0
+rnode "DGNDD.t193" 0 0 578 -2091 0
+rnode "DGNDD.t162" 0 0 668 -2091 0
+rnode "DGNDD.t22" 0 0 758 -2091 0
+rnode "DGNDD.t43" 0 0 848 -2091 0
+rnode "DGNDD.t200" 0 0 938 -2091 0
+rnode "DGNDD.t203" 0 0 1028 -2091 0
+rnode "DGNDD.t105" 0 0 1118 -2091 0
+rnode "DGNDD.t324" 0 0 1208 -2091 0
+rnode "DGNDD.t169" 0 0 1298 -2091 0
+rnode "DGNDD.t300" 0 0 1388 -2091 0
+rnode "DGNDD.t76" 0 0 1478 -2091 0
+rnode "DGNDD.t137" 0 0 1568 -2091 0
+rnode "DGNDD.t207" 0 0 1658 -2091 0
+rnode "DGNDD.t206" 0 0 1748 -2091 0
+rnode "DGNDD.t202" 0 0 1838 -2091 0
+rnode "DGNDD.n129" 0 0 2058 -1942 0
+rnode "DGNDD.t56" 0 0 -688 -1259 0
+rnode "DGNDD.t113" 0 0 -598 -1259 0
+rnode "DGNDD.t282" 0 0 -508 -1259 0
+rnode "DGNDD.t130" 0 0 -418 -1259 0
+rnode "DGNDD.t218" 0 0 -328 -1259 0
+rnode "DGNDD.t321" 0 0 -238 -1259 0
+rnode "DGNDD.t288" 0 0 -148 -1259 0
+rnode "DGNDD.t290" 0 0 -58 -1259 0
+rnode "DGNDD.t173" 0 0 32 -1259 0
+rnode "DGNDD.t48" 0 0 122 -1259 0
+rnode "DGNDD.t308" 0 0 398 -1259 0
+rnode "DGNDD.t205" 0 0 488 -1259 0
+rnode "DGNDD.t198" 0 0 578 -1259 0
+rnode "DGNDD.t28" 0 0 668 -1259 0
+rnode "DGNDD.t306" 0 0 758 -1259 0
+rnode "DGNDD.t283" 0 0 848 -1259 0
+rnode "DGNDD.t123" 0 0 938 -1259 0
+rnode "DGNDD.t125" 0 0 1028 -1259 0
+rnode "DGNDD.t66" 0 0 1118 -1259 0
+rnode "DGNDD.t95" 0 0 1208 -1259 0
+rnode "DGNDD.t52" 0 0 1298 -1259 0
+rnode "DGNDD.t323" 0 0 1388 -1259 0
+rnode "DGNDD.t322" 0 0 1478 -1259 0
+rnode "DGNDD.t127" 0 0 1568 -1259 0
+rnode "DGNDD.t104" 0 0 1658 -1259 0
+rnode "DGNDD.t37" 0 0 1748 -1259 0
+rnode "DGNDD.t305" 0 0 1838 -1259 0
+rnode "DGNDD.n130" 0 0 2058 -1110 0
+rnode "DGNDD.t150" 0 0 -595 -370 0
+rnode "DGNDD.t151" 0 0 -505 -370 0
+rnode "DGNDD.t208" 0 0 -415 -370 0
+rnode "DGNDD.t177" 0 0 -325 -370 0
+rnode "DGNDD.t275" 0 0 -235 -370 0
+rnode "DGNDD.t276" 0 0 -145 -370 0
+rnode "DGNDD.t41" 0 0 -55 -370 0
+rnode "DGNDD.t152" 0 0 35 -370 0
+rnode "DGNDD.t158" 0 0 125 -370 0
+rnode "DGNDD.t34" 0 0 401 -370 0
+rnode "DGNDD.t304" 0 0 491 -370 0
+rnode "DGNDD.t38" 0 0 581 -370 0
+rnode "DGNDD.t13" 0 0 671 -370 0
+rnode "DGNDD.t156" 0 0 761 -370 0
+rnode "DGNDD.t154" 0 0 851 -370 0
+rnode "DGNDD.t279" 0 0 941 -370 0
+rnode "DGNDD.t277" 0 0 1031 -370 0
+rnode "DGNDD.t160" 0 0 1121 -370 0
+rnode "DGNDD.t30" 0 0 1211 -370 0
+rnode "DGNDD.t15" 0 0 1301 -370 0
+rnode "DGNDD.t149" 0 0 1391 -370 0
+rnode "DGNDD.t148" 0 0 1481 -370 0
+rnode "DGNDD.t147" 0 0 1571 -370 0
+rnode "DGNDD.t274" 0 0 1661 -370 0
+rnode "DGNDD.t273" 0 0 1751 -370 0
+rnode "DGNDD.t281" 0 0 1841 -370 0
+rnode "DGNDD.n131" 0 0 2058 -786 0
+rnode "DGNDD.n132" 0 0 -1003 -786 0
+rnode "DGNDD.n133" 0 0 -925 -380 0
+rnode "DGNDD.n134" 0 0 -925 -488 0
+rnode "DGNDD" 0 0 -937 -496 0
+resist "DGNDD" "DGNDD.n134" 0.015625
+resist "DGNDD.n134" "DGNDD.n118" 0.487479
+resist "DGNDD.n115" "DGNDD.n113" 0.683471
+resist "DGNDD.n111" "DGNDD.n109" 0.683471
+resist "DGNDD.n109" "DGNDD.n107" 0.683471
+resist "DGNDD.n107" "DGNDD.n105" 0.683471
+resist "DGNDD.n13" "DGNDD.n11" 0.683471
+resist "DGNDD.n11" "DGNDD.n9" 0.683471
+resist "DGNDD.n9" "DGNDD.n7" 0.683471
+resist "DGNDD.n4" "DGNDD.n3" 0.683471
+resist "DGNDD.n27" "DGNDD.n25" 0.683471
+resist "DGNDD.n25" "DGNDD.n23" 0.683471
+resist "DGNDD.n23" "DGNDD.n21" 0.683471
+resist "DGNDD.n18" "DGNDD.n17" 0.683471
+resist "DGNDD.n41" "DGNDD.n39" 0.683471
+resist "DGNDD.n39" "DGNDD.n37" 0.683471
+resist "DGNDD.n37" "DGNDD.n35" 0.683471
+resist "DGNDD.n32" "DGNDD.n31" 0.683471
+resist "DGNDD.n55" "DGNDD.n53" 0.683471
+resist "DGNDD.n53" "DGNDD.n51" 0.683471
+resist "DGNDD.n51" "DGNDD.n49" 0.683471
+resist "DGNDD.n46" "DGNDD.n45" 0.683471
+resist "DGNDD.n69" "DGNDD.n67" 0.683471
+resist "DGNDD.n67" "DGNDD.n65" 0.683471
+resist "DGNDD.n65" "DGNDD.n63" 0.683471
+resist "DGNDD.n60" "DGNDD.n59" 0.683471
+resist "DGNDD.n83" "DGNDD.n81" 0.683471
+resist "DGNDD.n81" "DGNDD.n79" 0.683471
+resist "DGNDD.n79" "DGNDD.n77" 0.683471
+resist "DGNDD.n74" "DGNDD.n73" 0.683471
+resist "DGNDD.n97" "DGNDD.n95" 0.683471
+resist "DGNDD.n95" "DGNDD.n93" 0.683471
+resist "DGNDD.n93" "DGNDD.n91" 0.683471
+resist "DGNDD.n88" "DGNDD.n87" 0.683471
+resist "DGNDD.n113" "DGNDD.n112" 0.709333
+resist "DGNDD.n5" "DGNDD.n4" 0.709333
+resist "DGNDD.n19" "DGNDD.n18" 0.709333
+resist "DGNDD.n33" "DGNDD.n32" 0.709333
+resist "DGNDD.n47" "DGNDD.n46" 0.709333
+resist "DGNDD.n61" "DGNDD.n60" 0.709333
+resist "DGNDD.n75" "DGNDD.n74" 0.709333
+resist "DGNDD.n89" "DGNDD.n88" 0.709333
+resist "DGNDD.n118" "DGNDD.n117" 1.45933
+resist "DGNDD.n117" "DGNDD.n115" 1.45933
+resist "DGNDD.n112" "DGNDD.n111" 1.45933
+resist "DGNDD.n7" "DGNDD.n5" 1.45933
+resist "DGNDD.n3" "DGNDD.n1" 1.45933
+resist "DGNDD.n21" "DGNDD.n19" 1.45933
+resist "DGNDD.n17" "DGNDD.n15" 1.45933
+resist "DGNDD.n35" "DGNDD.n33" 1.45933
+resist "DGNDD.n31" "DGNDD.n29" 1.45933
+resist "DGNDD.n49" "DGNDD.n47" 1.45933
+resist "DGNDD.n45" "DGNDD.n43" 1.45933
+resist "DGNDD.n63" "DGNDD.n61" 1.45933
+resist "DGNDD.n59" "DGNDD.n57" 1.45933
+resist "DGNDD.n77" "DGNDD.n75" 1.45933
+resist "DGNDD.n73" "DGNDD.n71" 1.45933
+resist "DGNDD.n91" "DGNDD.n89" 1.45933
+resist "DGNDD.n87" "DGNDD.n85" 1.45933
+resist "DGNDD.n103" "DGNDD.n102" 3.05882
+resist "DGNDD.n100" "DGNDD.n99" 3.13235
+resist "DGNDD.n102" "DGNDD.n101" 3.13235
+resist "DGNDD.n99" "DGNDD.n98" 3.18382
+resist "DGNDD.n101" "DGNDD.n100" 3.56985
+resist "DGNDD.n99" "DGNDD.n69" 3.62191
+resist "DGNDD.n101" "DGNDD.n41" 3.62622
+resist "DGNDD.n100" "DGNDD.n55" 3.62622
+resist "DGNDD.n103" "DGNDD.n13" 3.63053
+resist "DGNDD.n102" "DGNDD.n27" 3.63053
+resist "DGNDD.n98" "DGNDD.n83" 3.63053
+resist "DGNDD.n98" "DGNDD.n97" 6.75857
+resist "DGNDD.n105" "DGNDD.n103" 6.88598
+resist "DGNDD.n0" "DGNDD.t131" 42.8571
+resist "DGNDD.n0" "DGNDD.t219" 42.8571
+resist "DGNDD.n2" "DGNDD.t291" 42.8571
+resist "DGNDD.n2" "DGNDD.t174" 42.8571
+resist "DGNDD.n6" "DGNDD.t29" 42.8571
+resist "DGNDD.n6" "DGNDD.t307" 42.8571
+resist "DGNDD.n8" "DGNDD.t284" 42.8571
+resist "DGNDD.n8" "DGNDD.t124" 42.8571
+resist "DGNDD.n10" "DGNDD.t126" 42.8571
+resist "DGNDD.n10" "DGNDD.t67" 42.8571
+resist "DGNDD.n12" "DGNDD.t96" 42.8571
+resist "DGNDD.n12" "DGNDD.t53" 42.8571
+resist "DGNDD.n14" "DGNDD.t94" 42.8571
+resist "DGNDD.n14" "DGNDD.t180" 42.8571
+resist "DGNDD.n16" "DGNDD.t297" 42.8571
+resist "DGNDD.n16" "DGNDD.t27" 42.8571
+resist "DGNDD.n20" "DGNDD.t163" 42.8571
+resist "DGNDD.n20" "DGNDD.t23" 42.8571
+resist "DGNDD.n22" "DGNDD.t44" 42.8571
+resist "DGNDD.n22" "DGNDD.t201" 42.8571
+resist "DGNDD.n24" "DGNDD.t204" 42.8571
+resist "DGNDD.n24" "DGNDD.t106" 42.8571
+resist "DGNDD.n26" "DGNDD.t325" 42.8571
+resist "DGNDD.n26" "DGNDD.t170" 42.8571
+resist "DGNDD.n28" "DGNDD.t293" 42.8571
+resist "DGNDD.n28" "DGNDD.t108" 42.8571
+resist "DGNDD.n30" "DGNDD.t92" 42.8571
+resist "DGNDD.n30" "DGNDD.t21" 42.8571
+resist "DGNDD.n34" "DGNDD.t299" 42.8571
+resist "DGNDD.n34" "DGNDD.t165" 42.8571
+resist "DGNDD.n36" "DGNDD.t184" 42.8571
+resist "DGNDD.n36" "DGNDD.t195" 42.8571
+resist "DGNDD.n38" "DGNDD.t187" 42.8571
+resist "DGNDD.n38" "DGNDD.t146" 42.8571
+resist "DGNDD.n40" "DGNDD.t329" 42.8571
+resist "DGNDD.n40" "DGNDD.t327" 42.8571
+resist "DGNDD.n42" "DGNDD.t18" 42.8571
+resist "DGNDD.n42" "DGNDD.t74" 42.8571
+resist "DGNDD.n44" "DGNDD.t313" 42.8571
+resist "DGNDD.n44" "DGNDD.t320" 42.8571
+resist "DGNDD.n48" "DGNDD.t133" 42.8571
+resist "DGNDD.n48" "DGNDD.t172" 42.8571
+resist "DGNDD.n50" "DGNDD.t216" 42.8571
+resist "DGNDD.n50" "DGNDD.t266" 42.8571
+resist "DGNDD.n52" "DGNDD.t269" 42.8571
+resist "DGNDD.n52" "DGNDD.t47" 42.8571
+resist "DGNDD.n54" "DGNDD.t103" 42.8571
+resist "DGNDD.n54" "DGNDD.t33" 42.8571
+resist "DGNDD.n56" "DGNDD.t335" 42.8571
+resist "DGNDD.n56" "DGNDD.t214" 42.8571
+resist "DGNDD.n58" "DGNDD.t122" 42.8571
+resist "DGNDD.n58" "DGNDD.t143" 42.8571
+resist "DGNDD.n62" "DGNDD.t168" 42.8571
+resist "DGNDD.n62" "DGNDD.t118" 42.8571
+resist "DGNDD.n64" "DGNDD.t287" 42.8571
+resist "DGNDD.n64" "DGNDD.t255" 42.8571
+resist "DGNDD.n66" "DGNDD.t258" 42.8571
+resist "DGNDD.n66" "DGNDD.t120" 42.8571
+resist "DGNDD.n68" "DGNDD.t79" 42.8571
+resist "DGNDD.n68" "DGNDD.t303" 42.8571
+resist "DGNDD.n70" "DGNDD.t315" 42.8571
+resist "DGNDD.n70" "DGNDD.t110" 42.8571
+resist "DGNDD.n72" "DGNDD.t333" 42.8571
+resist "DGNDD.n72" "DGNDD.t63" 42.8571
+resist "DGNDD.n76" "DGNDD.t331" 42.8571
+resist "DGNDD.n76" "DGNDD.t136" 42.8571
+resist "DGNDD.n78" "DGNDD.t317" 42.8571
+resist "DGNDD.n78" "DGNDD.t87" 42.8571
+resist "DGNDD.n80" "DGNDD.t90" 42.8571
+resist "DGNDD.n80" "DGNDD.t59" 42.8571
+resist "DGNDD.n82" "DGNDD.t295" 42.8571
+resist "DGNDD.n82" "DGNDD.t182" 42.8571
+resist "DGNDD.n84" "DGNDD.t239" 42.8571
+resist "DGNDD.n84" "DGNDD.t245" 42.8571
+resist "DGNDD.n86" "DGNDD.t249" 42.8571
+resist "DGNDD.n86" "DGNDD.t6" 42.8571
+resist "DGNDD.n90" "DGNDD.t235" 42.8571
+resist "DGNDD.n90" "DGNDD.t12" 42.8571
+resist "DGNDD.n92" "DGNDD.t10" 42.8571
+resist "DGNDD.n92" "DGNDD.t226" 42.8571
+resist "DGNDD.n94" "DGNDD.t229" 42.8571
+resist "DGNDD.n94" "DGNDD.t237" 42.8571
+resist "DGNDD.n96" "DGNDD.t247" 42.8571
+resist "DGNDD.n96" "DGNDD.t243" 42.8571
+resist "DGNDD.n104" "DGNDD.t31" 42.8571
+resist "DGNDD.n104" "DGNDD.t16" 42.8571
+resist "DGNDD.n106" "DGNDD.t278" 42.8571
+resist "DGNDD.n106" "DGNDD.t161" 42.8571
+resist "DGNDD.n108" "DGNDD.t155" 42.8571
+resist "DGNDD.n108" "DGNDD.t280" 42.8571
+resist "DGNDD.n110" "DGNDD.t14" 42.8571
+resist "DGNDD.n110" "DGNDD.t157" 42.8571
+resist "DGNDD.n114" "DGNDD.t42" 42.8571
+resist "DGNDD.n114" "DGNDD.t153" 42.8571
+resist "DGNDD.n116" "DGNDD.t209" 42.8571
+resist "DGNDD.n116" "DGNDD.t178" 42.8571
+resist "DGNDD.n1" "DGNDD.n0" 242.294
+resist "DGNDD.n3" "DGNDD.n2" 242.294
+resist "DGNDD.n7" "DGNDD.n6" 242.294
+resist "DGNDD.n9" "DGNDD.n8" 242.294
+resist "DGNDD.n11" "DGNDD.n10" 242.294
+resist "DGNDD.n13" "DGNDD.n12" 242.294
+resist "DGNDD.n15" "DGNDD.n14" 242.294
+resist "DGNDD.n17" "DGNDD.n16" 242.294
+resist "DGNDD.n21" "DGNDD.n20" 242.294
+resist "DGNDD.n23" "DGNDD.n22" 242.294
+resist "DGNDD.n25" "DGNDD.n24" 242.294
+resist "DGNDD.n27" "DGNDD.n26" 242.294
+resist "DGNDD.n29" "DGNDD.n28" 242.294
+resist "DGNDD.n31" "DGNDD.n30" 242.294
+resist "DGNDD.n35" "DGNDD.n34" 242.294
+resist "DGNDD.n37" "DGNDD.n36" 242.294
+resist "DGNDD.n39" "DGNDD.n38" 242.294
+resist "DGNDD.n41" "DGNDD.n40" 242.294
+resist "DGNDD.n43" "DGNDD.n42" 242.294
+resist "DGNDD.n45" "DGNDD.n44" 242.294
+resist "DGNDD.n49" "DGNDD.n48" 242.294
+resist "DGNDD.n51" "DGNDD.n50" 242.294
+resist "DGNDD.n53" "DGNDD.n52" 242.294
+resist "DGNDD.n55" "DGNDD.n54" 242.294
+resist "DGNDD.n57" "DGNDD.n56" 242.294
+resist "DGNDD.n59" "DGNDD.n58" 242.294
+resist "DGNDD.n63" "DGNDD.n62" 242.294
+resist "DGNDD.n65" "DGNDD.n64" 242.294
+resist "DGNDD.n67" "DGNDD.n66" 242.294
+resist "DGNDD.n69" "DGNDD.n68" 242.294
+resist "DGNDD.n71" "DGNDD.n70" 242.294
+resist "DGNDD.n73" "DGNDD.n72" 242.294
+resist "DGNDD.n77" "DGNDD.n76" 242.294
+resist "DGNDD.n79" "DGNDD.n78" 242.294
+resist "DGNDD.n81" "DGNDD.n80" 242.294
+resist "DGNDD.n83" "DGNDD.n82" 242.294
+resist "DGNDD.n85" "DGNDD.n84" 242.294
+resist "DGNDD.n87" "DGNDD.n86" 242.294
+resist "DGNDD.n91" "DGNDD.n90" 242.294
+resist "DGNDD.n93" "DGNDD.n92" 242.294
+resist "DGNDD.n95" "DGNDD.n94" 242.294
+resist "DGNDD.n97" "DGNDD.n96" 242.294
+resist "DGNDD.n105" "DGNDD.n104" 242.294
+resist "DGNDD.n107" "DGNDD.n106" 242.294
+resist "DGNDD.n109" "DGNDD.n108" 242.294
+resist "DGNDD.n111" "DGNDD.n110" 242.294
+resist "DGNDD.n115" "DGNDD.n114" 242.294
+resist "DGNDD.n117" "DGNDD.n116" 242.294
+resist "DGNDD.n4" "DGNDD.t49" 285.151
+resist "DGNDD.n5" "DGNDD.t309" 285.151
+resist "DGNDD.n18" "DGNDD.t55" 285.151
+resist "DGNDD.n19" "DGNDD.t115" 285.151
+resist "DGNDD.n32" "DGNDD.t25" 285.151
+resist "DGNDD.n33" "DGNDD.t69" 285.151
+resist "DGNDD.n46" "DGNDD.t65" 285.151
+resist "DGNDD.n47" "DGNDD.t98" 285.151
+resist "DGNDD.n60" "DGNDD.t212" 285.151
+resist "DGNDD.n61" "DGNDD.t176" 285.151
+resist "DGNDD.n74" "DGNDD.t61" 285.151
+resist "DGNDD.n75" "DGNDD.t71" 285.151
+resist "DGNDD.n88" "DGNDD.t8" 285.151
+resist "DGNDD.n89" "DGNDD.t241" 285.151
+resist "DGNDD.n112" "DGNDD.t35" 285.151
+resist "DGNDD.n113" "DGNDD.t159" 285.151
+resist "DGNDD.n118" "DGNDD.t129" 285.151
+resist "DGNDD.n1" "DGNDD.t57" 286.61
+resist "DGNDD.n15" "DGNDD.t51" 286.61
+resist "DGNDD.n29" "DGNDD.t311" 286.61
+resist "DGNDD.n43" "DGNDD.t40" 286.61
+resist "DGNDD.n57" "DGNDD.t140" 286.61
+resist "DGNDD.n71" "DGNDD.t112" 286.61
+resist "DGNDD.n85" "DGNDD.t233" 286.61
+resist "DGNDD.n133" "DGNDD.n132" 607.434
+resist "DGNDD.t310" "DGNDD.t45" 612.056
+resist "DGNDD.t45" "DGNDD.t36" 612.056
+resist "DGNDD.t36" "DGNDD.t292" 612.056
+resist "DGNDD.t292" "DGNDD.t107" 612.056
+resist "DGNDD.t107" "DGNDD.t190" 612.056
+resist "DGNDD.t190" "DGNDD.t192" 612.056
+resist "DGNDD.t192" "DGNDD.t91" 612.056
+resist "DGNDD.t91" "DGNDD.t20" 612.056
+resist "DGNDD.t20" "DGNDD.t24" 612.056
+resist "DGNDD.t68" "DGNDD.t264" 612.056
+resist "DGNDD.t264" "DGNDD.t263" 612.056
+resist "DGNDD.t263" "DGNDD.t298" 612.056
+resist "DGNDD.t298" "DGNDD.t164" 612.056
+resist "DGNDD.t164" "DGNDD.t183" 612.056
+resist "DGNDD.t183" "DGNDD.t194" 612.056
+resist "DGNDD.t194" "DGNDD.t186" 612.056
+resist "DGNDD.t186" "DGNDD.t145" 612.056
+resist "DGNDD.t145" "DGNDD.t328" 612.056
+resist "DGNDD.t328" "DGNDD.t326" 612.056
+resist "DGNDD.t326" "DGNDD.t138" 612.056
+resist "DGNDD.t138" "DGNDD.t318" 612.056
+resist "DGNDD.t318" "DGNDD.t210" 612.056
+resist "DGNDD.t210" "DGNDD.t191" 612.056
+resist "DGNDD.t191" "DGNDD.t189" 612.056
+resist "DGNDD.t189" "DGNDD.t196" 612.056
+resist "DGNDD.t150" "DGNDD.t128" 700.885
+resist "DGNDD.t151" "DGNDD.t150" 700.885
+resist "DGNDD.t208" "DGNDD.t151" 700.885
+resist "DGNDD.t177" "DGNDD.t208" 700.885
+resist "DGNDD.t275" "DGNDD.t177" 700.885
+resist "DGNDD.t276" "DGNDD.t275" 700.885
+resist "DGNDD.t41" "DGNDD.t276" 700.885
+resist "DGNDD.t152" "DGNDD.t41" 700.885
+resist "DGNDD.t158" "DGNDD.t152" 700.885
+resist "DGNDD.t304" "DGNDD.t34" 700.885
+resist "DGNDD.t38" "DGNDD.t304" 700.885
+resist "DGNDD.t13" "DGNDD.t38" 700.885
+resist "DGNDD.t156" "DGNDD.t13" 700.885
+resist "DGNDD.t154" "DGNDD.t156" 700.885
+resist "DGNDD.t279" "DGNDD.t154" 700.885
+resist "DGNDD.t277" "DGNDD.t279" 700.885
+resist "DGNDD.t160" "DGNDD.t277" 700.885
+resist "DGNDD.t30" "DGNDD.t160" 700.885
+resist "DGNDD.t15" "DGNDD.t30" 700.885
+resist "DGNDD.t149" "DGNDD.t15" 700.885
+resist "DGNDD.t148" "DGNDD.t149" 700.885
+resist "DGNDD.t147" "DGNDD.t148" 700.885
+resist "DGNDD.t274" "DGNDD.t147" 700.885
+resist "DGNDD.t273" "DGNDD.t274" 700.885
+resist "DGNDD.t281" "DGNDD.t273" 700.885
+resist "DGNDD.t77" "DGNDD.t139" 730.627
+resist "DGNDD.t272" "DGNDD.t77" 730.627
+resist "DGNDD.t334" "DGNDD.t272" 730.627
+resist "DGNDD.t213" "DGNDD.t334" 730.627
+resist "DGNDD.t250" "DGNDD.t213" 730.627
+resist "DGNDD.t251" "DGNDD.t250" 730.627
+resist "DGNDD.t121" "DGNDD.t251" 730.627
+resist "DGNDD.t142" "DGNDD.t121" 730.627
+resist "DGNDD.t211" "DGNDD.t142" 730.627
+resist "DGNDD.t83" "DGNDD.t175" 730.627
+resist "DGNDD.t81" "DGNDD.t83" 730.627
+resist "DGNDD.t167" "DGNDD.t81" 730.627
+resist "DGNDD.t117" "DGNDD.t167" 730.627
+resist "DGNDD.t286" "DGNDD.t117" 730.627
+resist "DGNDD.t254" "DGNDD.t286" 730.627
+resist "DGNDD.t257" "DGNDD.t254" 730.627
+resist "DGNDD.t119" "DGNDD.t257" 730.627
+resist "DGNDD.t78" "DGNDD.t119" 730.627
+resist "DGNDD.t302" "DGNDD.t78" 730.627
+resist "DGNDD.t301" "DGNDD.t302" 730.627
+resist "DGNDD.t116" "DGNDD.t301" 730.627
+resist "DGNDD.t285" "DGNDD.t116" 730.627
+resist "DGNDD.t260" "DGNDD.t285" 730.627
+resist "DGNDD.t259" "DGNDD.t260" 730.627
+resist "DGNDD.t256" "DGNDD.t259" 730.627
+resist "DGNDD.t134" "DGNDD.t50" 750
+resist "DGNDD.t217" "DGNDD.t134" 750
+resist "DGNDD.t93" "DGNDD.t217" 750
+resist "DGNDD.t179" "DGNDD.t93" 750
+resist "DGNDD.t197" "DGNDD.t179" 750
+resist "DGNDD.t199" "DGNDD.t197" 750
+resist "DGNDD.t296" "DGNDD.t199" 750
+resist "DGNDD.t26" "DGNDD.t296" 750
+resist "DGNDD.t54" "DGNDD.t26" 750
+resist "DGNDD.t188" "DGNDD.t114" 750
+resist "DGNDD.t193" "DGNDD.t188" 750
+resist "DGNDD.t162" "DGNDD.t193" 750
+resist "DGNDD.t22" "DGNDD.t162" 750
+resist "DGNDD.t43" "DGNDD.t22" 750
+resist "DGNDD.t200" "DGNDD.t43" 750
+resist "DGNDD.t203" "DGNDD.t200" 750
+resist "DGNDD.t105" "DGNDD.t203" 750
+resist "DGNDD.t324" "DGNDD.t105" 750
+resist "DGNDD.t169" "DGNDD.t324" 750
+resist "DGNDD.t300" "DGNDD.t169" 750
+resist "DGNDD.t76" "DGNDD.t300" 750
+resist "DGNDD.t137" "DGNDD.t76" 750
+resist "DGNDD.t207" "DGNDD.t137" 750
+resist "DGNDD.t206" "DGNDD.t207" 750
+resist "DGNDD.t202" "DGNDD.t206" 750
+resist "DGNDD.t39" "DGNDD.t141" 750
+resist "DGNDD.t141" "DGNDD.t144" 750
+resist "DGNDD.t144" "DGNDD.t17" 750
+resist "DGNDD.t17" "DGNDD.t73" 750
+resist "DGNDD.t73" "DGNDD.t271" 750
+resist "DGNDD.t271" "DGNDD.t262" 750
+resist "DGNDD.t262" "DGNDD.t312" 750
+resist "DGNDD.t312" "DGNDD.t319" 750
+resist "DGNDD.t319" "DGNDD.t64" 750
+resist "DGNDD.t97" "DGNDD.t253" 750
+resist "DGNDD.t253" "DGNDD.t252" 750
+resist "DGNDD.t252" "DGNDD.t132" 750
+resist "DGNDD.t132" "DGNDD.t171" 750
+resist "DGNDD.t171" "DGNDD.t215" 750
+resist "DGNDD.t215" "DGNDD.t265" 750
+resist "DGNDD.t265" "DGNDD.t268" 750
+resist "DGNDD.t268" "DGNDD.t46" 750
+resist "DGNDD.t46" "DGNDD.t102" 750
+resist "DGNDD.t102" "DGNDD.t32" 750
+resist "DGNDD.t32" "DGNDD.t19" 750
+resist "DGNDD.t19" "DGNDD.t101" 750
+resist "DGNDD.t101" "DGNDD.t166" 750
+resist "DGNDD.t166" "DGNDD.t261" 750
+resist "DGNDD.t261" "DGNDD.t270" 750
+resist "DGNDD.t270" "DGNDD.t267" 750
+resist "DGNDD.t99" "DGNDD.t111" 750
+resist "DGNDD.t220" "DGNDD.t99" 750
+resist "DGNDD.t314" "DGNDD.t220" 750
+resist "DGNDD.t109" "DGNDD.t314" 750
+resist "DGNDD.t84" "DGNDD.t109" 750
+resist "DGNDD.t85" "DGNDD.t84" 750
+resist "DGNDD.t332" "DGNDD.t85" 750
+resist "DGNDD.t62" "DGNDD.t332" 750
+resist "DGNDD.t60" "DGNDD.t62" 750
+resist "DGNDD.t224" "DGNDD.t70" 750
+resist "DGNDD.t223" "DGNDD.t224" 750
+resist "DGNDD.t330" "DGNDD.t223" 750
+resist "DGNDD.t135" "DGNDD.t330" 750
+resist "DGNDD.t316" "DGNDD.t135" 750
+resist "DGNDD.t86" "DGNDD.t316" 750
+resist "DGNDD.t89" "DGNDD.t86" 750
+resist "DGNDD.t58" "DGNDD.t89" 750
+resist "DGNDD.t294" "DGNDD.t58" 750
+resist "DGNDD.t181" "DGNDD.t294" 750
+resist "DGNDD.t185" "DGNDD.t181" 750
+resist "DGNDD.t100" "DGNDD.t185" 750
+resist "DGNDD.t72" "DGNDD.t100" 750
+resist "DGNDD.t82" "DGNDD.t72" 750
+resist "DGNDD.t80" "DGNDD.t82" 750
+resist "DGNDD.t88" "DGNDD.t80" 750
+resist "DGNDD.t113" "DGNDD.t56" 779.528
+resist "DGNDD.t282" "DGNDD.t113" 779.528
+resist "DGNDD.t130" "DGNDD.t282" 779.528
+resist "DGNDD.t218" "DGNDD.t130" 779.528
+resist "DGNDD.t321" "DGNDD.t218" 779.528
+resist "DGNDD.t288" "DGNDD.t321" 779.528
+resist "DGNDD.t290" "DGNDD.t288" 779.528
+resist "DGNDD.t173" "DGNDD.t290" 779.528
+resist "DGNDD.t48" "DGNDD.t173" 779.528
+resist "DGNDD.t205" "DGNDD.t308" 779.528
+resist "DGNDD.t198" "DGNDD.t205" 779.528
+resist "DGNDD.t28" "DGNDD.t198" 779.528
+resist "DGNDD.t306" "DGNDD.t28" 779.528
+resist "DGNDD.t283" "DGNDD.t306" 779.528
+resist "DGNDD.t123" "DGNDD.t283" 779.528
+resist "DGNDD.t125" "DGNDD.t123" 779.528
+resist "DGNDD.t66" "DGNDD.t125" 779.528
+resist "DGNDD.t95" "DGNDD.t66" 779.528
+resist "DGNDD.t52" "DGNDD.t95" 779.528
+resist "DGNDD.t323" "DGNDD.t52" 779.528
+resist "DGNDD.t322" "DGNDD.t323" 779.528
+resist "DGNDD.t127" "DGNDD.t322" 779.528
+resist "DGNDD.t104" "DGNDD.t127" 779.528
+resist "DGNDD.t37" "DGNDD.t104" 779.528
+resist "DGNDD.t305" "DGNDD.t37" 779.528
+resist "DGNDD.n134" "DGNDD.n133" 1216.38
+resist "DGNDD.t232" "DGNDD.t1" 1281.55
+resist "DGNDD.t1" "DGNDD.t3" 1281.55
+resist "DGNDD.t3" "DGNDD.t238" 1281.55
+resist "DGNDD.t238" "DGNDD.t244" 1281.55
+resist "DGNDD.t244" "DGNDD.t231" 1281.55
+resist "DGNDD.t231" "DGNDD.t222" 1281.55
+resist "DGNDD.t222" "DGNDD.t248" 1281.55
+resist "DGNDD.t248" "DGNDD.t5" 1281.55
+resist "DGNDD.t5" "DGNDD.t7" 1281.55
+resist "DGNDD.t240" "DGNDD.t289" 1281.55
+resist "DGNDD.t289" "DGNDD.t75" 1281.55
+resist "DGNDD.t75" "DGNDD.t234" 1281.55
+resist "DGNDD.t234" "DGNDD.t11" 1281.55
+resist "DGNDD.t11" "DGNDD.t9" 1281.55
+resist "DGNDD.t9" "DGNDD.t225" 1281.55
+resist "DGNDD.t225" "DGNDD.t228" 1281.55
+resist "DGNDD.t228" "DGNDD.t236" 1281.55
+resist "DGNDD.t236" "DGNDD.t246" 1281.55
+resist "DGNDD.t246" "DGNDD.t242" 1281.55
+resist "DGNDD.t242" "DGNDD.t4" 1281.55
+resist "DGNDD.t4" "DGNDD.t2" 1281.55
+resist "DGNDD.t2" "DGNDD.t0" 1281.55
+resist "DGNDD.t0" "DGNDD.t221" 1281.55
+resist "DGNDD.t221" "DGNDD.t230" 1281.55
+resist "DGNDD.t230" "DGNDD.t227" 1281.55
+resist "DGNDD.t196" "DGNDD.n120" 1489.34
+resist "DGNDD.n131" "DGNDD.t281" 1689.91
+resist "DGNDD.n124" "DGNDD.t256" 1769.74
+resist "DGNDD.t267" "DGNDD.n125" 1825
+resist "DGNDD.n129" "DGNDD.t202" 1833.33
+resist "DGNDD.n123" "DGNDD.t88" 1833.33
+resist "DGNDD.n133" "DGNDD.t128" 1869.03
+resist "DGNDD.t24" "DGNDD.t68" 1876.97
+resist "DGNDD.n130" "DGNDD.t305" 1905.51
+resist "DGNDD.n127" "DGNDD.t310" 2142.19
+resist "DGNDD.t34" "DGNDD.t158" 2149.38
+resist "DGNDD.t175" "DGNDD.t211" 2240.59
+resist "DGNDD.t114" "DGNDD.t54" 2300
+resist "DGNDD.t64" "DGNDD.t97" 2300
+resist "DGNDD.t70" "DGNDD.t60" 2300
+resist "DGNDD.t308" "DGNDD.t48" 2390.55
+resist "DGNDD.t139" "DGNDD.n121" 2565.31
+resist "DGNDD.t50" "DGNDD.n128" 2616.67
+resist "DGNDD.t111" "DGNDD.n122" 2616.67
+resist "DGNDD.n126" "DGNDD.t39" 2625
+resist "DGNDD.t56" "DGNDD.n119" 2728.35
+resist "DGNDD.t7" "DGNDD.t240" 3930.1
+resist "DGNDD.n126" "DGNDD.n121" 4015.77
+resist "DGNDD.n128" "DGNDD.n127" 4027.12
+resist "DGNDD.n127" "DGNDD.n126" 4027.12
+resist "DGNDD.n132" "DGNDD.n119" 4038.53
+resist "DGNDD.n128" "DGNDD.n119" 4046.86
+resist "DGNDD.n122" "DGNDD.n121" 4054.98
+resist "DGNDD.n122" "DGNDD.t232" 7918.72
+resist "DGNDD.n131" "DGNDD.n130" 8692.68
+resist "DGNDD.n124" "DGNDD.n123" 8692.68
+resist "DGNDD.n130" "DGNDD.n129" 8692.68
+resist "DGNDD.n125" "DGNDD.n120" 8746.01
+resist "DGNDD.n129" "DGNDD.n120" 8746.01
+resist "DGNDD.n125" "DGNDD.n124" 8816.45
+resist "DGNDD.n123" "DGNDD.t227" 11864.5
+resist "DGNDD.n132" "DGNDD.n131" 1.87018e+06
+rnode "B7.t5" 0 0 123 -6173 0
+rnode "B7.t4" 0 0 123 -6484 0
+rnode "B7.t0" 0 0 759 -6484 0
+rnode "B7.t1" 0 0 759 -6173 0
+rnode "B7.t3" 0 0 849 -6173 0
+rnode "B7.t11" 0 0 1479 -6484 0
+rnode "B7.t14" 0 0 1479 -6173 0
+rnode "B7.t15" 0 0 1569 -6484 0
+rnode "B7.t17" 0 0 1569 -6173 0
+rnode "B7.n0" 0 0 1479 -6056 0
+rnode "B7.t10" 0 0 1389 -6173 0
+rnode "B7.t7" 0 0 1389 -6484 0
+rnode "B7.t2" 0 0 849 -6484 0
+rnode "B7.n1" 0 0 849 -6383 0
+rnode "B7.n2" 0 0 123 -6307 0
+rnode "B7.t9" 0 0 33 -6173 0
+rnode "B7.t6" 0 0 33 -6484 0
+rnode "B7.n3" 0 0 33 -6307 0
+rnode "B7.n4" 0 0 79 -6334 0
+rnode "B7.t12" 0 0 -507 -6173 0
+rnode "B7.t8" 0 0 -507 -6484 0
+rnode "B7.n5" 0 0 -507 -6307 0
+rnode "B7.t16" 0 0 -597 -6173 0
+rnode "B7.t13" 0 0 -597 -6484 0
+rnode "B7.n6" 0 0 -597 -6307 0
+rnode "B7.n7" 0 0 -552 -6334 0
+rnode "B7.n8" 0 0 -494 -6318 0
+rnode "B7.n9" 0 0 -490 -6314 0
+rnode "B7" 0 0 -494 -6318 0
+resist "B7" "B7.n9" 0.0108696
+resist "B7.n9" "B7.n8" 10.413
+resist "B7.n4" "B7.n2" 39.2741
+resist "B7.n7" "B7.n6" 40.1667
+resist "B7.n7" "B7.n5" 40.1667
+resist "B7.n4" "B7.n3" 41.0593
+resist "B7.n1" "B7.t2" 138.612
+resist "B7.n0" "B7.t14" 139.78
+resist "B7.n8" "B7.n7" 164.991
+resist "B7.n9" "B7.n4" 167.451
+resist "B7.n6" "B7.t13" 197.62
+resist "B7.n5" "B7.t8" 197.62
+resist "B7.n3" "B7.t6" 197.62
+resist "B7.n2" "B7.t4" 197.62
+resist "B7.n6" "B7.t16" 215.293
+resist "B7.n5" "B7.t12" 215.293
+resist "B7.n3" "B7.t9" 215.293
+resist "B7.n2" "B7.t5" 215.293
+resist "B7.t10" "B7.n0" 284.38
+resist "B7.n0" "B7.t17" 284.38
+resist "B7.n1" "B7.t3" 313.738
+resist "B7.n2" "B7.n1" 377.252
+resist "B7.t3" "B7.t1" 420.947
+resist "B7.t7" "B7.t10" 499.673
+resist "B7.t14" "B7.t11" 499.673
+resist "B7.t17" "B7.t15" 499.673
+resist "B7.t1" "B7.t0" 499.673
+resist "B7.t2" "B7.t7" 1266.05
+rnode "A7.n0" 0 0 -739 -6365 0
+rnode "A7.t1" 0 0 -687 -6173 0
+rnode "A7.t3" 0 0 -57 -6173 0
+rnode "A7.t2" 0 0 -57 -6484 0
+rnode "A7.t12" 0 0 399 -6173 0
+rnode "A7.t8" 0 0 399 -6484 0
+rnode "A7.t0" 0 0 669 -6173 0
+rnode "A7.t7" 0 0 1299 -6484 0
+rnode "A7.t11" 0 0 1299 -6173 0
+rnode "A7.t10" 0 0 1119 -6484 0
+rnode "A7.t14" 0 0 1119 -6173 0
+rnode "A7.n1" 0 0 1209 -6089 0
+rnode "A7.t6" 0 0 1209 -6173 0
+rnode "A7.t4" 0 0 1209 -6484 0
+rnode "A7.n2" 0 0 1209 -6321 0
+rnode "A7.n3" 0 0 669 -6315 0
+rnode "A7.t15" 0 0 669 -6484 0
+rnode "A7.n4" 0 0 399 -6608 0
+rnode "A7.n5" 0 0 -57 -6608 0
+rnode "A7.t5" 0 0 -327 -6484 0
+rnode "A7.t13" 0 0 -417 -6173 0
+rnode "A7.t9" 0 0 -417 -6484 0
+rnode "A7.t16" 0 0 -687 -6484 0
+rnode "A7.n6" 0 0 -735 -6362 0
+rnode "A7.n7" 0 0 -735 -6362 0
+rnode "A7" 0 0 -739 -6365 0
+resist "A7.n7" "A7.n0" 0.948148
+resist "A7" "A7.n7" 9.30926
+resist "A7.t6" "A7.n1" 134.96
+resist "A7.n7" "A7.n6" 152
+resist "A7.n6" "A7.t16" 166.19
+resist "A7.n5" "A7.t2" 199.227
+resist "A7.n4" "A7.t8" 199.227
+resist "A7.n3" "A7.t0" 204.485
+resist "A7.n2" "A7.t6" 214.125
+resist "A7.n2" "A7.t4" 238.225
+resist "A7.t15" "A7.n3" 247.865
+resist "A7.n6" "A7.t1" 273.836
+resist "A7.n1" "A7.t14" 279.962
+resist "A7.n1" "A7.t11" 281.568
+resist "A7.n3" "A7.n2" 497.309
+resist "A7.t9" "A7.t13" 499.673
+resist "A7.t2" "A7.t3" 499.673
+resist "A7.t8" "A7.t12" 499.673
+resist "A7.t11" "A7.t7" 499.673
+resist "A7.t14" "A7.t10" 499.673
+resist "A7.t5" "A7.n5" 633.027
+resist "A7.n4" "A7.t15" 633.027
+resist "A7.n5" "A7.n4" 732.64
+resist "A7.t16" "A7.t9" 832.253
+resist "A7.t13" "A7.t5" 892.735
+rnode "DVDDD.t39" 0 0 1286 -59 0
+rnode "DVDDD.t37" 0 0 1226 -59 0
+rnode "DVDDD.n0" 0 0 1256 -23 0
+rnode "DVDDD.t91" 0 0 1106 -59 0
+rnode "DVDDD.t108" 0 0 1046 -59 0
+rnode "DVDDD.n1" 0 0 1076 -23 0
+rnode "DVDDD.n2" 0 0 1076 87 0
+rnode "DVDDD.t110" 0 0 926 -59 0
+rnode "DVDDD.t66" 0 0 866 -59 0
+rnode "DVDDD.n3" 0 0 896 -23 0
+rnode "DVDDD.n4" 0 0 896 87 0
+rnode "DVDDD.t68" 0 0 746 -59 0
+rnode "DVDDD.t73" 0 0 686 -59 0
+rnode "DVDDD.n5" 0 0 716 -23 0
+rnode "DVDDD.n6" 0 0 716 87 0
+rnode "DVDDD.t115" 0 0 386 -59 0
+rnode "DVDDD.n7" 0 0 356 87 0
+rnode "DVDDD.t70" 0 0 140 -59 0
+rnode "DVDDD.n8" 0 0 170 86 0
+rnode "DVDDD.t64" 0 0 20 -59 0
+rnode "DVDDD.t1" 0 0 -40 -59 0
+rnode "DVDDD.n9" 0 0 -10 -23 0
+rnode "DVDDD.n10" 0 0 -10 86 0
+rnode "DVDDD.t77" 0 0 -400 -59 0
+rnode "DVDDD.n11" 0 0 -370 86 0
+rnode "DVDDD.t7" 0 0 -700 -59 0
+rnode "DVDDD.n12" 0 0 -730 86 0
+rnode "DVDDD.t111" 0 0 1841 -59 0
+rnode "DVDDD.t112" 0 0 1751 -59 0
+rnode "DVDDD.t113" 0 0 1661 -59 0
+rnode "DVDDD.t71" 0 0 1571 -59 0
+rnode "DVDDD.t59" 0 0 1481 -59 0
+rnode "DVDDD.t60" 0 0 1391 -59 0
+rnode "DVDDD.t38" 0 0 1301 -59 0
+rnode "DVDDD.t36" 0 0 1211 -59 0
+rnode "DVDDD.t90" 0 0 1121 -59 0
+rnode "DVDDD.t107" 0 0 1031 -59 0
+rnode "DVDDD.t109" 0 0 941 -59 0
+rnode "DVDDD.t65" 0 0 851 -59 0
+rnode "DVDDD.t67" 0 0 761 -59 0
+rnode "DVDDD.t72" 0 0 671 -59 0
+rnode "DVDDD.t34" 0 0 581 -59 0
+rnode "DVDDD.t88" 0 0 491 -59 0
+rnode "DVDDD.t114" 0 0 401 -59 0
+rnode "DVDDD.t69" 0 0 125 -59 0
+rnode "DVDDD.t63" 0 0 35 -59 0
+rnode "DVDDD.t0" 0 0 -55 -59 0
+rnode "DVDDD.t106" 0 0 -235 -59 0
+rnode "DVDDD.t76" 0 0 -415 -59 0
+rnode "DVDDD.t62" 0 0 -505 -59 0
+rnode "DVDDD.t61" 0 0 -595 -59 0
+rnode "DVDDD.t6" 0 0 -685 -59 0
+rnode "DVDDD.n13" 0 0 -925 62 0
+rnode "DVDDD.t53" 0 0 1283 -948 0
+rnode "DVDDD.t41" 0 0 1223 -948 0
+rnode "DVDDD.n14" 0 0 1253 -912 0
+rnode "DVDDD.t117" 0 0 1103 -948 0
+rnode "DVDDD.t16" 0 0 1043 -948 0
+rnode "DVDDD.n15" 0 0 1073 -912 0
+rnode "DVDDD.n16" 0 0 1073 -802 0
+rnode "DVDDD.t78" 0 0 923 -948 0
+rnode "DVDDD.t25" 0 0 863 -948 0
+rnode "DVDDD.n17" 0 0 893 -912 0
+rnode "DVDDD.n18" 0 0 893 -802 0
+rnode "DVDDD.t50" 0 0 743 -948 0
+rnode "DVDDD.t46" 0 0 683 -948 0
+rnode "DVDDD.n19" 0 0 713 -912 0
+rnode "DVDDD.n20" 0 0 713 -802 0
+rnode "DVDDD.t79" 0 0 383 -948 0
+rnode "DVDDD.n21" 0 0 353 -802 0
+rnode "DVDDD.t89" 0 0 137 -948 0
+rnode "DVDDD.n22" 0 0 167 -803 0
+rnode "DVDDD.t120" 0 0 17 -948 0
+rnode "DVDDD.t52" 0 0 -43 -948 0
+rnode "DVDDD.n23" 0 0 -13 -912 0
+rnode "DVDDD.n24" 0 0 -13 -803 0
+rnode "DVDDD.t26" 0 0 -403 -948 0
+rnode "DVDDD.n25" 0 0 -373 -803 0
+rnode "DVDDD.t130" 0 0 -703 -948 0
+rnode "DVDDD.n26" 0 0 -733 -803 0
+rnode "DVDDD.t123" 0 0 1283 -1780 0
+rnode "DVDDD.t8" 0 0 1223 -1780 0
+rnode "DVDDD.n27" 0 0 1253 -1744 0
+rnode "DVDDD.t51" 0 0 1103 -1780 0
+rnode "DVDDD.t86" 0 0 1043 -1780 0
+rnode "DVDDD.n28" 0 0 1073 -1744 0
+rnode "DVDDD.n29" 0 0 1073 -1634 0
+rnode "DVDDD.t85" 0 0 923 -1780 0
+rnode "DVDDD.t28" 0 0 863 -1780 0
+rnode "DVDDD.n30" 0 0 893 -1744 0
+rnode "DVDDD.n31" 0 0 893 -1634 0
+rnode "DVDDD.t80" 0 0 743 -1780 0
+rnode "DVDDD.t22" 0 0 683 -1780 0
+rnode "DVDDD.n32" 0 0 713 -1744 0
+rnode "DVDDD.n33" 0 0 713 -1634 0
+rnode "DVDDD.t129" 0 0 383 -1780 0
+rnode "DVDDD.n34" 0 0 353 -1634 0
+rnode "DVDDD.t131" 0 0 137 -1780 0
+rnode "DVDDD.n35" 0 0 167 -1635 0
+rnode "DVDDD.t126" 0 0 17 -1780 0
+rnode "DVDDD.t116" 0 0 -43 -1780 0
+rnode "DVDDD.n36" 0 0 -13 -1744 0
+rnode "DVDDD.n37" 0 0 -13 -1635 0
+rnode "DVDDD.t121" 0 0 -403 -1780 0
+rnode "DVDDD.n38" 0 0 -373 -1635 0
+rnode "DVDDD.t17" 0 0 -703 -1780 0
+rnode "DVDDD.n39" 0 0 -733 -1635 0
+rnode "DVDDD.t29" 0 0 1284 -2632 0
+rnode "DVDDD.t27" 0 0 1224 -2632 0
+rnode "DVDDD.n40" 0 0 1254 -2596 0
+rnode "DVDDD.t124" 0 0 1104 -2632 0
+rnode "DVDDD.t84" 0 0 1044 -2632 0
+rnode "DVDDD.n41" 0 0 1074 -2596 0
+rnode "DVDDD.n42" 0 0 1074 -2486 0
+rnode "DVDDD.t83" 0 0 924 -2632 0
+rnode "DVDDD.t45" 0 0 864 -2632 0
+rnode "DVDDD.n43" 0 0 894 -2596 0
+rnode "DVDDD.n44" 0 0 894 -2486 0
+rnode "DVDDD.t9" 0 0 744 -2632 0
+rnode "DVDDD.t12" 0 0 684 -2632 0
+rnode "DVDDD.n45" 0 0 714 -2596 0
+rnode "DVDDD.n46" 0 0 714 -2486 0
+rnode "DVDDD.t54" 0 0 384 -2632 0
+rnode "DVDDD.n47" 0 0 354 -2486 0
+rnode "DVDDD.t18" 0 0 138 -2632 0
+rnode "DVDDD.n48" 0 0 168 -2487 0
+rnode "DVDDD.t87" 0 0 18 -2632 0
+rnode "DVDDD.t42" 0 0 -42 -2632 0
+rnode "DVDDD.n49" 0 0 -12 -2596 0
+rnode "DVDDD.n50" 0 0 -12 -2487 0
+rnode "DVDDD.t43" 0 0 -402 -2632 0
+rnode "DVDDD.n51" 0 0 -372 -2487 0
+rnode "DVDDD.t125" 0 0 -702 -2632 0
+rnode "DVDDD.n52" 0 0 -732 -2487 0
+rnode "DVDDD.t134" 0 0 1284 -3603 0
+rnode "DVDDD.t21" 0 0 1224 -3603 0
+rnode "DVDDD.n53" 0 0 1254 -3567 0
+rnode "DVDDD.t35" 0 0 1104 -3603 0
+rnode "DVDDD.t98" 0 0 1044 -3603 0
+rnode "DVDDD.n54" 0 0 1074 -3567 0
+rnode "DVDDD.n55" 0 0 1074 -3457 0
+rnode "DVDDD.t97" 0 0 924 -3603 0
+rnode "DVDDD.t30" 0 0 864 -3603 0
+rnode "DVDDD.n56" 0 0 894 -3567 0
+rnode "DVDDD.n57" 0 0 894 -3457 0
+rnode "DVDDD.t3" 0 0 744 -3603 0
+rnode "DVDDD.t57" 0 0 684 -3603 0
+rnode "DVDDD.n58" 0 0 714 -3567 0
+rnode "DVDDD.n59" 0 0 714 -3457 0
+rnode "DVDDD.t14" 0 0 384 -3603 0
+rnode "DVDDD.n60" 0 0 354 -3457 0
+rnode "DVDDD.t10" 0 0 138 -3603 0
+rnode "DVDDD.n61" 0 0 168 -3458 0
+rnode "DVDDD.t15" 0 0 18 -3603 0
+rnode "DVDDD.t101" 0 0 -42 -3603 0
+rnode "DVDDD.n62" 0 0 -12 -3567 0
+rnode "DVDDD.n63" 0 0 -12 -3458 0
+rnode "DVDDD.t99" 0 0 -402 -3603 0
+rnode "DVDDD.n64" 0 0 -372 -3458 0
+rnode "DVDDD.t40" 0 0 -702 -3603 0
+rnode "DVDDD.n65" 0 0 -732 -3458 0
+rnode "DVDDD.t92" 0 0 1285 -4455 0
+rnode "DVDDD.t24" 0 0 1225 -4455 0
+rnode "DVDDD.n66" 0 0 1255 -4419 0
+rnode "DVDDD.t49" 0 0 1105 -4455 0
+rnode "DVDDD.t96" 0 0 1045 -4455 0
+rnode "DVDDD.n67" 0 0 1075 -4419 0
+rnode "DVDDD.n68" 0 0 1075 -4309 0
+rnode "DVDDD.t95" 0 0 925 -4455 0
+rnode "DVDDD.t19" 0 0 865 -4455 0
+rnode "DVDDD.n69" 0 0 895 -4419 0
+rnode "DVDDD.n70" 0 0 895 -4309 0
+rnode "DVDDD.t56" 0 0 745 -4455 0
+rnode "DVDDD.t128" 0 0 685 -4455 0
+rnode "DVDDD.n71" 0 0 715 -4419 0
+rnode "DVDDD.n72" 0 0 715 -4309 0
+rnode "DVDDD.t20" 0 0 385 -4455 0
+rnode "DVDDD.n73" 0 0 355 -4309 0
+rnode "DVDDD.t132" 0 0 139 -4455 0
+rnode "DVDDD.n74" 0 0 169 -4310 0
+rnode "DVDDD.t127" 0 0 19 -4455 0
+rnode "DVDDD.t118" 0 0 -41 -4455 0
+rnode "DVDDD.n75" 0 0 -11 -4419 0
+rnode "DVDDD.n76" 0 0 -11 -4310 0
+rnode "DVDDD.t75" 0 0 -401 -4455 0
+rnode "DVDDD.n77" 0 0 -371 -4310 0
+rnode "DVDDD.t82" 0 0 -701 -4455 0
+rnode "DVDDD.n78" 0 0 -731 -4310 0
+rnode "DVDDD.t133" 0 0 1283 -5321 0
+rnode "DVDDD.t55" 0 0 1223 -5321 0
+rnode "DVDDD.n79" 0 0 1253 -5285 0
+rnode "DVDDD.t23" 0 0 1103 -5321 0
+rnode "DVDDD.t31" 0 0 1043 -5321 0
+rnode "DVDDD.n80" 0 0 1073 -5285 0
+rnode "DVDDD.n81" 0 0 1073 -5175 0
+rnode "DVDDD.t32" 0 0 923 -5321 0
+rnode "DVDDD.t58" 0 0 863 -5321 0
+rnode "DVDDD.n82" 0 0 893 -5285 0
+rnode "DVDDD.n83" 0 0 893 -5175 0
+rnode "DVDDD.t100" 0 0 743 -5321 0
+rnode "DVDDD.t122" 0 0 683 -5321 0
+rnode "DVDDD.n84" 0 0 713 -5285 0
+rnode "DVDDD.n85" 0 0 713 -5175 0
+rnode "DVDDD.t2" 0 0 383 -5321 0
+rnode "DVDDD.n86" 0 0 353 -5175 0
+rnode "DVDDD.t48" 0 0 137 -5321 0
+rnode "DVDDD.n87" 0 0 167 -5176 0
+rnode "DVDDD.t81" 0 0 17 -5321 0
+rnode "DVDDD.t44" 0 0 -43 -5321 0
+rnode "DVDDD.n88" 0 0 -13 -5285 0
+rnode "DVDDD.n89" 0 0 -13 -5176 0
+rnode "DVDDD.t47" 0 0 -403 -5321 0
+rnode "DVDDD.n90" 0 0 -373 -5176 0
+rnode "DVDDD.t13" 0 0 -703 -5321 0
+rnode "DVDDD.n91" 0 0 -733 -5176 0
+rnode "DVDDD.t119" 0 0 1284 -6173 0
+rnode "DVDDD.t33" 0 0 1224 -6173 0
+rnode "DVDDD.n92" 0 0 1254 -6137 0
+rnode "DVDDD.t5" 0 0 1104 -6173 0
+rnode "DVDDD.t94" 0 0 1044 -6173 0
+rnode "DVDDD.n93" 0 0 1074 -6137 0
+rnode "DVDDD.n94" 0 0 1074 -6027 0
+rnode "DVDDD.t93" 0 0 924 -6173 0
+rnode "DVDDD.t135" 0 0 864 -6173 0
+rnode "DVDDD.n95" 0 0 894 -6137 0
+rnode "DVDDD.n96" 0 0 894 -6027 0
+rnode "DVDDD.t103" 0 0 744 -6173 0
+rnode "DVDDD.t104" 0 0 684 -6173 0
+rnode "DVDDD.n97" 0 0 714 -6137 0
+rnode "DVDDD.n98" 0 0 714 -6027 0
+rnode "DVDDD.t11" 0 0 384 -6173 0
+rnode "DVDDD.n99" 0 0 354 -6027 0
+rnode "DVDDD.t105" 0 0 138 -6173 0
+rnode "DVDDD.n100" 0 0 168 -6028 0
+rnode "DVDDD.t102" 0 0 18 -6173 0
+rnode "DVDDD.t74" 0 0 -42 -6173 0
+rnode "DVDDD.n101" 0 0 -12 -6137 0
+rnode "DVDDD.n102" 0 0 -12 -6028 0
+rnode "DVDDD.t4" 0 0 -402 -6173 0
+rnode "DVDDD.n103" 0 0 -372 -6028 0
+rnode "DVDDD.t136" 0 0 -702 -6173 0
+rnode "DVDDD.n104" 0 0 -732 -6028 0
+rnode "DVDDD.n105" 0 0 -921 -5166 0
+rnode "DVDDD.n106" 0 0 -921 -4300 0
+rnode "DVDDD.n107" 0 0 -921 -3448 0
+rnode "DVDDD.n108" 0 0 -921 -2477 0
+rnode "DVDDD.n109" 0 0 -921 -1625 0
+rnode "DVDDD.n110" 0 0 -955 -793 0
+rnode "DVDDD" 0 0 -941 59 0
+resist "DVDDD" "DVDDD.n13" 0.0208333
+resist "DVDDD.n13" "DVDDD.n12" 0.495654
+resist "DVDDD.n102" "DVDDD.n100" 0.698898
+resist "DVDDD.n89" "DVDDD.n87" 0.698898
+resist "DVDDD.n76" "DVDDD.n74" 0.698898
+resist "DVDDD.n63" "DVDDD.n61" 0.698898
+resist "DVDDD.n50" "DVDDD.n48" 0.698898
+resist "DVDDD.n37" "DVDDD.n35" 0.698898
+resist "DVDDD.n24" "DVDDD.n22" 0.698898
+resist "DVDDD.n10" "DVDDD.n8" 0.698898
+resist "DVDDD.n98" "DVDDD.n96" 0.702252
+resist "DVDDD.n96" "DVDDD.n94" 0.702252
+resist "DVDDD.n85" "DVDDD.n83" 0.702252
+resist "DVDDD.n83" "DVDDD.n81" 0.702252
+resist "DVDDD.n72" "DVDDD.n70" 0.702252
+resist "DVDDD.n70" "DVDDD.n68" 0.702252
+resist "DVDDD.n59" "DVDDD.n57" 0.702252
+resist "DVDDD.n57" "DVDDD.n55" 0.702252
+resist "DVDDD.n46" "DVDDD.n44" 0.702252
+resist "DVDDD.n44" "DVDDD.n42" 0.702252
+resist "DVDDD.n33" "DVDDD.n31" 0.702252
+resist "DVDDD.n31" "DVDDD.n29" 0.702252
+resist "DVDDD.n20" "DVDDD.n18" 0.702252
+resist "DVDDD.n18" "DVDDD.n16" 0.702252
+resist "DVDDD.n6" "DVDDD.n4" 0.702252
+resist "DVDDD.n4" "DVDDD.n2" 0.702252
+resist "DVDDD.n100" "DVDDD.n99" 0.727361
+resist "DVDDD.n87" "DVDDD.n86" 0.727361
+resist "DVDDD.n74" "DVDDD.n73" 0.727361
+resist "DVDDD.n61" "DVDDD.n60" 0.727361
+resist "DVDDD.n48" "DVDDD.n47" 0.727361
+resist "DVDDD.n35" "DVDDD.n34" 0.727361
+resist "DVDDD.n22" "DVDDD.n21" 0.727361
+resist "DVDDD.n8" "DVDDD.n7" 0.727361
+resist "DVDDD.n105" "DVDDD.n91" 0.786949
+resist "DVDDD.n109" "DVDDD.n39" 0.786949
+resist "DVDDD.n110" "DVDDD.n26" 0.786949
+resist "DVDDD.n107" "DVDDD.n65" 0.791413
+resist "DVDDD.n108" "DVDDD.n52" 0.791413
+resist "DVDDD.n106" "DVDDD.n78" 0.795878
+resist "DVDDD.n104" "DVDDD.n103" 1.50247
+resist "DVDDD.n103" "DVDDD.n102" 1.50247
+resist "DVDDD.n91" "DVDDD.n90" 1.50247
+resist "DVDDD.n90" "DVDDD.n89" 1.50247
+resist "DVDDD.n78" "DVDDD.n77" 1.50247
+resist "DVDDD.n77" "DVDDD.n76" 1.50247
+resist "DVDDD.n65" "DVDDD.n64" 1.50247
+resist "DVDDD.n64" "DVDDD.n63" 1.50247
+resist "DVDDD.n52" "DVDDD.n51" 1.50247
+resist "DVDDD.n51" "DVDDD.n50" 1.50247
+resist "DVDDD.n39" "DVDDD.n38" 1.50247
+resist "DVDDD.n38" "DVDDD.n37" 1.50247
+resist "DVDDD.n26" "DVDDD.n25" 1.50247
+resist "DVDDD.n25" "DVDDD.n24" 1.50247
+resist "DVDDD.n12" "DVDDD.n11" 1.50247
+resist "DVDDD.n11" "DVDDD.n10" 1.50247
+resist "DVDDD.n99" "DVDDD.n98" 1.50582
+resist "DVDDD.n86" "DVDDD.n85" 1.50582
+resist "DVDDD.n73" "DVDDD.n72" 1.50582
+resist "DVDDD.n60" "DVDDD.n59" 1.50582
+resist "DVDDD.n47" "DVDDD.n46" 1.50582
+resist "DVDDD.n34" "DVDDD.n33" 1.50582
+resist "DVDDD.n21" "DVDDD.n20" 1.50582
+resist "DVDDD.n7" "DVDDD.n6" 1.50582
+resist "DVDDD.n110" "DVDDD.n109" 3.05882
+resist "DVDDD.n107" "DVDDD.n106" 3.13235
+resist "DVDDD.n109" "DVDDD.n108" 3.13235
+resist "DVDDD.n106" "DVDDD.n105" 3.18382
+resist "DVDDD.n108" "DVDDD.n107" 3.56985
+resist "DVDDD.n105" "DVDDD.n104" 3.92377
+resist "DVDDD" "DVDDD.n110" 4.10289
+resist "DVDDD.n92" "DVDDD.t33" 35.1786
+resist "DVDDD.n92" "DVDDD.t119" 35.1786
+resist "DVDDD.n93" "DVDDD.t94" 35.1786
+resist "DVDDD.n93" "DVDDD.t5" 35.1786
+resist "DVDDD.n95" "DVDDD.t135" 35.1786
+resist "DVDDD.n95" "DVDDD.t93" 35.1786
+resist "DVDDD.n97" "DVDDD.t104" 35.1786
+resist "DVDDD.n97" "DVDDD.t103" 35.1786
+resist "DVDDD.n101" "DVDDD.t74" 35.1786
+resist "DVDDD.n101" "DVDDD.t102" 35.1786
+resist "DVDDD.n79" "DVDDD.t55" 35.1786
+resist "DVDDD.n79" "DVDDD.t133" 35.1786
+resist "DVDDD.n80" "DVDDD.t31" 35.1786
+resist "DVDDD.n80" "DVDDD.t23" 35.1786
+resist "DVDDD.n82" "DVDDD.t58" 35.1786
+resist "DVDDD.n82" "DVDDD.t32" 35.1786
+resist "DVDDD.n84" "DVDDD.t122" 35.1786
+resist "DVDDD.n84" "DVDDD.t100" 35.1786
+resist "DVDDD.n88" "DVDDD.t44" 35.1786
+resist "DVDDD.n88" "DVDDD.t81" 35.1786
+resist "DVDDD.n66" "DVDDD.t24" 35.1786
+resist "DVDDD.n66" "DVDDD.t92" 35.1786
+resist "DVDDD.n67" "DVDDD.t96" 35.1786
+resist "DVDDD.n67" "DVDDD.t49" 35.1786
+resist "DVDDD.n69" "DVDDD.t19" 35.1786
+resist "DVDDD.n69" "DVDDD.t95" 35.1786
+resist "DVDDD.n71" "DVDDD.t128" 35.1786
+resist "DVDDD.n71" "DVDDD.t56" 35.1786
+resist "DVDDD.n75" "DVDDD.t118" 35.1786
+resist "DVDDD.n75" "DVDDD.t127" 35.1786
+resist "DVDDD.n53" "DVDDD.t21" 35.1786
+resist "DVDDD.n53" "DVDDD.t134" 35.1786
+resist "DVDDD.n54" "DVDDD.t98" 35.1786
+resist "DVDDD.n54" "DVDDD.t35" 35.1786
+resist "DVDDD.n56" "DVDDD.t30" 35.1786
+resist "DVDDD.n56" "DVDDD.t97" 35.1786
+resist "DVDDD.n58" "DVDDD.t57" 35.1786
+resist "DVDDD.n58" "DVDDD.t3" 35.1786
+resist "DVDDD.n62" "DVDDD.t101" 35.1786
+resist "DVDDD.n62" "DVDDD.t15" 35.1786
+resist "DVDDD.n40" "DVDDD.t27" 35.1786
+resist "DVDDD.n40" "DVDDD.t29" 35.1786
+resist "DVDDD.n41" "DVDDD.t84" 35.1786
+resist "DVDDD.n41" "DVDDD.t124" 35.1786
+resist "DVDDD.n43" "DVDDD.t45" 35.1786
+resist "DVDDD.n43" "DVDDD.t83" 35.1786
+resist "DVDDD.n45" "DVDDD.t12" 35.1786
+resist "DVDDD.n45" "DVDDD.t9" 35.1786
+resist "DVDDD.n49" "DVDDD.t42" 35.1786
+resist "DVDDD.n49" "DVDDD.t87" 35.1786
+resist "DVDDD.n27" "DVDDD.t8" 35.1786
+resist "DVDDD.n27" "DVDDD.t123" 35.1786
+resist "DVDDD.n28" "DVDDD.t86" 35.1786
+resist "DVDDD.n28" "DVDDD.t51" 35.1786
+resist "DVDDD.n30" "DVDDD.t28" 35.1786
+resist "DVDDD.n30" "DVDDD.t85" 35.1786
+resist "DVDDD.n32" "DVDDD.t22" 35.1786
+resist "DVDDD.n32" "DVDDD.t80" 35.1786
+resist "DVDDD.n36" "DVDDD.t116" 35.1786
+resist "DVDDD.n36" "DVDDD.t126" 35.1786
+resist "DVDDD.n14" "DVDDD.t41" 35.1786
+resist "DVDDD.n14" "DVDDD.t53" 35.1786
+resist "DVDDD.n15" "DVDDD.t16" 35.1786
+resist "DVDDD.n15" "DVDDD.t117" 35.1786
+resist "DVDDD.n17" "DVDDD.t25" 35.1786
+resist "DVDDD.n17" "DVDDD.t78" 35.1786
+resist "DVDDD.n19" "DVDDD.t46" 35.1786
+resist "DVDDD.n19" "DVDDD.t50" 35.1786
+resist "DVDDD.n23" "DVDDD.t52" 35.1786
+resist "DVDDD.n23" "DVDDD.t120" 35.1786
+resist "DVDDD.n0" "DVDDD.t37" 35.1786
+resist "DVDDD.n0" "DVDDD.t39" 35.1786
+resist "DVDDD.n1" "DVDDD.t108" 35.1786
+resist "DVDDD.n1" "DVDDD.t91" 35.1786
+resist "DVDDD.n3" "DVDDD.t66" 35.1786
+resist "DVDDD.n3" "DVDDD.t110" 35.1786
+resist "DVDDD.n5" "DVDDD.t73" 35.1786
+resist "DVDDD.n5" "DVDDD.t68" 35.1786
+resist "DVDDD.n9" "DVDDD.t1" 35.1786
+resist "DVDDD.n9" "DVDDD.t64" 35.1786
+resist "DVDDD.t6" "DVDDD.t61" 263.889
+resist "DVDDD.t61" "DVDDD.t62" 263.889
+resist "DVDDD.t62" "DVDDD.t76" 263.889
+resist "DVDDD.t76" "DVDDD.t106" 263.889
+resist "DVDDD.t106" "DVDDD.t0" 263.889
+resist "DVDDD.t0" "DVDDD.t63" 263.889
+resist "DVDDD.t63" "DVDDD.t69" 263.889
+resist "DVDDD.t114" "DVDDD.t88" 263.889
+resist "DVDDD.t88" "DVDDD.t34" 263.889
+resist "DVDDD.t34" "DVDDD.t72" 263.889
+resist "DVDDD.t72" "DVDDD.t67" 263.889
+resist "DVDDD.t67" "DVDDD.t65" 263.889
+resist "DVDDD.t65" "DVDDD.t109" 263.889
+resist "DVDDD.t109" "DVDDD.t107" 263.889
+resist "DVDDD.t107" "DVDDD.t90" 263.889
+resist "DVDDD.t90" "DVDDD.t36" 263.889
+resist "DVDDD.t36" "DVDDD.t38" 263.889
+resist "DVDDD.t38" "DVDDD.t60" 263.889
+resist "DVDDD.t60" "DVDDD.t59" 263.889
+resist "DVDDD.t59" "DVDDD.t71" 263.889
+resist "DVDDD.t71" "DVDDD.t113" 263.889
+resist "DVDDD.t113" "DVDDD.t112" 263.889
+resist "DVDDD.t112" "DVDDD.t111" 263.889
+resist "DVDDD.n102" "DVDDD.n101" 345.876
+resist "DVDDD.n89" "DVDDD.n88" 345.876
+resist "DVDDD.n76" "DVDDD.n75" 345.876
+resist "DVDDD.n63" "DVDDD.n62" 345.876
+resist "DVDDD.n50" "DVDDD.n49" 345.876
+resist "DVDDD.n37" "DVDDD.n36" 345.876
+resist "DVDDD.n24" "DVDDD.n23" 345.876
+resist "DVDDD.n10" "DVDDD.n9" 345.876
+resist "DVDDD.n94" "DVDDD.n93" 346.253
+resist "DVDDD.n96" "DVDDD.n95" 346.253
+resist "DVDDD.n98" "DVDDD.n97" 346.253
+resist "DVDDD.n81" "DVDDD.n80" 346.253
+resist "DVDDD.n83" "DVDDD.n82" 346.253
+resist "DVDDD.n85" "DVDDD.n84" 346.253
+resist "DVDDD.n68" "DVDDD.n67" 346.253
+resist "DVDDD.n70" "DVDDD.n69" 346.253
+resist "DVDDD.n72" "DVDDD.n71" 346.253
+resist "DVDDD.n55" "DVDDD.n54" 346.253
+resist "DVDDD.n57" "DVDDD.n56" 346.253
+resist "DVDDD.n59" "DVDDD.n58" 346.253
+resist "DVDDD.n42" "DVDDD.n41" 346.253
+resist "DVDDD.n44" "DVDDD.n43" 346.253
+resist "DVDDD.n46" "DVDDD.n45" 346.253
+resist "DVDDD.n29" "DVDDD.n28" 346.253
+resist "DVDDD.n31" "DVDDD.n30" 346.253
+resist "DVDDD.n33" "DVDDD.n32" 346.253
+resist "DVDDD.n16" "DVDDD.n15" 346.253
+resist "DVDDD.n18" "DVDDD.n17" 346.253
+resist "DVDDD.n20" "DVDDD.n19" 346.253
+resist "DVDDD.n2" "DVDDD.n1" 346.253
+resist "DVDDD.n4" "DVDDD.n3" 346.253
+resist "DVDDD.n6" "DVDDD.n5" 346.253
+resist "DVDDD.n94" "DVDDD.n92" 346.955
+resist "DVDDD.n81" "DVDDD.n79" 346.955
+resist "DVDDD.n68" "DVDDD.n66" 346.955
+resist "DVDDD.n55" "DVDDD.n53" 346.955
+resist "DVDDD.n42" "DVDDD.n40" 346.955
+resist "DVDDD.n29" "DVDDD.n27" 346.955
+resist "DVDDD.n16" "DVDDD.n14" 346.955
+resist "DVDDD.n2" "DVDDD.n0" 346.955
+resist "DVDDD.n103" "DVDDD.t4" 363.785
+resist "DVDDD.n90" "DVDDD.t47" 363.785
+resist "DVDDD.n77" "DVDDD.t75" 363.785
+resist "DVDDD.n64" "DVDDD.t99" 363.785
+resist "DVDDD.n51" "DVDDD.t43" 363.785
+resist "DVDDD.n38" "DVDDD.t121" 363.785
+resist "DVDDD.n25" "DVDDD.t26" 363.785
+resist "DVDDD.n11" "DVDDD.t77" 363.785
+resist "DVDDD.n100" "DVDDD.t105" 405.002
+resist "DVDDD.n104" "DVDDD.t136" 405.002
+resist "DVDDD.n87" "DVDDD.t48" 405.002
+resist "DVDDD.n91" "DVDDD.t13" 405.002
+resist "DVDDD.n74" "DVDDD.t132" 405.002
+resist "DVDDD.n78" "DVDDD.t82" 405.002
+resist "DVDDD.n61" "DVDDD.t10" 405.002
+resist "DVDDD.n65" "DVDDD.t40" 405.002
+resist "DVDDD.n48" "DVDDD.t18" 405.002
+resist "DVDDD.n52" "DVDDD.t125" 405.002
+resist "DVDDD.n35" "DVDDD.t131" 405.002
+resist "DVDDD.n39" "DVDDD.t17" 405.002
+resist "DVDDD.n22" "DVDDD.t89" 405.002
+resist "DVDDD.n26" "DVDDD.t130" 405.002
+resist "DVDDD.n8" "DVDDD.t70" 405.002
+resist "DVDDD.n12" "DVDDD.t7" 405.002
+resist "DVDDD.n99" "DVDDD.t11" 405.378
+resist "DVDDD.n86" "DVDDD.t2" 405.378
+resist "DVDDD.n73" "DVDDD.t20" 405.378
+resist "DVDDD.n60" "DVDDD.t14" 405.378
+resist "DVDDD.n47" "DVDDD.t54" 405.378
+resist "DVDDD.n34" "DVDDD.t129" 405.378
+resist "DVDDD.n21" "DVDDD.t79" 405.378
+resist "DVDDD.n7" "DVDDD.t115" 405.378
+resist "DVDDD.t69" "DVDDD.t114" 809.259
+resist "DVDDD.n13" "DVDDD.t6" 945.401
+rnode "B0.t3" 0 0 125 -59 0
+rnode "B0.t1" 0 0 125 -370 0
+rnode "B0.t2" 0 0 761 -370 0
+rnode "B0.t5" 0 0 761 -59 0
+rnode "B0.t6" 0 0 851 -59 0
+rnode "B0.t13" 0 0 1481 -370 0
+rnode "B0.t17" 0 0 1481 -59 0
+rnode "B0.t15" 0 0 1571 -370 0
+rnode "B0.t0" 0 0 1571 -59 0
+rnode "B0.n0" 0 0 1481 58 0
+rnode "B0.t16" 0 0 1391 -59 0
+rnode "B0.t10" 0 0 1391 -370 0
+rnode "B0.t4" 0 0 851 -370 0
+rnode "B0.n1" 0 0 851 -269 0
+rnode "B0.n2" 0 0 125 -193 0
+rnode "B0.t11" 0 0 35 -59 0
+rnode "B0.t7" 0 0 35 -370 0
+rnode "B0.n3" 0 0 35 -193 0
+rnode "B0.n4" 0 0 81 -220 0
+rnode "B0.t12" 0 0 -505 -59 0
+rnode "B0.t8" 0 0 -505 -370 0
+rnode "B0.n5" 0 0 -505 -193 0
+rnode "B0.t14" 0 0 -595 -59 0
+rnode "B0.t9" 0 0 -595 -370 0
+rnode "B0.n6" 0 0 -595 -193 0
+rnode "B0.n7" 0 0 -550 -220 0
+rnode "B0.n8" 0 0 -492 -210 0
+rnode "B0.n9" 0 0 -488 -200 0
+rnode "B0" 0 0 -492 -210 0
+resist "B0" "B0.n9" 0.0108696
+resist "B0.n9" "B0.n8" 10.413
+resist "B0.n4" "B0.n2" 39.2741
+resist "B0.n7" "B0.n6" 40.1667
+resist "B0.n7" "B0.n5" 40.1667
+resist "B0.n4" "B0.n3" 41.0593
+resist "B0.n1" "B0.t4" 138.612
+resist "B0.n0" "B0.t17" 139.78
+resist "B0.n8" "B0.n7" 164.991
+resist "B0.n9" "B0.n4" 167.451
+resist "B0.n6" "B0.t9" 197.62
+resist "B0.n5" "B0.t8" 197.62
+resist "B0.n3" "B0.t7" 197.62
+resist "B0.n2" "B0.t1" 197.62
+resist "B0.n6" "B0.t14" 215.293
+resist "B0.n5" "B0.t12" 215.293
+resist "B0.n3" "B0.t11" 215.293
+resist "B0.n2" "B0.t3" 215.293
+resist "B0.t16" "B0.n0" 284.38
+resist "B0.n0" "B0.t0" 284.38
+resist "B0.n1" "B0.t6" 313.738
+resist "B0.n2" "B0.n1" 377.252
+resist "B0.t6" "B0.t5" 420.947
+resist "B0.t10" "B0.t16" 499.673
+resist "B0.t17" "B0.t13" 499.673
+resist "B0.t0" "B0.t15" 499.673
+resist "B0.t5" "B0.t2" 499.673
+resist "B0.t4" "B0.t10" 1266.05
+device msubckt sky130_fd_pr__pfet_01v8 473 -1864 474 -1863  "w_n826_n1942#" "a_n583_n2133#" 60 0 "a_413_n1864#" 168 5040,228 "S2.t0" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1014 -2985 1015 -2984  "DGNDD.t186" "a_n583_n2133#" 60 0 "a_414_n2985#" 84 2520,144 "DGNDD.t187" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1644 -6526 1645 -6525  "DGNDD.t221" "a_n583_n5674#" 60 0 "a_1404_n6526#" 84 2520,144 "S7.t4" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -341 -4808 -340 -4807  "DGNDD.t213" "A5.t16" 60 0 "DGNDD.t214" 84 2520,144 "a_n311_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1554 -6257 1555 -6256  "w_n825_n6335#" "B7.t17" 60 0 "a_1134_n6257#" 168 5040,228 "a_1404_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1013 -5405 1014 -5404  "w_n826_n5483#" "a_n581_n4808#" 60 0 "a_413_n5405#" 168 5040,228 "DVDDD.t31" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1373 -1864 1374 -1863  "w_n826_n1942#" "B2.t17" 60 0 "a_1133_n1864#" 168 5040,228 "a_1403_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 17 -1864 18 -1863  "w_n826_n1942#" "B2.t16" 60 0 "DVDDD.t126" 168 5040,228 "a_n313_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 565 -4539 566 -4538  "w_n824_n4617#" "a_n581_n4808#" 60 0 "S5.t2" 168 5040,228 "a_415_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 655 -4808 656 -4807  "DGNDD.t167" "A5.t15" 60 0 "a_415_n4808#" 84 2520,144 "DGNDD.t168" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -703 -5405 -702 -5404  "w_n826_n5483#" "A6.t16" 60 0 "DVDDD.t13" 168 10080,456 "a_n673_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -342 -2985 -341 -2984  "DGNDD.t107" "A3.t16" 60 0 "DGNDD.t108" 84 2520,144 "a_n312_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1555 -4808 1556 -4807  "DGNDD.t285" "B5.t17" 60 0 "a_1135_n4808#" 84 2520,144 "a_1405_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1465 -4539 1466 -4538  "w_n824_n4617#" "B5.t16" 60 0 "a_1405_n4539#" 168 5040,228 "a_1135_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -523 -1301 -522 -1300  "DGNDD.t282" "B1.t17" 60 0 "a_n583_n1301#" 84 2520,144 "a_n673_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -433 -1032 -432 -1031  "w_n826_n1110#" "A1.t16" 300 0 "a_n673_n1032#" 45 3360,152 "DVDDD.t26" 45 4950,225
+device msubckt sky130_fd_pr__pfet_01v8 -71 -4539 -70 -4538  "w_n824_n4617#" "A5.t14" 60 0 "a_n311_n4539#" 168 5040,228 "DVDDD.t118" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 833 -5674 834 -5673  "DGNDD.t316" "B6.t17" 60 0 "a_413_n5674#" 84 2520,144 "DGNDD.t317" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -702 -3687 -701 -3686  "w_n825_n3765#" "A4.t16" 60 0 "DVDDD.t40" 168 10080,456 "a_n672_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1736 -412 1737 -411  "DGNDD.t273" "a_n250_n452#" 60 0 "S0.t4" 84 2520,144 "a_1406_n412#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 108 -2716 109 -2715  "w_n825_n2794#" "B3.t17" 60 0 "a_n312_n2716#" 168 5040,228 "DVDDD.t18" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 1194 -2985 1195 -2984  "DGNDD.t328" "A3.t15" 60 0 "a_1134_n2985#" 84 2520,144 "DGNDD.t329" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1733 -5674 1734 -5673  "DGNDD.t80" "a_n581_n4808#" 60 0 "S6.t3" 84 2520,144 "a_1403_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1193 -5405 1194 -5404  "w_n826_n5483#" "A6.t15" 60 0 "a_1133_n5405#" 168 5040,228 "DVDDD.t55" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 744 -3956 745 -3955  "DGNDD.t171" "B4.t17" 60 0 "DGNDD.t172" 84 2520,144 "a_414_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 654 -3687 655 -3686  "w_n825_n3765#" "A4.t15" 60 0 "a_414_n3687#" 168 5040,228 "DVDDD.t57" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -162 -6526 -161 -6525  "DGNDD.t222" "a_n583_n5674#" 60 0 "C7.t6" 84 2520,144 "a_n312_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 476 -412 477 -411  "DGNDD.t304" "C0.t24" 60 0 "a_416_n412#" 84 2520,144 "S0.t2" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1644 -3956 1645 -3955  "DGNDD.t261" "a_n582_n2985#" 60 0 "a_1404_n3956#" 84 2520,144 "S4.t7" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1554 -3687 1555 -3686  "w_n825_n3765#" "B4.t16" 60 0 "a_1134_n3687#" 168 5040,228 "a_1404_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 924 -2716 925 -2715  "w_n825_n2794#" "a_n583_n2133#" 60 0 "DVDDD.t83" 168 5040,228 "a_414_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1466 -143 1467 -142  "DVDDD.t59" "B0.t17" 60 0 "a_1406_n143#" 168 5040,228 "a_1136_n143#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1824 -2716 1825 -2715  "w_n825_n2794#" "a_n583_n2133#" 60 0 "a_1404_n2716#" 168 5040,228 "S3.t3" 168 10080,456
+device msubckt sky130_fd_pr__pfet_01v8 -73 -1864 -72 -1863  "w_n826_n1942#" "A2.t16" 60 0 "a_n313_n1864#" 168 5040,228 "DVDDD.t116" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -613 -5674 -612 -5673  "DGNDD.t99" "B6.t16" 60 0 "a_n673_n5674#" 84 2520,144 "a_n583_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1014 -2716 1015 -2715  "w_n825_n2794#" "a_n583_n2133#" 60 0 "a_414_n2716#" 168 5040,228 "DVDDD.t84" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1646 -412 1647 -411  "DGNDD.t274" "a_n250_n452#" 60 0 "a_1406_n412#" 84 2520,144 "S0.t5" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -162 -3956 -161 -3955  "DGNDD.t262" "a_n582_n2985#" 60 0 "a_n582_n3956#" 84 2520,144 "a_n312_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 473 -2133 474 -2132  "DGNDD.t188" "a_n583_n2133#" 60 0 "a_413_n2133#" 84 2520,144 "S2.t2" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 386 -412 387 -411  "DGNDD.t34" "A0.t16" 60 0 "DGNDD.t35" 84 5040,288 "a_416_n412#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1373 -2133 1374 -2132  "DGNDD.t300" "B2.t15" 60 0 "a_1133_n2133#" 84 2520,144 "a_1403_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 17 -2133 18 -2132  "DGNDD.t26" "B2.t14" 60 0 "DGNDD.t27" 84 2520,144 "a_n313_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1376 -143 1377 -142  "DVDDD.t60" "B0.t16" 60 0 "a_1136_n143#" 168 5040,228 "a_1406_n143#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 834 -2985 835 -2984  "DGNDD.t183" "B3.t16" 60 0 "a_414_n2985#" 84 2520,144 "DGNDD.t184" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 833 -5405 834 -5404  "w_n826_n5483#" "B6.t15" 60 0 "a_413_n5405#" 168 5040,228 "DVDDD.t58" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1734 -2985 1735 -2984  "DGNDD.t189" "a_n583_n2133#" 60 0 "S3.t0" 84 2520,144 "a_1404_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1103 -1864 1104 -1863  "w_n826_n1942#" "A2.t15" 60 0 "DVDDD.t51" 168 5040,228 "a_1133_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1194 -2716 1195 -2715  "w_n825_n2794#" "A3.t14" 60 0 "a_1134_n2716#" 168 5040,228 "DVDDD.t27" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1733 -5405 1734 -5404  "w_n826_n5483#" "a_n581_n4808#" 60 0 "S6.t0" 168 5040,228 "a_1403_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -702 -6526 -701 -6525  "DGNDD.t232" "A7.t16" 60 0 "DGNDD.t233" 84 5040,288 "a_n672_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -612 -6257 -611 -6256  "w_n825_n6335#" "B7.t16" 60 0 "a_n672_n6257#" 168 5040,228 "C7.t0" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 563 -1032 564 -1031  "w_n826_n1110#" "a_n583_n1301#" 60 0 "S1.t0" 168 5040,228 "a_413_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 653 -1301 654 -1300  "DGNDD.t28" "A1.t15" 60 0 "a_413_n1301#" 84 2520,144 "DGNDD.t29" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -253 -2133 -252 -2132  "DGNDD.t197" "a_n583_n1301#" 60 0 "a_n313_n2133#" 84 2520,144 "a_n583_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1553 -1301 1554 -1300  "DGNDD.t127" "B1.t16" 60 0 "a_1133_n1301#" 84 2520,144 "a_1403_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1463 -1032 1464 -1031  "w_n826_n1110#" "B1.t15" 60 0 "a_1403_n1032#" 168 5040,228 "a_1133_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1556 -412 1557 -411  "DGNDD.t147" "B0.t15" 60 0 "a_1136_n412#" 84 2520,144 "a_1406_n412#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 654 -6526 655 -6525  "DGNDD.t234" "A7.t15" 60 0 "a_414_n6526#" 84 2520,144 "DGNDD.t235" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 564 -6257 565 -6256  "w_n825_n6335#" "C7.t11" 60 0 "S7.t2" 168 5040,228 "a_414_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -610 -143 -609 -142  "DVDDD.t61" "B0.t14" 60 0 "a_n670_n143#" 168 5040,228 "C0.t2" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 383 -1864 384 -1863  "w_n826_n1942#" "A2.t14" 60 0 "DVDDD.t129" 168 10080,456 "a_413_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1554 -6526 1555 -6525  "DGNDD.t0" "B7.t15" 60 0 "a_1134_n6526#" 84 2520,144 "a_1404_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1464 -6257 1465 -6256  "w_n825_n6335#" "B7.t14" 60 0 "a_1404_n6257#" 168 5040,228 "a_1134_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -251 -4808 -250 -4807  "DGNDD.t250" "a_n582_n3956#" 60 0 "a_n311_n4808#" 84 2520,144 "a_n581_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1283 -1864 1284 -1863  "w_n826_n1942#" "A2.t13" 60 0 "DVDDD.t123" 168 5040,228 "a_1133_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 565 -4808 566 -4807  "DGNDD.t81" "a_n581_n4808#" 60 0 "S5.t0" 84 2520,144 "a_415_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 475 -4539 476 -4538  "w_n824_n4617#" "a_n581_n4808#" 60 0 "a_415_n4539#" 168 5040,228 "S5.t3" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -613 -5405 -612 -5404  "w_n826_n5483#" "B6.t14" 60 0 "a_n673_n5405#" 168 5040,228 "a_n583_n5674#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -73 -2133 -72 -2132  "DGNDD.t296" "A2.t12" 60 0 "a_n313_n2133#" 84 2520,144 "DGNDD.t297" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -252 -2985 -251 -2984  "DGNDD.t190" "a_n583_n2133#" 60 0 "a_n312_n2985#" 84 2520,144 "a_n582_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1465 -4808 1466 -4807  "DGNDD.t116" "B5.t15" 60 0 "a_1405_n4808#" 84 2520,144 "a_1135_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1286 -143 1287 -142  "DVDDD.t38" "A0.t15" 60 0 "DVDDD.t39" 168 5040,228 "a_1136_n143#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1375 -4539 1376 -4538  "w_n824_n4617#" "B5.t14" 60 0 "a_1135_n4539#" 168 5040,228 "a_1405_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 19 -4539 20 -4538  "w_n824_n4617#" "B5.t13" 60 0 "DVDDD.t127" 168 5040,228 "a_n311_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -433 -1301 -432 -1300  "DGNDD.t130" "A1.t14" 60 0 "a_n673_n1301#" 84 2520,144 "DGNDD.t131" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -71 -4808 -70 -4807  "DGNDD.t121" "A5.t13" 60 0 "a_n311_n4808#" 84 2520,144 "DGNDD.t122" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -702 -3956 -701 -3955  "DGNDD.t39" "A4.t14" 60 0 "DGNDD.t40" 84 5040,288 "a_n672_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 743 -5674 744 -5673  "DGNDD.t135" "B6.t13" 60 0 "DGNDD.t136" 84 2520,144 "a_413_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -612 -3687 -611 -3686  "w_n825_n3765#" "B4.t15" 60 0 "a_n672_n3687#" 168 5040,228 "a_n582_n3956#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -72 -2985 -71 -2984  "DGNDD.t91" "A3.t13" 60 0 "a_n312_n2985#" 84 2520,144 "DGNDD.t92" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1643 -5674 1644 -5673  "DGNDD.t82" "a_n581_n4808#" 60 0 "a_1403_n5674#" 84 2520,144 "S6.t4" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 654 -3956 655 -3955  "DGNDD.t132" "A4.t13" 60 0 "a_414_n3956#" 84 2520,144 "DGNDD.t133" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 564 -3687 565 -3686  "w_n825_n3765#" "a_n582_n3956#" 60 0 "S4.t0" 168 5040,228 "a_414_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1554 -3956 1555 -3955  "DGNDD.t166" "B4.t14" 60 0 "a_1134_n3956#" 84 2520,144 "a_1404_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1466 -412 1467 -411  "DGNDD.t148" "B0.t13" 60 0 "a_1406_n412#" 84 2520,144 "a_1136_n412#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 834 -2716 835 -2715  "w_n825_n2794#" "B3.t15" 60 0 "a_414_n2716#" 168 5040,228 "DVDDD.t45" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1464 -3687 1465 -3686  "w_n825_n3765#" "B4.t13" 60 0 "a_1404_n3687#" 168 5040,228 "a_1134_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -520 -143 -519 -142  "DVDDD.t62" "B0.t12" 60 0 "C0.t3" 168 5040,228 "a_n670_n143#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1734 -2716 1735 -2715  "w_n825_n2794#" "a_n583_n2133#" 60 0 "S3.t4" 168 5040,228 "a_1404_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1196 -143 1197 -142  "DVDDD.t36" "A0.t14" 60 0 "a_1136_n143#" 168 5040,228 "DVDDD.t37" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 107 -1864 108 -1863  "w_n826_n1942#" "B2.t13" 60 0 "a_n313_n1864#" 168 5040,228 "DVDDD.t131" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 -523 -5674 -522 -5673  "DGNDD.t220" "B6.t12" 60 0 "a_n583_n5674#" 84 2520,144 "a_n673_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1103 -2133 1104 -2132  "DGNDD.t105" "A2.t11" 60 0 "DGNDD.t106" 84 2520,144 "a_1133_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 20 -143 21 -142  "DVDDD.t63" "B0.t11" 60 0 "DVDDD.t64" 168 5040,228 "a_n310_n143#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 923 -1864 924 -1863  "w_n826_n1942#" "a_n583_n1301#" 60 0 "DVDDD.t85" 168 5040,228 "a_413_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1823 -1864 1824 -1863  "w_n826_n1942#" "a_n583_n1301#" 60 0 "a_1403_n1864#" 168 5040,228 "S2.t4" 168 10080,456
+device msubckt sky130_fd_pr__pfet_01v8 -701 -4539 -700 -4538  "w_n824_n4617#" "A5.t12" 60 0 "DVDDD.t82" 168 10080,456 "a_n671_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 383 -2133 384 -2132  "DGNDD.t114" "A2.t10" 60 0 "DGNDD.t115" 84 5040,288 "a_413_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1376 -412 1377 -411  "DGNDD.t149" "B0.t10" 60 0 "a_1136_n412#" 84 2520,144 "a_1406_n412#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1283 -2133 1284 -2132  "DGNDD.t169" "A2.t9" 60 0 "DGNDD.t170" 84 2520,144 "a_1133_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -430 -143 -429 -142  "DVDDD.t76" "A0.t13" 300 0 "a_n670_n143#" 45 3360,152 "DVDDD.t77" 45 4950,225
+device msubckt sky130_fd_pr__nfet_01v8 744 -2985 745 -2984  "DGNDD.t164" "B3.t14" 60 0 "DGNDD.t165" 84 2520,144 "a_414_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 743 -5405 744 -5404  "w_n826_n5483#" "B6.t11" 60 0 "DVDDD.t100" 168 5040,228 "a_413_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1644 -2985 1645 -2984  "DGNDD.t191" "a_n583_n2133#" 60 0 "a_1404_n2985#" 84 2520,144 "S3.t1" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1013 -1864 1014 -1863  "w_n826_n1942#" "a_n583_n1301#" 60 0 "a_413_n1864#" 168 5040,228 "DVDDD.t86" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -72 -2716 -71 -2715  "w_n825_n2794#" "A3.t12" 60 0 "a_n312_n2716#" 168 5040,228 "DVDDD.t42" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1643 -5405 1644 -5404  "w_n826_n5483#" "a_n581_n4808#" 60 0 "a_1403_n5405#" 168 5040,228 "S6.t1" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -703 -1864 -702 -1863  "w_n826_n1942#" "A2.t8" 60 0 "DVDDD.t17" 168 10080,456 "a_n673_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1105 -4539 1106 -4538  "w_n824_n4617#" "A5.t11" 60 0 "DVDDD.t49" 168 5040,228 "a_1135_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -612 -6526 -611 -6525  "DGNDD.t1" "B7.t13" 60 0 "a_n672_n6526#" 84 2520,144 "C7.t2" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 563 -1301 564 -1300  "DGNDD.t198" "a_n583_n1301#" 60 0 "S1.t2" 84 2520,144 "a_413_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -522 -6257 -521 -6256  "w_n825_n6335#" "B7.t12" 60 0 "C7.t1" 168 5040,228 "a_n672_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 473 -1032 474 -1031  "w_n826_n1110#" "a_n583_n1301#" 60 0 "a_413_n1032#" 168 5040,228 "S1.t1" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -163 -2133 -162 -2132  "DGNDD.t199" "a_n583_n1301#" 60 0 "a_n583_n2133#" 84 2520,144 "a_n313_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1463 -1301 1464 -1300  "DGNDD.t322" "B1.t14" 60 0 "a_1403_n1301#" 84 2520,144 "a_1133_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1373 -1032 1374 -1031  "w_n826_n1110#" "B1.t13" 60 0 "a_1133_n1032#" 168 5040,228 "a_1403_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -610 -412 -609 -411  "DGNDD.t150" "B0.t9" 60 0 "a_n670_n412#" 84 2520,144 "C0.t0" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 17 -1032 18 -1031  "w_n826_n1110#" "B1.t12" 60 0 "DVDDD.t120" 168 5040,228 "a_n313_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 564 -6526 565 -6525  "DGNDD.t75" "C7.t10" 60 0 "S7.t0" 84 2520,144 "a_414_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 474 -6257 475 -6256  "w_n825_n6335#" "C7.t9" 60 0 "a_414_n6257#" 168 5040,228 "S7.t3" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1464 -6526 1465 -6525  "DGNDD.t2" "B7.t11" 60 0 "a_1404_n6526#" 84 2520,144 "a_1134_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1374 -6257 1375 -6256  "w_n825_n6335#" "B7.t10" 60 0 "a_1134_n6257#" 168 5040,228 "a_1404_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -161 -4808 -160 -4807  "DGNDD.t251" "a_n582_n3956#" 60 0 "a_n581_n4808#" 84 2520,144 "a_n311_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 18 -6257 19 -6256  "w_n825_n6335#" "B7.t9" 60 0 "DVDDD.t102" 168 5040,228 "a_n312_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1193 -1864 1194 -1863  "w_n826_n1942#" "A2.t7" 60 0 "a_1133_n1864#" 168 5040,228 "DVDDD.t8" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 475 -4808 476 -4807  "DGNDD.t83" "a_n581_n4808#" 60 0 "a_415_n4808#" 84 2520,144 "S5.t1" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 385 -4539 386 -4538  "w_n824_n4617#" "A5.t10" 60 0 "DVDDD.t20" 168 10080,456 "a_415_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -523 -5405 -522 -5404  "w_n826_n5483#" "B6.t10" 60 0 "a_n583_n5674#" 168 5040,228 "a_n673_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1286 -412 1287 -411  "DGNDD.t15" "A0.t12" 60 0 "DGNDD.t16" 84 2520,144 "a_1136_n412#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -162 -2985 -161 -2984  "DGNDD.t192" "a_n583_n2133#" 60 0 "a_n582_n2985#" 84 2520,144 "a_n312_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1375 -4808 1376 -4807  "DGNDD.t301" "B5.t12" 60 0 "a_1135_n4808#" 84 2520,144 "a_1405_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1285 -4539 1286 -4538  "w_n824_n4617#" "A5.t9" 60 0 "DVDDD.t92" 168 5040,228 "a_1135_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 19 -4808 20 -4807  "DGNDD.t142" "B5.t11" 60 0 "DGNDD.t143" 84 2520,144 "a_n311_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 107 -2133 108 -2132  "DGNDD.t54" "B2.t12" 60 0 "a_n313_n2133#" 84 2520,144 "DGNDD.t55" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 -253 -1032 -252 -1031  "w_n826_n1110#" "C0.t23" 60 0 "a_n313_n1032#" 168 5040,228 "a_n583_n1301#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -343 -1301 -342 -1300  "DGNDD.t218" "A1.t13" 60 0 "DGNDD.t219" 84 2520,144 "a_n313_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -522 -3687 -521 -3686  "w_n825_n3765#" "B4.t12" 60 0 "a_n582_n3956#" 168 5040,228 "a_n672_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -612 -3956 -611 -3955  "DGNDD.t141" "B4.t11" 60 0 "a_n672_n3956#" 84 2520,144 "a_n582_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 653 -5674 654 -5673  "DGNDD.t330" "A6.t14" 60 0 "a_413_n5674#" 84 2520,144 "DGNDD.t331" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 923 -2133 924 -2132  "DGNDD.t200" "a_n583_n1301#" 60 0 "DGNDD.t201" 84 2520,144 "a_413_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1553 -5674 1554 -5673  "DGNDD.t72" "B6.t9" 60 0 "a_1133_n5674#" 84 2520,144 "a_1403_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 564 -3956 565 -3955  "DGNDD.t252" "a_n582_n3956#" 60 0 "S4.t2" 84 2520,144 "a_414_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1823 -2133 1824 -2132  "DGNDD.t202" "a_n583_n1301#" 60 0 "a_1403_n2133#" 84 2520,144 "S2.t7" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 474 -3687 475 -3686  "w_n825_n3765#" "a_n582_n3956#" 60 0 "a_414_n3687#" 168 5040,228 "S4.t1" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -73 -1032 -72 -1031  "w_n826_n1110#" "A1.t12" 60 0 "a_n313_n1032#" 168 5040,228 "DVDDD.t52" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1464 -3956 1465 -3955  "DGNDD.t101" "B4.t10" 60 0 "a_1404_n3956#" 84 2520,144 "a_1134_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -520 -412 -519 -411  "DGNDD.t151" "B0.t8" 60 0 "C0.t1" 84 2520,144 "a_n670_n412#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 744 -2716 745 -2715  "w_n825_n2794#" "B3.t13" 60 0 "DVDDD.t9" 168 5040,228 "a_414_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 18 -3687 19 -3686  "w_n825_n3765#" "B4.t9" 60 0 "DVDDD.t15" 168 5040,228 "a_n312_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1374 -3687 1375 -3686  "w_n825_n3765#" "B4.t8" 60 0 "a_1134_n3687#" 168 5040,228 "a_1404_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1644 -2716 1645 -2715  "w_n825_n2794#" "a_n583_n2133#" 60 0 "a_1404_n2716#" 168 5040,228 "S3.t5" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1196 -412 1197 -411  "DGNDD.t30" "A0.t11" 60 0 "a_1136_n412#" 84 2520,144 "DGNDD.t31" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -250 -143 -249 -142  "DVDDD.t106" "a_n250_n452#" 300 0 "a_n310_n143#" 44 3360,152 "C0.t6" 44 4920,224
+device msubckt sky130_fd_pr__nfet_01v8 -433 -5674 -432 -5673  "DGNDD.t314" "A6.t13" 60 0 "a_n673_n5674#" 84 2520,144 "DGNDD.t315" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1013 -2133 1014 -2132  "DGNDD.t203" "a_n583_n1301#" 60 0 "a_413_n2133#" 84 2520,144 "DGNDD.t204" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 20 -412 21 -411  "DGNDD.t152" "B0.t7" 60 0 "DGNDD.t153" 84 2520,144 "a_n310_n412#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -703 -2133 -702 -2132  "DGNDD.t50" "A2.t6" 60 0 "DGNDD.t51" 84 5040,288 "a_n673_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 109 -4539 110 -4538  "w_n824_n4617#" "B5.t10" 60 0 "a_n311_n4539#" 168 5040,228 "DVDDD.t132" 168 10080,456
+device msubckt sky130_fd_pr__pfet_01v8 833 -1864 834 -1863  "w_n826_n1942#" "B2.t11" 60 0 "a_413_n1864#" 168 5040,228 "DVDDD.t28" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -611 -4539 -610 -4538  "w_n824_n4617#" "B5.t9" 60 0 "a_n671_n4539#" 168 5040,228 "a_n581_n4808#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -701 -4808 -700 -4807  "DGNDD.t139" "A5.t8" 60 0 "DGNDD.t140" 84 5040,288 "a_n671_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1733 -1864 1734 -1863  "w_n826_n1942#" "a_n583_n1301#" 60 0 "S2.t5" 168 5040,228 "a_1403_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 925 -4539 926 -4538  "w_n824_n4617#" "a_n582_n3956#" 60 0 "DVDDD.t95" 168 5040,228 "a_415_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -702 -2985 -701 -2984  "DGNDD.t310" "A3.t11" 60 0 "DGNDD.t311" 84 5040,288 "a_n672_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1825 -4539 1826 -4538  "w_n824_n4617#" "a_n582_n3956#" 60 0 "a_1405_n4539#" 168 5040,228 "S5.t4" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 -430 -412 -429 -411  "DGNDD.t208" "A0.t10" 60 0 "a_n670_n412#" 84 2520,144 "DGNDD.t209" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1193 -2133 1194 -2132  "DGNDD.t324" "A2.t5" 60 0 "a_1133_n2133#" 84 2520,144 "DGNDD.t325" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1103 -1032 1104 -1031  "w_n826_n1110#" "A1.t11" 60 0 "DVDDD.t117" 168 5040,228 "a_1133_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 654 -2985 655 -2984  "DGNDD.t298" "A3.t10" 60 0 "a_414_n2985#" 84 2520,144 "DGNDD.t299" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 653 -5405 654 -5404  "w_n826_n5483#" "A6.t12" 60 0 "a_413_n5405#" 168 5040,228 "DVDDD.t122" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1104 -6257 1105 -6256  "w_n825_n6335#" "A7.t14" 60 0 "DVDDD.t5" 168 5040,228 "a_1134_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1554 -2985 1555 -2984  "DGNDD.t210" "B3.t12" 60 0 "a_1134_n2985#" 84 2520,144 "a_1404_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1553 -5405 1554 -5404  "w_n826_n5483#" "B6.t8" 60 0 "a_1133_n5405#" 168 5040,228 "a_1403_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -613 -1864 -612 -1863  "w_n826_n1942#" "B2.t10" 60 0 "a_n673_n1864#" 168 5040,228 "a_n583_n2133#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1105 -4808 1106 -4807  "DGNDD.t119" "A5.t7" 60 0 "DGNDD.t120" 84 2520,144 "a_1135_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1015 -4539 1016 -4538  "w_n824_n4617#" "a_n582_n3956#" 60 0 "a_415_n4539#" 168 5040,228 "DVDDD.t96" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -522 -6526 -521 -6525  "DGNDD.t3" "B7.t8" 60 0 "C7.t3" 84 2520,144 "a_n672_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 473 -1301 474 -1300  "DGNDD.t205" "a_n583_n1301#" 60 0 "a_413_n1301#" 84 2520,144 "S1.t3" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -432 -6257 -431 -6256  "w_n825_n6335#" "A7.t13" 300 0 "a_n672_n6257#" 45 3360,152 "DVDDD.t4" 45 4950,225
+device msubckt sky130_fd_pr__pfet_01v8 383 -1032 384 -1031  "w_n826_n1110#" "A1.t10" 60 0 "DVDDD.t79" 168 10080,456 "a_413_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1373 -1301 1374 -1300  "DGNDD.t323" "B1.t11" 60 0 "a_1133_n1301#" 84 2520,144 "a_1403_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1283 -1032 1284 -1031  "w_n826_n1110#" "A1.t9" 60 0 "DVDDD.t53" 168 5040,228 "a_1133_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 17 -1301 18 -1300  "DGNDD.t173" "B1.t10" 60 0 "DGNDD.t174" 84 2520,144 "a_n313_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 474 -6526 475 -6525  "DGNDD.t289" "C7.t8" 60 0 "a_414_n6526#" 84 2520,144 "S7.t1" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 384 -6257 385 -6256  "w_n825_n6335#" "A7.t12" 60 0 "DVDDD.t11" 168 10080,456 "a_414_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1374 -6526 1375 -6525  "DGNDD.t4" "B7.t7" 60 0 "a_1134_n6526#" 84 2520,144 "a_1404_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 18 -6526 19 -6525  "DGNDD.t5" "B7.t6" 60 0 "DGNDD.t6" 84 2520,144 "a_n312_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1284 -6257 1285 -6256  "w_n825_n6335#" "A7.t11" 60 0 "DVDDD.t119" 168 5040,228 "a_1134_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 385 -4808 386 -4807  "DGNDD.t175" "A5.t6" 60 0 "DGNDD.t176" 84 5040,288 "a_415_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -433 -5405 -432 -5404  "w_n826_n5483#" "A6.t11" 300 0 "a_n673_n5405#" 45 3360,152 "DVDDD.t47" 45 4950,225
+device msubckt sky130_fd_pr__nfet_01v8 -340 -412 -339 -411  "DGNDD.t177" "A0.t9" 60 0 "DGNDD.t178" 84 2520,144 "a_n310_n412#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1285 -4808 1286 -4807  "DGNDD.t302" "A5.t5" 60 0 "DGNDD.t303" 84 2520,144 "a_1135_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1104 -3687 1105 -3686  "w_n825_n3765#" "A4.t12" 60 0 "DVDDD.t35" 168 5040,228 "a_1134_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1195 -4539 1196 -4538  "w_n824_n4617#" "A5.t4" 60 0 "a_1135_n4539#" 168 5040,228 "DVDDD.t24" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -163 -1032 -162 -1031  "w_n826_n1110#" "C0.t22" 60 0 "a_n583_n1301#" 168 5040,228 "a_n313_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -253 -1301 -252 -1300  "DGNDD.t321" "C0.t21" 60 0 "a_n313_n1301#" 84 2520,144 "a_n583_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 563 -5674 564 -5673  "DGNDD.t223" "a_n583_n5674#" 60 0 "S6.t8" 84 2520,144 "a_413_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -432 -3687 -431 -3686  "w_n825_n3765#" "A4.t11" 300 0 "a_n672_n3687#" 45 3360,152 "DVDDD.t99" 45 4950,225
+device msubckt sky130_fd_pr__nfet_01v8 -522 -3956 -521 -3955  "DGNDD.t144" "B4.t7" 60 0 "a_n582_n3956#" 84 2520,144 "a_n672_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 833 -2133 834 -2132  "DGNDD.t43" "B2.t9" 60 0 "a_413_n2133#" 84 2520,144 "DGNDD.t44" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1463 -5674 1464 -5673  "DGNDD.t100" "B6.t7" 60 0 "a_1403_n5674#" 84 2520,144 "a_1133_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -702 -2716 -701 -2715  "w_n825_n2794#" "A3.t9" 60 0 "DVDDD.t125" 168 10080,456 "a_n672_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 474 -3956 475 -3955  "DGNDD.t253" "a_n582_n3956#" 60 0 "a_414_n3956#" 84 2520,144 "S4.t3" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1733 -2133 1734 -2132  "DGNDD.t206" "a_n583_n1301#" 60 0 "S2.t8" 84 2520,144 "a_1403_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 384 -3687 385 -3686  "w_n825_n3765#" "A4.t10" 60 0 "DVDDD.t14" 168 10080,456 "a_414_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -73 -1301 -72 -1300  "DGNDD.t290" "A1.t8" 60 0 "a_n313_n1301#" 84 2520,144 "DGNDD.t291" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1374 -3956 1375 -3955  "DGNDD.t19" "B4.t6" 60 0 "a_1134_n3956#" 84 2520,144 "a_1404_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 654 -2716 655 -2715  "w_n825_n2794#" "A3.t8" 60 0 "a_414_n2716#" 168 5040,228 "DVDDD.t12" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1284 -3687 1285 -3686  "w_n825_n3765#" "A4.t9" 60 0 "DVDDD.t134" 168 5040,228 "a_1134_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 18 -3956 19 -3955  "DGNDD.t319" "B4.t5" 60 0 "DGNDD.t320" 84 2520,144 "a_n312_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 107 -1032 108 -1031  "w_n826_n1110#" "B1.t9" 60 0 "a_n313_n1032#" 168 5040,228 "DVDDD.t89" 168 10080,456
+device msubckt sky130_fd_pr__pfet_01v8 1554 -2716 1555 -2715  "w_n825_n2794#" "B3.t11" 60 0 "a_1134_n2716#" 168 5040,228 "a_1404_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 108 -6257 109 -6256  "w_n825_n6335#" "B7.t5" 60 0 "a_n312_n6257#" 168 5040,228 "DVDDD.t105" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 -250 -412 -249 -411  "DGNDD.t275" "a_n250_n452#" 60 0 "a_n310_n412#" 84 2520,144 "C0.t4" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -343 -5674 -342 -5673  "DGNDD.t109" "A6.t10" 60 0 "DGNDD.t110" 84 2520,144 "a_n313_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 923 -1032 924 -1031  "w_n826_n1110#" "C0.t20" 60 0 "DVDDD.t78" 168 5040,228 "a_413_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1106 -143 1107 -142  "DVDDD.t90" "A0.t8" 60 0 "DVDDD.t91" 168 5040,228 "a_1136_n143#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -613 -2133 -612 -2132  "DGNDD.t134" "B2.t8" 60 0 "a_n673_n2133#" 84 2520,144 "a_n583_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 109 -4808 110 -4807  "DGNDD.t211" "B5.t8" 60 0 "a_n311_n4808#" 84 2520,144 "DGNDD.t212" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 1823 -1032 1824 -1031  "w_n826_n1110#" "C0.t19" 60 0 "a_1403_n1032#" 168 5040,228 "S1.t4" 168 10080,456
+device msubckt sky130_fd_pr__pfet_01v8 924 -6257 925 -6256  "w_n825_n6335#" "a_n583_n5674#" 60 0 "DVDDD.t93" 168 5040,228 "a_414_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 743 -1864 744 -1863  "w_n826_n1942#" "B2.t7" 60 0 "DVDDD.t80" 168 5040,228 "a_413_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1824 -6257 1825 -6256  "w_n825_n6335#" "a_n583_n5674#" 60 0 "a_1404_n6257#" 168 5040,228 "S7.t7" 168 10080,456
+device msubckt sky130_fd_pr__pfet_01v8 -521 -4539 -520 -4538  "w_n824_n4617#" "B5.t7" 60 0 "a_n581_n4808#" 168 5040,228 "a_n671_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -611 -4808 -610 -4807  "DGNDD.t77" "B5.t6" 60 0 "a_n671_n4808#" 84 2520,144 "a_n581_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1643 -1864 1644 -1863  "w_n826_n1942#" "a_n583_n1301#" 60 0 "a_1403_n1864#" 168 5040,228 "S2.t6" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 925 -4808 926 -4807  "DGNDD.t254" "a_n582_n3956#" 60 0 "DGNDD.t255" 84 2520,144 "a_415_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 835 -4539 836 -4538  "w_n824_n4617#" "B5.t5" 60 0 "a_415_n4539#" 168 5040,228 "DVDDD.t19" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -612 -2985 -611 -2984  "DGNDD.t45" "B3.t10" 60 0 "a_n672_n2985#" 84 2520,144 "a_n582_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1825 -4808 1826 -4807  "DGNDD.t256" "a_n582_n3956#" 60 0 "a_1405_n4808#" 84 2520,144 "S5.t7" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 1735 -4539 1736 -4538  "w_n824_n4617#" "a_n582_n3956#" 60 0 "S5.t5" 168 5040,228 "a_1405_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1103 -1301 1104 -1300  "DGNDD.t66" "A1.t7" 60 0 "DGNDD.t67" 84 2520,144 "a_1133_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1013 -1032 1014 -1031  "w_n826_n1110#" "C0.t18" 60 0 "a_413_n1032#" 168 5040,228 "DVDDD.t16" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -703 -1032 -702 -1031  "w_n826_n1110#" "A1.t6" 60 0 "DVDDD.t130" 168 10080,456 "a_n673_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 564 -2985 565 -2984  "DGNDD.t263" "a_n582_n2985#" 60 0 "S3.t8" 84 2520,144 "a_414_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 108 -3687 109 -3686  "w_n825_n3765#" "B4.t4" 60 0 "a_n312_n3687#" 168 5040,228 "DVDDD.t10" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 1104 -6526 1105 -6525  "DGNDD.t236" "A7.t10" 60 0 "DGNDD.t237" 84 2520,144 "a_1134_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 563 -5405 564 -5404  "w_n826_n5483#" "a_n583_n5674#" 60 0 "S6.t6" 168 5040,228 "a_413_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1014 -6257 1015 -6256  "w_n825_n6335#" "a_n583_n5674#" 60 0 "a_414_n6257#" 168 5040,228 "DVDDD.t94" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1464 -2985 1465 -2984  "DGNDD.t318" "B3.t9" 60 0 "a_1404_n2985#" 84 2520,144 "a_1134_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -160 -412 -159 -411  "DGNDD.t276" "a_n250_n452#" 60 0 "C0.t5" 84 2520,144 "a_n310_n412#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1463 -5405 1464 -5404  "w_n826_n5483#" "B6.t6" 60 0 "a_1403_n5405#" 168 5040,228 "a_1133_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -523 -1864 -522 -1863  "w_n826_n1942#" "B2.t6" 60 0 "a_n583_n2133#" 168 5040,228 "a_n673_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1016 -143 1017 -142  "DVDDD.t107" "a_n250_n452#" 60 0 "a_416_n143#" 168 5040,228 "DVDDD.t108" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 924 -3687 925 -3686  "w_n825_n3765#" "a_n582_n2985#" 60 0 "DVDDD.t97" 168 5040,228 "a_414_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1015 -4808 1016 -4807  "DGNDD.t257" "a_n582_n3956#" 60 0 "a_415_n4808#" 84 2520,144 "DGNDD.t258" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -432 -6526 -431 -6525  "DGNDD.t238" "A7.t9" 60 0 "a_n672_n6526#" 84 2520,144 "DGNDD.t239" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 383 -1301 384 -1300  "DGNDD.t308" "A1.t5" 60 0 "DGNDD.t309" 84 5040,288 "a_413_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1824 -3687 1825 -3686  "w_n825_n3765#" "a_n582_n2985#" 60 0 "a_1404_n3687#" 168 5040,228 "S4.t4" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 1283 -1301 1284 -1300  "DGNDD.t52" "A1.t4" 60 0 "DGNDD.t53" 84 2520,144 "a_1133_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1193 -1032 1194 -1031  "w_n826_n1110#" "A1.t3" 60 0 "a_1133_n1032#" 168 5040,228 "DVDDD.t41" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 384 -6526 385 -6525  "DGNDD.t240" "A7.t8" 60 0 "DGNDD.t241" 84 5040,288 "a_414_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1284 -6526 1285 -6525  "DGNDD.t242" "A7.t7" 60 0 "DGNDD.t243" 84 2520,144 "a_1134_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1194 -6257 1195 -6256  "w_n825_n6335#" "A7.t6" 60 0 "a_1134_n6257#" 168 5040,228 "DVDDD.t33" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 926 -143 927 -142  "DVDDD.t109" "a_n250_n452#" 60 0 "DVDDD.t110" 168 5040,228 "a_416_n143#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1104 -3956 1105 -3955  "DGNDD.t46" "A4.t8" 60 0 "DGNDD.t47" 84 2520,144 "a_1134_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1195 -4808 1196 -4807  "DGNDD.t78" "A5.t3" 60 0 "a_1135_n4808#" 84 2520,144 "DGNDD.t79" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1014 -3687 1015 -3686  "w_n825_n3765#" "a_n582_n2985#" 60 0 "a_414_n3687#" 168 5040,228 "DVDDD.t98" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -163 -1301 -162 -1300  "DGNDD.t288" "C0.t17" 60 0 "a_n583_n1301#" 84 2520,144 "a_n313_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -432 -3956 -431 -3955  "DGNDD.t17" "A4.t7" 60 0 "a_n672_n3956#" 84 2520,144 "DGNDD.t18" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 473 -5674 474 -5673  "DGNDD.t224" "a_n583_n5674#" 60 0 "a_413_n5674#" 84 2520,144 "S6.t9" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 743 -2133 744 -2132  "DGNDD.t22" "B2.t5" 60 0 "DGNDD.t23" 84 2520,144 "a_413_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1373 -5674 1374 -5673  "DGNDD.t185" "B6.t5" 60 0 "a_1133_n5674#" 84 2520,144 "a_1403_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -612 -2716 -611 -2715  "w_n825_n2794#" "B3.t8" 60 0 "a_n672_n2716#" 168 5040,228 "a_n582_n2985#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 17 -5674 18 -5673  "DGNDD.t62" "B6.t4" 60 0 "DGNDD.t63" 84 2520,144 "a_n313_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1643 -2133 1644 -2132  "DGNDD.t207" "a_n583_n1301#" 60 0 "a_1403_n2133#" 84 2520,144 "S2.t9" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 384 -3956 385 -3955  "DGNDD.t97" "A4.t6" 60 0 "DGNDD.t98" 84 5040,288 "a_414_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1194 -3687 1195 -3686  "w_n825_n3765#" "A4.t5" 60 0 "a_1134_n3687#" 168 5040,228 "DVDDD.t21" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1284 -3956 1285 -3955  "DGNDD.t32" "A4.t4" 60 0 "DGNDD.t33" 84 2520,144 "a_1134_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 564 -2716 565 -2715  "w_n825_n2794#" "a_n582_n2985#" 60 0 "S3.t6" 168 5040,228 "a_414_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 107 -1301 108 -1300  "DGNDD.t48" "B1.t8" 60 0 "a_n313_n1301#" 84 2520,144 "DGNDD.t49" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 -70 -143 -69 -142  "DVDDD.t0" "A0.t7" 60 0 "a_n310_n143#" 168 5040,228 "DVDDD.t1" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1464 -2716 1465 -2715  "w_n825_n2794#" "B3.t7" 60 0 "a_1404_n2716#" 168 5040,228 "a_1134_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 836 -143 837 -142  "DVDDD.t65" "B0.t6" 60 0 "a_416_n143#" 168 5040,228 "DVDDD.t66" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 108 -6526 109 -6525  "DGNDD.t7" "B7.t4" 60 0 "a_n312_n6526#" 84 2520,144 "DGNDD.t8" 84 5040,288
+device msubckt sky130_fd_pr__nfet_01v8 1106 -412 1107 -411  "DGNDD.t160" "A0.t6" 60 0 "DGNDD.t161" 84 2520,144 "a_1136_n412#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 923 -1301 924 -1300  "DGNDD.t123" "C0.t16" 60 0 "DGNDD.t124" 84 2520,144 "a_413_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -253 -5674 -252 -5673  "DGNDD.t84" "a_n581_n4808#" 60 0 "a_n313_n5674#" 84 2520,144 "a_n583_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 833 -1032 834 -1031  "w_n826_n1110#" "B1.t7" 60 0 "a_413_n1032#" 168 5040,228 "DVDDD.t25" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -523 -2133 -522 -2132  "DGNDD.t217" "B2.t4" 60 0 "a_n583_n2133#" 84 2520,144 "a_n673_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1823 -1301 1824 -1300  "DGNDD.t305" "C0.t15" 60 0 "a_1403_n1301#" 84 2520,144 "S1.t7" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 1733 -1032 1734 -1031  "w_n826_n1110#" "C0.t14" 60 0 "S1.t5" 168 5040,228 "a_1403_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 924 -6526 925 -6525  "DGNDD.t225" "a_n583_n5674#" 60 0 "DGNDD.t226" 84 2520,144 "a_414_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 834 -6257 835 -6256  "w_n825_n6335#" "B7.t3" 60 0 "a_414_n6257#" 168 5040,228 "DVDDD.t135" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 653 -1864 654 -1863  "w_n826_n1942#" "A2.t4" 60 0 "a_413_n1864#" 168 5040,228 "DVDDD.t22" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1824 -6526 1825 -6525  "DGNDD.t227" "a_n583_n5674#" 60 0 "a_1404_n6526#" 84 2520,144 "S7.t5" 84 5040,288
+device msubckt sky130_fd_pr__nfet_01v8 -521 -4808 -520 -4807  "DGNDD.t272" "B5.t4" 60 0 "a_n581_n4808#" 84 2520,144 "a_n671_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1734 -6257 1735 -6256  "w_n825_n6335#" "a_n583_n5674#" 60 0 "S7.t8" 168 5040,228 "a_1404_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -431 -4539 -430 -4538  "w_n824_n4617#" "A5.t2" 300 0 "a_n671_n4539#" 45 3360,152 "DVDDD.t75" 45 4950,225
+device msubckt sky130_fd_pr__nfet_01v8 -73 -5674 -72 -5673  "DGNDD.t332" "A6.t9" 60 0 "a_n313_n5674#" 84 2520,144 "DGNDD.t333" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1553 -1864 1554 -1863  "w_n826_n1942#" "B2.t3" 60 0 "a_1133_n1864#" 168 5040,228 "a_1403_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 835 -4808 836 -4807  "DGNDD.t286" "B5.t3" 60 0 "a_415_n4808#" 84 2520,144 "DGNDD.t287" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 745 -4539 746 -4538  "w_n824_n4617#" "B5.t2" 60 0 "DVDDD.t56" 168 5040,228 "a_415_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -522 -2985 -521 -2984  "DGNDD.t36" "B3.t6" 60 0 "a_n582_n2985#" 84 2520,144 "a_n672_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1735 -4808 1736 -4807  "DGNDD.t259" "a_n582_n3956#" 60 0 "S5.t8" 84 2520,144 "a_1405_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1645 -4539 1646 -4538  "w_n824_n4617#" "a_n582_n3956#" 60 0 "a_1405_n4539#" 168 5040,228 "S5.t6" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1013 -1301 1014 -1300  "DGNDD.t125" "C0.t13" 60 0 "a_413_n1301#" 84 2520,144 "DGNDD.t126" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -703 -1301 -702 -1300  "DGNDD.t56" "A1.t2" 60 0 "DGNDD.t57" 84 5040,288 "a_n673_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 108 -3956 109 -3955  "DGNDD.t64" "B4.t3" 60 0 "a_n312_n3956#" 84 2520,144 "DGNDD.t65" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 -613 -1032 -612 -1031  "w_n826_n1110#" "B1.t6" 60 0 "a_n673_n1032#" 168 5040,228 "a_n583_n1301#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 474 -2985 475 -2984  "DGNDD.t264" "a_n582_n2985#" 60 0 "a_414_n2985#" 84 2520,144 "S3.t9" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1014 -6526 1015 -6525  "DGNDD.t228" "a_n583_n5674#" 60 0 "a_414_n6526#" 84 2520,144 "DGNDD.t229" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 473 -5405 474 -5404  "w_n826_n5483#" "a_n583_n5674#" 60 0 "a_413_n5405#" 168 5040,228 "S6.t7" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 746 -143 747 -142  "DVDDD.t67" "B0.t5" 60 0 "DVDDD.t68" 168 5040,228 "a_416_n143#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 18 -2985 19 -2984  "DGNDD.t20" "B3.t5" 60 0 "DGNDD.t21" 84 2520,144 "a_n312_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1374 -2985 1375 -2984  "DGNDD.t138" "B3.t4" 60 0 "a_1134_n2985#" 84 2520,144 "a_1404_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1016 -412 1017 -411  "DGNDD.t277" "a_n250_n452#" 60 0 "a_416_n412#" 84 2520,144 "DGNDD.t278" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1373 -5405 1374 -5404  "w_n826_n5483#" "B6.t3" 60 0 "a_1133_n5405#" 168 5040,228 "a_1403_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -433 -1864 -432 -1863  "w_n826_n1942#" "A2.t3" 300 0 "a_n673_n1864#" 45 3360,152 "DVDDD.t121" 45 4950,225
+device msubckt sky130_fd_pr__pfet_01v8 17 -5405 18 -5404  "w_n826_n5483#" "B6.t2" 60 0 "DVDDD.t81" 168 5040,228 "a_n313_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 924 -3956 925 -3955  "DGNDD.t265" "a_n582_n2985#" 60 0 "DGNDD.t266" 84 2520,144 "a_414_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 834 -3687 835 -3686  "w_n825_n3765#" "B4.t2" 60 0 "a_414_n3687#" 168 5040,228 "DVDDD.t30" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -342 -6526 -341 -6525  "DGNDD.t244" "A7.t5" 60 0 "DGNDD.t245" 84 2520,144 "a_n312_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -252 -6257 -251 -6256  "w_n825_n6335#" "a_n583_n5674#" 60 0 "a_n312_n6257#" 168 5040,228 "C7.t4" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1734 -3687 1735 -3686  "w_n825_n3765#" "a_n582_n2985#" 60 0 "S4.t5" 168 5040,228 "a_1404_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1824 -3956 1825 -3955  "DGNDD.t267" "a_n582_n2985#" 60 0 "a_1404_n3956#" 84 2520,144 "S4.t8" 84 5040,288
+device msubckt sky130_fd_pr__nfet_01v8 1193 -1301 1194 -1300  "DGNDD.t95" "A1.t1" 60 0 "a_1133_n1301#" 84 2520,144 "DGNDD.t96" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1194 -6526 1195 -6525  "DGNDD.t246" "A7.t4" 60 0 "a_1134_n6526#" 84 2520,144 "DGNDD.t247" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1103 -5674 1104 -5673  "DGNDD.t58" "A6.t8" 60 0 "DGNDD.t59" 84 2520,144 "a_1133_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 926 -412 927 -411  "DGNDD.t279" "a_n250_n452#" 60 0 "DGNDD.t280" 84 2520,144 "a_416_n412#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -72 -6257 -71 -6256  "w_n825_n6335#" "A7.t3" 60 0 "a_n312_n6257#" 168 5040,228 "DVDDD.t74" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1014 -3956 1015 -3955  "DGNDD.t268" "a_n582_n2985#" 60 0 "a_414_n3956#" 84 2520,144 "DGNDD.t269" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 656 -143 657 -142  "DVDDD.t72" "A0.t5" 60 0 "a_416_n143#" 168 5040,228 "DVDDD.t73" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -342 -3956 -341 -3955  "DGNDD.t73" "A4.t3" 60 0 "DGNDD.t74" 84 2520,144 "a_n312_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 383 -5674 384 -5673  "DGNDD.t70" "A6.t7" 60 0 "DGNDD.t71" 84 5040,288 "a_413_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -73 -5405 -72 -5404  "w_n826_n5483#" "A6.t6" 60 0 "a_n313_n5405#" 168 5040,228 "DVDDD.t44" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 653 -2133 654 -2132  "DGNDD.t162" "A2.t2" 60 0 "a_413_n2133#" 84 2520,144 "DGNDD.t163" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1283 -5674 1284 -5673  "DGNDD.t181" "A6.t5" 60 0 "DGNDD.t182" 84 2520,144 "a_1133_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -522 -2716 -521 -2715  "w_n825_n2794#" "B3.t3" 60 0 "a_n582_n2985#" 168 5040,228 "a_n672_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1553 -2133 1554 -2132  "DGNDD.t137" "B2.t2" 60 0 "a_1133_n2133#" 84 2520,144 "a_1403_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1194 -3956 1195 -3955  "DGNDD.t102" "A4.t2" 60 0 "a_1134_n3956#" 84 2520,144 "DGNDD.t103" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 474 -2716 475 -2715  "w_n825_n2794#" "a_n582_n2985#" 60 0 "a_414_n2716#" 168 5040,228 "S3.t7" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 -72 -3687 -71 -3686  "w_n825_n3765#" "A4.t1" 60 0 "a_n312_n3687#" 168 5040,228 "DVDDD.t101" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -70 -412 -69 -411  "DGNDD.t41" "A0.t4" 60 0 "a_n310_n412#" 84 2520,144 "DGNDD.t42" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 836 -412 837 -411  "DGNDD.t154" "B0.t4" 60 0 "a_416_n412#" 84 2520,144 "DGNDD.t155" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 18 -2716 19 -2715  "w_n825_n2794#" "B3.t2" 60 0 "DVDDD.t87" 168 5040,228 "a_n312_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1374 -2716 1375 -2715  "w_n825_n2794#" "B3.t1" 60 0 "a_1134_n2716#" 168 5040,228 "a_1404_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1826 -143 1827 -142  "DVDDD.t111" "a_n250_n452#" 60 0 "a_1406_n143#" 168 5040,228 "S0.t7" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 -163 -5674 -162 -5673  "DGNDD.t85" "a_n581_n4808#" 60 0 "a_n583_n5674#" 84 2520,144 "a_n313_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 833 -1301 834 -1300  "DGNDD.t283" "B1.t5" 60 0 "a_413_n1301#" 84 2520,144 "DGNDD.t284" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 743 -1032 744 -1031  "w_n826_n1110#" "B1.t4" 60 0 "DVDDD.t50" 168 5040,228 "a_413_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 110 -143 111 -142  "DVDDD.t69" "B0.t3" 60 0 "a_n310_n143#" 168 5040,228 "DVDDD.t70" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 -433 -2133 -432 -2132  "DGNDD.t93" "A2.t1" 60 0 "a_n673_n2133#" 84 2520,144 "DGNDD.t94" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 566 -143 567 -142  "DVDDD.t34" "C0.t12" 60 0 "S0.t0" 168 5040,228 "a_416_n143#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1643 -1032 1644 -1031  "w_n826_n1110#" "C0.t11" 60 0 "a_1403_n1032#" 168 5040,228 "S1.t6" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1733 -1301 1734 -1300  "DGNDD.t37" "C0.t10" 60 0 "S1.t8" 84 2520,144 "a_1403_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -700 -143 -699 -142  "DVDDD.t6" "A0.t3" 60 0 "DVDDD.t7" 168 10080,456 "a_n670_n143#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 834 -6526 835 -6525  "DGNDD.t9" "B7.t2" 60 0 "a_414_n6526#" 84 2520,144 "DGNDD.t10" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 744 -6257 745 -6256  "w_n825_n6335#" "B7.t1" 60 0 "DVDDD.t103" 168 5040,228 "a_414_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 563 -1864 564 -1863  "w_n826_n1942#" "a_n583_n2133#" 60 0 "S2.t1" 168 5040,228 "a_413_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1104 -2985 1105 -2984  "DGNDD.t145" "A3.t7" 60 0 "DGNDD.t146" 84 2520,144 "a_1134_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1734 -6526 1735 -6525  "DGNDD.t230" "a_n583_n5674#" 60 0 "S7.t6" 84 2520,144 "a_1404_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -431 -4808 -430 -4807  "DGNDD.t334" "A5.t1" 60 0 "a_n671_n4808#" 84 2520,144 "DGNDD.t335" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1644 -6257 1645 -6256  "w_n825_n6335#" "a_n583_n5674#" 60 0 "a_1404_n6257#" 168 5040,228 "S7.t9" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1103 -5405 1104 -5404  "w_n826_n5483#" "A6.t4" 60 0 "DVDDD.t23" 168 5040,228 "a_1133_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1463 -1864 1464 -1863  "w_n826_n1942#" "B2.t1" 60 0 "a_1403_n1864#" 168 5040,228 "a_1133_n1864#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 655 -4539 656 -4538  "w_n824_n4617#" "A5.t0" 60 0 "a_415_n4539#" 168 5040,228 "DVDDD.t128" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 745 -4808 746 -4807  "DGNDD.t117" "B5.t1" 60 0 "DGNDD.t118" 84 2520,144 "a_415_n4808#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 107 -5674 108 -5673  "DGNDD.t60" "B6.t1" 60 0 "a_n313_n5674#" 84 2520,144 "DGNDD.t61" 84 5040,288
+device msubckt sky130_fd_pr__nfet_01v8 -432 -2985 -431 -2984  "DGNDD.t292" "A3.t6" 60 0 "a_n672_n2985#" 84 2520,144 "DGNDD.t293" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1555 -4539 1556 -4538  "w_n824_n4617#" "B5.t0" 60 0 "a_1135_n4539#" 168 5040,228 "a_1405_n4539#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1645 -4808 1646 -4807  "DGNDD.t260" "a_n582_n3956#" 60 0 "a_1405_n4808#" 84 2520,144 "S5.t9" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -613 -1301 -612 -1300  "DGNDD.t113" "B1.t3" 60 0 "a_n673_n1301#" 84 2520,144 "a_n583_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -523 -1032 -522 -1031  "w_n826_n1110#" "B1.t2" 60 0 "a_n583_n1301#" 168 5040,228 "a_n673_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 384 -2985 385 -2984  "DGNDD.t68" "A3.t5" 60 0 "DGNDD.t69" 84 5040,288 "a_414_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 746 -412 747 -411  "DGNDD.t156" "B0.t2" 60 0 "DGNDD.t157" 84 2520,144 "a_416_n412#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 923 -5674 924 -5673  "DGNDD.t86" "a_n581_n4808#" 60 0 "DGNDD.t87" 84 2520,144 "a_413_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 383 -5405 384 -5404  "w_n826_n5483#" "A6.t3" 60 0 "DVDDD.t2" 168 10080,456 "a_413_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1284 -2985 1285 -2984  "DGNDD.t326" "A3.t4" 60 0 "DGNDD.t327" 84 2520,144 "a_1134_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1823 -5674 1824 -5673  "DGNDD.t88" "a_n581_n4808#" 60 0 "a_1403_n5674#" 84 2520,144 "S6.t5" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 1736 -143 1737 -142  "DVDDD.t112" "a_n250_n452#" 60 0 "S0.t8" 168 5040,228 "a_1406_n143#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1283 -5405 1284 -5404  "w_n826_n5483#" "A6.t2" 60 0 "DVDDD.t133" 168 5040,228 "a_1133_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 744 -3687 745 -3686  "w_n825_n3765#" "B4.t1" 60 0 "DVDDD.t3" 168 5040,228 "a_414_n3687#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 834 -3956 835 -3955  "DGNDD.t215" "B4.t0" 60 0 "a_414_n3956#" 84 2520,144 "DGNDD.t216" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -252 -6526 -251 -6525  "DGNDD.t231" "a_n583_n5674#" 60 0 "a_n312_n6526#" 84 2520,144 "C7.t7" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -162 -6257 -161 -6256  "w_n825_n6335#" "a_n583_n5674#" 60 0 "C7.t5" 168 5040,228 "a_n312_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 476 -143 477 -142  "DVDDD.t88" "C0.t9" 60 0 "a_416_n143#" 168 5040,228 "S0.t1" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1644 -3687 1645 -3686  "w_n825_n3765#" "a_n582_n2985#" 60 0 "a_1404_n3687#" 168 5040,228 "S4.t6" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1734 -3956 1735 -3955  "DGNDD.t270" "a_n582_n2985#" 60 0 "S4.t9" 84 2520,144 "a_1404_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 1013 -5674 1014 -5673  "DGNDD.t89" "a_n581_n4808#" 60 0 "a_413_n5674#" 84 2520,144 "DGNDD.t90" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -72 -6526 -71 -6525  "DGNDD.t248" "A7.t2" 60 0 "a_n312_n6526#" 84 2520,144 "DGNDD.t249" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -703 -5674 -702 -5673  "DGNDD.t111" "A6.t1" 60 0 "DGNDD.t112" 84 5040,288 "a_n673_n5674#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 656 -412 657 -411  "DGNDD.t13" "A0.t2" 60 0 "a_416_n412#" 84 2520,144 "DGNDD.t14" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1104 -2716 1105 -2715  "w_n825_n2794#" "A3.t3" 60 0 "DVDDD.t124" 168 5040,228 "a_1134_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1646 -143 1647 -142  "DVDDD.t113" "a_n250_n452#" 60 0 "a_1406_n143#" 168 5040,228 "S0.t9" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 -252 -3956 -251 -3955  "DGNDD.t271" "a_n582_n2985#" 60 0 "a_n312_n3956#" 84 2520,144 "a_n582_n3956#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 108 -2985 109 -2984  "DGNDD.t24" "B3.t0" 60 0 "a_n312_n2985#" 84 2520,144 "DGNDD.t25" 84 5040,288
+device msubckt sky130_fd_pr__nfet_01v8 563 -2133 564 -2132  "DGNDD.t193" "a_n583_n2133#" 60 0 "S2.t3" 84 2520,144 "a_413_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 107 -5405 108 -5404  "w_n826_n5483#" "B6.t0" 60 0 "a_n313_n5405#" 168 5040,228 "DVDDD.t48" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 1193 -5674 1194 -5673  "DGNDD.t294" "A6.t0" 60 0 "a_1133_n5674#" 84 2520,144 "DGNDD.t295" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 -432 -2716 -431 -2715  "w_n825_n2794#" "A3.t2" 300 0 "a_n672_n2716#" 45 3360,152 "DVDDD.t43" 45 4950,225
+device msubckt sky130_fd_pr__pfet_01v8 386 -143 387 -142  "DVDDD.t114" "A0.t1" 60 0 "DVDDD.t115" 168 10080,456 "a_416_n143#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1463 -2133 1464 -2132  "DGNDD.t76" "B2.t0" 60 0 "a_1403_n2133#" 84 2520,144 "a_1133_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 924 -2985 925 -2984  "DGNDD.t194" "a_n583_n2133#" 60 0 "DGNDD.t195" 84 2520,144 "a_414_n2985#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -72 -3956 -71 -3955  "DGNDD.t312" "A4.t0" 60 0 "a_n312_n3956#" 84 2520,144 "DGNDD.t313" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 384 -2716 385 -2715  "w_n825_n2794#" "A3.t1" 60 0 "DVDDD.t54" 168 10080,456 "a_414_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 923 -5405 924 -5404  "w_n826_n5483#" "a_n581_n4808#" 60 0 "DVDDD.t32" 168 5040,228 "a_413_n5405#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1824 -2985 1825 -2984  "DGNDD.t196" "a_n583_n2133#" 60 0 "a_1404_n2985#" 84 2520,144 "S3.t2" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 1284 -2716 1285 -2715  "w_n825_n2794#" "A3.t0" 60 0 "DVDDD.t29" 168 5040,228 "a_1134_n2716#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1823 -5405 1824 -5404  "w_n826_n5483#" "a_n581_n4808#" 60 0 "a_1403_n5405#" 168 5040,228 "S6.t2" 168 10080,456
+device msubckt sky130_fd_pr__nfet_01v8 1826 -412 1827 -411  "DGNDD.t281" "a_n250_n452#" 60 0 "a_1406_n412#" 84 2520,144 "S0.t6" 84 5040,288
+device msubckt sky130_fd_pr__pfet_01v8 -702 -6257 -701 -6256  "w_n825_n6335#" "A7.t1" 60 0 "DVDDD.t136" 168 10080,456 "a_n672_n6257#" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 653 -1032 654 -1031  "w_n826_n1110#" "A1.t0" 60 0 "a_413_n1032#" 168 5040,228 "DVDDD.t46" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 743 -1301 744 -1300  "DGNDD.t306" "B1.t1" 60 0 "DGNDD.t307" 84 2520,144 "a_413_n1301#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 110 -412 111 -411  "DGNDD.t158" "B0.t1" 60 0 "a_n310_n412#" 84 2520,144 "DGNDD.t159" 84 5040,288
+device msubckt sky130_fd_pr__nfet_01v8 566 -412 567 -411  "DGNDD.t38" "C0.t8" 60 0 "S0.t3" 84 2520,144 "a_416_n412#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -343 -2133 -342 -2132  "DGNDD.t179" "A2.t0" 60 0 "DGNDD.t180" 84 2520,144 "a_n313_n2133#" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 -700 -412 -699 -411  "DGNDD.t128" "A0.t0" 60 0 "DGNDD.t129" 84 5040,288 "a_n670_n412#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 1553 -1032 1554 -1031  "w_n826_n1110#" "B1.t0" 60 0 "a_1133_n1032#" 168 5040,228 "a_1403_n1032#" 168 5040,228
+device msubckt sky130_fd_pr__nfet_01v8 1643 -1301 1644 -1300  "DGNDD.t104" "C0.t7" 60 0 "a_1403_n1301#" 84 2520,144 "S1.t9" 84 2520,144
+device msubckt sky130_fd_pr__nfet_01v8 744 -6526 745 -6525  "DGNDD.t11" "B7.t0" 60 0 "DGNDD.t12" 84 2520,144 "a_414_n6526#" 84 2520,144
+device msubckt sky130_fd_pr__pfet_01v8 654 -6257 655 -6256  "w_n825_n6335#" "A7.t0" 60 0 "a_414_n6257#" 168 5040,228 "DVDDD.t104" 168 5040,228
+device msubckt sky130_fd_pr__pfet_01v8 1556 -143 1557 -142  "DVDDD.t71" "B0.t0" 60 0 "a_1136_n143#" 168 5040,228 "a_1406_n143#" 168 5040,228

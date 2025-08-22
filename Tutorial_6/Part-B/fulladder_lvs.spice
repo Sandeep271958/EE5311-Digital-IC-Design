@@ -1,0 +1,57 @@
+* NGSPICE file created from fulladder.ext - technology: sky130A
+
+.subckt fulladder B Sum A Cout DVDD DGND Cin
+X0 a_204_n145# A DVDD DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X1 DGND A a_n522_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X2 Sum Cin a_1194_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X3 a_n522_n414# Cin Cout DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X4 DGND A a_204_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X5 Sum Cout a_204_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X6 a_1194_n145# Cin Sum DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X7 a_n522_n145# B DVDD DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X8 Cout Cin a_n522_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X9 a_204_n414# B DGND DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X10 DVDD A a_n522_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X11 a_204_n145# Cout Sum DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X12 Sum Cin a_1194_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X13 DGND B a_204_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X14 a_n522_n414# A DGND DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X15 DVDD A a_204_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X16 a_204_n414# Cin DGND DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X17 a_204_n145# B DVDD DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X18 DGND A a_n882_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X19 Cout Cin a_n522_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.123 pd=1.12 as=0.084 ps=0.76 w=1.66 l=0.15
+X20 DGND Cin a_204_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X21 DVDD B a_204_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X22 a_n882_n414# B Cout DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X23 Cout B a_n882_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X24 a_204_n145# Cin DVDD DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X25 DVDD A a_n882_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.12375 pd=1.125 as=0.084 ps=0.76 w=0.83 l=0.15
+X26 a_n882_n414# A DGND DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X27 a_n882_n145# B Cout DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X28 DVDD Cin a_204_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X29 Cout B a_n882_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X30 a_n882_n145# A DVDD DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.252 ps=2.28 w=0.84 l=0.15
+X31 a_924_n414# A DGND DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X32 DGND B a_n522_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+X33 DGND A a_924_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X34 a_924_n414# A DGND DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X35 a_1194_n414# B a_924_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X36 a_924_n145# A DVDD DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X37 DVDD A a_924_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X38 a_924_n414# B a_1194_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X39 DVDD B a_n522_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.252 pd=2.28 as=0.126 ps=1.14 w=0.84 l=0.15
+X40 a_924_n145# A DVDD DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X41 a_1194_n414# B a_924_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X42 a_1194_n145# B a_924_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X43 a_204_n414# A DGND DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.126 ps=1.44 w=0.42 l=0.15
+X44 Sum Cin a_1194_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X45 a_924_n145# B a_1194_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X46 Sum Cout a_204_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X47 a_n522_n414# B DGND DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X48 a_1194_n414# Cin Sum DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X49 a_1194_n145# B a_924_n145# DVDD sky130_fd_pr__pfet_01v8 ad=0.126 pd=1.14 as=0.126 ps=1.14 w=0.84 l=0.15
+X50 a_204_n414# Cout Sum DGND sky130_fd_pr__nfet_01v8 ad=0.063 pd=0.72 as=0.063 ps=0.72 w=0.42 l=0.15
+X51 Sum Cin a_1194_n414# DGND sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.063 ps=0.72 w=0.42 l=0.15
+.ends
+
