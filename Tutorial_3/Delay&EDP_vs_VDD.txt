@@ -1,0 +1,25 @@
+.param VDDval = 1.8 
+.param width_p = 0.84 
+.control 
+let Nsim = 9
+let delayvec =vector(Nsim)
+let vddvec = vector(Nsim) 
+let edpvec = vector(Nsim) 
+let index = 0 
+while index < Nsim 
+    let vddv = 1.0 + (index * 0.1) 
+    let vby2 = vddv/2 
+    alterparam VDDval = $&vddv 
+    reset 
+    tran 1p 600p 
+    meas tran thl trig v(Vin) val=$&vby2 rise=1 targ v(Vout) val=$&vby2 fall=1 
+    meas tran tlh trig v(vin) val=$&vby2 fall=1 targ v(vout) val=$&vby2 rise=1 
+    meas tran iinteg integ i(vmeas) 
+    let delayvec[index] = ($&thl + $&tlh)/2 
+    let vddvec[index] = vddv 
+    let edpvec[index] = $&iinteg * vddv * delayvec[index] 
+    let index = index + 1 
+end 
+plot delayvec vs vddvec 
+plot edpvec vs vddvec 
+.endc

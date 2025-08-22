@@ -1,0 +1,13 @@
+.param width_p = 0.42 
+.control 
+foreach wp 0.42 0.84 1.26 
+    alterparam width_p = $wp 
+    reset 
+    tran 0.1p 250p 
+    plot v(Vout) v(Vin) 
+    meas tran thl trig v(Vin) val=0.9 rise=1 targ v(Vout) val=0.9 fall=1 
+    meas tran tlh trig v(Vin) val=0.9 fall=1 targ v(Vout) val=0.9 rise=1 
+    let delay=($&thl + $&tlh) / 2 
+    echo w : $wp delay : $&delay 
+end 
+.endc
